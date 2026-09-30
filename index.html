@@ -4,11 +4,11 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#ffffff">
-  <meta name="description" content="worklist 单页任务清单 · 布局演示，任务与截止日期均为示例。">
+  <meta name="description" content="worklist · 课程任务、截止日期与阅读材料。">
   <title>worklist · 任务清单</title>
-  <link rel="stylesheet" href="style.css?v=3">
-  <script src="demo-data.js?v=2" defer></script>
-  <script src="app.js?v=3" defer></script>
+  <link rel="stylesheet" href="style.css?v=4">
+  <script src="data.js?v=20260930-1" defer></script>
+  <script src="app.js?v=4" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#tasks">跳到任务清单</a>
@@ -21,8 +21,8 @@
       <section id="tasks" class="task-section" aria-labelledby="task-heading">
         <div class="section-header">
           <div><h1 id="task-heading" tabindex="-1">待办任务</h1><p><span id="task-count">0 项待办</span><span class="separator">·</span>按 DDL 从近到远排列</p></div>
-          <span class="preview-tag">布局预览</span>
         </div>
+        <p id="sync-note" class="sync-note"></p>
         <div class="legend" aria-label="截止日期颜色说明"><span class="today-color"><i></i>今天到期</span><span class="tomorrow-color"><i></i>明天到期</span><span><i></i>之后到期</span></div>
         <ul id="task-list" class="task-list" aria-label="按截止时间排序的待办任务"></ul>
         <p class="timezone-note">所有 DDL 均按芝加哥时间（America/Chicago）显示。</p>
@@ -37,13 +37,14 @@
             </div>
             <div class="progress-labels" aria-live="polite" aria-atomic="true"><strong id="progress-percent">0<span>%</span></strong><p><b id="completed-count">0</b><span> / </span><b id="total-count">0</b> 项已完成</p></div>
           </div>
-          <p class="panel-note">勾选任务，进度同步更新。</p>
+          <p class="panel-note">勾选后移入底部已完成列表，进度同步更新。</p>
         </section>
         <section class="quick-links" aria-labelledby="links-heading">
           <h2 id="links-heading">常用入口</h2>
           <a href="https://canvas.uchicago.edu/" target="_blank" rel="noopener noreferrer"><span>Canvas<small>课程与公告</small></span><span class="external-arrow" aria-hidden="true">↗</span></a>
           <a href="https://www.gradescope.com/" target="_blank" rel="noopener noreferrer"><span>Gradescope<small>作业与提交</small></span><span class="external-arrow" aria-hidden="true">↗</span></a>
-          <details class="office-hours"><summary><span>Office Hours<small>教师与 TA 咨询时间</small></span><span class="details-arrow" aria-hidden="true">+</span></summary><p>咨询时间与地点将在布局定稿后填写。</p></details>
+          <details class="office-hours"><summary><span>Office Hours<small>CMSC 教授与 TA · 芝加哥时间</small></span><span class="details-arrow" aria-hidden="true">+</span></summary><div id="office-hours-list"></div></details>
+          <p class="access-note">课程资料可能需要校园登录。Library Reserves 链接进入阅读库后，按文章名查找。</p>
         </section>
       </aside>
       <section class="completed-section" aria-labelledby="completed-heading">
@@ -51,7 +52,7 @@
         <ul id="completed-list" class="task-list" aria-label="已完成任务"></ul>
       </section>
     </main>
-    <footer class="site-footer"><p>示例任务与日期，仅用于预览布局。勾选状态刷新后恢复。</p><button id="reset-demo" type="button">重置演示<span aria-hidden="true"> ↺</span></button></footer>
+    <footer class="site-footer"><div><p id="storage-note">勾选保存在当前浏览器；向我报告的完成状态会同步至网站。</p><p>按需更新，不自动抓取。未检查 Ed Discussion；新公告以课程平台为准。</p></div></footer>
     <p id="status-message" class="sr-only" role="status"></p>
   </div>
   <noscript>此任务清单需要启用 JavaScript。</noscript>
