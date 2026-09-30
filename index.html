@@ -6,9 +6,9 @@
   <meta name="theme-color" content="#ffffff">
   <meta name="description" content="worklist 单页任务清单 · 布局演示，任务与截止日期均为示例。">
   <title>worklist · 任务清单</title>
-  <link rel="stylesheet" href="style.css?v=2">
+  <link rel="stylesheet" href="style.css?v=3">
   <script src="demo-data.js?v=2" defer></script>
-  <script src="app.js?v=2" defer></script>
+  <script src="app.js?v=3" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#tasks">跳到任务清单</a>
@@ -20,11 +20,11 @@
     <main class="workspace">
       <section id="tasks" class="task-section" aria-labelledby="task-heading">
         <div class="section-header">
-          <div><h1 id="task-heading">全部任务</h1><p><span id="task-count">0 项任务</span><span class="separator">·</span>按 DDL 从近到远排列</p></div>
+          <div><h1 id="task-heading" tabindex="-1">待办任务</h1><p><span id="task-count">0 项待办</span><span class="separator">·</span>按 DDL 从近到远排列</p></div>
           <span class="preview-tag">布局预览</span>
         </div>
         <div class="legend" aria-label="截止日期颜色说明"><span class="today-color"><i></i>今天到期</span><span class="tomorrow-color"><i></i>明天到期</span><span><i></i>之后到期</span></div>
-        <ul id="task-list" class="task-list" aria-label="按截止时间排序的全部任务"></ul>
+        <ul id="task-list" class="task-list" aria-label="按截止时间排序的待办任务"></ul>
         <p class="timezone-note">所有 DDL 均按芝加哥时间（America/Chicago）显示。</p>
       </section>
       <aside class="side-panel" aria-label="进度与常用入口">
@@ -46,6 +46,10 @@
           <details class="office-hours"><summary><span>Office Hours<small>教师与 TA 咨询时间</small></span><span class="details-arrow" aria-hidden="true">+</span></summary><p>咨询时间与地点将在布局定稿后填写。</p></details>
         </section>
       </aside>
+      <section class="completed-section" aria-labelledby="completed-heading">
+        <div class="section-header completed-header"><div><h2 id="completed-heading" tabindex="-1">已完成 <span id="archive-count" class="archive-count">0</span></h2><p>取消勾选，即可恢复到待办。</p></div></div>
+        <ul id="completed-list" class="task-list" aria-label="已完成任务"></ul>
+      </section>
     </main>
     <footer class="site-footer"><p>示例任务与日期，仅用于预览布局。勾选状态刷新后恢复。</p><button id="reset-demo" type="button">重置演示<span aria-hidden="true"> ↺</span></button></footer>
     <p id="status-message" class="sr-only" role="status"></p>

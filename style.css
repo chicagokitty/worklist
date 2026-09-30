@@ -89,6 +89,11 @@ h2 { font-size: 13px; font-weight: 600; margin: 0; }
 .site-footer button { flex-shrink: 0; background: transparent; padding: 4px 0; color: #71717a; border: 0; font-size: 11px; }
 .site-footer button:hover { color: #18181b; }
 .empty-state { padding: 55px 0; color: var(--secondary); text-align: center; }
+.completed-section { grid-column: 1 / -1; margin-top: 36px; padding-top: 28px; border-top: 1px solid var(--line); }
+.completed-header { margin-bottom: 20px; }
+.completed-header h2 { font-size: 20px; font-weight: 600; }
+.archive-count { font-size: 12px; font-weight: 400; color: var(--secondary); margin-left: 8px; vertical-align: middle; }
+#completed-list { max-width: 800px; }
 .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
 .skip-link { position: absolute; top: -50px; left: 20px; padding: 8px 16px; background: #18181b; color: white; z-index: 5; }
 .skip-link:focus { top: 10px; }
@@ -105,6 +110,7 @@ h2 { font-size: 13px; font-weight: 600; margin: 0; }
   .quick-links { margin-top: 0; }
   .progress-content { justify-content: center; gap: 22px; }
   .progress-panel { align-self: start; }
+  .completed-section { margin-top: 0; }
 }
 @media (max-width: 520px) {
   .page { padding: 0 20px; }

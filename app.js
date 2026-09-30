@@ -39,10 +39,7 @@ const statusLabel = task => {
 };
 const paperclip = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 17 7-7a3 3 0 0 0-4-4l-7 7a5 5 0 0 0 7 7l8-8"/></svg>';
 
-function renderTasks() {
-  const sorted = [...tasks].sort((a, b) => dueKey(a).localeCompare(dueKey(b)) || a.id.localeCompare(b.id));
-  $('task-count').textContent = `${tasks.length} 项任务`;
-  $('task-list').innerHTML = sorted.map(task => {
+function taskMarkup(task) {
     const materials = task.materials.map(id => window.DEMO.materials[id]).filter(Boolean);
     return `<li class="task-row ${urgency(task)} ${task.done ? 'is-done' : ''}" data-task-id="${escapeHtml(task.id)}">
       <input class="task-checkbox" type="checkbox" id="check-${escapeHtml(task.id)}" data-task="${escapeHtml(task.id)}" ${task.done ? 'checked' : ''}>
@@ -51,7 +48,16 @@ function renderTasks() {
         <div class="task-files">${materials.map(material => `<a href="${escapeHtml(material.url)}" target="_blank" rel="noopener noreferrer" aria-label="打开${escapeHtml(task.course+' '+task.shortName+'的'+material.title)}（示例）">${paperclip}<span>${escapeHtml(material.title)}</span><span aria-hidden="true">↗</span></a>`).join('') || '<span class="no-files">暂无关联文件</span>'}</div>
       </div>
     </li>`;
-  }).join('') || '<li class="empty-state">暂无任务</li>';
+}
+
+function renderTasks() {
+  const sorted = [...tasks].sort((a, b) => dueKey(a).localeCompare(dueKey(b)) || a.id.localeCompare(b.id));
+  const pending = sorted.filter(task => !task.done);
+  const completed = sorted.filter(task => task.done);
+  $('task-count').textContent = `${pending.length} 项待办`;
+  $('archive-count').textContent = completed.length;
+  $('task-list').innerHTML = pending.map(taskMarkup).join('') || `<li class="empty-state">${tasks.length ? '待办已全部完成。' : '暂无待办任务。'}</li>`;
+  $('completed-list').innerHTML = completed.map(taskMarkup).join('') || '<li class="empty-state">还没有已完成任务。</li>';
   updateProgress();
 }
 
@@ -68,18 +74,24 @@ function updateProgress() {
   $('ring-value').style.strokeDashoffset = 100 - ratio * 100;
 }
 
-$('task-list').addEventListener('change', event => {
+function changeTask(event) {
   const checkbox = event.target;
   if (!checkbox.matches('input[data-task]')) return;
   const task = tasks.find(item => item.id === checkbox.dataset.task);
   if (!task) return;
+  // Keep keyboard focus in the current list instead of jumping to the moved task.
+  const list = checkbox.closest('ul');
+  const siblings = [...list.querySelectorAll('input[data-task]')];
+  const index = siblings.indexOf(checkbox);
+  const nextFocusId = (siblings[index + 1] || siblings[index - 1])?.id;
+  const fallbackHeading = list.id === 'task-list' ? 'task-heading' : 'completed-heading';
   task.done = checkbox.checked;
-  const row = checkbox.closest('.task-row');
-  row.classList.toggle('is-done', task.done);
-  row.querySelector('.task-status').textContent = statusLabel(task);
-  updateProgress();
-  $('status-message').textContent = `${taskName(task)}，${task.done ? '已完成' : '恢复待办'}`;
-});
+  renderTasks();
+  (nextFocusId ? $(nextFocusId) : $(fallbackHeading))?.focus({preventScroll:true});
+  $('status-message').textContent = `${taskName(task)}，${task.done ? '已移到页面底部的已完成列表' : '已恢复到待办列表'}`;
+}
+$('task-list').addEventListener('change', changeTask);
+$('completed-list').addEventListener('change', changeTask);
 $('reset-demo').addEventListener('click', () => {
   tasks = cloneTasks();
   renderTasks();
