@@ -67,9 +67,9 @@ window.WORKLIST = {
       "deadlineKind": "before-class",
       "done": false,
       "statusVersion": 1,
-      "note": "正文 PDF 尚未取得；先保留课程阅读库入口。",
+      "note": "Meijers & Zaslove（2021），Comparative Political Studies 54(2): 372–407；36 页 PDF 已归档（CC BY 4.0）。",
       "materials": [
-        "reserves",
+        "sosc-populism-pdf",
         "sosc-syllabus"
       ]
     },
@@ -468,6 +468,12 @@ window.WORKLIST = {
       "url": "https://github.com/chicagokitty/worklist-materials/blob/main/SOSC%2013100/Day%204/Thinking%20Clearly%20with%20Data%20-%20chap%204%20-%20Correlation%20Requires%20Variation.pdf",
       "sourceUrl": "https://canvas.uchicago.edu/courses/74986/external_tools/50",
       "archivePath": "SOSC 13100/Day 4/Thinking Clearly with Data - chap 4 - Correlation Requires Variation.pdf"
+    },
+    "sosc-populism-pdf": {
+      "title": "Measuring Populism in Political Parties - Appraisal of a New Approach.pdf",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/SOSC%2013100/Day%203/Measuring%20Populism%20in%20Political%20Parties%20-%20Appraisal%20of%20a%20New%20Approach.pdf",
+      "sourceUrl": "https://journals.sagepub.com/doi/full/10.1177/0010414020938081",
+      "archivePath": "SOSC 13100/Day 3/Measuring Populism in Political Parties - Appraisal of a New Approach.pdf"
     }
   },
   "officeHours": [
