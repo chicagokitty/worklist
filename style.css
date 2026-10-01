@@ -141,3 +141,7 @@ h2 { font-size: 13px; font-weight: 600; margin: 0; }
   .site-footer { align-items: flex-start; margin-top: 32px; font-size: 9px; line-height: 1.8; }
 }
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+
+.task-files a { max-width: 100%; }
+.task-files a span:first-of-type { overflow-wrap: anywhere; min-width: 0; }
+.task-files svg, .task-files a span:last-child { flex-shrink: 0; }
