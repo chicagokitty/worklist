@@ -8,7 +8,8 @@
 - 使用原生 HTML/CSS/JavaScript；无需构建，兼容 GitHub Pages 子目录 /worklist/。
 - data.js 保存任务和来源；勾选保存在当前浏览器。向助理确认状态后更新 data.js，并递增该任务的 statusVersion，以覆盖旧浏览器状态。不要宣称自动跨设备同步。
 - 修改后检查 JavaScript 语法、本地资源链接、桌面和手机布局及关键交互。
-- 不添加定时提醒、后台监控或外部追踪。
+- 用户于 2026-10-01 明确要求每天 America/Chicago 12:00 检查并同步。当前聊天已创建定时任务 worklist；维护既有任务，勿重复创建，不添加外部追踪。此前“不定时”的约定已被取代。
+- SOSC、MATH、CMSC 每次上课的笔记整理分别建项，classDate/dueDate 为该课当天，deadlineKind 为 same-day（个人整理期限）。MATH/CMSC 周一三五、SOSC 周二四，以当前课表与停课为准；按课程+课日去重，下午课可中午先建待办。逾期项保留原日期。已完成状态不因新讲义发布而重置。
 
 ## PDF 归档偏好（2026-09-30）
 

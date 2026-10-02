@@ -11,11 +11,15 @@
 - 勾选后移入底部已完成列表，取消勾选后按 DDL 恢复。圆环显示完成数 / 总数及四舍五入的百分比。
 - 勾选保存在当前浏览器，不自动跨设备同步。用户向助理报告完成状态后，更新 data.js 的 done 并递增该任务的 statusVersion，覆盖旧的浏览器记录。
 - 保留 Canvas、Gradescope 与已核实的 CMSC Office Hours。
-- 按需更新，不设置提醒或自动抓取。最后检查时间及覆盖范围显示在页面上；10/1 已覆盖 CMSC Ed Discussion。
+- 用户于 2026-10-01 启用每天 America/Chicago 12:00 的课程检查，当前聊天定时任务负责同步网页。最后检查时间及覆盖范围显示在页面上；10/1 已覆盖 CMSC Ed Discussion。
 
 ## 资料
 
 这是公开的任务网页。材料副本放在用户已确认创建的私有仓库 [worklist-materials](https://github.com/chicagokitty/worklist-materials)，按“课程完整编号 / Day N / 文内标题 - chap N.pdf”归档；大纲、跨课次作业、旧讲义与实验按用途归档。已取得的材料直接链接 GitHub 文件，登录有权限的账号后打开。MHE 第 1 章因原件禁止服务器转载，使用出版社 PDF 直达链接；尚未取得的文件继续明确标注。保留 sourceUrl 追溯原始来源，不存会话参数或凭证。
+
+## 笔记整理期限
+
+SOSC、MATH、CMSC 按每次上课分别建项，以课程和 classDate 去重。dueDate 等于上课日期，deadlineKind 为 same-day，显示“当天”；这是用户的个人整理期限。MATH/CMSC 当前周一三五，SOSC 周二四，以最新停课和考试安排为准。未完成笔记保留原课日截止日期，已完成笔记不重置。每日中午先创建下午课程的待办，后补发布的材料。
 
 ## 2026-10-01 更新
 

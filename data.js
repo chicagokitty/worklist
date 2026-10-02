@@ -226,19 +226,19 @@ window.WORKLIST = {
     },
     {
       "id": "new-notes",
-      "course": "课程",
-      "shortName": "整理后续课次笔记",
-      "dueDate": null,
-      "state": "suggestion",
+      "course": "MATH",
+      "shortName": "整理 9/30（Day 2）笔记",
+      "dueDate": "2026-09-30",
       "done": false,
       "statusVersion": 1,
-      "note": "建议事项：已补齐 MATH Lecture 2（6 页）和 PHYS Lecture 1（54 页）；MATH Lecture 1 新排版版（5 页）可供对照。第一节课笔记仍保留已完成状态。",
+      "note": "个人安排：笔记在上课当天整理；不是教师作业截止时间。对应 Lecture 2，6 页。",
       "materials": [
         "math-lecture2",
-        "phys-lecture1",
-        "math-lecture1",
-        "cmsc-old-notes"
-      ]
+        "math-lecture1"
+      ],
+      "classDate": "2026-09-30",
+      "deadlineKind": "same-day",
+      "taskKind": "lecture-notes"
     },
     {
       "id": "syllabus",
@@ -308,25 +308,31 @@ window.WORKLIST = {
       "id": "cmsc-notes1",
       "course": "CMSC",
       "shortName": "整理第一节课笔记",
-      "dueDate": null,
+      "dueDate": "2026-09-28",
       "done": true,
       "statusVersion": 1,
       "note": "9/30 已确认完成。",
       "materials": [
         "cmsc-old-notes"
-      ]
+      ],
+      "classDate": "2026-09-28",
+      "deadlineKind": "same-day",
+      "taskKind": "lecture-notes"
     },
     {
       "id": "math-notes1",
       "course": "MATH",
       "shortName": "整理第一节课笔记",
-      "dueDate": null,
+      "dueDate": "2026-09-28",
       "done": true,
       "statusVersion": 1,
       "note": "9/30 已确认完成。",
       "materials": [
         "math-lecture1"
-      ]
+      ],
+      "classDate": "2026-09-28",
+      "deadlineKind": "same-day",
+      "taskKind": "lecture-notes"
     },
     {
       "id": "sosc-coursepack",
@@ -338,6 +344,39 @@ window.WORKLIST = {
       "note": "9/30 通知：因打印故障延迟，预计 10/1 上午起可领取，实际备好待确认；到 Social Sciences Research Building 地下室 SSD Aux，报课程号 SOSC 13100。此日期是预计可领取日，不是 DDL。",
       "materials": [
         "sosc-course-updates",
+        "sosc-syllabus"
+      ]
+    },
+    {
+      "id": "cmsc-notes-2026-09-30",
+      "course": "CMSC",
+      "shortName": "整理 9/30（Day 2）笔记",
+      "classDate": "2026-09-30",
+      "dueDate": "2026-09-30",
+      "deadlineKind": "same-day",
+      "taskKind": "lecture-notes",
+      "done": false,
+      "statusVersion": 1,
+      "note": "个人安排：笔记在上课当天整理；以本次课堂内容为准，2018 讲义仅供参考。",
+      "materials": [
+        "cmsc-old-notes",
+        "cmsc-syllabus"
+      ]
+    },
+    {
+      "id": "sosc-notes-2026-10-01",
+      "course": "SOSC",
+      "shortName": "整理 10/1（Day 2）笔记",
+      "classDate": "2026-10-01",
+      "dueDate": "2026-10-01",
+      "deadlineKind": "same-day",
+      "taskKind": "lecture-notes",
+      "done": false,
+      "statusVersion": 1,
+      "note": "个人安排：今天课堂的笔记当天整理。阅读任务与笔记任务分别勾选。",
+      "materials": [
+        "freedman",
+        "sosc-implication-pdf",
         "sosc-syllabus"
       ]
     }
@@ -545,5 +584,30 @@ window.WORKLIST = {
       "time": "周五 16:00–18:00",
       "place": "Crerar 207"
     }
-  ]
+  ],
+  "notesPolicy": {
+    "timezone": "America/Chicago",
+    "deadline": "class-day",
+    "startDate": "2026-10-01",
+    "courseDays": {
+      "MATH": [
+        1,
+        3,
+        5
+      ],
+      "CMSC": [
+        1,
+        3,
+        5
+      ],
+      "SOSC": [
+        2,
+        4
+      ]
+    },
+    "deduplicateBy": [
+      "course",
+      "classDate"
+    ]
+  }
 };

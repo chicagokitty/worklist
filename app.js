@@ -62,7 +62,7 @@ const deadlineLabel = task => {
   if (!task.dueDate) return 'DDL 待确认';
   const date = task.dueDate.slice(5).replace('-', '/');
   if (task.deadlineKind === 'suggested') return `建议 ${date} 完成`;
-  const suffix = {'before-class':'上课前', 'in-class':'课内'}[task.deadlineKind];
+  const suffix = {'before-class':'上课前', 'in-class':'课内', 'same-day':'当天'}[task.deadlineKind];
   return `${date} ${task.time || suffix || '时刻待确认'}`;
 };
 const taskName = task => `${task.course} ${task.shortName} · ${deadlineLabel(task)}`;
