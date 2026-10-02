@@ -1,7 +1,7 @@
 'use strict';
 // Material files archived by course and class day; sources checked separately.
 window.WORKLIST = {
-  "updatedAt": "2026-10-02T00:09:50Z",
+  "updatedAt": "2026-10-02T17:20:00Z",
   "scope": "截至 10/14 的课程安排，以及此前未完成事项",
   "tasks": [
     {
@@ -40,7 +40,7 @@ window.WORKLIST = {
       "time": "23:59",
       "done": false,
       "statusVersion": 1,
-      "note": "8 题，合并成单个 PDF 提交；10/1 核查时尚未提交。",
+      "note": "8 题，合并成单个 PDF 提交；10/2 核查时尚未提交。",
       "materials": [
         "phys-hw1-pdf",
         "phys-hw1-submit"
@@ -123,7 +123,7 @@ window.WORKLIST = {
       "time": "17:30",
       "done": false,
       "statusVersion": 1,
-      "note": "在家完成测量与分析，只交实验笔记 PDF；10/1 核查时尚未提交。",
+      "note": "在家完成测量与分析，只交实验笔记 PDF；10/2 核查时尚未提交。",
       "materials": [
         "lab-template",
         "lab-guide",
@@ -152,9 +152,9 @@ window.WORKLIST = {
       "deadlineKind": "before-class",
       "done": false,
       "statusVersion": 1,
-      "note": "Thinking clearly about correlations and causation: Graphical causal models for observational data（2018）。",
+      "note": "2018，16 页；出版社 PDF 已核实可在线打开。10/2 下载受阻，尚未归档。",
       "materials": [
-        "reserves",
+        "sosc-rohrer-pdf",
         "sosc-syllabus"
       ]
     },
@@ -167,9 +167,10 @@ window.WORKLIST = {
       "done": false,
       "statusVersion": 1,
       "materials": [
-        "reserves",
+        "sosc-imbens-pdf",
         "sosc-syllabus"
-      ]
+      ],
+      "note": "第 1 章 Causality: The Basic Framework，20 页 PDF 已归档。"
     },
     {
       "id": "cmsc-hw1",
@@ -179,7 +180,7 @@ window.WORKLIST = {
       "state": "waiting",
       "done": false,
       "statusVersion": 1,
-      "note": "10/1 已核查：Gradescope 仍未发布；官网计划 10/5 或 10/6 发布，10/14 截止，时刻待公布。可交打字或清晰手写扫描；最终解答须自己写作。",
+      "note": "10/2 已核查：Gradescope 仍未发布；官网计划 10/5 或 10/6 发布，10/14 截止，时刻待公布。可交打字或清晰手写扫描；最终解答须自己写作。",
       "materials": [
         "cmsc-gradescope",
         "cmsc-syllabus",
@@ -194,9 +195,11 @@ window.WORKLIST = {
       "dueDate": null,
       "done": false,
       "statusVersion": 1,
-      "note": "第 1 周阅读要求；未列单独截止时刻，教材全文尚未获取。",
+      "note": "第 1 周阅读要求；未列单独截止时刻。教材 ISBN 与课程大纲一致，全文及 Lecture 2 已取得。",
       "materials": [
+        "phys-textbook",
         "phys-lecture1",
+        "phys-lecture2",
         "phys-week1"
       ]
     },
@@ -209,6 +212,7 @@ window.WORKLIST = {
       "statusVersion": 1,
       "note": "第 2 周阅读要求；未列单独截止时刻。",
       "materials": [
+        "phys-textbook",
         "phys-week2"
       ]
     },
@@ -221,6 +225,7 @@ window.WORKLIST = {
       "statusVersion": 1,
       "note": "第 3 周阅读要求；未列单独截止时刻。",
       "materials": [
+        "phys-textbook",
         "phys-week3"
       ]
     },
@@ -378,6 +383,38 @@ window.WORKLIST = {
         "freedman",
         "sosc-implication-pdf",
         "sosc-syllabus"
+      ]
+    },
+    {
+      "id": "math-notes-2026-10-02",
+      "course": "MATH",
+      "shortName": "整理 10/2（Day 3）笔记",
+      "classDate": "2026-10-02",
+      "dueDate": "2026-10-02",
+      "deadlineKind": "same-day",
+      "taskKind": "lecture-notes",
+      "done": false,
+      "statusVersion": 1,
+      "note": "个人安排：笔记在上课当天整理，不是教师作业 DDL。Lecture 3 讲义已归档，13 页。",
+      "materials": [
+        "math-lecture3",
+        "math-course"
+      ]
+    },
+    {
+      "id": "cmsc-notes-2026-10-02",
+      "course": "CMSC",
+      "shortName": "整理 10/2（Day 3）笔记",
+      "classDate": "2026-10-02",
+      "dueDate": "2026-10-02",
+      "deadlineKind": "same-day",
+      "taskKind": "lecture-notes",
+      "done": false,
+      "statusVersion": 1,
+      "note": "个人安排：笔记在上课当天整理，不是教师作业 DDL。本次讲义尚未发布，2018 讲义仅供参考。",
+      "materials": [
+        "cmsc-old-notes",
+        "cmsc-syllabus"
       ]
     }
   ],
@@ -565,24 +602,104 @@ window.WORKLIST = {
     "sosc-course-updates": {
       "title": "SOSC 课程通知",
       "url": "https://canvas.uchicago.edu/courses/74986?view=feed"
+    },
+    "math-lecture3": {
+      "title": "Honors Basic Algebra I - Lecture 3 - Symmetries of the Tetrahedron and Cube; the Sign of a Permutation.pdf",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/MATH%2025700/Day%203/Honors%20Basic%20Algebra%20I%20-%20Lecture%203%20-%20Symmetries%20of%20the%20Tetrahedron%20and%20Cube%3B%20the%20Sign%20of%20a%20Permutation.pdf",
+      "sourceUrl": "https://www.dropbox.com/scl/fi/ibsggx7ev6y3lqp9vhcat/lecture3_alternating_group.pdf?rlkey=eq2h4gba1885b75yafksp5t0i&dl=0",
+      "archivePath": "MATH 25700/Day 3/Honors Basic Algebra I - Lecture 3 - Symmetries of the Tetrahedron and Cube; the Sign of a Permutation.pdf"
+    },
+    "phys-lecture2": {
+      "title": "General Physics I - Lecture 2 - Motion, Forces, Energy, Momentum and Conservation Laws.pdf",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/PHYS%2012100/Day%202/General%20Physics%20I%20-%20Lecture%202%20-%20Motion%2C%20Forces%2C%20Energy%2C%20Momentum%20and%20Conservation%20Laws.pdf",
+      "sourceUrl": "https://canvas.uchicago.edu/courses/74238/files/15886409",
+      "archivePath": "PHYS 12100/Day 2/General Physics I - Lecture 2 - Motion, Forces, Energy, Momentum and Conservation Laws.pdf"
+    },
+    "sosc-imbens-pdf": {
+      "title": "Causal Inference for Statistics, Social, and Biomedical Sciences - chap 1 - Causality - The Basic Framework.pdf",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/SOSC%2013100/Day%205/Causal%20Inference%20for%20Statistics%2C%20Social%2C%20and%20Biomedical%20Sciences%20-%20chap%201%20-%20Causality%20-%20The%20Basic%20Framework.pdf",
+      "sourceUrl": "https://canvas.uchicago.edu/courses/74986/external_tools/50",
+      "archivePath": "SOSC 13100/Day 5/Causal Inference for Statistics, Social, and Biomedical Sciences - chap 1 - Causality - The Basic Framework.pdf"
+    },
+    "phys-textbook": {
+      "title": "University Physics for the Life Sciences.pdf（教材全文）",
+      "url": "https://github.com/chicagokitty/worklist-materials/releases/download/course-archive-2026-10-02/PHYS-12300--Spring-2026--Books--University-Physics-for-the-Life-Sciences.pdf",
+      "note": "已核对 ISBN 9780135822180，与 PHYS 12100 大纲一致；复用私有资料库中的既有文件。"
+    },
+    "sosc-rohrer-pdf": {
+      "title": "Thinking Clearly About Correlations and Causation.pdf（出版社原文）",
+      "url": "https://journals.sagepub.com/doi/pdf/10.1177/2515245917745629",
+      "note": "浏览器可读；10/2 自动下载受阻，尚未存入私有资料库。"
     }
   },
   "officeHours": [
     {
       "person": "Alexander Razborov · 教授",
       "time": "周一 14:00–16:00",
-      "place": "Ryerson 360G"
+      "place": "Ryerson 360G",
+      "course": "CMSC"
     },
     {
       "person": "Nikhil Patel · TA",
       "time": "通常周二 15:00–17:00；仅 10/6 改为 13:45–15:45",
       "place": "Crerar common space 2C；若被占用，在附近找「Discrete Math office hours」标识",
-      "sourceUrl": "https://edstem.org/us/courses/107374/discussion/8337900"
+      "sourceUrl": "https://edstem.org/us/courses/107374/discussion/8337900",
+      "course": "CMSC"
     },
     {
       "person": "Seamus Lavine · TA",
       "time": "周五 16:00–18:00",
-      "place": "Crerar 207"
+      "place": "Crerar 207",
+      "course": "CMSC"
+    },
+    {
+      "course": "PHYS",
+      "person": "Heinrich Jaeger · 教授",
+      "time": "周一 15:30–16:30（第 2 周起）",
+      "place": "GCIS E229",
+      "sourceUrl": "https://canvas.uchicago.edu/courses/74238/discussion_topics/1018598"
+    },
+    {
+      "course": "PHYS",
+      "person": "Jasper Reid · TA",
+      "time": "周一 17:30–18:30（第 2 周起）",
+      "place": "KPTC 305",
+      "sourceUrl": "https://canvas.uchicago.edu/courses/74238/discussion_topics/1018598"
+    },
+    {
+      "course": "PHYS",
+      "person": "Dahlia Klein · 教授",
+      "time": "周三 14:30–15:30（第 2 周起）",
+      "place": "GCIS E209",
+      "sourceUrl": "https://canvas.uchicago.edu/courses/74238/discussion_topics/1018598"
+    },
+    {
+      "course": "PHYS",
+      "person": "Yiqian Wu · TA",
+      "time": "周三 18:30–19:30（第 2 周起）",
+      "place": "KPTC 305",
+      "sourceUrl": "https://canvas.uchicago.edu/courses/74238/discussion_topics/1018598"
+    },
+    {
+      "course": "PHYS",
+      "person": "Doron Sumeruk · TA",
+      "time": "周四 14:30–15:30（第 2 周起）",
+      "place": "KPTC 305",
+      "sourceUrl": "https://canvas.uchicago.edu/courses/74238/discussion_topics/1018598"
+    },
+    {
+      "course": "PHYS",
+      "person": "Ryan Wong · TA",
+      "time": "周五 12:00–13:00（第 2 周起）",
+      "place": "KPTC 305",
+      "sourceUrl": "https://canvas.uchicago.edu/courses/74238/discussion_topics/1018598"
+    },
+    {
+      "course": "PHYS",
+      "person": "Shuoguang Liu · TA",
+      "time": "周五 14:30–15:30（第 2 周起）",
+      "place": "KPTC 305",
+      "sourceUrl": "https://canvas.uchicago.edu/courses/74238/discussion_topics/1018598"
     }
   ],
   "notesPolicy": {
