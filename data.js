@@ -1,7 +1,7 @@
 'use strict';
 // Material files archived by course and class day; sources checked separately.
 window.WORKLIST = {
-  "updatedAt": "2026-10-02T17:20:00Z",
+  "updatedAt": "2026-10-03T17:13:00Z",
   "scope": "截至 10/14 的课程安排，以及此前未完成事项",
   "tasks": [
     {
@@ -38,12 +38,13 @@ window.WORKLIST = {
       "shortName": "HW1",
       "dueDate": "2026-10-05",
       "time": "23:59",
-      "done": false,
-      "statusVersion": 1,
-      "note": "8 题，合并成单个 PDF 提交；10/2 核查时尚未提交。",
+      "done": true,
+      "statusVersion": 2,
+      "note": "10/3 已在 Gradescope 核实提交。8 题合并一个 PDF，提交时将页码对应到各题；Canvas 列表的未提交标记尚未同步。",
       "materials": [
         "phys-hw1-pdf",
-        "phys-hw1-submit"
+        "phys-hw1-submit",
+        "phys-hw1-gradescope"
       ]
     },
     {
@@ -123,7 +124,7 @@ window.WORKLIST = {
       "time": "17:30",
       "done": false,
       "statusVersion": 1,
-      "note": "在家完成测量与分析，只交实验笔记 PDF；10/2 核查时尚未提交。",
+      "note": "在家完成测量与分析，只交实验笔记 PDF；10/3 核查为进行中，尚未提交。此项在 Canvas 上传，截止 10/9 17:30。",
       "materials": [
         "lab-template",
         "lab-guide",
@@ -152,7 +153,7 @@ window.WORKLIST = {
       "deadlineKind": "before-class",
       "done": false,
       "statusVersion": 1,
-      "note": "2018，16 页；出版社 PDF 已核实可在线打开。10/2 下载受阻，尚未归档。",
+      "note": "2018，16 页；出版社 PDF 已核实可在线打开。10/3 重试下载仍返回 403，尚未归档。",
       "materials": [
         "sosc-rohrer-pdf",
         "sosc-syllabus"
@@ -180,7 +181,7 @@ window.WORKLIST = {
       "state": "waiting",
       "done": false,
       "statusVersion": 1,
-      "note": "10/2 已核查：Gradescope 仍未发布；官网计划 10/5 或 10/6 发布，10/14 截止，时刻待公布。可交打字或清晰手写扫描；最终解答须自己写作。",
+      "note": "10/3 已核查：Gradescope 仍未发布；官网计划 10/5 或 10/6 发布，10/14 截止，时刻待公布。可交打字或清晰手写扫描；最终解答须自己写作。",
       "materials": [
         "cmsc-gradescope",
         "cmsc-syllabus",
@@ -411,10 +412,12 @@ window.WORKLIST = {
       "taskKind": "lecture-notes",
       "done": false,
       "statusVersion": 1,
-      "note": "个人安排：笔记在上课当天整理，不是教师作业 DDL。本次讲义尚未发布，2018 讲义仅供参考。",
+      "note": "个人安排：笔记在课日当天整理，不是教师作业 DDL。官网新增第一周 Induction and ordered sets：Rosen §§5.1–5.3、4.3.2、9.6、3.2.2，详细例题见大纲。以后周末前后直接更新官网；2018 讲义仅供参考。",
       "materials": [
         "cmsc-old-notes",
-        "cmsc-syllabus"
+        "cmsc-syllabus",
+        "cmsc-syllabus-archive",
+        "cmsc-week1-announcement"
       ]
     }
   ],
@@ -440,7 +443,7 @@ window.WORKLIST = {
       "archivePath": "PHYS 12100/Homework 1/General Physics I - Homework 1.pdf"
     },
     "phys-hw1-submit": {
-      "title": "HW1 要求与提交",
+      "title": "HW1 要求（Canvas）",
       "url": "https://canvas.uchicago.edu/courses/74238/assignments/908615"
     },
     "math-ps1": {
@@ -480,7 +483,7 @@ window.WORKLIST = {
       "url": "https://www.physlab-wiki.com/phylabs/lab_courses/phys-120_130-wiki-home"
     },
     "phys-lab-submit": {
-      "title": "Intro lab 要求与提交",
+      "title": "Intro lab 提交入口（Canvas）",
       "url": "https://canvas.uchicago.edu/courses/74238/assignments/908682"
     },
     "phys-hw2": {
@@ -630,6 +633,20 @@ window.WORKLIST = {
       "title": "Thinking Clearly About Correlations and Causation.pdf（出版社原文）",
       "url": "https://journals.sagepub.com/doi/pdf/10.1177/2515245917745629",
       "note": "浏览器可读；10/2 自动下载受阻，尚未存入私有资料库。"
+    },
+    "phys-hw1-gradescope": {
+      "title": "HW1 提交入口（Gradescope）",
+      "url": "https://www.gradescope.com/courses/1420259/assignments/8776570/submissions/new"
+    },
+    "cmsc-syllabus-archive": {
+      "title": "第一周内容与参考章节（官网大纲存档）",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/CMSC%2027130/Course%20Info/Honors%20Discrete%20Mathematics%20-%20Syllabus%20-%20Autumn%202026.html",
+      "sourceUrl": "https://people.cs.uchicago.edu/~razborov/teaching/autumn26.html",
+      "archivePath": "CMSC 27130/Course Info/Honors Discrete Mathematics - Syllabus - Autumn 2026.html"
+    },
+    "cmsc-week1-announcement": {
+      "title": "第一周大纲更新说明（Ed）",
+      "url": "https://edstem.org/us/courses/107374/discussion/8342398"
     }
   },
   "officeHours": [
