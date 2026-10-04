@@ -1,7 +1,7 @@
 'use strict';
 // Material files archived by course and class day; sources checked separately.
 window.WORKLIST = {
-  "updatedAt": "2026-10-03T17:13:00Z",
+  "updatedAt": "2026-10-04T17:07:00Z",
   "scope": "截至 10/14 的课程安排，以及此前未完成事项",
   "tasks": [
     {
@@ -124,7 +124,7 @@ window.WORKLIST = {
       "time": "17:30",
       "done": false,
       "statusVersion": 1,
-      "note": "在家完成测量与分析，只交实验笔记 PDF；10/3 核查为进行中，尚未提交。此项在 Canvas 上传，截止 10/9 17:30。",
+      "note": "在家完成测量与分析，只交实验笔记 PDF；10/4 Canvas 仍显示尚未提交。此项在 Canvas 上传，截止 10/9 17:30。",
       "materials": [
         "lab-template",
         "lab-guide",
@@ -181,7 +181,7 @@ window.WORKLIST = {
       "state": "waiting",
       "done": false,
       "statusVersion": 1,
-      "note": "10/3 已核查：Gradescope 仍未发布；官网计划 10/5 或 10/6 发布，10/14 截止，时刻待公布。可交打字或清晰手写扫描；最终解答须自己写作。",
+      "note": "10/4 已核查：Gradescope 仍未发布；官网计划 10/5 或 10/6 发布，10/14 截止，时刻待公布。可交打字或清晰手写扫描；最终解答须自己写作。",
       "materials": [
         "cmsc-gradescope",
         "cmsc-syllabus",
