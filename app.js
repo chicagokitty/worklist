@@ -157,11 +157,5 @@ $('office-hours-list').innerHTML = data.officeHours.map(item => `<p><strong>${es
   + `<p><a href="${escapeHtml(data.materials['cmsc-syllabus'].url)}" target="_blank" rel="noopener noreferrer">CMSC 课程官网 ↗</a></p>`;
 $('office-hours-list').innerHTML += '<p><a href="https://canvas.uchicago.edu/courses/74238/discussion_topics/1018598" target="_blank" rel="noopener noreferrer">PHYS Office Hours 公告 ↗</a></p>';
 $('office-hours-list').innerHTML += '<p><a href="https://canvas.uchicago.edu/courses/75102/discussion_topics/1019507" target="_blank" rel="noopener noreferrer">MATH Office Hours 与临时调整公告 ↗</a></p>';
-
-$('discussion-sessions-list').innerHTML = (data.discussionSessions || []).map(session =>
-  `<p><strong>${escapeHtml(session.course)} · ${escapeHtml(session.day)} ${escapeHtml(session.startTime)}–${escapeHtml(session.endTime)}</strong><br>10/5 起 · 按英文姓氏分组</p>`
-  + session.groups.map(group => `<p><strong>${escapeHtml(group.lastName)} · ${escapeHtml(group.room)}</strong><br>${escapeHtml(group.ta)}</p>`).join('')
-  + '<p>这是讨论课安排；Office Hours 另见上方。</p>'
-).join('');
 updateStorageNote();
 renderTasks();
