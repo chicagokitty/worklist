@@ -836,5 +836,39 @@ window.WORKLIST = {
       "course",
       "classDate"
     ]
-  }
+  },
+  "discussionSessions": [
+    {
+      "id": "phys12100-monday",
+      "course": "PHYS 12100",
+      "day": "周一",
+      "startTime": "18:30",
+      "endTime": "19:20",
+      "timeZone": "America/Chicago",
+      "startDate": "2026-10-05",
+      "source": "10/5 课程通知",
+      "groups": [
+        {
+          "lastName": "A–He",
+          "room": "KPTC 101",
+          "ta": "Yiqian Wu"
+        },
+        {
+          "lastName": "Hi–Ma",
+          "room": "KPTC 309",
+          "ta": "Doron Sumeruk"
+        },
+        {
+          "lastName": "Me–Ro",
+          "room": "Cobb 102",
+          "ta": "Ryan Wong"
+        },
+        {
+          "lastName": "Ru–Z",
+          "room": "Cobb 101",
+          "ta": "Shuoguang Liu"
+        }
+      ]
+    }
+  ]
 };
