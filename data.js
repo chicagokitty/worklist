@@ -1,7 +1,7 @@
 'use strict';
 // Material files archived by course and class day; sources checked separately.
 window.WORKLIST = {
-  "updatedAt": "2026-10-04T17:07:00Z",
+  "updatedAt": "2026-10-05T17:12:00Z",
   "scope": "截至 10/14 的课程安排，以及此前未完成事项",
   "tasks": [
     {
@@ -79,14 +79,17 @@ window.WORKLIST = {
       "course": "MATH",
       "shortName": "PS1",
       "dueDate": "2026-10-07",
-      "deadlineKind": "suggested",
+      "deadlineKind": "feedback",
       "done": false,
       "statusVersion": 1,
-      "note": "建议完成日，非硬性 DDL。9 个编号项目；不计分，每周最多交 2 题获取反馈。",
+      "note": "全套 9 个编号项目不计分，原建议 10/7 完成。若需反馈，只选最多两题提交 Gradescope：10/7 23:59 截止，晚交入口到 10/14 23:59；不是全套必交作业 DDL。10/5 核查尚未提交。",
       "materials": [
         "math-ps1",
-        "math-policy"
-      ]
+        "math-policy",
+        "math-ps1-submit",
+        "math-oh-announcement"
+      ],
+      "time": "23:59"
     },
     {
       "id": "sosc-data",
@@ -124,7 +127,7 @@ window.WORKLIST = {
       "time": "17:30",
       "done": false,
       "statusVersion": 1,
-      "note": "在家完成测量与分析，只交实验笔记 PDF；10/4 Canvas 仍显示尚未提交。此项在 Canvas 上传，截止 10/9 17:30。",
+      "note": "在家完成测量与分析，只交实验笔记 PDF；10/5 Canvas 仍显示尚未提交。此项在 Canvas 上传，截止 10/9 17:30。",
       "materials": [
         "lab-template",
         "lab-guide",
@@ -181,7 +184,7 @@ window.WORKLIST = {
       "state": "waiting",
       "done": false,
       "statusVersion": 1,
-      "note": "10/4 已核查：Gradescope 仍未发布；官网计划 10/5 或 10/6 发布，10/14 截止，时刻待公布。可交打字或清晰手写扫描；最终解答须自己写作。",
+      "note": "10/5 已核查：Gradescope 仍未发布；官网计划 10/5 或 10/6 发布，10/14 截止，时刻待公布。可交打字或清晰手写扫描；最终解答须自己写作。",
       "materials": [
         "cmsc-gradescope",
         "cmsc-syllabus",
@@ -419,6 +422,54 @@ window.WORKLIST = {
         "cmsc-syllabus-archive",
         "cmsc-week1-announcement"
       ]
+    },
+    {
+      "id": "math-ps2",
+      "course": "MATH",
+      "shortName": "PS2",
+      "dueDate": "2026-10-14",
+      "deadlineKind": "suggested",
+      "done": false,
+      "statusVersion": 1,
+      "note": "PDF 明列建议完成日，非硬性 DDL；4 页、9 个编号项目。10/5 Canvas 已发布题目，Gradescope 尚未出现 PS2 入口；每周最多选两题获取反馈。",
+      "materials": [
+        "math-ps2",
+        "math-ps2-canvas",
+        "math-gradescope",
+        "math-oh-announcement"
+      ]
+    },
+    {
+      "id": "math-notes-2026-10-05",
+      "course": "MATH",
+      "shortName": "整理 10/5（Day 4）笔记",
+      "classDate": "2026-10-05",
+      "dueDate": "2026-10-05",
+      "deadlineKind": "same-day",
+      "taskKind": "lecture-notes",
+      "done": false,
+      "statusVersion": 1,
+      "note": "个人安排：当次笔记在课日当天整理，不是教师作业 DDL。Lecture 4: Group Actions 已归档，8 页。",
+      "materials": [
+        "math-lecture4",
+        "math-course"
+      ]
+    },
+    {
+      "id": "cmsc-notes-2026-10-05",
+      "course": "CMSC",
+      "shortName": "整理 10/5（Day 4）笔记",
+      "classDate": "2026-10-05",
+      "dueDate": "2026-10-05",
+      "deadlineKind": "same-day",
+      "taskKind": "lecture-notes",
+      "done": false,
+      "statusVersion": 1,
+      "note": "个人安排：当次笔记在课日当天整理，不是教师作业 DDL。本次讲义尚未单独发布；以当次课堂为准，官网目前仍列第一周范围，2018 讲义仅供参考。",
+      "materials": [
+        "cmsc-syllabus",
+        "cmsc-old-notes"
+      ]
     }
   ],
   "materials": {
@@ -647,6 +698,34 @@ window.WORKLIST = {
     "cmsc-week1-announcement": {
       "title": "第一周大纲更新说明（Ed）",
       "url": "https://edstem.org/us/courses/107374/discussion/8342398"
+    },
+    "math-lecture4": {
+      "title": "Honors Basic Algebra I - Lecture 4 - Group Actions.pdf",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/MATH%2025700/Day%204/Honors%20Basic%20Algebra%20I%20-%20Lecture%204%20-%20Group%20Actions.pdf",
+      "sourceUrl": "https://www.dropbox.com/scl/fi/gar53njg1zq89ut5j9l6r/lecture4_group_actions.pdf?rlkey=04ekfnj2omkk5u361pgasd4f9&dl=0",
+      "archivePath": "MATH 25700/Day 4/Honors Basic Algebra I - Lecture 4 - Group Actions.pdf"
+    },
+    "math-ps2": {
+      "title": "Honors Basic Algebra I - Problem Set 2.pdf",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/MATH%2025700/Problem%20Set%202/Honors%20Basic%20Algebra%20I%20-%20Problem%20Set%202.pdf",
+      "sourceUrl": "https://www.dropbox.com/scl/fi/qgu5pb3z2cqfkzqfup5tq/pset2.pdf?rlkey=ydu80f4bgetfnxeps3m15g881&dl=0",
+      "archivePath": "MATH 25700/Problem Set 2/Honors Basic Algebra I - Problem Set 2.pdf"
+    },
+    "math-gradescope": {
+      "title": "MATH Gradescope",
+      "url": "https://www.gradescope.com/courses/1423507"
+    },
+    "math-ps1-submit": {
+      "title": "PS1 可选反馈提交（最多两题）",
+      "url": "https://www.gradescope.com/courses/1423507/assignments/8801053/submissions/new"
+    },
+    "math-oh-announcement": {
+      "title": "MATH 作业提交与 Office Hours 公告",
+      "url": "https://canvas.uchicago.edu/courses/75102/discussion_topics/1019507"
+    },
+    "math-ps2-canvas": {
+      "title": "PS2 课程要求",
+      "url": "https://canvas.uchicago.edu/courses/75102/assignments/918487"
     }
   },
   "officeHours": [
@@ -717,6 +796,20 @@ window.WORKLIST = {
       "time": "周五 14:30–15:30（第 2 周起）",
       "place": "KPTC 305",
       "sourceUrl": "https://canvas.uchicago.edu/courses/74238/discussion_topics/1018598"
+    },
+    {
+      "course": "MATH",
+      "person": "Rajarshi Ghosh · College Fellow",
+      "time": "通常周一 13:00–16:00；仅本周改为 10/6（周二）13:00–16:00",
+      "place": "10/6：MS016，5727 S. University Avenue，Financial Mathematics 楼地下室；常规地点待公布",
+      "sourceUrl": "https://canvas.uchicago.edu/courses/75102/discussion_topics/1019507"
+    },
+    {
+      "course": "MATH",
+      "person": "Félix Houde · College Fellow",
+      "time": "周二 17:00–18:00；周五 15:30–17:30",
+      "place": "地点待公布",
+      "sourceUrl": "https://canvas.uchicago.edu/courses/75102/discussion_topics/1019507"
     }
   ],
   "notesPolicy": {
