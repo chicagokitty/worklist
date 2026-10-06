@@ -1,8 +1,8 @@
 'use strict';
 // Material files archived by course and class day; sources checked separately.
 window.WORKLIST = {
-  "updatedAt": "2026-10-05T17:12:00Z",
-  "scope": "截至 10/14 的课程安排，以及此前未完成事项",
+  "updatedAt": "2026-10-06T17:12:00Z",
+  "scope": "截至 10/14 的课程安排、此前未完成事项，以及已预告的 SOSC Essay 1",
   "tasks": [
     {
       "id": "sosc-freedman",
@@ -82,7 +82,7 @@ window.WORKLIST = {
       "deadlineKind": "feedback",
       "done": false,
       "statusVersion": 1,
-      "note": "全套 9 个编号项目不计分，原建议 10/7 完成。若需反馈，只选最多两题提交 Gradescope：10/7 23:59 截止，晚交入口到 10/14 23:59；不是全套必交作业 DDL。10/5 核查尚未提交。",
+      "note": "全套 9 个编号项目不计分，原建议 10/7 完成。若需反馈，只选最多两题提交 Gradescope：10/7 23:59 截止，晚交入口到 10/14 23:59；不是全套必交作业 DDL。10/6 核查尚未提交。",
       "materials": [
         "math-ps1",
         "math-policy",
@@ -110,12 +110,13 @@ window.WORKLIST = {
       "id": "sosc-quiz",
       "course": "SOSC",
       "shortName": "Quiz 1",
-      "dueDate": "2026-10-08",
+      "dueDate": "2026-10-13",
       "deadlineKind": "in-class",
       "done": false,
       "statusVersion": 1,
-      "note": "课内 30 分钟，open-note；个人班次待确认。",
+      "note": "10/6 教师通知：从 10/8 延至 10/13（周二）。课内 30 分钟，open-note；具体开始时刻未单列。",
       "materials": [
+        "sosc-course-updates",
         "sosc-syllabus"
       ]
     },
@@ -127,7 +128,7 @@ window.WORKLIST = {
       "time": "17:30",
       "done": false,
       "statusVersion": 1,
-      "note": "在家完成测量与分析，只交实验笔记 PDF；10/5 Canvas 仍显示尚未提交。此项在 Canvas 上传，截止 10/9 17:30。",
+      "note": "在家完成测量与分析，只交实验笔记 PDF；10/6 Canvas 仍显示尚未提交。此项在 Canvas 上传，截止 10/9 17:30。",
       "materials": [
         "lab-template",
         "lab-guide",
@@ -140,11 +141,12 @@ window.WORKLIST = {
       "shortName": "HW2",
       "dueDate": "2026-10-12",
       "time": "23:59",
-      "state": "waiting",
       "done": false,
       "statusVersion": 1,
-      "note": "10/6 00:00 开放，题目尚不可获取。",
+      "note": "题目已发布：8 题，单个 PDF 上传 Gradescope 并对应页码。DDL 有冲突：题目与 Canvas 写 10/12 23:59，Gradescope 写 10/19 23:59；先按较早的 10/12 准备，尚未确认延期。10/6 未提交。",
       "materials": [
+        "phys-hw2-pdf",
+        "phys-hw2-gradescope",
         "phys-hw2"
       ]
     },
@@ -184,7 +186,7 @@ window.WORKLIST = {
       "state": "waiting",
       "done": false,
       "statusVersion": 1,
-      "note": "10/5 已核查：Gradescope 仍未发布；官网计划 10/5 或 10/6 发布，10/14 截止，时刻待公布。可交打字或清晰手写扫描；最终解答须自己写作。",
+      "note": "10/6 中午已核查：Gradescope 仍未发布；官网计划 10/5 或 10/6 发布，10/14 截止，时刻待公布。可交打字或清晰手写扫描；最终解答须自己写作。",
       "materials": [
         "cmsc-gradescope",
         "cmsc-syllabus",
@@ -382,8 +384,9 @@ window.WORKLIST = {
       "taskKind": "lecture-notes",
       "done": false,
       "statusVersion": 1,
-      "note": "个人安排：今天课堂的笔记当天整理。阅读任务与笔记任务分别勾选。",
+      "note": "个人安排：笔记在课日当天整理，阅读任务与笔记任务分别勾选。第二节课 Class 2: Hypotheses and Shoe Leather 原 PPTX 已补齐（15 页）。",
       "materials": [
+        "sosc-class2-slides",
         "freedman",
         "sosc-implication-pdf",
         "sosc-syllabus"
@@ -431,7 +434,7 @@ window.WORKLIST = {
       "deadlineKind": "suggested",
       "done": false,
       "statusVersion": 1,
-      "note": "PDF 明列建议完成日，非硬性 DDL；4 页、9 个编号项目。10/5 Canvas 已发布题目，Gradescope 尚未出现 PS2 入口；每周最多选两题获取反馈。",
+      "note": "PDF 明列建议完成日，非硬性 DDL；4 页、9 个编号项目。Canvas 已发布题目；10/6 核查，Gradescope 尚未出现 PS2 入口；每周最多选两题获取反馈。",
       "materials": [
         "math-ps2",
         "math-ps2-canvas",
@@ -449,7 +452,7 @@ window.WORKLIST = {
       "taskKind": "lecture-notes",
       "done": false,
       "statusVersion": 1,
-      "note": "个人安排：当次笔记在课日当天整理，不是教师作业 DDL。Lecture 4: Group Actions 已归档，8 页。",
+      "note": "个人安排：当次笔记在课日当天整理，不是教师作业 DDL。Lecture 4: Group Actions 已更新为 10/5 下午修订版（8 页），补充陪集及 Lagrange 定理证明。",
       "materials": [
         "math-lecture4",
         "math-course"
@@ -465,10 +468,42 @@ window.WORKLIST = {
       "taskKind": "lecture-notes",
       "done": false,
       "statusVersion": 1,
-      "note": "个人安排：当次笔记在课日当天整理，不是教师作业 DDL。本次讲义尚未单独发布；以当次课堂为准，官网目前仍列第一周范围，2018 讲义仅供参考。",
+      "note": "个人安排：当次笔记在课日当天整理，不是教师作业 DDL。本次讲义尚未单独发布；以当次课堂为准，官网目前仍列第一周范围，2018 讲义仅供参考。 教授补充：本周还会简要介绍 groups、rings、ideals，之后更多讨论具体对象。",
       "materials": [
         "cmsc-syllabus",
-        "cmsc-old-notes"
+        "cmsc-old-notes",
+        "cmsc-abstract-concrete"
+      ]
+    },
+    {
+      "id": "sosc-notes-2026-10-06",
+      "course": "SOSC",
+      "shortName": "整理 10/6（Day 3）笔记",
+      "classDate": "2026-10-06",
+      "dueDate": "2026-10-06",
+      "deadlineKind": "same-day",
+      "taskKind": "lecture-notes",
+      "done": false,
+      "statusVersion": 1,
+      "note": "个人安排：当次笔记在课日当天整理，不是教师作业 DDL。今日主题 Measurement and description；中午尚未发布本次课件，先保留阅读与课程入口。",
+      "materials": [
+        "sosc-shively-pdf",
+        "sosc-populism-pdf",
+        "sosc-syllabus"
+      ]
+    },
+    {
+      "id": "sosc-essay1",
+      "course": "SOSC",
+      "shortName": "Essay 1（题目待发布）",
+      "dueDate": "2026-10-24",
+      "state": "waiting",
+      "done": false,
+      "statusVersion": 1,
+      "note": "10/6 教师预告：下周初发布第一篇五页论文。大纲列 10/24 截止，具体时刻和提交入口尚未公布。写作辅导可自愿参加，报名方法见课程通知。",
+      "materials": [
+        "sosc-course-updates",
+        "sosc-syllabus"
       ]
     }
   ],
@@ -538,7 +573,7 @@ window.WORKLIST = {
       "url": "https://canvas.uchicago.edu/courses/74238/assignments/908682"
     },
     "phys-hw2": {
-      "title": "HW2 · 10/6 开放",
+      "title": "HW2 要求与 10/12 DDL（Canvas）",
       "url": "https://canvas.uchicago.edu/courses/74238/assignments/908619"
     },
     "phys-syllabus": {
@@ -726,6 +761,26 @@ window.WORKLIST = {
     "math-ps2-canvas": {
       "title": "PS2 课程要求",
       "url": "https://canvas.uchicago.edu/courses/75102/assignments/918487"
+    },
+    "phys-hw2-pdf": {
+      "title": "General Physics I - Homework 2.pdf",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/PHYS%2012100/Homework%202/General%20Physics%20I%20-%20Homework%202.pdf",
+      "sourceUrl": "https://canvas.uchicago.edu/courses/74238/files/15813505",
+      "archivePath": "PHYS 12100/Homework 2/General Physics I - Homework 2.pdf"
+    },
+    "sosc-class2-slides": {
+      "title": "Class 2 - Hypotheses and Shoe Leather.pptx",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/SOSC%2013100/Day%202/Class%202%20-%20Hypotheses%20and%20Shoe%20Leather.pptx",
+      "sourceUrl": "https://canvas.uchicago.edu/courses/74986/files/15898723",
+      "archivePath": "SOSC 13100/Day 2/Class 2 - Hypotheses and Shoe Leather.pptx"
+    },
+    "phys-hw2-gradescope": {
+      "title": "HW2 提交入口（Gradescope）",
+      "url": "https://www.gradescope.com/courses/1420259/assignments/8776625/submissions/new"
+    },
+    "cmsc-abstract-concrete": {
+      "title": "本周课堂内容补充（Ed · abstract vs. concrete）",
+      "url": "https://edstem.org/us/courses/107374/discussion/8354604"
     }
   },
   "officeHours": [
