@@ -1,6 +1,6 @@
 window.WORKLIST = {
-  "updatedAt": "2026-10-07T19:08:56Z",
-  "scope": "截至 10/14 的课程安排及 SOSC Essay 1；10/7 已查三门 Gradescope、CMSC Ed/官网及既有 MATH 公开资料，Canvas 登录过期，三门 Canvas 的新公告、作业、讲义和通知待补查。",
+  "updatedAt": "2026-10-07T19:57:55Z",
+  "scope": "截至 10/14 的课程安排及 SOSC Essay 1；10/7 登录后已补查三门 Canvas，新增三份课件与 MATH Office Hours 更新。SOSC Library Reserves 仍加载空白，阅读库更新未能核实。",
   "tasks": [
     {
       "id": "sosc-freedman",
@@ -126,7 +126,7 @@ window.WORKLIST = {
       "time": "17:30",
       "done": false,
       "statusVersion": 1,
-      "note": "在家完成测量与分析，只交实验笔记 PDF；10/6 Canvas 仍显示尚未提交。此项在 Canvas 上传，截止 10/9 17:30。",
+      "note": "在家完成测量与分析，只交实验笔记 PDF；10/7 Canvas 仍显示尚未提交。此项在 Canvas 上传，截止 10/9 17:30。",
       "materials": [
         "lab-template",
         "lab-guide",
@@ -141,7 +141,7 @@ window.WORKLIST = {
       "time": "23:59",
       "done": false,
       "statusVersion": 1,
-      "note": "题目已发布：8 题，单个 PDF 上传 Gradescope 并对应页码。10/7 Gradescope 仍列 10/19 23:59、尚未提交；10/6 核实的 Canvas 与题目写 10/12 23:59。今日 Canvas 未能登录，尚不能确认延期，先按较早的 10/12 准备。",
+      "note": "题目已发布：8 题，单个 PDF 上传 Gradescope 并对应页码。10/7 再核实：Canvas 仍列 10/12 23:59，与题目一致；Gradescope 仍列 10/19 23:59、尚未提交。未有延期确认，先按较早的 10/12 准备。",
       "materials": [
         "phys-hw2-pdf",
         "phys-hw2-gradescope",
@@ -216,9 +216,10 @@ window.WORKLIST = {
       "dueDate": null,
       "done": false,
       "statusVersion": 1,
-      "note": "第 2 周阅读要求；未列单独截止时刻。",
+      "note": "第 2 周阅读要求；未列单独截止时刻。10/6 的 Lecture 3（28 页，力与牛顿定律）已归档到 Day 3。",
       "materials": [
         "phys-textbook",
+        "phys-lecture3",
         "phys-week2"
       ]
     },
@@ -487,10 +488,12 @@ window.WORKLIST = {
       "taskKind": "lecture-notes",
       "done": false,
       "statusVersion": 1,
-      "note": "个人安排：当次笔记在课日当天整理，不是教师作业 DDL。今日主题 Measurement and description；中午尚未发布本次课件，先保留阅读与课程入口。",
+      "note": "个人安排：当次笔记在课日当天整理，不是教师作业 DDL。Class 3《Measurement and Populism》PPTX（29 页）已归档；附老师课后分享的 WSJ 文章，未另设阅读 DDL。",
       "materials": [
+        "sosc-class3-slides",
         "sosc-shively-pdf",
         "sosc-populism-pdf",
+        "sosc-ai-article",
         "sosc-syllabus"
       ]
     },
@@ -518,8 +521,10 @@ window.WORKLIST = {
       "taskKind": "lecture-notes",
       "done": false,
       "statusVersion": 1,
-      "note": "个人安排：按既有周一三五课表建立当天笔记待办，不是教师作业 DDL。Canvas 登录失效，今日新讲义及临时停课通知待补查；先保留课程入口。",
+      "note": "个人安排：当次笔记在课日当天整理，不是教师作业 DDL。Lecture 5《Burnside’s Lemma》（10 页）已归档至 Day 5；补充阅读复用 Day 4 的 Keith Conrad《Group Actions》。",
       "materials": [
+        "math-lecture5",
+        "math-conrad-actions",
         "math-course"
       ]
     },
@@ -845,6 +850,29 @@ window.WORKLIST = {
     "cmsc-hw1-q5": {
       "title": "HW1 第 5 题定义讨论（待进一步澄清）",
       "url": "https://edstem.org/us/courses/107374/discussion/8363499"
+    },
+    "math-lecture5": {
+      "title": "Honors Basic Algebra I - Lecture 5 - Burnside's Lemma.pdf",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/MATH%2025700/Day%205/Honors%20Basic%20Algebra%20I%20-%20Lecture%205%20-%20Burnside%27s%20Lemma.pdf",
+      "sourceUrl": "https://www.dropbox.com/scl/fi/ztjh8gt2q9nb7ttzpzmm9/lecture5_burnside.pdf?rlkey=lkvfri8w411fkiwzu68iw6f3v&dl=0",
+      "archivePath": "MATH 25700/Day 5/Honors Basic Algebra I - Lecture 5 - Burnside's Lemma.pdf"
+    },
+    "sosc-class3-slides": {
+      "title": "Class 3 - Measurement and Populism.pptx",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/SOSC%2013100/Day%203/Class%203%20-%20Measurement%20and%20Populism.pptx",
+      "sourceUrl": "https://canvas.uchicago.edu/courses/74986/files/15908543",
+      "archivePath": "SOSC 13100/Day 3/Class 3 - Measurement and Populism.pptx"
+    },
+    "phys-lecture3": {
+      "title": "General Physics I - Lecture 3 - Motion, Forces, Energy, Momentum and Conservation Laws.pdf",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/PHYS%2012100/Day%203/General%20Physics%20I%20-%20Lecture%203%20-%20Motion%2C%20Forces%2C%20Energy%2C%20Momentum%20and%20Conservation%20Laws.pdf",
+      "sourceUrl": "https://canvas.uchicago.edu/courses/74238/files/15909010",
+      "archivePath": "PHYS 12100/Day 3/General Physics I - Lecture 3 - Motion, Forces, Energy, Momentum and Conservation Laws.pdf"
+    },
+    "sosc-ai-article": {
+      "title": "Teach Students to Think With, Without and About AI（WSJ · 课堂补充）",
+      "url": "https://www.wsj.com/opinion/teach-students-to-think-with-without-and-about-ai-55bcf34b",
+      "note": "老师在 10/6 课后分享的网页文章；未另列必读要求或 DDL，保留官方入口。"
     }
   },
   "officeHours": [
@@ -920,14 +948,21 @@ window.WORKLIST = {
       "course": "MATH",
       "person": "Rajarshi Ghosh · College Fellow",
       "time": "周一 13:00–16:00（10/6 临时调整已结束）",
-      "place": "常规地点待公布；10/6 的 MS016 仅为临时安排，今日 Canvas 待补查",
+      "place": "常规地点待公布；10/6 的 MS016 仅为临时安排",
       "sourceUrl": "https://canvas.uchicago.edu/courses/75102/discussion_topics/1019507"
     },
     {
       "course": "MATH",
       "person": "Félix Houde · College Fellow",
-      "time": "周二 17:00–18:00；周五 15:30–17:30",
-      "place": "地点待公布",
+      "time": "周二 14:00–15:00（10/13 起）",
+      "place": "Eckhart 207A",
+      "sourceUrl": "https://canvas.uchicago.edu/courses/75102/discussion_topics/1019507"
+    },
+    {
+      "course": "MATH",
+      "person": "Félix Houde · College Fellow",
+      "time": "周五 15:30–17:30（10/9 起）",
+      "place": "Eckhart 312",
       "sourceUrl": "https://canvas.uchicago.edu/courses/75102/discussion_topics/1019507"
     }
   ],
@@ -954,6 +989,14 @@ window.WORKLIST = {
     "deduplicateBy": [
       "course",
       "classDate"
+    ],
+    "courseExceptions": [
+      {
+        "course": "SOSC",
+        "classDate": "2026-11-17",
+        "reason": "大纲列明教师参会停课",
+        "sourceUrl": "https://canvas.uchicago.edu/courses/74986/assignments/syllabus"
+      }
     ]
   }
 };
