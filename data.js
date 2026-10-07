@@ -1,8 +1,6 @@
-'use strict';
-// Material files archived by course and class day; sources checked separately.
 window.WORKLIST = {
-  "updatedAt": "2026-10-06T17:12:00Z",
-  "scope": "截至 10/14 的课程安排、此前未完成事项，以及已预告的 SOSC Essay 1",
+  "updatedAt": "2026-10-07T19:08:56Z",
+  "scope": "截至 10/14 的课程安排及 SOSC Essay 1；10/7 已查三门 Gradescope、CMSC Ed/官网及既有 MATH 公开资料，Canvas 登录过期，三门 Canvas 的新公告、作业、讲义和通知待补查。",
   "tasks": [
     {
       "id": "sosc-freedman",
@@ -82,7 +80,7 @@ window.WORKLIST = {
       "deadlineKind": "feedback",
       "done": false,
       "statusVersion": 1,
-      "note": "全套 9 个编号项目不计分，原建议 10/7 完成。若需反馈，只选最多两题提交 Gradescope：10/7 23:59 截止，晚交入口到 10/14 23:59；不是全套必交作业 DDL。10/6 核查尚未提交。",
+      "note": "全套 9 个编号项目不计分，原建议 10/7 完成。若需反馈，只选最多两题提交 Gradescope：10/7 23:59 截止，晚交入口到 10/14 23:59；不是全套必交作业 DDL。10/7 核查尚未提交。",
       "materials": [
         "math-ps1",
         "math-policy",
@@ -143,7 +141,7 @@ window.WORKLIST = {
       "time": "23:59",
       "done": false,
       "statusVersion": 1,
-      "note": "题目已发布：8 题，单个 PDF 上传 Gradescope 并对应页码。DDL 有冲突：题目与 Canvas 写 10/12 23:59，Gradescope 写 10/19 23:59；先按较早的 10/12 准备，尚未确认延期。10/6 未提交。",
+      "note": "题目已发布：8 题，单个 PDF 上传 Gradescope 并对应页码。10/7 Gradescope 仍列 10/19 23:59、尚未提交；10/6 核实的 Canvas 与题目写 10/12 23:59。今日 Canvas 未能登录，尚不能确认延期，先按较早的 10/12 准备。",
       "materials": [
         "phys-hw2-pdf",
         "phys-hw2-gradescope",
@@ -158,7 +156,7 @@ window.WORKLIST = {
       "deadlineKind": "before-class",
       "done": false,
       "statusVersion": 1,
-      "note": "2018，16 页；出版社 PDF 已核实可在线打开。10/3 重试下载仍返回 403，尚未归档。",
+      "note": "2018，16 页；出版社 PDF 可在线阅读。10/7 重试下载仍返回 403，尚未归档。",
       "materials": [
         "sosc-rohrer-pdf",
         "sosc-syllabus"
@@ -183,16 +181,18 @@ window.WORKLIST = {
       "course": "CMSC",
       "shortName": "HW1",
       "dueDate": "2026-10-14",
-      "state": "waiting",
       "done": false,
       "statusVersion": 1,
-      "note": "10/6 中午已核查：Gradescope 仍未发布；官网计划 10/5 或 10/6 发布，10/14 截止，时刻待公布。可交打字或清晰手写扫描；最终解答须自己写作。",
+      "note": "已发布，5 道题；Gradescope 确认 10/14 23:59 CDT 截止，10/7 核查尚未提交。题目 PDF 已归档。可交打字或清晰手写扫描；合作需注明同伴姓名，最终解答须独立写作。第 5 题定义讨论仍待进一步澄清，见 Ed。",
       "materials": [
-        "cmsc-gradescope",
-        "cmsc-syllabus",
+        "cmsc-hw1-pdf",
+        "cmsc-hw1-submit",
+        "cmsc-hw1-announcement",
+        "cmsc-hw1-q5",
         "cmsc-homework-policy",
         "cmsc-ai-policy"
-      ]
+      ],
+      "time": "23:59"
     },
     {
       "id": "phys-reading",
@@ -434,7 +434,7 @@ window.WORKLIST = {
       "deadlineKind": "suggested",
       "done": false,
       "statusVersion": 1,
-      "note": "PDF 明列建议完成日，非硬性 DDL；4 页、9 个编号项目。Canvas 已发布题目；10/6 核查，Gradescope 尚未出现 PS2 入口；每周最多选两题获取反馈。",
+      "note": "建议 10/14 完成，非硬性 DDL；4 页、9 个编号项目。10/7 已保存重新生成的原 PDF，提取题目文字与旧版一致。Gradescope 仍未出现 PS2 入口；每周最多选两题获取反馈。",
       "materials": [
         "math-ps2",
         "math-ps2-canvas",
@@ -452,9 +452,11 @@ window.WORKLIST = {
       "taskKind": "lecture-notes",
       "done": false,
       "statusVersion": 1,
-      "note": "个人安排：当次笔记在课日当天整理，不是教师作业 DDL。Lecture 4: Group Actions 已更新为 10/5 下午修订版（8 页），补充陪集及 Lagrange 定理证明。",
+      "note": "个人安排：当次笔记在课日当天整理，不是教师作业 DDL。Lecture 4: Group Actions 已更新为 10/6 晚修订版（8 页），新增 Keith Conrad 的两份推荐补充阅读，已一并归档；补充阅读并非新必交作业。",
       "materials": [
         "math-lecture4",
+        "math-conrad-actions",
+        "math-conrad-cosets",
         "math-course"
       ]
     },
@@ -504,6 +506,38 @@ window.WORKLIST = {
       "materials": [
         "sosc-course-updates",
         "sosc-syllabus"
+      ]
+    },
+    {
+      "id": "math-notes-2026-10-07",
+      "course": "MATH",
+      "shortName": "整理 10/7（Day 5）笔记",
+      "classDate": "2026-10-07",
+      "dueDate": "2026-10-07",
+      "deadlineKind": "same-day",
+      "taskKind": "lecture-notes",
+      "done": false,
+      "statusVersion": 1,
+      "note": "个人安排：按既有周一三五课表建立当天笔记待办，不是教师作业 DDL。Canvas 登录失效，今日新讲义及临时停课通知待补查；先保留课程入口。",
+      "materials": [
+        "math-course"
+      ]
+    },
+    {
+      "id": "cmsc-notes-2026-10-07",
+      "course": "CMSC",
+      "shortName": "整理 10/7（Day 5）笔记",
+      "classDate": "2026-10-07",
+      "dueDate": "2026-10-07",
+      "deadlineKind": "same-day",
+      "taskKind": "lecture-notes",
+      "done": false,
+      "statusVersion": 1,
+      "note": "个人安排：当次笔记在课日当天整理，不是教师作业 DDL。官网仍列第一周范围，未见当次独立讲义；以实际课堂为准，2018 讲义仅供参考。",
+      "materials": [
+        "cmsc-syllabus",
+        "cmsc-old-notes",
+        "cmsc-abstract-concrete"
       ]
     }
   ],
@@ -718,14 +752,14 @@ window.WORKLIST = {
     "sosc-rohrer-pdf": {
       "title": "Thinking Clearly About Correlations and Causation.pdf（出版社原文）",
       "url": "https://journals.sagepub.com/doi/pdf/10.1177/2515245917745629",
-      "note": "浏览器可读；10/2 自动下载受阻，尚未存入私有资料库。"
+      "note": "10/7 下载仍返回 403，尚未存入私有资料库。"
     },
     "phys-hw1-gradescope": {
       "title": "HW1 提交入口（Gradescope）",
       "url": "https://www.gradescope.com/courses/1420259/assignments/8776570/submissions/new"
     },
     "cmsc-syllabus-archive": {
-      "title": "第一周内容与参考章节（官网大纲存档）",
+      "title": "Honors Discrete Mathematics - Syllabus - Autumn 2026.html",
       "url": "https://github.com/chicagokitty/worklist-materials/blob/main/CMSC%2027130/Course%20Info/Honors%20Discrete%20Mathematics%20-%20Syllabus%20-%20Autumn%202026.html",
       "sourceUrl": "https://people.cs.uchicago.edu/~razborov/teaching/autumn26.html",
       "archivePath": "CMSC 27130/Course Info/Honors Discrete Mathematics - Syllabus - Autumn 2026.html"
@@ -781,6 +815,36 @@ window.WORKLIST = {
     "cmsc-abstract-concrete": {
       "title": "本周课堂内容补充（Ed · abstract vs. concrete）",
       "url": "https://edstem.org/us/courses/107374/discussion/8354604"
+    },
+    "cmsc-hw1-pdf": {
+      "title": "Honors Discrete Mathematics - Homework 1.pdf",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/CMSC%2027130/Homework%201/Honors%20Discrete%20Mathematics%20-%20Homework%201.pdf",
+      "sourceUrl": "https://people.cs.uchicago.edu/~razborov/teaching/HonorsDiscreteMath/autumn26_1.pdf",
+      "archivePath": "CMSC 27130/Homework 1/Honors Discrete Mathematics - Homework 1.pdf"
+    },
+    "math-conrad-actions": {
+      "title": "Group Actions - Keith Conrad.pdf",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/MATH%2025700/Day%204/Group%20Actions%20-%20Keith%20Conrad.pdf",
+      "sourceUrl": "https://kconrad.math.uconn.edu/blurbs/grouptheory/gpaction.pdf",
+      "archivePath": "MATH 25700/Day 4/Group Actions - Keith Conrad.pdf"
+    },
+    "math-conrad-cosets": {
+      "title": "Cosets and Lagrange's Theorem - Keith Conrad.pdf",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/MATH%2025700/Day%204/Cosets%20and%20Lagrange%27s%20Theorem%20-%20Keith%20Conrad.pdf",
+      "sourceUrl": "https://kconrad.math.uconn.edu/blurbs/grouptheory/coset.pdf",
+      "archivePath": "MATH 25700/Day 4/Cosets and Lagrange's Theorem - Keith Conrad.pdf"
+    },
+    "cmsc-hw1-submit": {
+      "title": "HW1 提交入口（Gradescope）",
+      "url": "https://www.gradescope.com/courses/1417716/assignments/8821914/submissions/new"
+    },
+    "cmsc-hw1-announcement": {
+      "title": "HW1 发布、评分与提示规则（Ed）",
+      "url": "https://edstem.org/us/courses/107374/discussion/8361217"
+    },
+    "cmsc-hw1-q5": {
+      "title": "HW1 第 5 题定义讨论（待进一步澄清）",
+      "url": "https://edstem.org/us/courses/107374/discussion/8363499"
     }
   },
   "officeHours": [
@@ -792,7 +856,7 @@ window.WORKLIST = {
     },
     {
       "person": "Nikhil Patel · TA",
-      "time": "通常周二 15:00–17:00；仅 10/6 改为 13:45–15:45",
+      "time": "周二 15:00–17:00（10/6 临时调整已结束）",
       "place": "Crerar common space 2C；若被占用，在附近找「Discrete Math office hours」标识",
       "sourceUrl": "https://edstem.org/us/courses/107374/discussion/8337900",
       "course": "CMSC"
@@ -855,8 +919,8 @@ window.WORKLIST = {
     {
       "course": "MATH",
       "person": "Rajarshi Ghosh · College Fellow",
-      "time": "通常周一 13:00–16:00；仅本周改为 10/6（周二）13:00–16:00",
-      "place": "10/6：MS016，5727 S. University Avenue，Financial Mathematics 楼地下室；常规地点待公布",
+      "time": "周一 13:00–16:00（10/6 临时调整已结束）",
+      "place": "常规地点待公布；10/6 的 MS016 仅为临时安排，今日 Canvas 待补查",
       "sourceUrl": "https://canvas.uchicago.edu/courses/75102/discussion_topics/1019507"
     },
     {
