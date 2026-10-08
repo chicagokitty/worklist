@@ -1,6 +1,6 @@
 window.WORKLIST = {
-  "updatedAt": "2026-10-07T19:57:55Z",
-  "scope": "截至 10/14 的课程安排及 SOSC Essay 1；10/7 登录后已补查三门 Canvas，新增三份课件与 MATH Office Hours 更新。SOSC Library Reserves 仍加载空白，阅读库更新未能核实。",
+  "updatedAt": "2026-10-08T17:14:00Z",
+  "scope": "截至 10/14 的课程安排及 SOSC Essay 1；10/8 已核查三门 Canvas、Gradescope、CMSC Ed/官网。新增今日 SOSC 笔记待办，更新 MATH Lecture 5 修订版和 CMSC HW1 说明。SOSC 阅读库仍加载空白，不能确认阅读库是否更新。",
   "tasks": [
     {
       "id": "sosc-freedman",
@@ -80,7 +80,7 @@ window.WORKLIST = {
       "deadlineKind": "feedback",
       "done": false,
       "statusVersion": 1,
-      "note": "全套 9 个编号项目不计分，原建议 10/7 完成。若需反馈，只选最多两题提交 Gradescope：10/7 23:59 截止，晚交入口到 10/14 23:59；不是全套必交作业 DDL。10/7 核查尚未提交。",
+      "note": "全套 9 个编号项目不计分，原建议 10/7 完成。若需反馈，只选最多两题提交 Gradescope：原截止 10/7 23:59，现接受晚交至 10/14 23:59；不是全套必交作业 DDL。10/8 核查尚未提交，保留原截止日期。",
       "materials": [
         "math-ps1",
         "math-policy",
@@ -126,7 +126,7 @@ window.WORKLIST = {
       "time": "17:30",
       "done": false,
       "statusVersion": 1,
-      "note": "在家完成测量与分析，只交实验笔记 PDF；10/7 Canvas 仍显示尚未提交。此项在 Canvas 上传，截止 10/9 17:30。",
+      "note": "在家完成测量与分析，只交实验笔记 PDF；10/8 Canvas 仍显示尚未提交。此项在 Canvas 上传，截止 10/9 17:30。",
       "materials": [
         "lab-template",
         "lab-guide",
@@ -141,7 +141,7 @@ window.WORKLIST = {
       "time": "23:59",
       "done": false,
       "statusVersion": 1,
-      "note": "题目已发布：8 题，单个 PDF 上传 Gradescope 并对应页码。10/7 再核实：Canvas 仍列 10/12 23:59，与题目一致；Gradescope 仍列 10/19 23:59、尚未提交。未有延期确认，先按较早的 10/12 准备。",
+      "note": "题目已发布：8 题，单个 PDF 上传 Gradescope 并对应页码。10/8 再核实：Canvas 仍列 10/12 23:59，与题目一致；Gradescope 仍列 10/19 23:59、尚未提交。未有延期确认，先按较早的 10/12 准备。",
       "materials": [
         "phys-hw2-pdf",
         "phys-hw2-gradescope",
@@ -183,12 +183,13 @@ window.WORKLIST = {
       "dueDate": "2026-10-14",
       "done": false,
       "statusVersion": 1,
-      "note": "已发布，5 道题；Gradescope 确认 10/14 23:59 CDT 截止，10/7 核查尚未提交。题目 PDF 已归档。可交打字或清晰手写扫描；合作需注明同伴姓名，最终解答须独立写作。第 5 题定义讨论仍待进一步澄清，见 Ed。",
+      "note": "已发布，5 道题；Gradescope 确认 10/14 23:59 CDT 截止，10/8 核查尚未提交。题目 PDF 已归档。可交打字或清晰手写扫描；合作需注明同伴姓名，最终解答须独立写作。Q1 证明详略、Q5 术语已有教师说明，按课堂定义，见 Ed。",
       "materials": [
         "cmsc-hw1-pdf",
         "cmsc-hw1-submit",
         "cmsc-hw1-announcement",
         "cmsc-hw1-q5",
+        "cmsc-hw1-q1",
         "cmsc-homework-policy",
         "cmsc-ai-policy"
       ],
@@ -521,7 +522,7 @@ window.WORKLIST = {
       "taskKind": "lecture-notes",
       "done": false,
       "statusVersion": 1,
-      "note": "个人安排：当次笔记在课日当天整理，不是教师作业 DDL。Lecture 5《Burnside’s Lemma》（10 页）已归档至 Day 5；补充阅读复用 Day 4 的 Keith Conrad《Group Actions》。",
+      "note": "个人安排：当次笔记在课日当天整理，不是教师作业 DDL。Lecture 5《Burnside’s Lemma》已更新为 11 页修订版：附录未在课堂讲授，附录 B 为选读。补充阅读复用 Day 4 的 Keith Conrad《Group Actions》；笔记期限仍为 10/7。",
       "materials": [
         "math-lecture5",
         "math-conrad-actions",
@@ -543,6 +544,23 @@ window.WORKLIST = {
         "cmsc-syllabus",
         "cmsc-old-notes",
         "cmsc-abstract-concrete"
+      ]
+    },
+    {
+      "id": "sosc-notes-2026-10-08",
+      "course": "SOSC",
+      "shortName": "整理 10/8（Day 4）笔记",
+      "classDate": "2026-10-08",
+      "dueDate": "2026-10-08",
+      "deadlineKind": "same-day",
+      "taskKind": "lecture-notes",
+      "done": false,
+      "statusVersion": 1,
+      "note": "个人安排：当次笔记在课日当天整理，不是教师作业 DDL。今日主题为 Relationships and Correlations；中午尚未见 Class 4 课件，先附对应 Ch. 2、4 阅读，发布后补齐。",
+      "materials": [
+        "sosc-data-ch2",
+        "sosc-data-ch4",
+        "sosc-syllabus"
       ]
     }
   ],
@@ -757,7 +775,7 @@ window.WORKLIST = {
     "sosc-rohrer-pdf": {
       "title": "Thinking Clearly About Correlations and Causation.pdf（出版社原文）",
       "url": "https://journals.sagepub.com/doi/pdf/10.1177/2515245917745629",
-      "note": "10/7 下载仍返回 403，尚未存入私有资料库。"
+      "note": "10/8 下载仍返回 403，尚未存入私有资料库。"
     },
     "phys-hw1-gradescope": {
       "title": "HW1 提交入口（Gradescope）",
@@ -848,7 +866,7 @@ window.WORKLIST = {
       "url": "https://edstem.org/us/courses/107374/discussion/8361217"
     },
     "cmsc-hw1-q5": {
-      "title": "HW1 第 5 题定义讨论（待进一步澄清）",
+      "title": "HW1 第 5 题术语说明（Ed · 教师已回复）",
       "url": "https://edstem.org/us/courses/107374/discussion/8363499"
     },
     "math-lecture5": {
@@ -873,6 +891,10 @@ window.WORKLIST = {
       "title": "Teach Students to Think With, Without and About AI（WSJ · 课堂补充）",
       "url": "https://www.wsj.com/opinion/teach-students-to-think-with-without-and-about-ai-55bcf34b",
       "note": "老师在 10/6 课后分享的网页文章；未另列必读要求或 DDL，保留官方入口。"
+    },
+    "cmsc-hw1-q1": {
+      "title": "HW1 第 1 题证明详略说明（Ed）",
+      "url": "https://edstem.org/us/courses/107374/discussion/8363758"
     }
   },
   "officeHours": [
