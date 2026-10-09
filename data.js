@@ -1,6 +1,6 @@
 window.WORKLIST = {
-  "updatedAt": "2026-10-08T17:14:00Z",
-  "scope": "截至 10/14 的课程安排及 SOSC Essay 1；10/8 已核查三门 Canvas、Gradescope、CMSC Ed/官网。新增今日 SOSC 笔记待办，更新 MATH Lecture 5 修订版和 CMSC HW1 说明。SOSC 阅读库仍加载空白，不能确认阅读库是否更新。",
+  "updatedAt": "2026-10-09T17:07:30Z",
+  "scope": "截至 10/14 的课程安排及 SOSC Essay 1；10/9 已核查三门 Canvas、Gradescope、CMSC Ed/官网。新增 MATH/CMSC 今日笔记、归档 MATH Lecture 6 及补充阅读；PHYS Intro lab 已提交，Ryan 今日 Office Hours 临时改线上。SOSC 阅读库仍加载空白。",
   "tasks": [
     {
       "id": "sosc-freedman",
@@ -80,7 +80,7 @@ window.WORKLIST = {
       "deadlineKind": "feedback",
       "done": false,
       "statusVersion": 1,
-      "note": "全套 9 个编号项目不计分，原建议 10/7 完成。若需反馈，只选最多两题提交 Gradescope：原截止 10/7 23:59，现接受晚交至 10/14 23:59；不是全套必交作业 DDL。10/8 核查尚未提交，保留原截止日期。",
+      "note": "全套 9 个编号项目不计分，原建议 10/7 完成。若需反馈，只选最多两题提交 Gradescope：原截止 10/7 23:59，现接受晚交至 10/14 23:59；不是全套必交作业 DDL。10/9 核查尚未提交，保留原截止日期。",
       "materials": [
         "math-ps1",
         "math-policy",
@@ -124,9 +124,9 @@ window.WORKLIST = {
       "shortName": "Intro lab 与实验笔记",
       "dueDate": "2026-10-09",
       "time": "17:30",
-      "done": false,
-      "statusVersion": 1,
-      "note": "在家完成测量与分析，只交实验笔记 PDF；10/8 Canvas 仍显示尚未提交。此项在 Canvas 上传，截止 10/9 17:30。",
+      "done": true,
+      "statusVersion": 2,
+      "note": "10/9 已在 Canvas 核实：10/8 16:40 CDT 提交，当前等待反馈（尚未评分）。原截止 10/9 17:30 保留。",
       "materials": [
         "lab-template",
         "lab-guide",
@@ -141,7 +141,7 @@ window.WORKLIST = {
       "time": "23:59",
       "done": false,
       "statusVersion": 1,
-      "note": "题目已发布：8 题，单个 PDF 上传 Gradescope 并对应页码。10/8 再核实：Canvas 仍列 10/12 23:59，与题目一致；Gradescope 仍列 10/19 23:59、尚未提交。未有延期确认，先按较早的 10/12 准备。",
+      "note": "题目已发布：8 题，单个 PDF 上传 Gradescope 并对应页码。10/9 再核实：Canvas 仍列 10/12 23:59，与题目一致；Gradescope 仍列 10/19 23:59、尚未提交。未有延期确认，先按较早的 10/12 准备。",
       "materials": [
         "phys-hw2-pdf",
         "phys-hw2-gradescope",
@@ -156,7 +156,7 @@ window.WORKLIST = {
       "deadlineKind": "before-class",
       "done": false,
       "statusVersion": 1,
-      "note": "2018，16 页；出版社 PDF 可在线阅读。10/7 重试下载仍返回 403，尚未归档。",
+      "note": "2018，16 页；出版社 PDF 可在线阅读。10/9 重试下载仍返回 403，尚未归档。",
       "materials": [
         "sosc-rohrer-pdf",
         "sosc-syllabus"
@@ -183,13 +183,14 @@ window.WORKLIST = {
       "dueDate": "2026-10-14",
       "done": false,
       "statusVersion": 1,
-      "note": "已发布，5 道题；Gradescope 确认 10/14 23:59 CDT 截止，10/8 核查尚未提交。题目 PDF 已归档。可交打字或清晰手写扫描；合作需注明同伴姓名，最终解答须独立写作。Q1 证明详略、Q5 术语已有教师说明，按课堂定义，见 Ed。",
+      "note": "已发布，5 道题；Gradescope 确认 10/14 23:59 CDT 截止，10/9 核查尚未提交。题目 PDF 已归档。可交打字或清晰手写扫描；合作需注明同伴姓名，最终解答须独立写作。Q2 新说明：三个小问中的集合 A 均为有限集。Q1 证明详略、Q5 术语说明见 Ed，按课堂定义。",
       "materials": [
         "cmsc-hw1-pdf",
         "cmsc-hw1-submit",
         "cmsc-hw1-announcement",
         "cmsc-hw1-q5",
         "cmsc-hw1-q1",
+        "cmsc-hw1-q2",
         "cmsc-homework-policy",
         "cmsc-ai-policy"
       ],
@@ -562,6 +563,41 @@ window.WORKLIST = {
         "sosc-data-ch4",
         "sosc-syllabus"
       ]
+    },
+    {
+      "id": "math-notes-2026-10-09",
+      "course": "MATH",
+      "shortName": "整理 10/9（Day 6）笔记",
+      "classDate": "2026-10-09",
+      "dueDate": "2026-10-09",
+      "deadlineKind": "same-day",
+      "taskKind": "lecture-notes",
+      "done": false,
+      "statusVersion": 1,
+      "note": "个人安排：当次笔记在课日当天整理，不是教师作业 DDL。Lecture 6《Conjugation and Normal Subgroups》（11 页）已发布并归档；两份 Keith Conrad 文件为推荐补充阅读，不另设必交任务。",
+      "materials": [
+        "math-lecture6",
+        "math-conrad-conjugation",
+        "math-conrad-quotients",
+        "math-course"
+      ]
+    },
+    {
+      "id": "cmsc-notes-2026-10-09",
+      "course": "CMSC",
+      "shortName": "整理 10/9（Day 6）笔记",
+      "classDate": "2026-10-09",
+      "dueDate": "2026-10-09",
+      "deadlineKind": "same-day",
+      "taskKind": "lecture-notes",
+      "done": false,
+      "statusVersion": 1,
+      "note": "个人安排：当次笔记在课日当天整理，不是教师作业 DDL。官网仍列第一周范围，未见今日独立讲义；按当次课堂内容整理，2018 讲义仅供参考。",
+      "materials": [
+        "cmsc-syllabus",
+        "cmsc-old-notes",
+        "cmsc-abstract-concrete"
+      ]
     }
   ],
   "materials": {
@@ -775,7 +811,7 @@ window.WORKLIST = {
     "sosc-rohrer-pdf": {
       "title": "Thinking Clearly About Correlations and Causation.pdf（出版社原文）",
       "url": "https://journals.sagepub.com/doi/pdf/10.1177/2515245917745629",
-      "note": "10/8 下载仍返回 403，尚未存入私有资料库。"
+      "note": "10/9 下载仍返回 403，尚未存入私有资料库。"
     },
     "phys-hw1-gradescope": {
       "title": "HW1 提交入口（Gradescope）",
@@ -895,6 +931,28 @@ window.WORKLIST = {
     "cmsc-hw1-q1": {
       "title": "HW1 第 1 题证明详略说明（Ed）",
       "url": "https://edstem.org/us/courses/107374/discussion/8363758"
+    },
+    "cmsc-hw1-q2": {
+      "title": "HW1 第 2 题：A 为有限集（Ed · 教师回复）",
+      "url": "https://edstem.org/us/courses/107374/discussion/8372714"
+    },
+    "math-lecture6": {
+      "title": "Honors Basic Algebra I - Lecture 6 - Conjugation and Normal Subgroups.pdf",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/MATH%2025700/Day%206/Honors%20Basic%20Algebra%20I%20-%20Lecture%206%20-%20Conjugation%20and%20Normal%20Subgroups.pdf",
+      "sourceUrl": "https://www.dropbox.com/scl/fi/4rtyh5gh1rcei3ukkm47h/lecture6_conjugation.pdf?rlkey=7p5ptyzwdmt8fxf0l13y2117m&dl=0",
+      "archivePath": "MATH 25700/Day 6/Honors Basic Algebra I - Lecture 6 - Conjugation and Normal Subgroups.pdf"
+    },
+    "math-conrad-conjugation": {
+      "title": "Conjugation in a Group - Keith Conrad.pdf",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/MATH%2025700/Day%206/Conjugation%20in%20a%20Group%20-%20Keith%20Conrad.pdf",
+      "sourceUrl": "https://kconrad.math.uconn.edu/blurbs/grouptheory/conjclass.pdf",
+      "archivePath": "MATH 25700/Day 6/Conjugation in a Group - Keith Conrad.pdf"
+    },
+    "math-conrad-quotients": {
+      "title": "Quotient Groups - Keith Conrad.pdf",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/MATH%2025700/Day%206/Quotient%20Groups%20-%20Keith%20Conrad.pdf",
+      "sourceUrl": "https://kconrad.math.uconn.edu/blurbs/grouptheory/quotientgroups.pdf",
+      "archivePath": "MATH 25700/Day 6/Quotient Groups - Keith Conrad.pdf"
     }
   },
   "officeHours": [
@@ -955,9 +1013,9 @@ window.WORKLIST = {
     {
       "course": "PHYS",
       "person": "Ryan Wong · TA",
-      "time": "周五 12:00–13:00（第 2 周起）",
-      "place": "KPTC 305",
-      "sourceUrl": "https://canvas.uchicago.edu/courses/74238/discussion_topics/1018598"
+      "time": "通常周五 12:00–13:00；仅 10/9 延至 13:30",
+      "place": "仅 10/9 改为 Zoom，入会信息见下方 PHYS 公告；其余周 KPTC 305",
+      "sourceUrl": "https://canvas.uchicago.edu/courses/74238/discussion_topics/1021706"
     },
     {
       "course": "PHYS",

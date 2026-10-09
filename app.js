@@ -155,7 +155,7 @@ $('sync-note').textContent = `${new Intl.DateTimeFormat('zh-CN', {
 }).format(new Date(data.updatedAt))} 核查 · ${data.scope}`;
 $('office-hours-list').innerHTML = data.officeHours.map(item => `<p><strong>${escapeHtml(item.course ? item.course + " · " + item.person : item.person)}</strong><br>${escapeHtml(item.time)}<br>${escapeHtml(item.place)}</p>`).join('')
   + `<p><a href="${escapeHtml(data.materials['cmsc-syllabus'].url)}" target="_blank" rel="noopener noreferrer">CMSC 课程官网 ↗</a></p>`;
-$('office-hours-list').innerHTML += '<p><a href="https://canvas.uchicago.edu/courses/74238/discussion_topics/1018598" target="_blank" rel="noopener noreferrer">PHYS Office Hours 公告 ↗</a></p>';
+$('office-hours-list').innerHTML += '<p><a href="https://canvas.uchicago.edu/courses/74238/announcements" target="_blank" rel="noopener noreferrer">PHYS Office Hours 与临时调整公告 ↗</a></p>';
 $('office-hours-list').innerHTML += '<p><a href="https://canvas.uchicago.edu/courses/75102/discussion_topics/1019507" target="_blank" rel="noopener noreferrer">MATH Office Hours 与临时调整公告 ↗</a></p>';
 updateStorageNote();
 renderTasks();
