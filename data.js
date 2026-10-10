@@ -1,6 +1,6 @@
 window.WORKLIST = {
-  "updatedAt": "2026-10-09T17:07:30Z",
-  "scope": "截至 10/14 的课程安排及 SOSC Essay 1；10/9 已核查三门 Canvas、Gradescope、CMSC Ed/官网。新增 MATH/CMSC 今日笔记、归档 MATH Lecture 6 及补充阅读；PHYS Intro lab 已提交，Ryan 今日 Office Hours 临时改线上。SOSC 阅读库仍加载空白。",
+  "updatedAt": "2026-10-10T17:10:00Z",
+  "scope": "截至 10/14 的课程安排及 SOSC Essay 1；10/10 已检查三门 Gradescope、CMSC Ed/官网及已知公开材料。CMSC HW1、PHYS HW2 已核实提交；CMSC 第二周大纲已存档。Canvas 登录过期，MATH/SOSC/PHYS 新公告、任务和课件待补查；今天周六不新增课堂笔记。",
   "tasks": [
     {
       "id": "sosc-freedman",
@@ -80,7 +80,7 @@ window.WORKLIST = {
       "deadlineKind": "feedback",
       "done": false,
       "statusVersion": 1,
-      "note": "全套 9 个编号项目不计分，原建议 10/7 完成。若需反馈，只选最多两题提交 Gradescope：原截止 10/7 23:59，现接受晚交至 10/14 23:59；不是全套必交作业 DDL。10/9 核查尚未提交，保留原截止日期。",
+      "note": "全套 9 个编号项目不计分，原建议 10/7 完成。若需反馈，只选最多两题提交 Gradescope：原截止 10/7 23:59，现接受晚交至 10/14 23:59；不是全套必交作业 DDL。10/10 Gradescope 核查尚未提交，保留原截止日期。",
       "materials": [
         "math-ps1",
         "math-policy",
@@ -139,9 +139,9 @@ window.WORKLIST = {
       "shortName": "HW2",
       "dueDate": "2026-10-12",
       "time": "23:59",
-      "done": false,
-      "statusVersion": 1,
-      "note": "题目已发布：8 题，单个 PDF 上传 Gradescope 并对应页码。10/9 再核实：Canvas 仍列 10/12 23:59，与题目一致；Gradescope 仍列 10/19 23:59、尚未提交。未有延期确认，先按较早的 10/12 准备。",
+      "done": true,
+      "statusVersion": 2,
+      "note": "10/10 已在 Gradescope 核实 Submitted。原题目与 10/9 Canvas 所列 10/12 23:59 保留；10/10 Gradescope 仍列 10/19 23:59，日期冲突尚未获得教师确认。今天 Canvas 登录过期，无法核实是否已调整。",
       "materials": [
         "phys-hw2-pdf",
         "phys-hw2-gradescope",
@@ -181,9 +181,9 @@ window.WORKLIST = {
       "course": "CMSC",
       "shortName": "HW1",
       "dueDate": "2026-10-14",
-      "done": false,
-      "statusVersion": 1,
-      "note": "已发布，5 道题；Gradescope 确认 10/14 23:59 CDT 截止，10/9 核查尚未提交。题目 PDF 已归档。可交打字或清晰手写扫描；合作需注明同伴姓名，最终解答须独立写作。Q2 新说明：三个小问中的集合 A 均为有限集。Q1 证明详略、Q5 术语说明见 Ed，按课堂定义。",
+      "done": true,
+      "statusVersion": 2,
+      "note": "10/10 已在 Gradescope 核实 Submitted，原 10/14 23:59 CDT 截止保留。5 道题，PDF 已归档。Q4 教师新说明：需要合理严谨的证明，此要求适用于所有作业。Q2 三个小问的 A 均为有限集；Q1 证明详略、Q5 术语见 Ed。合作需注明同伴姓名，最终解答须独立写作。",
       "materials": [
         "cmsc-hw1-pdf",
         "cmsc-hw1-submit",
@@ -191,6 +191,7 @@ window.WORKLIST = {
         "cmsc-hw1-q5",
         "cmsc-hw1-q1",
         "cmsc-hw1-q2",
+        "cmsc-hw1-q4",
         "cmsc-homework-policy",
         "cmsc-ai-policy"
       ],
@@ -473,11 +474,12 @@ window.WORKLIST = {
       "taskKind": "lecture-notes",
       "done": false,
       "statusVersion": 1,
-      "note": "个人安排：当次笔记在课日当天整理，不是教师作业 DDL。本次讲义尚未单独发布；以当次课堂为准，官网目前仍列第一周范围，2018 讲义仅供参考。 教授补充：本周还会简要介绍 groups、rings、ideals，之后更多讨论具体对象。",
+      "note": "个人安排：当次笔记在课日当天整理，不是教师作业 DDL。10/10 官网已补第二周范围及参考章节：强归纳、序数、数论、Bézout 与 Euclidean Algorithm、交换环和理想。按实际课堂整理；该列表覆盖整周，未按课日细分，2018 讲义仅供参考。",
       "materials": [
         "cmsc-syllabus",
         "cmsc-old-notes",
-        "cmsc-abstract-concrete"
+        "cmsc-abstract-concrete",
+        "cmsc-syllabus-archive"
       ]
     },
     {
@@ -540,11 +542,12 @@ window.WORKLIST = {
       "taskKind": "lecture-notes",
       "done": false,
       "statusVersion": 1,
-      "note": "个人安排：当次笔记在课日当天整理，不是教师作业 DDL。官网仍列第一周范围，未见当次独立讲义；以实际课堂为准，2018 讲义仅供参考。",
+      "note": "个人安排：当次笔记在课日当天整理，不是教师作业 DDL。10/10 官网已补第二周范围及参考章节：强归纳、序数、数论、Bézout 与 Euclidean Algorithm、交换环和理想。按实际课堂整理；该列表覆盖整周，未按课日细分，2018 讲义仅供参考。",
       "materials": [
         "cmsc-syllabus",
         "cmsc-old-notes",
-        "cmsc-abstract-concrete"
+        "cmsc-abstract-concrete",
+        "cmsc-syllabus-archive"
       ]
     },
     {
@@ -592,11 +595,12 @@ window.WORKLIST = {
       "taskKind": "lecture-notes",
       "done": false,
       "statusVersion": 1,
-      "note": "个人安排：当次笔记在课日当天整理，不是教师作业 DDL。官网仍列第一周范围，未见今日独立讲义；按当次课堂内容整理，2018 讲义仅供参考。",
+      "note": "个人安排：当次笔记在课日当天整理，不是教师作业 DDL。10/10 官网已补第二周范围及参考章节：强归纳、序数、数论、Bézout 与 Euclidean Algorithm、交换环和理想。按实际课堂整理；该列表覆盖整周，未按课日细分，2018 讲义仅供参考。",
       "materials": [
         "cmsc-syllabus",
         "cmsc-old-notes",
-        "cmsc-abstract-concrete"
+        "cmsc-abstract-concrete",
+        "cmsc-syllabus-archive"
       ]
     }
   ],
@@ -953,6 +957,10 @@ window.WORKLIST = {
       "url": "https://github.com/chicagokitty/worklist-materials/blob/main/MATH%2025700/Day%206/Quotient%20Groups%20-%20Keith%20Conrad.pdf",
       "sourceUrl": "https://kconrad.math.uconn.edu/blurbs/grouptheory/quotientgroups.pdf",
       "archivePath": "MATH 25700/Day 6/Quotient Groups - Keith Conrad.pdf"
+    },
+    "cmsc-hw1-q4": {
+      "title": "HW1 第 4 题证明要求（Ed · 教师回复）",
+      "url": "https://edstem.org/us/courses/107374/discussion/8375671"
     }
   },
   "officeHours": [
@@ -1013,9 +1021,9 @@ window.WORKLIST = {
     {
       "course": "PHYS",
       "person": "Ryan Wong · TA",
-      "time": "通常周五 12:00–13:00；仅 10/9 延至 13:30",
-      "place": "仅 10/9 改为 Zoom，入会信息见下方 PHYS 公告；其余周 KPTC 305",
-      "sourceUrl": "https://canvas.uchicago.edu/courses/74238/discussion_topics/1021706"
+      "time": "周五 12:00–13:00（10/9 临时调整已结束）",
+      "place": "KPTC 305",
+      "sourceUrl": "https://canvas.uchicago.edu/courses/74238/discussion_topics/1018598"
     },
     {
       "course": "PHYS",
