@@ -1,6 +1,6 @@
 window.WORKLIST = {
   "updatedAt": "2026-10-11T17:10:00Z",
-  "scope": "截至 10/14 的课程安排、PHYS 首次线下实验及 SOSC Essay 1；10/11 已补查三门 Canvas，并核查 Gradescope、CMSC Ed/官网。PHYS Lecture 4 和首次实验模板已归档；实验笔记与报告待办已加入。SOSC Class 4 尚未见发布，阅读库仍空白。今天周日不新增课堂笔记。 10/11 用户新增：RA 任务汇报、SOSC 复习、MATH 预习，三项个人待办的 DDL 待确认。",
+  "scope": "截至 10/14 的课程安排、PHYS 首次线下实验及 SOSC Essay 1；10/11 已补查三门 Canvas，并核查 Gradescope、CMSC Ed/官网。PHYS Lecture 4 和首次实验模板已归档；实验笔记与报告待办已加入。SOSC Class 4 尚未见发布，阅读库仍空白。今天周日不新增课堂笔记。 10/11 个人待办：RA 任务汇报、SOSC 复习、MATH 预习均今天截止；MATH 预习此后每天列项、当天截止。Pendulum Colab 已确认可打开，入口已修正。",
   "tasks": [
     {
       "id": "sosc-freedman",
@@ -151,12 +151,12 @@ window.WORKLIST = {
     {
       "id": "sosc-rohrer",
       "course": "SOSC",
-      "shortName": "读 Rohrer · Correlations and Causation",
+      "shortName": "读 Thinking Clearly About Correlations and Causation（Rohrer）",
       "dueDate": "2026-10-13",
       "deadlineKind": "before-class",
       "done": false,
       "statusVersion": 1,
-      "note": "2018，16 页；10/13 课前阅读。10/11 再试出版社下载仍返回 403，浏览器也未显示正文，尚未归档；是否需要额外认证尚未确认。",
+      "note": "Julia M. Rohrer（2018）：Thinking Clearly About Correlations and Causation: Graphical Causal Models for Observational Data，pp. 27–42。就是此前简称的“Rohrer PDF”，与 Imbens & Rubin 第 1 章为 10/13 课前的两篇阅读。出版社下载仍受限，尚未归档。",
       "materials": [
         "sosc-rohrer-pdf",
         "sosc-syllabus"
@@ -174,7 +174,7 @@ window.WORKLIST = {
         "sosc-imbens-pdf",
         "sosc-syllabus"
       ],
-      "note": "第 1 章 Causality: The Basic Framework，20 页 PDF 已归档。"
+      "note": "Imbens & Rubin（2015）第 1 章 Causality: The Basic Framework；20 页 PDF 已归档。与 Rohrer 的 Thinking Clearly About Correlations and Causation 一并在 10/13 课前阅读。"
     },
     {
       "id": "cmsc-hw1",
@@ -643,38 +643,45 @@ window.WORKLIST = {
       "id": "ra-report-2026-10-11",
       "course": "RA",
       "shortName": "完成任务汇报",
-      "dueDate": null,
+      "dueDate": "2026-10-11",
       "done": false,
       "statusVersion": 1,
-      "note": "个人待办；截止时间未指定。",
-      "materials": []
+      "note": "用户安排：今天（10/11）完成 RA 任务汇报，个人截止日期。",
+      "materials": [],
+      "deadlineKind": "same-day",
+      "planDate": "2026-10-11"
     },
     {
       "id": "sosc-review-2026-10-11",
       "course": "SOSC",
       "shortName": "完成复习",
-      "dueDate": null,
+      "dueDate": "2026-10-11",
       "done": false,
       "statusVersion": 1,
-      "note": "个人复习安排；截止时间未指定。附现有课件与课程大纲供参考。",
+      "note": "用户安排：今天（10/11）完成 SOSC 复习，个人截止日期。附现有课件与课程大纲供参考。",
       "materials": [
         "sosc-class2-slides",
         "sosc-class3-slides",
         "sosc-syllabus"
-      ]
+      ],
+      "deadlineKind": "same-day",
+      "planDate": "2026-10-11"
     },
     {
       "id": "math-preview-2026-10-11",
       "course": "MATH",
-      "shortName": "预习",
-      "dueDate": null,
+      "shortName": "预习 10/11",
+      "dueDate": "2026-10-11",
       "done": false,
       "statusVersion": 1,
-      "note": "个人预习安排；具体章节和截止时间未指定。附课程大纲及课程页。",
+      "note": "每日个人预习待办，今天（10/11）完成。以后每天（含周末）单独列项、当天截止；具体章节未指定。",
       "materials": [
         "math-syllabus",
         "math-course"
-      ]
+      ],
+      "deadlineKind": "same-day",
+      "planDate": "2026-10-11",
+      "recurrenceKey": "math-preview"
     }
   ],
   "materials": {
@@ -844,7 +851,7 @@ window.WORKLIST = {
       "note": "已核对 ISBN 9780135822180，与 PHYS 12100 大纲一致；复用私有资料库中的既有文件。"
     },
     "sosc-rohrer-pdf": {
-      "title": "Thinking Clearly About Correlations and Causation.pdf（出版社原文）",
+      "title": "Thinking Clearly About Correlations and Causation - Graphical Causal Models for Observational Data.pdf（Rohrer · 出版社原文）",
       "url": "https://journals.sagepub.com/doi/pdf/10.1177/2515245917745629",
       "note": "10/11 下载仍返回 403，浏览器未显示正文，尚未存入私有资料库；未见明确登录提示。"
     },
@@ -986,8 +993,9 @@ window.WORKLIST = {
       "url": "https://www.physlab-wiki.com/phylabs/lab_courses/phys-120_130-wiki-home/fall-experiments/the-period-of-a-pendulum_part-1/the-period-of-a-pendulum_part-1"
     },
     "phys-lab1-colab": {
-      "title": "Pendulum 计算与绘图工具（Colab · 本轮加载失败，未归档）",
-      "url": "https://colab.research.google.com/drive/1_dNn_Yq_aP5HWJF3CZ2ULYv4PC_cOv7j#offline=true&sandboxMode=true"
+      "title": "Period of a Pendulum (Part 1) · Colab 计算与绘图工具",
+      "url": "https://colab.research.google.com/drive/1_dNn_Yq_aP5HWJF3CZ2ULYv4PC_cOv7j",
+      "note": "10/11 已确认在线 notebook 可正常打开，无需重新登录；原 .ipynb 下载未完成。只读查看，不修改或运行共享原件。"
     },
     "phys-lab1-notebook-submit": {
       "title": "Lab Notebook 1 提交入口（Canvas）",
@@ -1107,6 +1115,24 @@ window.WORKLIST = {
         "course": "SOSC",
         "classDate": "2026-11-17",
         "reason": "大纲列明教师参会停课"
+      }
+    ]
+  },
+  "dailyTasksPolicy": {
+    "timezone": "America/Chicago",
+    "startDate": "2026-10-11",
+    "tasks": [
+      {
+        "course": "MATH 25700",
+        "recurrenceKey": "math-preview",
+        "idPattern": "math-preview-YYYY-MM-DD",
+        "title": "MATH 预习 MM/DD",
+        "frequency": "daily",
+        "includeWeekends": true,
+        "deadlineKind": "same-day",
+        "deduplicateBy": "recurrenceKey + planDate",
+        "preserveOverdueDates": true,
+        "keepCompletionState": true
       }
     ]
   }
