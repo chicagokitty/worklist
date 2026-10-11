@@ -1,6 +1,6 @@
 window.WORKLIST = {
-  "updatedAt": "2026-10-10T17:10:00Z",
-  "scope": "截至 10/14 的课程安排及 SOSC Essay 1；10/10 已检查三门 Gradescope、CMSC Ed/官网及已知公开材料。CMSC HW1、PHYS HW2 已核实提交；CMSC 第二周大纲已存档。Canvas 登录过期，MATH/SOSC/PHYS 新公告、任务和课件待补查；今天周六不新增课堂笔记。",
+  "updatedAt": "2026-10-11T17:10:00Z",
+  "scope": "截至 10/14 的课程安排、PHYS 首次线下实验及 SOSC Essay 1；10/11 已补查三门 Canvas，并核查 Gradescope、CMSC Ed/官网。PHYS Lecture 4 和首次实验模板已归档；实验笔记与报告待办已加入。SOSC Class 4 尚未见发布，阅读库仍空白。今天周日不新增课堂笔记。",
   "tasks": [
     {
       "id": "sosc-freedman",
@@ -80,7 +80,7 @@ window.WORKLIST = {
       "deadlineKind": "feedback",
       "done": false,
       "statusVersion": 1,
-      "note": "全套 9 个编号项目不计分，原建议 10/7 完成。若需反馈，只选最多两题提交 Gradescope：原截止 10/7 23:59，现接受晚交至 10/14 23:59；不是全套必交作业 DDL。10/10 Gradescope 核查尚未提交，保留原截止日期。",
+      "note": "全套 9 个编号项目不计分，原建议 10/7 完成。若需反馈，只选最多两题提交 Gradescope：原截止 10/7 23:59，现接受晚交至 10/14 23:59；不是全套必交作业 DDL。10/11 Gradescope 核查尚未提交，保留原截止日期。",
       "materials": [
         "math-ps1",
         "math-policy",
@@ -141,7 +141,7 @@ window.WORKLIST = {
       "time": "23:59",
       "done": true,
       "statusVersion": 2,
-      "note": "10/10 已在 Gradescope 核实 Submitted。原题目与 10/9 Canvas 所列 10/12 23:59 保留；10/10 Gradescope 仍列 10/19 23:59，日期冲突尚未获得教师确认。今天 Canvas 登录过期，无法核实是否已调整。",
+      "note": "10/11 Gradescope 仍显示 Submitted，完成状态保留。Canvas 仍列 10/12 23:59，与题目一致；Gradescope 仍列 10/19 23:59，日期冲突尚未获得教师确认。原较早 DDL 保留。",
       "materials": [
         "phys-hw2-pdf",
         "phys-hw2-gradescope",
@@ -219,10 +219,11 @@ window.WORKLIST = {
       "dueDate": null,
       "done": false,
       "statusVersion": 1,
-      "note": "第 2 周阅读要求；未列单独截止时刻。10/6 的 Lecture 3（28 页，力与牛顿定律）已归档到 Day 3。",
+      "note": "第 2 周阅读要求；未列单独截止时刻。Lecture 3（Day 3 = 10/6）与新发布的 Lecture 4（Day 4 = 10/8，34 页）均已归档。",
       "materials": [
         "phys-textbook",
         "phys-lecture3",
+        "phys-lecture4",
         "phys-week2"
       ]
     },
@@ -602,14 +603,47 @@ window.WORKLIST = {
         "cmsc-abstract-concrete",
         "cmsc-syllabus-archive"
       ]
+    },
+    {
+      "id": "phys-lab1-notebook",
+      "course": "PHYS",
+      "shortName": "Pendulum 1 实验与 Lab Notebook 1",
+      "dueDate": null,
+      "deadlineKind": "relative",
+      "relativeDeadline": "本人实验结束时",
+      "done": false,
+      "statusVersion": 1,
+      "note": "第 3 周（10/12–10/16）首次线下实验，按已分配的实验班到 KPTC 116；课前查看官方指南。小组 Notebook 在本次实验结束时以 PDF 上传 Canvas，一名组员提交即可，需列出所有成员。本人实验班的具体时段尚未核实，Canvas 没有独立日期，不能据此视为无截止期限。教师要求六次实验全部完成；缺席须联系课程方安排，不能自行换班。",
+      "materials": [
+        "phys-lab1-template",
+        "phys-lab1-guide",
+        "phys-lab1-colab",
+        "phys-lab1-notebook-submit",
+        "phys-labs-announcement"
+      ]
+    },
+    {
+      "id": "phys-lab1-report",
+      "course": "PHYS",
+      "shortName": "Pendulum 1 · Lab Report 1",
+      "dueDate": null,
+      "deadlineKind": "relative",
+      "relativeDeadline": "本人实验结束后 24 小时",
+      "done": false,
+      "statusVersion": 1,
+      "note": "个人课后报告，DDL 为本人本次实验结束后 24 小时（America/Chicago）；独立作答并以一个 PDF 上传 Canvas。题目已保存为官方 Google Doc 的 DOCX 导出件；本人实验时段尚未核实，Canvas 未列具体日期。",
+      "materials": [
+        "phys-lab1-report",
+        "phys-lab1-report-submit",
+        "phys-lab1-guide",
+        "phys-labs-announcement"
+      ]
     }
   ],
   "materials": {
     "freedman": {
       "title": "Statistical Models and Shoe Leather - chap 10.pdf",
-      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/SOSC%2013100/Day%202/Statistical%20Models%20and%20Shoe%20Leather%20-%20chap%2010.pdf",
-      "sourceUrl": "https://www.sas.rochester.edu/psc/clarke/214/Freedman91.pdf",
-      "archivePath": "SOSC 13100/Day 2/Statistical Models and Shoe Leather - chap 10.pdf"
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/SOSC%2013100/Day%202/Statistical%20Models%20and%20Shoe%20Leather%20-%20chap%2010.pdf"
     },
     "sosc-syllabus": {
       "title": "SOSC Syllabus",
@@ -621,9 +655,7 @@ window.WORKLIST = {
     },
     "phys-hw1-pdf": {
       "title": "General Physics I - Homework 1.pdf",
-      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/PHYS%2012100/Homework%201/General%20Physics%20I%20-%20Homework%201.pdf",
-      "sourceUrl": "https://canvas.uchicago.edu/courses/74238/files/15813492?wrap=1",
-      "archivePath": "PHYS 12100/Homework 1/General Physics I - Homework 1.pdf"
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/PHYS%2012100/Homework%201/General%20Physics%20I%20-%20Homework%201.pdf"
     },
     "phys-hw1-submit": {
       "title": "HW1 要求（Canvas）",
@@ -631,9 +663,7 @@ window.WORKLIST = {
     },
     "math-ps1": {
       "title": "Honors Basic Algebra I - Problem Set 1.pdf",
-      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/MATH%2025700/Problem%20Set%201/Honors%20Basic%20Algebra%20I%20-%20Problem%20Set%201.pdf",
-      "sourceUrl": "https://www.dropbox.com/scl/fi/82yu69o21lypbiso29lik/pset1.pdf?rlkey=0p4ya6sfuf3klpht51tm4rk30&dl=0",
-      "archivePath": "MATH 25700/Problem Set 1/Honors Basic Algebra I - Problem Set 1.pdf"
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/MATH%2025700/Problem%20Set%201/Honors%20Basic%20Algebra%20I%20-%20Problem%20Set%201.pdf"
     },
     "math-policy": {
       "title": "作业反馈规则",
@@ -641,9 +671,7 @@ window.WORKLIST = {
     },
     "math-syllabus": {
       "title": "Honors Basic Algebra I - Course Syllabus.pdf",
-      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/MATH%2025700/Course%20Info/Honors%20Basic%20Algebra%20I%20-%20Course%20Syllabus.pdf",
-      "sourceUrl": "https://www.dropbox.com/scl/fi/bv2xrsrrb2846mvyf040l/syllabus257.pdf?rlkey=9ofjaipzdto8ewl2iavsix6w0&st=c562qyic&dl=0",
-      "archivePath": "MATH 25700/Course Info/Honors Basic Algebra I - Course Syllabus.pdf"
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/MATH%2025700/Course%20Info/Honors%20Basic%20Algebra%20I%20-%20Course%20Syllabus.pdf"
     },
     "math-course": {
       "title": "MATH 课程页",
@@ -651,15 +679,11 @@ window.WORKLIST = {
     },
     "math-lecture1": {
       "title": "Honors Basic Algebra I - Lecture 1 - Groups and Symmetries.pdf",
-      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/MATH%2025700/Day%201/Honors%20Basic%20Algebra%20I%20-%20Lecture%201%20-%20Groups%20and%20Symmetries.pdf",
-      "sourceUrl": "https://www.dropbox.com/scl/fi/c05hap6vlbabsc0xlvc0m/lecture1_groups.pdf?rlkey=waspanx88l4lxsajv6pobxvak&dl=0",
-      "archivePath": "MATH 25700/Day 1/Honors Basic Algebra I - Lecture 1 - Groups and Symmetries.pdf"
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/MATH%2025700/Day%201/Honors%20Basic%20Algebra%20I%20-%20Lecture%201%20-%20Groups%20and%20Symmetries.pdf"
     },
     "lab-template": {
       "title": "Intro Lab - Notebook Template.docx",
-      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/PHYS%2012100/Intro%20lab/Intro%20Lab%20-%20Notebook%20Template.docx",
-      "sourceUrl": "https://docs.google.com/document/d/18q_HWUvWTKd5L4JRuV-UxjrGdcIarLXUY3CsnUo4-jc/edit",
-      "archivePath": "PHYS 12100/Intro lab/Intro Lab - Notebook Template.docx"
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/PHYS%2012100/Intro%20lab/Intro%20Lab%20-%20Notebook%20Template.docx"
     },
     "lab-guide": {
       "title": "PHYS 实验说明入口",
@@ -699,9 +723,7 @@ window.WORKLIST = {
     },
     "cmsc-old-notes": {
       "title": "Honors Discrete Mathematics - Lecture Notes - Autumn 2018.pdf",
-      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/CMSC%2027130/Reference/Honors%20Discrete%20Mathematics%20-%20Lecture%20Notes%20-%20Autumn%202018.pdf",
-      "sourceUrl": "https://people.cs.uchicago.edu/~razborov/teaching/HonorsDiscreteMath/notes18.pdf",
-      "archivePath": "CMSC 27130/Reference/Honors Discrete Mathematics - Lecture Notes - Autumn 2018.pdf"
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/CMSC%2027130/Reference/Honors%20Discrete%20Mathematics%20-%20Lecture%20Notes%20-%20Autumn%202018.pdf"
     },
     "julia-catalog": {
       "title": "芝大纸质书馆藏",
@@ -709,69 +731,47 @@ window.WORKLIST = {
     },
     "npr": {
       "title": "A Nobel Prize for an Economics Revolution.mp3",
-      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/SOSC%2013100/Day%201/A%20Nobel%20Prize%20for%20an%20Economics%20Revolution.mp3",
-      "sourceUrl": "https://www.npr.org/2021/10/12/1045462268/a-nobel-prize-for-an-economics-revolution",
-      "archivePath": "SOSC 13100/Day 1/A Nobel Prize for an Economics Revolution.mp3"
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/SOSC%2013100/Day%201/A%20Nobel%20Prize%20for%20an%20Economics%20Revolution.mp3"
     },
     "sosc-mhe-ch1": {
       "title": "Mostly Harmless Econometrics - chap 1 - Questions about Questions.pdf",
-      "url": "https://assets.press.princeton.edu/chapters/s8769.pdf",
-      "sourceUrl": "https://canvas.uchicago.edu/courses/74986/external_tools/50",
-      "archivePath": "SOSC 13100/Day 1/Mostly Harmless Econometrics - chap 1 - Questions about Questions.pdf"
+      "url": "https://assets.press.princeton.edu/chapters/s8769.pdf"
     },
     "sosc-implication-pdf": {
       "title": "Implication Analysis - A Pragmatic Proposal for Linking Theory and Data in the Social Sciences - chap 1.pdf",
-      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/SOSC%2013100/Day%202/Implication%20Analysis%20-%20A%20Pragmatic%20Proposal%20for%20Linking%20Theory%20and%20Data%20in%20the%20Social%20Sciences%20-%20chap%201.pdf",
-      "sourceUrl": "https://canvas.uchicago.edu/courses/74986/external_tools/50",
-      "archivePath": "SOSC 13100/Day 2/Implication Analysis - A Pragmatic Proposal for Linking Theory and Data in the Social Sciences - chap 1.pdf"
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/SOSC%2013100/Day%202/Implication%20Analysis%20-%20A%20Pragmatic%20Proposal%20for%20Linking%20Theory%20and%20Data%20in%20the%20Social%20Sciences%20-%20chap%201.pdf"
     },
     "sosc-good-description": {
       "title": "Good Description.pdf",
-      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/SOSC%2013100/Day%202/Good%20Description.pdf",
-      "sourceUrl": "https://canvas.uchicago.edu/courses/74986/external_tools/50",
-      "archivePath": "SOSC 13100/Day 2/Good Description.pdf"
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/SOSC%2013100/Day%202/Good%20Description.pdf"
     },
     "sosc-shively-pdf": {
       "title": "The Craft of Political Research - chap 4 - Problems of Measurement.pdf",
-      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/SOSC%2013100/Day%203/The%20Craft%20of%20Political%20Research%20-%20chap%204%20-%20Problems%20of%20Measurement.pdf",
-      "sourceUrl": "https://canvas.uchicago.edu/courses/74986/external_tools/50",
-      "archivePath": "SOSC 13100/Day 3/The Craft of Political Research - chap 4 - Problems of Measurement.pdf"
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/SOSC%2013100/Day%203/The%20Craft%20of%20Political%20Research%20-%20chap%204%20-%20Problems%20of%20Measurement.pdf"
     },
     "sosc-data-ch2": {
       "title": "Thinking Clearly with Data - chap 2 - Correlation - What Is It and What Is It Good For.pdf",
-      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/SOSC%2013100/Day%204/Thinking%20Clearly%20with%20Data%20-%20chap%202%20-%20Correlation%20-%20What%20Is%20It%20and%20What%20Is%20It%20Good%20For.pdf",
-      "sourceUrl": "https://canvas.uchicago.edu/courses/74986/external_tools/50",
-      "archivePath": "SOSC 13100/Day 4/Thinking Clearly with Data - chap 2 - Correlation - What Is It and What Is It Good For.pdf"
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/SOSC%2013100/Day%204/Thinking%20Clearly%20with%20Data%20-%20chap%202%20-%20Correlation%20-%20What%20Is%20It%20and%20What%20Is%20It%20Good%20For.pdf"
     },
     "sosc-data-ch4": {
       "title": "Thinking Clearly with Data - chap 4 - Correlation Requires Variation.pdf",
-      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/SOSC%2013100/Day%204/Thinking%20Clearly%20with%20Data%20-%20chap%204%20-%20Correlation%20Requires%20Variation.pdf",
-      "sourceUrl": "https://canvas.uchicago.edu/courses/74986/external_tools/50",
-      "archivePath": "SOSC 13100/Day 4/Thinking Clearly with Data - chap 4 - Correlation Requires Variation.pdf"
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/SOSC%2013100/Day%204/Thinking%20Clearly%20with%20Data%20-%20chap%204%20-%20Correlation%20Requires%20Variation.pdf"
     },
     "sosc-populism-pdf": {
       "title": "Measuring Populism in Political Parties - Appraisal of a New Approach.pdf",
-      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/SOSC%2013100/Day%203/Measuring%20Populism%20in%20Political%20Parties%20-%20Appraisal%20of%20a%20New%20Approach.pdf",
-      "sourceUrl": "https://journals.sagepub.com/doi/full/10.1177/0010414020938081",
-      "archivePath": "SOSC 13100/Day 3/Measuring Populism in Political Parties - Appraisal of a New Approach.pdf"
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/SOSC%2013100/Day%203/Measuring%20Populism%20in%20Political%20Parties%20-%20Appraisal%20of%20a%20New%20Approach.pdf"
     },
     "math-lecture1-handwritten": {
       "title": "Lecture 1 - Groups（旧手写版，16 页）.pdf",
-      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/MATH%2025700/Day%201/Honors%20Basic%20Algebra%20I%20-%20Lecture%201%20-%20Groups.pdf",
-      "sourceUrl": "https://www.dropbox.com/scl/fi/jbp2bjijlihbj90riw99w/Lecture1.pdf?rlkey=42mlm059opau6legp2i8bkeom&st=awih5zlh&dl=0",
-      "archivePath": "MATH 25700/Day 1/Honors Basic Algebra I - Lecture 1 - Groups.pdf"
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/MATH%2025700/Day%201/Honors%20Basic%20Algebra%20I%20-%20Lecture%201%20-%20Groups.pdf"
     },
     "math-lecture2": {
       "title": "Honors Basic Algebra I - Lecture 2 - Examples of Groups; the Symmetric Group.pdf",
-      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/MATH%2025700/Day%202/Honors%20Basic%20Algebra%20I%20-%20Lecture%202%20-%20Examples%20of%20Groups%3B%20the%20Symmetric%20Group.pdf",
-      "sourceUrl": "https://www.dropbox.com/scl/fi/eirtlzqo4erlts9qz3ezf/lecture2_symmetric_group.pdf?rlkey=c1ryqke35bbpxjyln00xz4mnt&dl=0",
-      "archivePath": "MATH 25700/Day 2/Honors Basic Algebra I - Lecture 2 - Examples of Groups; the Symmetric Group.pdf"
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/MATH%2025700/Day%202/Honors%20Basic%20Algebra%20I%20-%20Lecture%202%20-%20Examples%20of%20Groups%3B%20the%20Symmetric%20Group.pdf"
     },
     "phys-lecture1": {
       "title": "General Physics I - Lecture 1 - Motion, Forces, Energy, Momentum and Conservation Laws.pdf",
-      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/PHYS%2012100/Day%201/General%20Physics%20I%20-%20Lecture%201%20-%20Motion%2C%20Forces%2C%20Energy%2C%20Momentum%20and%20Conservation%20Laws.pdf",
-      "sourceUrl": "https://canvas.uchicago.edu/courses/74238/files/15866186",
-      "archivePath": "PHYS 12100/Day 1/General Physics I - Lecture 1 - Motion, Forces, Energy, Momentum and Conservation Laws.pdf"
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/PHYS%2012100/Day%201/General%20Physics%20I%20-%20Lecture%201%20-%20Motion%2C%20Forces%2C%20Energy%2C%20Momentum%20and%20Conservation%20Laws.pdf"
     },
     "cmsc-ed": {
       "title": "CMSC Ed Discussion",
@@ -791,21 +791,15 @@ window.WORKLIST = {
     },
     "math-lecture3": {
       "title": "Honors Basic Algebra I - Lecture 3 - Symmetries of the Tetrahedron and Cube; the Sign of a Permutation.pdf",
-      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/MATH%2025700/Day%203/Honors%20Basic%20Algebra%20I%20-%20Lecture%203%20-%20Symmetries%20of%20the%20Tetrahedron%20and%20Cube%3B%20the%20Sign%20of%20a%20Permutation.pdf",
-      "sourceUrl": "https://www.dropbox.com/scl/fi/ibsggx7ev6y3lqp9vhcat/lecture3_alternating_group.pdf?rlkey=eq2h4gba1885b75yafksp5t0i&dl=0",
-      "archivePath": "MATH 25700/Day 3/Honors Basic Algebra I - Lecture 3 - Symmetries of the Tetrahedron and Cube; the Sign of a Permutation.pdf"
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/MATH%2025700/Day%203/Honors%20Basic%20Algebra%20I%20-%20Lecture%203%20-%20Symmetries%20of%20the%20Tetrahedron%20and%20Cube%3B%20the%20Sign%20of%20a%20Permutation.pdf"
     },
     "phys-lecture2": {
       "title": "General Physics I - Lecture 2 - Motion, Forces, Energy, Momentum and Conservation Laws.pdf",
-      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/PHYS%2012100/Day%202/General%20Physics%20I%20-%20Lecture%202%20-%20Motion%2C%20Forces%2C%20Energy%2C%20Momentum%20and%20Conservation%20Laws.pdf",
-      "sourceUrl": "https://canvas.uchicago.edu/courses/74238/files/15886409",
-      "archivePath": "PHYS 12100/Day 2/General Physics I - Lecture 2 - Motion, Forces, Energy, Momentum and Conservation Laws.pdf"
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/PHYS%2012100/Day%202/General%20Physics%20I%20-%20Lecture%202%20-%20Motion%2C%20Forces%2C%20Energy%2C%20Momentum%20and%20Conservation%20Laws.pdf"
     },
     "sosc-imbens-pdf": {
       "title": "Causal Inference for Statistics, Social, and Biomedical Sciences - chap 1 - Causality - The Basic Framework.pdf",
-      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/SOSC%2013100/Day%205/Causal%20Inference%20for%20Statistics%2C%20Social%2C%20and%20Biomedical%20Sciences%20-%20chap%201%20-%20Causality%20-%20The%20Basic%20Framework.pdf",
-      "sourceUrl": "https://canvas.uchicago.edu/courses/74986/external_tools/50",
-      "archivePath": "SOSC 13100/Day 5/Causal Inference for Statistics, Social, and Biomedical Sciences - chap 1 - Causality - The Basic Framework.pdf"
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/SOSC%2013100/Day%205/Causal%20Inference%20for%20Statistics%2C%20Social%2C%20and%20Biomedical%20Sciences%20-%20chap%201%20-%20Causality%20-%20The%20Basic%20Framework.pdf"
     },
     "phys-textbook": {
       "title": "University Physics for the Life Sciences.pdf（教材全文）",
@@ -823,9 +817,7 @@ window.WORKLIST = {
     },
     "cmsc-syllabus-archive": {
       "title": "Honors Discrete Mathematics - Syllabus - Autumn 2026.html",
-      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/CMSC%2027130/Course%20Info/Honors%20Discrete%20Mathematics%20-%20Syllabus%20-%20Autumn%202026.html",
-      "sourceUrl": "https://people.cs.uchicago.edu/~razborov/teaching/autumn26.html",
-      "archivePath": "CMSC 27130/Course Info/Honors Discrete Mathematics - Syllabus - Autumn 2026.html"
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/CMSC%2027130/Course%20Info/Honors%20Discrete%20Mathematics%20-%20Syllabus%20-%20Autumn%202026.html"
     },
     "cmsc-week1-announcement": {
       "title": "第一周大纲更新说明（Ed）",
@@ -833,15 +825,11 @@ window.WORKLIST = {
     },
     "math-lecture4": {
       "title": "Honors Basic Algebra I - Lecture 4 - Group Actions.pdf",
-      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/MATH%2025700/Day%204/Honors%20Basic%20Algebra%20I%20-%20Lecture%204%20-%20Group%20Actions.pdf",
-      "sourceUrl": "https://www.dropbox.com/scl/fi/gar53njg1zq89ut5j9l6r/lecture4_group_actions.pdf?rlkey=04ekfnj2omkk5u361pgasd4f9&dl=0",
-      "archivePath": "MATH 25700/Day 4/Honors Basic Algebra I - Lecture 4 - Group Actions.pdf"
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/MATH%2025700/Day%204/Honors%20Basic%20Algebra%20I%20-%20Lecture%204%20-%20Group%20Actions.pdf"
     },
     "math-ps2": {
       "title": "Honors Basic Algebra I - Problem Set 2.pdf",
-      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/MATH%2025700/Problem%20Set%202/Honors%20Basic%20Algebra%20I%20-%20Problem%20Set%202.pdf",
-      "sourceUrl": "https://www.dropbox.com/scl/fi/qgu5pb3z2cqfkzqfup5tq/pset2.pdf?rlkey=ydu80f4bgetfnxeps3m15g881&dl=0",
-      "archivePath": "MATH 25700/Problem Set 2/Honors Basic Algebra I - Problem Set 2.pdf"
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/MATH%2025700/Problem%20Set%202/Honors%20Basic%20Algebra%20I%20-%20Problem%20Set%202.pdf"
     },
     "math-gradescope": {
       "title": "MATH Gradescope",
@@ -861,15 +849,11 @@ window.WORKLIST = {
     },
     "phys-hw2-pdf": {
       "title": "General Physics I - Homework 2.pdf",
-      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/PHYS%2012100/Homework%202/General%20Physics%20I%20-%20Homework%202.pdf",
-      "sourceUrl": "https://canvas.uchicago.edu/courses/74238/files/15813505",
-      "archivePath": "PHYS 12100/Homework 2/General Physics I - Homework 2.pdf"
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/PHYS%2012100/Homework%202/General%20Physics%20I%20-%20Homework%202.pdf"
     },
     "sosc-class2-slides": {
       "title": "Class 2 - Hypotheses and Shoe Leather.pptx",
-      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/SOSC%2013100/Day%202/Class%202%20-%20Hypotheses%20and%20Shoe%20Leather.pptx",
-      "sourceUrl": "https://canvas.uchicago.edu/courses/74986/files/15898723",
-      "archivePath": "SOSC 13100/Day 2/Class 2 - Hypotheses and Shoe Leather.pptx"
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/SOSC%2013100/Day%202/Class%202%20-%20Hypotheses%20and%20Shoe%20Leather.pptx"
     },
     "phys-hw2-gradescope": {
       "title": "HW2 提交入口（Gradescope）",
@@ -881,21 +865,15 @@ window.WORKLIST = {
     },
     "cmsc-hw1-pdf": {
       "title": "Honors Discrete Mathematics - Homework 1.pdf",
-      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/CMSC%2027130/Homework%201/Honors%20Discrete%20Mathematics%20-%20Homework%201.pdf",
-      "sourceUrl": "https://people.cs.uchicago.edu/~razborov/teaching/HonorsDiscreteMath/autumn26_1.pdf",
-      "archivePath": "CMSC 27130/Homework 1/Honors Discrete Mathematics - Homework 1.pdf"
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/CMSC%2027130/Homework%201/Honors%20Discrete%20Mathematics%20-%20Homework%201.pdf"
     },
     "math-conrad-actions": {
       "title": "Group Actions - Keith Conrad.pdf",
-      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/MATH%2025700/Day%204/Group%20Actions%20-%20Keith%20Conrad.pdf",
-      "sourceUrl": "https://kconrad.math.uconn.edu/blurbs/grouptheory/gpaction.pdf",
-      "archivePath": "MATH 25700/Day 4/Group Actions - Keith Conrad.pdf"
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/MATH%2025700/Day%204/Group%20Actions%20-%20Keith%20Conrad.pdf"
     },
     "math-conrad-cosets": {
       "title": "Cosets and Lagrange's Theorem - Keith Conrad.pdf",
-      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/MATH%2025700/Day%204/Cosets%20and%20Lagrange%27s%20Theorem%20-%20Keith%20Conrad.pdf",
-      "sourceUrl": "https://kconrad.math.uconn.edu/blurbs/grouptheory/coset.pdf",
-      "archivePath": "MATH 25700/Day 4/Cosets and Lagrange's Theorem - Keith Conrad.pdf"
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/MATH%2025700/Day%204/Cosets%20and%20Lagrange%27s%20Theorem%20-%20Keith%20Conrad.pdf"
     },
     "cmsc-hw1-submit": {
       "title": "HW1 提交入口（Gradescope）",
@@ -911,21 +889,15 @@ window.WORKLIST = {
     },
     "math-lecture5": {
       "title": "Honors Basic Algebra I - Lecture 5 - Burnside's Lemma.pdf",
-      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/MATH%2025700/Day%205/Honors%20Basic%20Algebra%20I%20-%20Lecture%205%20-%20Burnside%27s%20Lemma.pdf",
-      "sourceUrl": "https://www.dropbox.com/scl/fi/ztjh8gt2q9nb7ttzpzmm9/lecture5_burnside.pdf?rlkey=lkvfri8w411fkiwzu68iw6f3v&dl=0",
-      "archivePath": "MATH 25700/Day 5/Honors Basic Algebra I - Lecture 5 - Burnside's Lemma.pdf"
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/MATH%2025700/Day%205/Honors%20Basic%20Algebra%20I%20-%20Lecture%205%20-%20Burnside%27s%20Lemma.pdf"
     },
     "sosc-class3-slides": {
       "title": "Class 3 - Measurement and Populism.pptx",
-      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/SOSC%2013100/Day%203/Class%203%20-%20Measurement%20and%20Populism.pptx",
-      "sourceUrl": "https://canvas.uchicago.edu/courses/74986/files/15908543",
-      "archivePath": "SOSC 13100/Day 3/Class 3 - Measurement and Populism.pptx"
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/SOSC%2013100/Day%203/Class%203%20-%20Measurement%20and%20Populism.pptx"
     },
     "phys-lecture3": {
       "title": "General Physics I - Lecture 3 - Motion, Forces, Energy, Momentum and Conservation Laws.pdf",
-      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/PHYS%2012100/Day%203/General%20Physics%20I%20-%20Lecture%203%20-%20Motion%2C%20Forces%2C%20Energy%2C%20Momentum%20and%20Conservation%20Laws.pdf",
-      "sourceUrl": "https://canvas.uchicago.edu/courses/74238/files/15909010",
-      "archivePath": "PHYS 12100/Day 3/General Physics I - Lecture 3 - Motion, Forces, Energy, Momentum and Conservation Laws.pdf"
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/PHYS%2012100/Day%203/General%20Physics%20I%20-%20Lecture%203%20-%20Motion%2C%20Forces%2C%20Energy%2C%20Momentum%20and%20Conservation%20Laws.pdf"
     },
     "sosc-ai-article": {
       "title": "Teach Students to Think With, Without and About AI（WSJ · 课堂补充）",
@@ -942,25 +914,51 @@ window.WORKLIST = {
     },
     "math-lecture6": {
       "title": "Honors Basic Algebra I - Lecture 6 - Conjugation and Normal Subgroups.pdf",
-      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/MATH%2025700/Day%206/Honors%20Basic%20Algebra%20I%20-%20Lecture%206%20-%20Conjugation%20and%20Normal%20Subgroups.pdf",
-      "sourceUrl": "https://www.dropbox.com/scl/fi/4rtyh5gh1rcei3ukkm47h/lecture6_conjugation.pdf?rlkey=7p5ptyzwdmt8fxf0l13y2117m&dl=0",
-      "archivePath": "MATH 25700/Day 6/Honors Basic Algebra I - Lecture 6 - Conjugation and Normal Subgroups.pdf"
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/MATH%2025700/Day%206/Honors%20Basic%20Algebra%20I%20-%20Lecture%206%20-%20Conjugation%20and%20Normal%20Subgroups.pdf"
     },
     "math-conrad-conjugation": {
       "title": "Conjugation in a Group - Keith Conrad.pdf",
-      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/MATH%2025700/Day%206/Conjugation%20in%20a%20Group%20-%20Keith%20Conrad.pdf",
-      "sourceUrl": "https://kconrad.math.uconn.edu/blurbs/grouptheory/conjclass.pdf",
-      "archivePath": "MATH 25700/Day 6/Conjugation in a Group - Keith Conrad.pdf"
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/MATH%2025700/Day%206/Conjugation%20in%20a%20Group%20-%20Keith%20Conrad.pdf"
     },
     "math-conrad-quotients": {
       "title": "Quotient Groups - Keith Conrad.pdf",
-      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/MATH%2025700/Day%206/Quotient%20Groups%20-%20Keith%20Conrad.pdf",
-      "sourceUrl": "https://kconrad.math.uconn.edu/blurbs/grouptheory/quotientgroups.pdf",
-      "archivePath": "MATH 25700/Day 6/Quotient Groups - Keith Conrad.pdf"
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/MATH%2025700/Day%206/Quotient%20Groups%20-%20Keith%20Conrad.pdf"
     },
     "cmsc-hw1-q4": {
       "title": "HW1 第 4 题证明要求（Ed · 教师回复）",
       "url": "https://edstem.org/us/courses/107374/discussion/8375671"
+    },
+    "phys-lecture4": {
+      "title": "General Physics I - Lecture 4 - Motion, Forces, Energy, Momentum and Conservation Laws.pdf",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/PHYS%2012100/Day%204/General%20Physics%20I%20-%20Lecture%204%20-%20Motion%2C%20Forces%2C%20Energy%2C%20Momentum%20and%20Conservation%20Laws.pdf"
+    },
+    "phys-lab1-template": {
+      "title": "Period of a Pendulum - Lab Notebook.docx",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/PHYS%2012100/Lab%201/Period%20of%20a%20Pendulum%20-%20Lab%20Notebook.docx"
+    },
+    "phys-lab1-report": {
+      "title": "Period of a Pendulum - Post-Lab Assignment 1.docx",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/PHYS%2012100/Lab%201/Period%20of%20a%20Pendulum%20-%20Post-Lab%20Assignment%201.docx"
+    },
+    "phys-labs-announcement": {
+      "title": "线下实验开始与出勤要求（Canvas · 10/11）",
+      "url": "https://canvas.uchicago.edu/courses/74238/discussion_topics/1022257"
+    },
+    "phys-lab1-guide": {
+      "title": "The Period of a Pendulum (Part 1) · 官方实验指南",
+      "url": "https://www.physlab-wiki.com/phylabs/lab_courses/phys-120_130-wiki-home/fall-experiments/the-period-of-a-pendulum_part-1/the-period-of-a-pendulum_part-1"
+    },
+    "phys-lab1-colab": {
+      "title": "Pendulum 计算与绘图工具（Colab · 本轮加载失败，未归档）",
+      "url": "https://colab.research.google.com/drive/1_dNn_Yq_aP5HWJF3CZ2ULYv4PC_cOv7j#offline=true&sandboxMode=true"
+    },
+    "phys-lab1-notebook-submit": {
+      "title": "Lab Notebook 1 提交入口（Canvas）",
+      "url": "https://canvas.uchicago.edu/courses/74238/assignments/908787"
+    },
+    "phys-lab1-report-submit": {
+      "title": "Lab Report 1 提交入口（Canvas）",
+      "url": "https://canvas.uchicago.edu/courses/74238/assignments/908796"
     }
   },
   "officeHours": [
@@ -974,7 +972,6 @@ window.WORKLIST = {
       "person": "Nikhil Patel · TA",
       "time": "周二 15:00–17:00（10/6 临时调整已结束）",
       "place": "Crerar common space 2C；若被占用，在附近找「Discrete Math office hours」标识",
-      "sourceUrl": "https://edstem.org/us/courses/107374/discussion/8337900",
       "course": "CMSC"
     },
     {
@@ -987,71 +984,61 @@ window.WORKLIST = {
       "course": "PHYS",
       "person": "Heinrich Jaeger · 教授",
       "time": "周一 15:30–16:30（第 2 周起）",
-      "place": "GCIS E229",
-      "sourceUrl": "https://canvas.uchicago.edu/courses/74238/discussion_topics/1018598"
+      "place": "GCIS E229"
     },
     {
       "course": "PHYS",
       "person": "Jasper Reid · TA",
       "time": "周一 17:30–18:30（第 2 周起）",
-      "place": "KPTC 305",
-      "sourceUrl": "https://canvas.uchicago.edu/courses/74238/discussion_topics/1018598"
+      "place": "KPTC 305"
     },
     {
       "course": "PHYS",
       "person": "Dahlia Klein · 教授",
       "time": "周三 14:30–15:30（第 2 周起）",
-      "place": "GCIS E209",
-      "sourceUrl": "https://canvas.uchicago.edu/courses/74238/discussion_topics/1018598"
+      "place": "GCIS E209"
     },
     {
       "course": "PHYS",
       "person": "Yiqian Wu · TA",
       "time": "周三 18:30–19:30（第 2 周起）",
-      "place": "KPTC 305",
-      "sourceUrl": "https://canvas.uchicago.edu/courses/74238/discussion_topics/1018598"
+      "place": "KPTC 305"
     },
     {
       "course": "PHYS",
       "person": "Doron Sumeruk · TA",
       "time": "周四 14:30–15:30（第 2 周起）",
-      "place": "KPTC 305",
-      "sourceUrl": "https://canvas.uchicago.edu/courses/74238/discussion_topics/1018598"
+      "place": "KPTC 305"
     },
     {
       "course": "PHYS",
       "person": "Ryan Wong · TA",
       "time": "周五 12:00–13:00（10/9 临时调整已结束）",
-      "place": "KPTC 305",
-      "sourceUrl": "https://canvas.uchicago.edu/courses/74238/discussion_topics/1018598"
+      "place": "KPTC 305"
     },
     {
       "course": "PHYS",
       "person": "Shuoguang Liu · TA",
       "time": "周五 14:30–15:30（第 2 周起）",
-      "place": "KPTC 305",
-      "sourceUrl": "https://canvas.uchicago.edu/courses/74238/discussion_topics/1018598"
+      "place": "KPTC 305"
     },
     {
       "course": "MATH",
       "person": "Rajarshi Ghosh · College Fellow",
       "time": "周一 13:00–16:00（10/6 临时调整已结束）",
-      "place": "常规地点待公布；10/6 的 MS016 仅为临时安排",
-      "sourceUrl": "https://canvas.uchicago.edu/courses/75102/discussion_topics/1019507"
+      "place": "常规地点待公布；10/6 的 MS016 仅为临时安排"
     },
     {
       "course": "MATH",
       "person": "Félix Houde · College Fellow",
       "time": "周二 14:00–15:00（10/13 起）",
-      "place": "Eckhart 207A",
-      "sourceUrl": "https://canvas.uchicago.edu/courses/75102/discussion_topics/1019507"
+      "place": "Eckhart 207A"
     },
     {
       "course": "MATH",
       "person": "Félix Houde · College Fellow",
       "time": "周五 15:30–17:30（10/9 起）",
-      "place": "Eckhart 312",
-      "sourceUrl": "https://canvas.uchicago.edu/courses/75102/discussion_topics/1019507"
+      "place": "Eckhart 312"
     }
   ],
   "notesPolicy": {
@@ -1082,8 +1069,7 @@ window.WORKLIST = {
       {
         "course": "SOSC",
         "classDate": "2026-11-17",
-        "reason": "大纲列明教师参会停课",
-        "sourceUrl": "https://canvas.uchicago.edu/courses/74986/assignments/syllabus"
+        "reason": "大纲列明教师参会停课"
       }
     ]
   }
