@@ -1,6 +1,6 @@
 window.WORKLIST = {
   "updatedAt": "2026-10-11T17:10:00Z",
-  "scope": "截至 10/14 的课程安排、PHYS 首次线下实验及 SOSC Essay 1；10/11 已补查三门 Canvas，并核查 Gradescope、CMSC Ed/官网。PHYS Lecture 4 和首次实验模板已归档；实验笔记与报告待办已加入。SOSC Class 4 尚未见发布，阅读库仍空白。今天周日不新增课堂笔记。",
+  "scope": "截至 10/14 的课程安排、PHYS 首次线下实验及 SOSC Essay 1；10/11 已补查三门 Canvas，并核查 Gradescope、CMSC Ed/官网。PHYS Lecture 4 和首次实验模板已归档；实验笔记与报告待办已加入。SOSC Class 4 尚未见发布，阅读库仍空白。今天周日不新增课堂笔记。 10/11 用户新增：RA 任务汇报、SOSC 复习、MATH 预习，三项个人待办的 DDL 待确认。",
   "tasks": [
     {
       "id": "sosc-freedman",
@@ -156,7 +156,7 @@ window.WORKLIST = {
       "deadlineKind": "before-class",
       "done": false,
       "statusVersion": 1,
-      "note": "2018，16 页；出版社 PDF 可在线阅读。10/9 重试下载仍返回 403，尚未归档。",
+      "note": "2018，16 页；10/13 课前阅读。10/11 再试出版社下载仍返回 403，浏览器也未显示正文，尚未归档；是否需要额外认证尚未确认。",
       "materials": [
         "sosc-rohrer-pdf",
         "sosc-syllabus"
@@ -638,6 +638,43 @@ window.WORKLIST = {
         "phys-lab1-guide",
         "phys-labs-announcement"
       ]
+    },
+    {
+      "id": "ra-report-2026-10-11",
+      "course": "RA",
+      "shortName": "完成任务汇报",
+      "dueDate": null,
+      "done": false,
+      "statusVersion": 1,
+      "note": "个人待办；截止时间未指定。",
+      "materials": []
+    },
+    {
+      "id": "sosc-review-2026-10-11",
+      "course": "SOSC",
+      "shortName": "完成复习",
+      "dueDate": null,
+      "done": false,
+      "statusVersion": 1,
+      "note": "个人复习安排；截止时间未指定。附现有课件与课程大纲供参考。",
+      "materials": [
+        "sosc-class2-slides",
+        "sosc-class3-slides",
+        "sosc-syllabus"
+      ]
+    },
+    {
+      "id": "math-preview-2026-10-11",
+      "course": "MATH",
+      "shortName": "预习",
+      "dueDate": null,
+      "done": false,
+      "statusVersion": 1,
+      "note": "个人预习安排；具体章节和截止时间未指定。附课程大纲及课程页。",
+      "materials": [
+        "math-syllabus",
+        "math-course"
+      ]
     }
   ],
   "materials": {
@@ -809,7 +846,7 @@ window.WORKLIST = {
     "sosc-rohrer-pdf": {
       "title": "Thinking Clearly About Correlations and Causation.pdf（出版社原文）",
       "url": "https://journals.sagepub.com/doi/pdf/10.1177/2515245917745629",
-      "note": "10/9 下载仍返回 403，尚未存入私有资料库。"
+      "note": "10/11 下载仍返回 403，浏览器未显示正文，尚未存入私有资料库；未见明确登录提示。"
     },
     "phys-hw1-gradescope": {
       "title": "HW1 提交入口（Gradescope）",
