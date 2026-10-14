@@ -1,6 +1,6 @@
 window.WORKLIST = {
-  "updatedAt": "2026-10-11T17:10:00Z",
-  "scope": "截至 10/14 的课程安排、PHYS 首次线下实验及 SOSC Essay 1；10/11 已补查三门 Canvas，并核查 Gradescope、CMSC Ed/官网。PHYS Lecture 4 和首次实验模板已归档；实验笔记与报告待办已加入。SOSC Class 4 尚未见发布，阅读库仍空白。今天周日不新增课堂笔记。 10/11 个人待办：RA 任务汇报、SOSC 复习、MATH 预习均今天截止；MATH 预习此后每天列项、当天截止。Pendulum Colab 已确认可打开，入口已修正。",
+  "updatedAt": "2026-10-14T15:22:24Z",
+  "scope": "10/14 提前核查：SOSC Writing Assignment 1 已发布，截止更新为 10/26 23:59；新增 CMSC HW2、MATH PS3、PHYS HW3 与 10/15 阅读。已补齐 10/12–10/14 的课堂笔记及每日 MATH 预习。新课件和讲义见各任务链接；阅读库、部分下载及课程动态展开仍待补查。",
   "tasks": [
     {
       "id": "sosc-freedman",
@@ -42,7 +42,8 @@ window.WORKLIST = {
       "materials": [
         "phys-hw1-pdf",
         "phys-hw1-submit",
-        "phys-hw1-gradescope"
+        "phys-hw1-gradescope",
+        "phys-hw1-sol"
       ]
     },
     {
@@ -80,7 +81,7 @@ window.WORKLIST = {
       "deadlineKind": "feedback",
       "done": false,
       "statusVersion": 1,
-      "note": "全套 9 个编号项目不计分，原建议 10/7 完成。若需反馈，只选最多两题提交 Gradescope：原截止 10/7 23:59，现接受晚交至 10/14 23:59；不是全套必交作业 DDL。10/11 Gradescope 核查尚未提交，保留原截止日期。",
+      "note": "全套 9 个编号项目不计分，原建议 10/7 完成；若需反馈最多提交两题。Gradescope 原截止 10/7 23:59，晚交于今天 10/14 23:59 关闭，10/14 核查仍未提交。保留原截止日期。",
       "materials": [
         "math-ps1",
         "math-policy",
@@ -141,7 +142,7 @@ window.WORKLIST = {
       "time": "23:59",
       "done": true,
       "statusVersion": 2,
-      "note": "10/11 Gradescope 仍显示 Submitted，完成状态保留。Canvas 仍列 10/12 23:59，与题目一致；Gradescope 仍列 10/19 23:59，日期冲突尚未获得教师确认。原较早 DDL 保留。",
+      "note": "10/14 Gradescope 仍显示 Submitted，保留已完成状态。Canvas 截止仍为 10/12 23:59，Gradescope 仍为 10/19 23:59；冲突未得到教师确认，保留原较早日期。",
       "materials": [
         "phys-hw2-pdf",
         "phys-hw2-gradescope",
@@ -183,7 +184,7 @@ window.WORKLIST = {
       "dueDate": "2026-10-14",
       "done": true,
       "statusVersion": 2,
-      "note": "10/10 已在 Gradescope 核实 Submitted，原 10/14 23:59 CDT 截止保留。5 道题，PDF 已归档。Q4 教师新说明：需要合理严谨的证明，此要求适用于所有作业。Q2 三个小问的 A 均为有限集；Q1 证明详略、Q5 术语见 Ed。合作需注明同伴姓名，最终解答须独立写作。",
+      "note": "10/10 已在 Gradescope 核实 Submitted，原 10/14 23:59 CDT 截止保留。5 道题，PDF 已归档。Q4 教师新说明：需要合理严谨的证明，此要求适用于所有作业。Q2 三个小问的 A 均为有限集；Q1 证明详略、Q5 术语见 Ed。合作需注明同伴姓名，最终解答须独立写作。 10/14 仍已提交；补充 Ed 新答疑链接：Q5 指大小为 6 的偏序集，教师已给出提示；Q1 允许使用 AM–GM。",
       "materials": [
         "cmsc-hw1-pdf",
         "cmsc-hw1-submit",
@@ -193,7 +194,11 @@ window.WORKLIST = {
         "cmsc-hw1-q2",
         "cmsc-hw1-q4",
         "cmsc-homework-policy",
-        "cmsc-ai-policy"
+        "cmsc-ai-policy",
+        "cmsc-hw1-q5-hint",
+        "cmsc-hw1-q5-size",
+        "cmsc-hw1-q1-amgm",
+        "cmsc-hw1-q2-squares"
       ],
       "time": "23:59"
     },
@@ -234,10 +239,11 @@ window.WORKLIST = {
       "dueDate": null,
       "done": false,
       "statusVersion": 1,
-      "note": "第 3 周阅读要求；未列单独截止时刻。",
+      "note": "第 3 周 Ch. 5 阅读，未列独立截止时刻。Lecture 5（Day 5 = 10/13）已发布且预览可读，原 PDF 下载返回 401，浏览器下载又被客户端阻止；先保留具体文件入口，未标记归档。",
       "materials": [
         "phys-textbook",
-        "phys-week3"
+        "phys-week3",
+        "phys-lecture5"
       ]
     },
     {
@@ -436,16 +442,18 @@ window.WORKLIST = {
       "course": "MATH",
       "shortName": "PS2",
       "dueDate": "2026-10-14",
-      "deadlineKind": "suggested",
+      "deadlineKind": "feedback",
       "done": false,
       "statusVersion": 1,
-      "note": "建议 10/14 完成，非硬性 DDL；4 页、9 个编号项目。10/7 已保存重新生成的原 PDF，提取题目文字与旧版一致。Gradescope 仍未出现 PS2 入口；每周最多选两题获取反馈。",
+      "note": "全套建议 10/14 完成，不计分；若需要反馈，最多选两题提交 Gradescope，原截止为 10/14 23:29 CDT，晚交到 10/21 23:29。10/14 核查未提交；该时刻是可选反馈期限，不是全套必交 DDL。",
       "materials": [
         "math-ps2",
         "math-ps2-canvas",
         "math-gradescope",
-        "math-oh-announcement"
-      ]
+        "math-oh-announcement",
+        "math-ps2-submit"
+      ],
+      "time": "23:29"
     },
     {
       "id": "math-notes-2026-10-05",
@@ -505,16 +513,17 @@ window.WORKLIST = {
     {
       "id": "sosc-essay1",
       "course": "SOSC",
-      "shortName": "Essay 1（题目待发布）",
-      "dueDate": "2026-10-24",
-      "state": "waiting",
+      "shortName": "Writing Assignment 1",
+      "dueDate": "2026-10-26",
       "done": false,
       "statusVersion": 1,
-      "note": "10/6 教师预告：下周初发布第一篇五页论文。大纲列 10/24 截止，具体时刻和提交入口尚未公布。写作辅导可自愿参加，报名方法见课程通知。",
+      "note": "正式题目已发布，二选一：AI 学习与成绩的因果关系，或社交媒体不文明内容实验的内外部效度。约 5 页，12pt Times New Roman 或相近字体，双倍行距，以 PDF 提交 Canvas。作业页及题干明确 10/26 23:59 CDT；现行大纲仍写 10/25，以具体作业页为准。10/28 是入口关闭日期，不是 DDL。",
       "materials": [
-        "sosc-course-updates",
+        "sosc-essay1-prompt",
         "sosc-syllabus"
-      ]
+      ],
+      "time": "23:59",
+      "deadlineKind": "exact"
     },
     {
       "id": "math-notes-2026-10-07",
@@ -561,8 +570,9 @@ window.WORKLIST = {
       "taskKind": "lecture-notes",
       "done": false,
       "statusVersion": 1,
-      "note": "个人安排：当次笔记在课日当天整理，不是教师作业 DDL。今日主题为 Relationships and Correlations；中午尚未见 Class 4 课件，先附对应 Ch. 2、4 阅读，发布后补齐。",
+      "note": "个人安排：当次笔记在课日当天整理，不是教师作业 DDL。Class 4《Correlations》原 PPTX 已补齐，保留既有勾选状态和 10/8 日期。",
       "materials": [
+        "sosc-class4",
         "sosc-data-ch2",
         "sosc-data-ch4",
         "sosc-syllabus"
@@ -681,6 +691,212 @@ window.WORKLIST = {
       ],
       "deadlineKind": "same-day",
       "planDate": "2026-10-11",
+      "recurrenceKey": "math-preview"
+    },
+    {
+      "id": "math-ps3",
+      "course": "MATH",
+      "shortName": "PS3",
+      "dueDate": "2026-10-21",
+      "deadlineKind": "suggested",
+      "done": false,
+      "statusVersion": 1,
+      "materials": [
+        "math-ps3",
+        "math-policy",
+        "math-gradescope"
+      ],
+      "note": "4 页，建议 10/21 完成；不是硬性 DDL。Gradescope 尚无 PS3 上传项，最多选两题反馈的既有规则不变。"
+    },
+    {
+      "id": "cmsc-hw2",
+      "course": "CMSC",
+      "shortName": "HW2",
+      "dueDate": "2026-10-21",
+      "deadlineKind": "date-only",
+      "done": false,
+      "statusVersion": 1,
+      "materials": [
+        "cmsc-hw2-pdf",
+        "cmsc-hw2-announcement",
+        "cmsc-syllabus"
+      ],
+      "note": "5 题、2 页，官网与题目明确 10/21 截止，具体时刻尚未公布。10/14 Gradescope 尚只有 HW1；待 HW2 上传入口开放后补齐，不沿用 HW1 的 23:59 推断。"
+    },
+    {
+      "id": "phys-hw3",
+      "course": "PHYS",
+      "shortName": "HW3",
+      "dueDate": "2026-10-19",
+      "deadlineKind": "exact",
+      "done": false,
+      "statusVersion": 1,
+      "materials": [
+        "phys-hw3-pdf",
+        "phys-hw3-submit",
+        "phys-hw3-canvas"
+      ],
+      "note": "8 题、3 页，合并为一个 PDF，提交时匹配题目页码。Canvas 与 Gradescope 均为 10/19 23:59 CDT；10/14 核查尚未提交。",
+      "time": "23:59"
+    },
+    {
+      "id": "sosc-metrics-randomized",
+      "course": "SOSC",
+      "shortName": "读 Mastering Metrics · Randomized Trials",
+      "dueDate": "2026-10-15",
+      "deadlineKind": "before-class",
+      "done": false,
+      "statusVersion": 1,
+      "materials": [
+        "sosc-metrics-randomized",
+        "sosc-syllabus"
+      ],
+      "note": "大纲写 Chapter 2 - Randomized Trials；出版社实际标 Chapter 1，46 页。按指定标题提供原文，章节号差异待老师澄清。出版社禁止再次发布，PDF 已下载本地，网页使用官方直达链接。"
+    },
+    {
+      "id": "sosc-mlodinow-ch7",
+      "course": "SOSC",
+      "shortName": "读 The Drunkard’s Walk Ch. 7",
+      "dueDate": "2026-10-15",
+      "deadlineKind": "before-class",
+      "done": false,
+      "statusVersion": 1,
+      "materials": [
+        "sosc-syllabus",
+        "sosc-reading-library"
+      ],
+      "note": "Measurement and the Law of Errors；10/15 课前阅读。阅读库当前仍空白，尚未取得可核实的课程 PDF，先使用已领取的 course pack。"
+    },
+    {
+      "id": "math-notes-2026-10-12",
+      "course": "MATH",
+      "shortName": "整理 10/12（Day 7）笔记",
+      "dueDate": "2026-10-12",
+      "deadlineKind": "same-day",
+      "done": false,
+      "statusVersion": 1,
+      "materials": [
+        "math-lecture7",
+        "math-conrad-isometry",
+        "math-conrad-psln",
+        "math-etingof-groups",
+        "math-tilings",
+        "math-conrad-conjugation",
+        "math-course"
+      ],
+      "note": "个人课日当天期限。Lecture 7（14 页）及四份新推荐资料已归档；补充阅读不是额外必交作业。",
+      "classDate": "2026-10-12"
+    },
+    {
+      "id": "cmsc-notes-2026-10-12",
+      "course": "CMSC",
+      "shortName": "整理 10/12（Day 7）笔记",
+      "dueDate": "2026-10-12",
+      "deadlineKind": "same-day",
+      "done": false,
+      "statusVersion": 1,
+      "materials": [
+        "cmsc-syllabus",
+        "cmsc-syllabus-archive",
+        "cmsc-old-notes"
+      ],
+      "note": "个人课日当天期限；以实际课堂内容为准。官网本轮新增 HW2，但第三周范围尚未发布；旧讲义仅供参考。",
+      "classDate": "2026-10-12"
+    },
+    {
+      "id": "math-notes-2026-10-14",
+      "course": "MATH",
+      "shortName": "整理 10/14（Day 8）笔记",
+      "dueDate": "2026-10-14",
+      "deadlineKind": "same-day",
+      "done": false,
+      "statusVersion": 1,
+      "materials": [
+        "math-course",
+        "math-lecture7"
+      ],
+      "note": "个人课日当天期限。提前建立今天的笔记整理待办；当前课程页尚无 Lecture 8，之后发布再补链接。",
+      "classDate": "2026-10-14"
+    },
+    {
+      "id": "cmsc-notes-2026-10-14",
+      "course": "CMSC",
+      "shortName": "整理 10/14（Day 8）笔记",
+      "dueDate": "2026-10-14",
+      "deadlineKind": "same-day",
+      "done": false,
+      "statusVersion": 1,
+      "materials": [
+        "cmsc-syllabus",
+        "cmsc-syllabus-archive",
+        "cmsc-old-notes"
+      ],
+      "note": "个人课日当天期限；以实际课堂内容为准。官网本轮新增 HW2，但第三周范围尚未发布；旧讲义仅供参考。",
+      "classDate": "2026-10-14"
+    },
+    {
+      "id": "sosc-notes-2026-10-13",
+      "course": "SOSC",
+      "shortName": "整理 10/13（Day 5）笔记",
+      "dueDate": "2026-10-13",
+      "deadlineKind": "same-day",
+      "done": false,
+      "statusVersion": 1,
+      "materials": [
+        "sosc-class5",
+        "sosc-imbens-pdf",
+        "sosc-rohrer-pdf",
+        "sosc-syllabus"
+      ],
+      "note": "个人课日当天期限。Class 5《From Correlations to Causation》原 PPTX 已归档；保留原课日，不顺延到今天。",
+      "classDate": "2026-10-13"
+    },
+    {
+      "id": "math-preview-2026-10-12",
+      "course": "MATH",
+      "shortName": "预习 10/12",
+      "dueDate": "2026-10-12",
+      "deadlineKind": "same-day",
+      "done": false,
+      "statusVersion": 1,
+      "materials": [
+        "math-lecture7",
+        "math-course"
+      ],
+      "note": "每日个人预习待办，包括周末；以当日预习为目标，未完成项保留原日期。具体章节未指定，附最新讲义和课程页。",
+      "planDate": "2026-10-12",
+      "recurrenceKey": "math-preview"
+    },
+    {
+      "id": "math-preview-2026-10-13",
+      "course": "MATH",
+      "shortName": "预习 10/13",
+      "dueDate": "2026-10-13",
+      "deadlineKind": "same-day",
+      "done": false,
+      "statusVersion": 1,
+      "materials": [
+        "math-lecture7",
+        "math-course"
+      ],
+      "note": "每日个人预习待办，包括周末；以当日预习为目标，未完成项保留原日期。具体章节未指定，附最新讲义和课程页。",
+      "planDate": "2026-10-13",
+      "recurrenceKey": "math-preview"
+    },
+    {
+      "id": "math-preview-2026-10-14",
+      "course": "MATH",
+      "shortName": "预习 10/14",
+      "dueDate": "2026-10-14",
+      "deadlineKind": "same-day",
+      "done": false,
+      "statusVersion": 1,
+      "materials": [
+        "math-lecture7",
+        "math-course"
+      ],
+      "note": "每日个人预习待办，包括周末；以当日预习为目标，未完成项保留原日期。具体章节未指定，附最新讲义和课程页。",
+      "planDate": "2026-10-14",
       "recurrenceKey": "math-preview"
     }
   ],
@@ -1004,6 +1220,98 @@ window.WORKLIST = {
     "phys-lab1-report-submit": {
       "title": "Lab Report 1 提交入口（Canvas）",
       "url": "https://canvas.uchicago.edu/courses/74238/assignments/908796"
+    },
+    "math-lecture7": {
+      "title": "Honors Basic Algebra I - Lecture 7 - Conjugacy and Quotients in Examples; p-Groups.pdf",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/MATH%2025700/Day%207/Honors%20Basic%20Algebra%20I%20-%20Lecture%207%20-%20Conjugacy%20and%20Quotients%20in%20Examples%3B%20p-Groups.pdf"
+    },
+    "math-ps3": {
+      "title": "Honors Basic Algebra I - Problem Set 3.pdf",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/MATH%2025700/Problem%20Set%203/Honors%20Basic%20Algebra%20I%20-%20Problem%20Set%203.pdf"
+    },
+    "cmsc-hw2-pdf": {
+      "title": "Honors Discrete Mathematics - Homework 2.pdf",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/CMSC%2027130/Homework%202/Honors%20Discrete%20Mathematics%20-%20Homework%202.pdf"
+    },
+    "phys-hw3-pdf": {
+      "title": "General Physics I - Homework 3.pdf",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/PHYS%2012100/Homework%203/General%20Physics%20I%20-%20Homework%203.pdf"
+    },
+    "math-conrad-isometry": {
+      "title": "Isometries of Rn - Keith Conrad.pdf",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/MATH%2025700/Day%207/Isometries%20of%20Rn%20-%20Keith%20Conrad.pdf"
+    },
+    "math-conrad-psln": {
+      "title": "Simplicity of PSLn(F) - Keith Conrad.pdf",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/MATH%2025700/Day%207/Simplicity%20of%20PSLn%28F%29%20-%20Keith%20Conrad.pdf"
+    },
+    "math-etingof-groups": {
+      "title": "Groups Around Us - Pavel Etingof.pdf",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/MATH%2025700/Day%207/Groups%20Around%20Us%20-%20Pavel%20Etingof.pdf"
+    },
+    "math-tilings": {
+      "title": "Tilings - chap 3.pdf",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/MATH%2025700/Day%207/Tilings%20-%20chap%203.pdf"
+    },
+    "sosc-class4": {
+      "title": "Class 4 - Correlations.pptx",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/SOSC%2013100/Day%204/Class%204%20-%20Correlations.pptx"
+    },
+    "sosc-class5": {
+      "title": "Class 5 - From Correlations to Causation.pptx",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/SOSC%2013100/Day%205/Class%205%20-%20From%20Correlations%20to%20Causation.pptx"
+    },
+    "math-ps2-submit": {
+      "title": "PS2 可选反馈提交（最多两题）",
+      "url": "https://www.gradescope.com/courses/1423507/assignments/8852222"
+    },
+    "cmsc-hw2-announcement": {
+      "title": "HW2 发布通知（Ed · 10/13）",
+      "url": "https://edstem.org/us/courses/107374/discussion/8390425"
+    },
+    "phys-hw3-submit": {
+      "title": "HW3 提交入口（Gradescope）",
+      "url": "https://www.gradescope.com/courses/1420259/assignments/8823615"
+    },
+    "phys-hw3-canvas": {
+      "title": "HW3 要求（Canvas）",
+      "url": "https://canvas.uchicago.edu/courses/74238/assignments/908865"
+    },
+    "cmsc-hw1-q5-hint": {
+      "title": "HW1 Q5 教师提示（10/13）",
+      "url": "https://edstem.org/us/courses/107374/discussion/8384599"
+    },
+    "cmsc-hw1-q5-size": {
+      "title": "HW1 Q5：偏序集大小为 6",
+      "url": "https://edstem.org/us/courses/107374/discussion/8385166"
+    },
+    "cmsc-hw1-q1-amgm": {
+      "title": "HW1 Q1：AM–GM 使用说明",
+      "url": "https://edstem.org/us/courses/107374/discussion/8379801"
+    },
+    "cmsc-hw1-q2-squares": {
+      "title": "HW1 Q2：Minkowski product 说明",
+      "url": "https://edstem.org/us/courses/107374/discussion/8379748"
+    },
+    "phys-lecture5": {
+      "title": "General Physics I - Lecture 5.pdf（Canvas 原文；下载待补）",
+      "url": "https://canvas.uchicago.edu/courses/74238/files/15951273"
+    },
+    "phys-hw1-sol": {
+      "title": "Homework 1 Solutions（Canvas；下载待补）",
+      "url": "https://canvas.uchicago.edu/courses/74238/modules/items/3244374"
+    },
+    "sosc-essay1-prompt": {
+      "title": "Writing Assignment 1 · 题目与 PDF 提交入口",
+      "url": "https://canvas.uchicago.edu/courses/74986/assignments/920889"
+    },
+    "sosc-metrics-randomized": {
+      "title": "Mastering Metrics - Randomized Trials（出版社 PDF；章号见备注）",
+      "url": "https://assets.press.princeton.edu/chapters/s10363.pdf"
+    },
+    "sosc-reading-library": {
+      "title": "SOSC 阅读库（当前未加载出内容）",
+      "url": "https://canvas.uchicago.edu/courses/74986/external_tools/50"
     }
   },
   "officeHours": [
@@ -1070,8 +1378,9 @@ window.WORKLIST = {
     {
       "course": "MATH",
       "person": "Rajarshi Ghosh · College Fellow",
-      "time": "周一 13:00–16:00（10/6 临时调整已结束）",
-      "place": "常规地点待公布；10/6 的 MS016 仅为临时安排"
+      "time": "周一 13:00–16:00",
+      "place": "MS 016 · 5727 S. University Avenue（10/12 确认常规地点）",
+      "note": "10/12 教师回复确认今后继续在此办公室。"
     },
     {
       "course": "MATH",
