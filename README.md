@@ -15,7 +15,7 @@
 
 ## 资料
 
-这是公开的任务网页。材料副本放在用户已确认创建的私有仓库 [worklist-materials](https://github.com/chicagokitty/worklist-materials)，按“课程完整编号 / Day N / 文内标题 - chap N.pdf”归档；大纲、跨课次作业、旧讲义与实验按用途归档。已取得的材料直接链接 GitHub 文件，登录有权限的账号后打开。MHE 第 1 章因原件禁止服务器转载，使用出版社 PDF 直达链接；尚未取得的文件继续明确标注。保留 sourceUrl 追溯原始来源，不存会话参数或凭证。
+这是公开的任务网页。材料副本放在用户已确认创建的私有仓库 [worklist-materials](https://github.com/chicagokitty/worklist-materials)，按“课程完整编号 / Day N / 文内标题 - chap N.pdf”归档；大纲、跨课次作业、旧讲义与实验按用途归档。已取得的材料直接链接 GitHub 文件，登录有权限的账号后打开。MHE 第 1 章因原件禁止服务器转载，使用出版社 PDF 直达链接；尚未取得的文件继续明确标注。原始来源保存在私有 manifest，公开网页只保留已授权的资料入口，不存会话参数或凭证。
 
 ## 笔记整理期限
 
@@ -41,3 +41,5 @@ SOSC、MATH、CMSC 按每次上课分别建项，以课程和 classDate 去重�
 
 
 10/14 提前检查：保留原完成状态；新增三个已发布作业、明日两项阅读及缺少的 10/12–10/14 笔记/每日预习。SOSC 论文以具体作业页 10/26 23:59 为准；MATH PS2 可选反馈为 10/14 23:29。部分访问缺口在页面说明中保留。
+
+10/14 中午复查：CMSC HW2 Gradescope 入口已开放，截止 10/21 23:59 CDT；MATH Day 8 Lecture 8（13 页）及 Keith Conrad《Simplicity of An》（10 页）已归档并加入今天的笔记/预习。任务总数仍 57，原完成状态、状态版本及课日均保留。

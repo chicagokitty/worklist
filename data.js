@@ -1,6 +1,6 @@
 window.WORKLIST = {
-  "updatedAt": "2026-10-14T15:22:24Z",
-  "scope": "10/14 提前核查：SOSC Writing Assignment 1 已发布，截止更新为 10/26 23:59；新增 CMSC HW2、MATH PS3、PHYS HW3 与 10/15 阅读。已补齐 10/12–10/14 的课堂笔记及每日 MATH 预习。新课件和讲义见各任务链接；阅读库、部分下载及课程动态展开仍待补查。",
+  "updatedAt": "2026-10-14T17:07:01Z",
+  "scope": "10/14 中午核查：CMSC HW2 提交入口已开放，明确截止 10/21 23:59；MATH Lecture 8 与新推荐阅读已归档，补入今天的笔记及预习。今日 MATH 预习仍为当天个人期限。已补查三门课程动态；SOSC 阅读库仍空白，部分原文件下载仍待补齐。",
   "tasks": [
     {
       "id": "sosc-freedman",
@@ -713,15 +713,17 @@ window.WORKLIST = {
       "course": "CMSC",
       "shortName": "HW2",
       "dueDate": "2026-10-21",
-      "deadlineKind": "date-only",
+      "deadlineKind": "exact",
       "done": false,
       "statusVersion": 1,
       "materials": [
         "cmsc-hw2-pdf",
+        "cmsc-hw2-submit",
         "cmsc-hw2-announcement",
         "cmsc-syllabus"
       ],
-      "note": "5 题、2 页，官网与题目明确 10/21 截止，具体时刻尚未公布。10/14 Gradescope 尚只有 HW1；待 HW2 上传入口开放后补齐，不沿用 HW1 的 23:59 推断。"
+      "note": "5 题、2 页。Gradescope 已于 10/14 10:39 开放，明确截止 10/21 23:59 CDT；当前未提交。提交 PDF 时将页码对应到各题。Gradescope 提供的题目与已归档官网 PDF 完全一致。",
+      "time": "23:59"
     },
     {
       "id": "phys-hw3",
@@ -812,10 +814,12 @@ window.WORKLIST = {
       "done": false,
       "statusVersion": 1,
       "materials": [
-        "math-course",
-        "math-lecture7"
+        "math-lecture8",
+        "math-conrad-ansimple",
+        "math-conrad-conjugation",
+        "math-course"
       ],
-      "note": "个人课日当天期限。提前建立今天的笔记整理待办；当前课程页尚无 Lecture 8，之后发布再补链接。",
+      "note": "个人课日当天期限。今天的 Lecture 8《The Class Equation; Simplicity of An》（13 页）已归档；附 Keith Conrad《Simplicity of An》（10 页）及既有《Conjugation in a Group》。推荐补充阅读不是额外必交作业。",
       "classDate": "2026-10-14"
     },
     {
@@ -892,10 +896,11 @@ window.WORKLIST = {
       "done": false,
       "statusVersion": 1,
       "materials": [
-        "math-lecture7",
+        "math-lecture8",
+        "math-conrad-ansimple",
         "math-course"
       ],
-      "note": "每日个人预习待办，包括周末；以当日预习为目标，未完成项保留原日期。具体章节未指定，附最新讲义和课程页。",
+      "note": "每日个人预习待办，包括周末；今天完成，旧未完成项保留原日期。可参考新发布的 Lecture 8 和推荐补充资料，不另设教师作业 DDL。",
       "planDate": "2026-10-14",
       "recurrenceKey": "math-preview"
     }
@@ -1312,6 +1317,18 @@ window.WORKLIST = {
     "sosc-reading-library": {
       "title": "SOSC 阅读库（当前未加载出内容）",
       "url": "https://canvas.uchicago.edu/courses/74986/external_tools/50"
+    },
+    "math-lecture8": {
+      "title": "Honors Basic Algebra I - Lecture 8 - The Class Equation; Simplicity of An.pdf",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/MATH%2025700/Day%208/Honors%20Basic%20Algebra%20I%20-%20Lecture%208%20-%20The%20Class%20Equation%3B%20Simplicity%20of%20An.pdf"
+    },
+    "math-conrad-ansimple": {
+      "title": "Simplicity of An - Keith Conrad.pdf",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/MATH%2025700/Day%208/Simplicity%20of%20An%20-%20Keith%20Conrad.pdf"
+    },
+    "cmsc-hw2-submit": {
+      "title": "HW2 提交入口（Gradescope · 10/21 23:59 CDT）",
+      "url": "https://www.gradescope.com/courses/1417716/assignments/8869422/submissions/new"
     }
   },
   "officeHours": [
