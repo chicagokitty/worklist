@@ -43,3 +43,5 @@ SOSC、MATH、CMSC 按每次上课分别建项，以课程和 classDate 去重�
 10/14 提前检查：保留原完成状态；新增三个已发布作业、明日两项阅读及缺少的 10/12–10/14 笔记/每日预习。SOSC 论文以具体作业页 10/26 23:59 为准；MATH PS2 可选反馈为 10/14 23:29。部分访问缺口在页面说明中保留。
 
 10/14 中午复查：CMSC HW2 Gradescope 入口已开放，截止 10/21 23:59 CDT；MATH Day 8 Lecture 8（13 页）及 Keith Conrad《Simplicity of An》（10 页）已归档并加入今天的笔记/预习。任务总数仍 57，原完成状态、状态版本及课日均保留。
+
+10/15 补齐 SOSC 课前阅读：Mlodinow《The Drunkard’s Walk》第 7 章《Measurement and the Law of Errors》课程原版 PDF 已归档到 Day 6，并替换任务下的阅读库入口。共 14 页，正文从 PDF 第 4 页开始（书内第 124–145 页）。本次仅补阅读材料，保留所有任务与完成状态。

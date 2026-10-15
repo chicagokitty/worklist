@@ -1,6 +1,6 @@
 window.WORKLIST = {
-  "updatedAt": "2026-10-14T17:07:01Z",
-  "scope": "10/14 中午核查：CMSC HW2 提交入口已开放，明确截止 10/21 23:59；MATH Lecture 8 与新推荐阅读已归档，补入今天的笔记及预习。今日 MATH 预习仍为当天个人期限。已补查三门课程动态；SOSC 阅读库仍空白，部分原文件下载仍待补齐。",
+  "updatedAt": "2026-10-15T06:53:53Z",
+  "scope": "10/15 阅读补齐：SOSC《The Drunkard’s Walk》第 7 章已从课程阅读库取得并归档（Day 6），正文从 PDF 第 4 页开始。其他课程上次完整核查为 10/14 中午。",
   "tasks": [
     {
       "id": "sosc-freedman",
@@ -764,10 +764,10 @@ window.WORKLIST = {
       "done": false,
       "statusVersion": 1,
       "materials": [
-        "sosc-syllabus",
-        "sosc-reading-library"
+        "sosc-mlodinow-ch7-pdf",
+        "sosc-syllabus"
       ],
-      "note": "Measurement and the Law of Errors；10/15 课前阅读。阅读库当前仍空白，尚未取得可核实的课程 PDF，先使用已领取的 course pack。"
+      "note": "Measurement and the Law of Errors；10/15 课前阅读。课程原版 PDF 已归档至 Day 6，共 14 页，正文从 PDF 第 4 页开始（书内第 124–145 页）。"
     },
     {
       "id": "math-notes-2026-10-12",
@@ -1315,7 +1315,7 @@ window.WORKLIST = {
       "url": "https://assets.press.princeton.edu/chapters/s10363.pdf"
     },
     "sosc-reading-library": {
-      "title": "SOSC 阅读库（当前未加载出内容）",
+      "title": "SOSC 阅读库",
       "url": "https://canvas.uchicago.edu/courses/74986/external_tools/50"
     },
     "math-lecture8": {
@@ -1329,6 +1329,11 @@ window.WORKLIST = {
     "cmsc-hw2-submit": {
       "title": "HW2 提交入口（Gradescope · 10/21 23:59 CDT）",
       "url": "https://www.gradescope.com/courses/1417716/assignments/8869422/submissions/new"
+    },
+    "sosc-mlodinow-ch7-pdf": {
+      "title": "The Drunkard’s Walk - chap 7 - Measurement and the Law of Errors.pdf",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/SOSC%2013100/Day%206/The%20Drunkard%27s%20Walk%20-%20chap%207%20-%20Measurement%20and%20the%20Law%20of%20Errors.pdf",
+      "note": "课程阅读库原版扫描件；14 页，正文从 PDF 第 4 页开始，书内第 124–145 页。"
     }
   },
   "officeHours": [
