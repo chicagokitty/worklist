@@ -1,6 +1,6 @@
 window.WORKLIST = {
-  "updatedAt": "2026-10-15T06:53:53Z",
-  "scope": "10/15 阅读补齐：SOSC《The Drunkard’s Walk》第 7 章已从课程阅读库取得并归档（Day 6），正文从 PDF 第 4 页开始。其他课程上次完整核查为 10/14 中午。",
+  "updatedAt": "2026-10-18T17:11:04Z",
+  "scope": "10/18 中午：PHYS 教授10/19的Office Hour改为Zoom，公告入口已补。课程作业与DDL无新增变动；MATH/CMSC原件和SOSC Class 6下载校验未变。新增今天MATH预习；SOSC阅读库空白，三篇PDF仍待补。",
   "tasks": [
     {
       "id": "sosc-freedman",
@@ -81,7 +81,7 @@ window.WORKLIST = {
       "deadlineKind": "feedback",
       "done": false,
       "statusVersion": 1,
-      "note": "全套 9 个编号项目不计分，原建议 10/7 完成；若需反馈最多提交两题。Gradescope 原截止 10/7 23:59，晚交于今天 10/14 23:59 关闭，10/14 核查仍未提交。保留原截止日期。",
+      "note": "全套 9 个编号项目不计分，原建议 10/7 完成；若需反馈最多提交两题。Gradescope 原截止 10/7 23:59，晚交入口10/14 23:59已关闭；10/17 核查仍 No Submission。原截止日期保留。",
       "materials": [
         "math-ps1",
         "math-policy",
@@ -127,7 +127,7 @@ window.WORKLIST = {
       "time": "17:30",
       "done": true,
       "statusVersion": 2,
-      "note": "10/9 已在 Canvas 核实：10/8 16:40 CDT 提交，当前等待反馈（尚未评分）。原截止 10/9 17:30 保留。",
+      "note": "10/9 已在 Canvas 核实 10/8 提交，10/16 已有评分，保持完成状态。原截止 10/9 17:30 保留。",
       "materials": [
         "lab-template",
         "lab-guide",
@@ -142,11 +142,12 @@ window.WORKLIST = {
       "time": "23:59",
       "done": true,
       "statusVersion": 2,
-      "note": "10/14 Gradescope 仍显示 Submitted，保留已完成状态。Canvas 截止仍为 10/12 23:59，Gradescope 仍为 10/19 23:59；冲突未得到教师确认，保留原较早日期。",
+      "note": "10/17 Gradescope 仍为 Submitted，完成状态保持。Gradescope 截止现已改为 10/12 23:59 CDT，与 Canvas 一致；此前 10/19 的日期冲突已消除。",
       "materials": [
         "phys-hw2-pdf",
         "phys-hw2-gradescope",
-        "phys-hw2"
+        "phys-hw2",
+        "phys-hw2-sol"
       ]
     },
     {
@@ -157,7 +158,7 @@ window.WORKLIST = {
       "deadlineKind": "before-class",
       "done": false,
       "statusVersion": 1,
-      "note": "Julia M. Rohrer（2018）：Thinking Clearly About Correlations and Causation: Graphical Causal Models for Observational Data，pp. 27–42。就是此前简称的“Rohrer PDF”，与 Imbens & Rubin 第 1 章为 10/13 课前的两篇阅读。出版社下载仍受限，尚未归档。",
+      "note": "Julia M. Rohrer（2018）：Thinking Clearly About Correlations and Causation: Graphical Causal Models for Observational Data，pp. 27–42。10/13 课前阅读；16 页原 PDF 已于 10/15 从课程阅读库的出版社链接补齐，归档 Day 5。原截止日期与完成状态保留。",
       "materials": [
         "sosc-rohrer-pdf",
         "sosc-syllabus"
@@ -184,7 +185,7 @@ window.WORKLIST = {
       "dueDate": "2026-10-14",
       "done": true,
       "statusVersion": 2,
-      "note": "10/10 已在 Gradescope 核实 Submitted，原 10/14 23:59 CDT 截止保留。5 道题，PDF 已归档。Q4 教师新说明：需要合理严谨的证明，此要求适用于所有作业。Q2 三个小问的 A 均为有限集；Q1 证明详略、Q5 术语见 Ed。合作需注明同伴姓名，最终解答须独立写作。 10/14 仍已提交；补充 Ed 新答疑链接：Q5 指大小为 6 的偏序集，教师已给出提示；Q1 允许使用 AM–GM。",
+      "note": "10/10 已在 Gradescope 核实 Submitted，原 10/14 23:59 CDT 截止保留。5 道题，PDF 已归档。Q4 教师新说明：需要合理严谨的证明，此要求适用于所有作业。Q2 三个小问的 A 均为有限集；Q1 证明详略、Q5 术语见 Ed。合作需注明同伴姓名，最终解答须独立写作。 10/14 仍已提交；补充 Ed 新答疑链接：Q5 指大小为 6 的偏序集，教师已给出提示；Q1 允许使用 AM–GM。 10/15 TA 在 Ed 通知已重开迟交入口至 10/16 23:59（CDT），可能有少量迟交扣分；原正常截止仍为 10/14 23:59。已有提交与完成状态保持，不重开任务。",
       "materials": [
         "cmsc-hw1-pdf",
         "cmsc-hw1-submit",
@@ -198,7 +199,8 @@ window.WORKLIST = {
         "cmsc-hw1-q5-hint",
         "cmsc-hw1-q5-size",
         "cmsc-hw1-q1-amgm",
-        "cmsc-hw1-q2-squares"
+        "cmsc-hw1-q2-squares",
+        "cmsc-hw1-late-policy"
       ],
       "time": "23:59"
     },
@@ -239,7 +241,7 @@ window.WORKLIST = {
       "dueDate": null,
       "done": false,
       "statusVersion": 1,
-      "note": "第 3 周 Ch. 5 阅读，未列独立截止时刻。Lecture 5（Day 5 = 10/13）已发布且预览可读，原 PDF 下载返回 401，浏览器下载又被客户端阻止；先保留具体文件入口，未标记归档。",
+      "note": "第 3 周 Ch. 5 阅读，未列独立截止时刻。Lecture 5（Day 5 = 10/13）48 页原 PDF 已于 10/15 补齐并归档，直接打开私有文件。",
       "materials": [
         "phys-textbook",
         "phys-week3",
@@ -445,7 +447,7 @@ window.WORKLIST = {
       "deadlineKind": "feedback",
       "done": false,
       "statusVersion": 1,
-      "note": "全套建议 10/14 完成，不计分；若需要反馈，最多选两题提交 Gradescope，原截止为 10/14 23:29 CDT，晚交到 10/21 23:29。10/14 核查未提交；该时刻是可选反馈期限，不是全套必交 DDL。",
+      "note": "全套建议 10/14 完成，不计分；若需反馈最多选两题提交 Gradescope，原截止10/14 23:29 CDT，晚交入口至10/21 23:29。10/17 核查仍 No Submission；这是可选反馈期限。",
       "materials": [
         "math-ps2",
         "math-ps2-canvas",
@@ -517,7 +519,7 @@ window.WORKLIST = {
       "dueDate": "2026-10-26",
       "done": false,
       "statusVersion": 1,
-      "note": "正式题目已发布，二选一：AI 学习与成绩的因果关系，或社交媒体不文明内容实验的内外部效度。约 5 页，12pt Times New Roman 或相近字体，双倍行距，以 PDF 提交 Canvas。作业页及题干明确 10/26 23:59 CDT；现行大纲仍写 10/25，以具体作业页为准。10/28 是入口关闭日期，不是 DDL。",
+      "note": "正式题目已发布，二选一：AI 学习与成绩的因果关系，或社交媒体不文明内容实验的内外部效度。约 5 页，12pt Times New Roman 或相近字体，双倍行距，以 PDF 提交 Canvas。作业页、题干及 10/15 现行大纲均为 10/26，具体截止为 23:59 CDT。10/28 是入口关闭日期，不是 DDL。",
       "materials": [
         "sosc-essay1-prompt",
         "sosc-syllabus"
@@ -621,9 +623,9 @@ window.WORKLIST = {
       "dueDate": null,
       "deadlineKind": "relative",
       "relativeDeadline": "本人实验结束时",
-      "done": false,
-      "statusVersion": 1,
-      "note": "第 3 周（10/12–10/16）首次线下实验，按已分配的实验班到 KPTC 116；课前查看官方指南。小组 Notebook 在本次实验结束时以 PDF 上传 Canvas，一名组员提交即可，需列出所有成员。本人实验班的具体时段尚未核实，Canvas 没有独立日期，不能据此视为无截止期限。教师要求六次实验全部完成；缺席须联系课程方安排，不能自行换班。",
+      "done": true,
+      "statusVersion": 2,
+      "note": "10/16 Canvas 已显示评分，确认本项完成。小组 Notebook 在实验结束时由一名组员提交，原相对期限保留；没有下载或上传个人报告。",
       "materials": [
         "phys-lab1-template",
         "phys-lab1-guide",
@@ -639,9 +641,9 @@ window.WORKLIST = {
       "dueDate": null,
       "deadlineKind": "relative",
       "relativeDeadline": "本人实验结束后 24 小时",
-      "done": false,
-      "statusVersion": 1,
-      "note": "个人课后报告，DDL 为本人本次实验结束后 24 小时（America/Chicago）；独立作答并以一个 PDF 上传 Canvas。题目已保存为官方 Google Doc 的 DOCX 导出件；本人实验时段尚未核实，Canvas 未列具体日期。",
+      "done": true,
+      "statusVersion": 2,
+      "note": "个人课后报告，DDL 为本人本次实验结束后 24 小时（America/Chicago）；独立作答并以一个 PDF 上传 Canvas。题目已保存为官方 Google Doc 的 DOCX 导出件；本人实验时段尚未核实，Canvas 未列具体日期。 10/15 核实 Canvas 显示已于 10/14 16:15 CDT 提交，待评分；据此标记完成。",
       "materials": [
         "phys-lab1-report",
         "phys-lab1-report-submit",
@@ -706,7 +708,7 @@ window.WORKLIST = {
         "math-policy",
         "math-gradescope"
       ],
-      "note": "4 页，建议 10/21 完成；不是硬性 DDL。Gradescope 尚无 PS3 上传项，最多选两题反馈的既有规则不变。"
+      "note": "4 页，建议 10/21 完成，不是硬性 DDL。10/17 Gradescope 仍只有 PS1/PS2，尚无 PS3 上传项；最多选两题反馈的既有规则不变。"
     },
     {
       "id": "cmsc-hw2",
@@ -714,15 +716,15 @@ window.WORKLIST = {
       "shortName": "HW2",
       "dueDate": "2026-10-21",
       "deadlineKind": "exact",
-      "done": false,
-      "statusVersion": 1,
+      "done": true,
+      "statusVersion": 2,
       "materials": [
         "cmsc-hw2-pdf",
         "cmsc-hw2-submit",
         "cmsc-hw2-announcement",
         "cmsc-syllabus"
       ],
-      "note": "5 题、2 页。Gradescope 已于 10/14 10:39 开放，明确截止 10/21 23:59 CDT；当前未提交。提交 PDF 时将页码对应到各题。Gradescope 提供的题目与已归档官网 PDF 完全一致。",
+      "note": "10/17 已在 Gradescope 核实 Submitted，确认完成。5 题、2 页；正常截止仍为 10/21 23:59 CDT，迟交窗口至 10/23 23:59。保留原截止日期，未下载或公开个人提交文件。",
       "time": "23:59"
     },
     {
@@ -731,14 +733,14 @@ window.WORKLIST = {
       "shortName": "HW3",
       "dueDate": "2026-10-19",
       "deadlineKind": "exact",
-      "done": false,
-      "statusVersion": 1,
+      "done": true,
+      "statusVersion": 2,
       "materials": [
         "phys-hw3-pdf",
         "phys-hw3-submit",
         "phys-hw3-canvas"
       ],
-      "note": "8 题、3 页，合并为一个 PDF，提交时匹配题目页码。Canvas 与 Gradescope 均为 10/19 23:59 CDT；10/14 核查尚未提交。",
+      "note": "10/17 已在 Gradescope 核实 Submitted，确认完成。8 题、3 页；Canvas 与 Gradescope 正常截止均为 10/19 23:59 CDT，保留原日期。Canvas 列表的未提交状态尚未同步。",
       "time": "23:59"
     },
     {
@@ -786,7 +788,7 @@ window.WORKLIST = {
         "math-conrad-conjugation",
         "math-course"
       ],
-      "note": "个人课日当天期限。Lecture 7（14 页）及四份新推荐资料已归档；补充阅读不是额外必交作业。",
+      "note": "个人课日当天期限。Lecture 7 已替换为 10/16 修订的 14 页原件；保留原课日和完成状态。",
       "classDate": "2026-10-12"
     },
     {
@@ -802,7 +804,7 @@ window.WORKLIST = {
         "cmsc-syllabus-archive",
         "cmsc-old-notes"
       ],
-      "note": "个人课日当天期限；以实际课堂内容为准。官网本轮新增 HW2，但第三周范围尚未发布；旧讲义仅供参考。",
+      "note": "个人课日当天整理期限，以实际课堂笔记为准。10/17 官网已补第三周范围：主理想与 Bézout、Noetherian 环/Hilbert 基定理（不证明）、PID/Euclidean domains、等价关系、模同余与商环、单位、Euler/Fermat/Lagrange 定理、CRT 与 RSA（简提）。该列表覆盖整周，不按课日细分；Rosen 与 Lang 的具体参考章节见官网。",
       "classDate": "2026-10-12"
     },
     {
@@ -815,11 +817,10 @@ window.WORKLIST = {
       "statusVersion": 1,
       "materials": [
         "math-lecture8",
-        "math-conrad-ansimple",
         "math-conrad-conjugation",
         "math-course"
       ],
-      "note": "个人课日当天期限。今天的 Lecture 8《The Class Equation; Simplicity of An》（13 页）已归档；附 Keith Conrad《Simplicity of An》（10 页）及既有《Conjugation in a Group》。推荐补充阅读不是额外必交作业。",
+      "note": "个人课日当天期限。Lecture 8《Cauchy's Theorem and the Class Equation》已替换为 10/16 修订的 7 页原件；An 单纯性见新 Lecture 9。保留原课日和完成状态。",
       "classDate": "2026-10-14"
     },
     {
@@ -835,7 +836,7 @@ window.WORKLIST = {
         "cmsc-syllabus-archive",
         "cmsc-old-notes"
       ],
-      "note": "个人课日当天期限；以实际课堂内容为准。官网本轮新增 HW2，但第三周范围尚未发布；旧讲义仅供参考。",
+      "note": "个人课日当天整理期限，以实际课堂笔记为准。10/17 官网已补第三周范围：主理想与 Bézout、Noetherian 环/Hilbert 基定理（不证明）、PID/Euclidean domains、等价关系、模同余与商环、单位、Euler/Fermat/Lagrange 定理、CRT 与 RSA（简提）。该列表覆盖整周，不按课日细分；Rosen 与 Lang 的具体参考章节见官网。",
       "classDate": "2026-10-14"
     },
     {
@@ -897,12 +898,221 @@ window.WORKLIST = {
       "statusVersion": 1,
       "materials": [
         "math-lecture8",
+        "math-conrad-conjugation",
+        "math-course"
+      ],
+      "note": "每日个人预习待办，包括周末；保留 10/14 的原个人计划日期。Lecture 8 当前为 10/16 修订的 7 页原件，An 单纯性见 Lecture 9。",
+      "planDate": "2026-10-14",
+      "recurrenceKey": "math-preview"
+    },
+    {
+      "id": "sosc-notes-2026-10-15",
+      "course": "SOSC",
+      "shortName": "整理 10/15（Day 6）笔记",
+      "classDate": "2026-10-15",
+      "dueDate": "2026-10-15",
+      "deadlineKind": "same-day",
+      "taskKind": "lecture-notes",
+      "done": false,
+      "statusVersion": 1,
+      "note": "个人课日当天整理期限，不是教师作业 DDL。10/16 已补齐昨天发布的 Class 6 PPT；保留原 10/15 期限和完成状态。",
+      "materials": [
+        "sosc-class6",
+        "sosc-mlodinow-ch7-pdf",
+        "sosc-metrics-randomized",
+        "sosc-syllabus"
+      ]
+    },
+    {
+      "id": "math-preview-2026-10-15",
+      "course": "MATH",
+      "shortName": "预习 10/15",
+      "dueDate": "2026-10-15",
+      "planDate": "2026-10-15",
+      "deadlineKind": "same-day",
+      "recurrenceKey": "math-preview",
+      "done": false,
+      "statusVersion": 1,
+      "note": "每日个人预习待办，包括周末；今天完成，旧未完成项保留原日期。附 Lecture 8 的最新 7 页修订版（Cauchy's Theorem and the Class Equation）及课程页；具体预习章节由你安排。",
+      "materials": [
+        "math-lecture8",
+        "math-conrad-conjugation",
+        "math-course"
+      ]
+    },
+    {
+      "id": "math-notes-2026-10-16",
+      "course": "MATH",
+      "shortName": "整理 10/16（Day 9）笔记",
+      "classDate": "2026-10-16",
+      "dueDate": "2026-10-16",
+      "deadlineKind": "same-day",
+      "taskKind": "lecture-notes",
+      "done": false,
+      "statusVersion": 1,
+      "materials": [
+        "math-lecture9",
+        "math-conrad-subgroup-series1",
+        "math-conrad-conjugation",
         "math-conrad-ansimple",
         "math-course"
       ],
-      "note": "每日个人预习待办，包括周末；今天完成，旧未完成项保留原日期。可参考新发布的 Lecture 8 和推荐补充资料，不另设教师作业 DDL。",
-      "planDate": "2026-10-14",
-      "recurrenceKey": "math-preview"
+      "note": "个人课日当天整理期限，不是教师作业 DDL。Lecture 9 已发布；推荐讲义只作为补充资料，不另设必交任务。"
+    },
+    {
+      "id": "cmsc-notes-2026-10-16",
+      "course": "CMSC",
+      "shortName": "整理 10/16（Day 9）笔记",
+      "classDate": "2026-10-16",
+      "dueDate": "2026-10-16",
+      "deadlineKind": "same-day",
+      "taskKind": "lecture-notes",
+      "done": false,
+      "statusVersion": 1,
+      "materials": [
+        "cmsc-syllabus",
+        "cmsc-syllabus-archive",
+        "cmsc-old-notes"
+      ],
+      "note": "个人课日当天整理期限，以实际课堂笔记为准。10/17 官网已补第三周范围：主理想与 Bézout、Noetherian 环/Hilbert 基定理（不证明）、PID/Euclidean domains、等价关系、模同余与商环、单位、Euler/Fermat/Lagrange 定理、CRT 与 RSA（简提）。该列表覆盖整周，不按课日细分；Rosen 与 Lang 的具体参考章节见官网。"
+    },
+    {
+      "id": "math-preview-2026-10-16",
+      "course": "MATH",
+      "shortName": "预习 10/16",
+      "dueDate": "2026-10-16",
+      "planDate": "2026-10-16",
+      "deadlineKind": "same-day",
+      "recurrenceKey": "math-preview",
+      "done": false,
+      "statusVersion": 1,
+      "materials": [
+        "math-lecture9",
+        "math-conrad-subgroup-series1",
+        "math-course"
+      ],
+      "note": "每日个人预习待办，包括周末；今天完成，旧未完成项保留原日期。附最新 Lecture 9 与推荐讲义，具体预习进度由你安排。"
+    },
+    {
+      "id": "sosc-mcdermott-experiments",
+      "course": "SOSC",
+      "shortName": "读 McDermott · Experimental Methods",
+      "dueDate": "2026-10-20",
+      "deadlineKind": "before-class",
+      "done": false,
+      "statusVersion": 1,
+      "materials": [
+        "sosc-mcdermott-article",
+        "sosc-syllabus"
+      ],
+      "note": "Day 7 · Lab Experiments；必读 pp. 31–61。作者全文网页可读；原 PDF 尚未取得，暂保留全文入口。"
+    },
+    {
+      "id": "sosc-iyengar-news",
+      "course": "SOSC",
+      "shortName": "读 Iyengar 等 · Television News Experiments",
+      "dueDate": "2026-10-20",
+      "deadlineKind": "before-class",
+      "done": false,
+      "statusVersion": 1,
+      "materials": [
+        "sosc-iyengar-news-pdf",
+        "sosc-syllabus"
+      ],
+      "note": "Day 7 · Lab Experiments；必读 pp. 848–858。12 页原 PDF（含一页来源说明）已归档。"
+    },
+    {
+      "id": "sosc-sears-college",
+      "course": "SOSC",
+      "shortName": "读 Sears · College Sophomores in the Laboratory",
+      "dueDate": "2026-10-20",
+      "deadlineKind": "before-class",
+      "done": false,
+      "statusVersion": 1,
+      "materials": [
+        "sosc-sears-article",
+        "sosc-syllabus"
+      ],
+      "note": "Day 7 · Lab Experiments；必读 pp. 515–530。课程阅读库本轮加载为空，大学旧 PDF 链接 404，原件待补。"
+    },
+    {
+      "id": "sosc-butler-discrimination",
+      "course": "SOSC",
+      "shortName": "读 Butler/Broockman · Racial Discrimination",
+      "dueDate": "2026-10-22",
+      "deadlineKind": "before-class",
+      "done": false,
+      "statusVersion": 1,
+      "materials": [
+        "sosc-butler-discrimination-pdf",
+        "sosc-syllabus"
+      ],
+      "note": "Day 8 · Field Experiments；必读 pp. 463–477。作者公开的 15 页原 PDF 已归档。"
+    },
+    {
+      "id": "sosc-enikolopov-fraud",
+      "course": "SOSC",
+      "shortName": "读 Enikolopov 等 · Electoral Fraud",
+      "dueDate": "2026-10-22",
+      "deadlineKind": "before-class",
+      "done": false,
+      "statusVersion": 1,
+      "materials": [
+        "sosc-enikolopov-article",
+        "sosc-syllabus"
+      ],
+      "note": "Day 8 · Field Experiments；必读 pp. 448–452。保留 PMC 原文入口；大学存储下载链接 404，PDF 尚待补齐。"
+    },
+    {
+      "id": "math-preview-2026-10-17",
+      "course": "MATH",
+      "shortName": "预习 10/17",
+      "dueDate": "2026-10-17",
+      "planDate": "2026-10-17",
+      "deadlineKind": "same-day",
+      "done": false,
+      "statusVersion": 1,
+      "recurrenceKey": "math-preview",
+      "materials": [
+        "math-lecture9",
+        "math-midterm1-review",
+        "math-midterm1-announcement",
+        "math-syllabus"
+      ],
+      "note": "每日个人预习待办，包括周末；今天完成，旧未完成项保留原日期。附 Lecture 9 与新发布的期中复习题供安排学习，复习题不是另加的必交作业。"
+    },
+    {
+      "id": "math-midterm1-2026-10-23",
+      "course": "MATH",
+      "shortName": "Midterm 1",
+      "dueDate": "2026-10-23",
+      "deadlineKind": "in-class",
+      "done": false,
+      "statusVersion": 1,
+      "materials": [
+        "math-midterm1-review",
+        "math-midterm1-announcement",
+        "math-syllabus"
+      ],
+      "note": "教师10/17公告：10/23（周五）课内第一次期中，短解答题，范围截至10/21（周三）的课堂内容。当前8页复习题仅覆盖 Lecture1–9/PS1–3，且可能随时更新，不能将其当作完整考试范围。复习题不是必交作业；具体钟点未单列。"
+    },
+    {
+      "id": "math-preview-2026-10-18",
+      "course": "MATH",
+      "shortName": "预习 10/18",
+      "dueDate": "2026-10-18",
+      "planDate": "2026-10-18",
+      "deadlineKind": "same-day",
+      "done": false,
+      "statusVersion": 1,
+      "recurrenceKey": "math-preview",
+      "materials": [
+        "math-lecture9",
+        "math-midterm1-review",
+        "math-midterm1-announcement",
+        "math-syllabus"
+      ],
+      "note": "每日个人预习待办，包括周末；今天完成，旧未完成项保留原日期。附 Lecture 9 与期中复习题；10/18 重新下载核对，复习题未变。期中10/23课内，范围截至10/21课堂。"
     }
   ],
   "materials": {
@@ -1072,9 +1282,8 @@ window.WORKLIST = {
       "note": "已核对 ISBN 9780135822180，与 PHYS 12100 大纲一致；复用私有资料库中的既有文件。"
     },
     "sosc-rohrer-pdf": {
-      "title": "Thinking Clearly About Correlations and Causation - Graphical Causal Models for Observational Data.pdf（Rohrer · 出版社原文）",
-      "url": "https://journals.sagepub.com/doi/pdf/10.1177/2515245917745629",
-      "note": "10/11 下载仍返回 403，浏览器未显示正文，尚未存入私有资料库；未见明确登录提示。"
+      "title": "Thinking Clearly About Correlations and Causation - Graphical Causal Models for Observational Data.pdf",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/SOSC%2013100/Day%205/Thinking%20Clearly%20About%20Correlations%20and%20Causation%20-%20Graphical%20Causal%20Models%20for%20Observational%20Data.pdf"
     },
     "phys-hw1-gradescope": {
       "title": "HW1 提交入口（Gradescope）",
@@ -1299,12 +1508,12 @@ window.WORKLIST = {
       "url": "https://edstem.org/us/courses/107374/discussion/8379748"
     },
     "phys-lecture5": {
-      "title": "General Physics I - Lecture 5.pdf（Canvas 原文；下载待补）",
-      "url": "https://canvas.uchicago.edu/courses/74238/files/15951273"
+      "title": "General Physics I - Lecture 5 - Motion, Forces, Energy, Momentum and Conservation Laws.pdf",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/PHYS%2012100/Day%205/General%20Physics%20I%20-%20Lecture%205%20-%20Motion%2C%20Forces%2C%20Energy%2C%20Momentum%20and%20Conservation%20Laws.pdf"
     },
     "phys-hw1-sol": {
-      "title": "Homework 1 Solutions（Canvas；下载待补）",
-      "url": "https://canvas.uchicago.edu/courses/74238/modules/items/3244374"
+      "title": "PHYS 121 Homework 1 - Corrected Solutions.pdf",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/PHYS%2012100/Homework%201/PHYS%20121%20Homework%201%20-%20Corrected%20Solutions.pdf"
     },
     "sosc-essay1-prompt": {
       "title": "Writing Assignment 1 · 题目与 PDF 提交入口",
@@ -1319,8 +1528,8 @@ window.WORKLIST = {
       "url": "https://canvas.uchicago.edu/courses/74986/external_tools/50"
     },
     "math-lecture8": {
-      "title": "Honors Basic Algebra I - Lecture 8 - The Class Equation; Simplicity of An.pdf",
-      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/MATH%2025700/Day%208/Honors%20Basic%20Algebra%20I%20-%20Lecture%208%20-%20The%20Class%20Equation%3B%20Simplicity%20of%20An.pdf"
+      "title": "Honors Basic Algebra I - Lecture 8 - Cauchy's Theorem and the Class Equation.pdf",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/MATH%2025700/Day%208/Honors%20Basic%20Algebra%20I%20-%20Lecture%208%20-%20Cauchy%27s%20Theorem%20and%20the%20Class%20Equation.pdf"
     },
     "math-conrad-ansimple": {
       "title": "Simplicity of An - Keith Conrad.pdf",
@@ -1334,6 +1543,54 @@ window.WORKLIST = {
       "title": "The Drunkard’s Walk - chap 7 - Measurement and the Law of Errors.pdf",
       "url": "https://github.com/chicagokitty/worklist-materials/blob/main/SOSC%2013100/Day%206/The%20Drunkard%27s%20Walk%20-%20chap%207%20-%20Measurement%20and%20the%20Law%20of%20Errors.pdf",
       "note": "课程阅读库原版扫描件；14 页，正文从 PDF 第 4 页开始，书内第 124–145 页。"
+    },
+    "phys-hw2-sol": {
+      "title": "PHYS 121 Homework 2 - Corrected Solutions.pdf",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/PHYS%2012100/Homework%202/PHYS%20121%20Homework%202%20-%20Corrected%20Solutions.pdf"
+    },
+    "cmsc-hw1-late-policy": {
+      "title": "HW1 迟交窗口：10/16 23:59 前（Ed）",
+      "url": "https://edstem.org/us/courses/107374/discussion/8397373"
+    },
+    "math-lecture9": {
+      "title": "Honors Basic Algebra I - Lecture 9 - Class Equations, the Isomorphism Theorems, and the Simplicity of An.pdf",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/MATH%2025700/Day%209/Honors%20Basic%20Algebra%20I%20-%20Lecture%209%20-%20Class%20Equations%2C%20the%20Isomorphism%20Theorems%2C%20and%20the%20Simplicity%20of%20An.pdf"
+    },
+    "math-conrad-subgroup-series1": {
+      "title": "Subgroup Series I - Keith Conrad.pdf",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/MATH%2025700/Day%209/Subgroup%20Series%20I%20-%20Keith%20Conrad.pdf"
+    },
+    "sosc-class6": {
+      "title": "Class 6 - The Path from Cause to Effect.pptx",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/SOSC%2013100/Day%206/Class%206%20-%20The%20Path%20from%20Cause%20to%20Effect.pptx"
+    },
+    "sosc-iyengar-news-pdf": {
+      "title": "Experimental Demonstrations of the Not-So-Minimal Consequences of Television News Programs.pdf",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/SOSC%2013100/Day%207/Experimental%20Demonstrations%20of%20the%20Not-So-Minimal%20Consequences%20of%20Television%20News%20Programs.pdf"
+    },
+    "sosc-butler-discrimination-pdf": {
+      "title": "Do Politicians Racially Discriminate Against Constituents - A Field Experiment on State Legislators.pdf",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/SOSC%2013100/Day%208/Do%20Politicians%20Racially%20Discriminate%20Against%20Constituents%20-%20A%20Field%20Experiment%20on%20State%20Legislators.pdf"
+    },
+    "sosc-mcdermott-article": {
+      "title": "Experimental Methods in Political Science（作者全文页；PDF 待补）",
+      "url": "https://www.researchgate.net/publication/51992762_EXPERIMENTALMETHODS_INPOLITICALSCIENCE"
+    },
+    "sosc-sears-article": {
+      "title": "College Sophomores in the Laboratory（出版信息；PDF 待补）",
+      "url": "https://doi.org/10.1037/0022-3514.51.3.515"
+    },
+    "sosc-enikolopov-article": {
+      "title": "Field Experiment Estimate of Electoral Fraud in Russian Parliamentary Elections（PMC 原文；PDF 待补）",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3545790/"
+    },
+    "math-midterm1-review": {
+      "title": "Honors Basic Algebra I - Review Problems for Midterm 1.pdf",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/MATH%2025700/Midterm%201/Honors%20Basic%20Algebra%20I%20-%20Review%20Problems%20for%20Midterm%201.pdf"
+    },
+    "math-midterm1-announcement": {
+      "title": "MATH Midterm 1 · 10/23 课内与考试范围（教师公告）",
+      "url": "https://canvas.uchicago.edu/courses/75102/discussion_topics/1024924"
     }
   },
   "officeHours": [
@@ -1358,8 +1615,12 @@ window.WORKLIST = {
     {
       "course": "PHYS",
       "person": "Heinrich Jaeger · 教授",
-      "time": "周一 15:30–16:30（第 2 周起）",
-      "place": "GCIS E229"
+      "time": "周一 15:30–16:30（10/19 临时改线上）",
+      "place": "仅10/19改为 Zoom；其他周常规地点为 GCIS E229。",
+      "url": "https://canvas.uchicago.edu/courses/74238/discussion_topics/1024991",
+      "linkLabel": "10/19 临时调整与 Zoom 入口（Canvas）",
+      "exceptionDate": "2026-10-19",
+      "note": "10/17 14:04公告只改地点；时段沿用10/1常规Office Hours公告，America/Chicago。私人Zoom入场参数留在Canvas内。"
     },
     {
       "course": "PHYS",
@@ -1446,6 +1707,11 @@ window.WORKLIST = {
         "course": "SOSC",
         "classDate": "2026-11-17",
         "reason": "大纲列明教师参会停课"
+      },
+      {
+        "course": "MATH",
+        "classDate": "2026-10-23",
+        "reason": "教师公告：课内 Midterm 1，维护考试任务，不创建普通课堂笔记项"
       }
     ]
   },

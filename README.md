@@ -2,7 +2,30 @@
 
 [打开网页](https://chicagokitty.github.io/worklist/)
 
-白底黑字的单页任务清单。2026-10-01 核查 Canvas、CMSC Gradescope、Ed Discussion 和教师官网后同步；当前范围为截至 10/14 的课程安排，以及此前未完成事项。
+白底黑字的单页任务清单。2026-10-01 核查 Canvas、CMSC Gradescope、Ed Discussion 和教师官网后同步；当前版本包含截至 10/18 的课程核查和此前未完成事项。
+
+## 2026-10-18 核查
+
+- 新版共70项，今天只新增MATH预习；所有69项旧任务内容、截止日期与完成版本原样保留。周日不创建课堂笔记。
+- PHYS教授10/19周一Office Hour临时改为Zoom；常规15:30–16:30时段未通知变动。页面增加直接到Canvas公告的链接，不存私人入场参数。其他周仍GCIS E229。
+- 三门Canvas/Gradescope、CMSC Ed/官网和课程动态已核查。没有新增作业或DDL变化，HW4仍10/19才开放；MATH PS3尚无Gradescope反馈项。CMSC HW2、PHYS HW3仍已提交。
+- MATH13份旧材料、期中复习题、CMSC网页/HW2与SOSC Class6共17个原件下载校验均未变，不重复上传。Class6的Canvas修改时间有变化，但文件字节相同。SOSC阅读库仍空白，McDermott/Sears/Enikolopov三篇PDF缺口保留。
+- 本版本合并10/15–10/18积累的课程更新，共70项；保留已有任务ID和状态版本，浏览器勾选继续沿用。用户已再次明确确认同步到现有公开worklist；原始材料仍仅存私有资料库。
+
+## 2026-10-17 核查（已纳入当前版本）
+
+- 新版共69项：新增今天MATH预习和10/23课内Midterm1；周六不建课堂笔记。旧日期与已有完成状态保持，CMSC HW2/PHYS HW3已核实提交并更新完成版本。
+- MATH期中范围截至10/21课堂；新8页复习题当前只覆盖Lecture1–9/PS1–3，教师提示可能继续修改，不视为完整考试范围或必交作业。CMSC第三周范围已补齐。
+- 新复习题和CMSC官网原HTML已归档私有资料库；13个MATH旧原件及CMSC HW2校验不变。Gradescope已恢复，PHYS HW2截止已与Canvas统一为10/12。SOSC阅读库仍为空，三篇PDF待补。
+- 本日整理结果已合并入10/18版本。
+
+## 2026-10-16 核查（已纳入当前版本）
+
+- 新版共 67 项；相对 10/15 已发布版本新增 10 项，含昨天待发布的 2 项、今天 MATH/CMSC 笔记与 MATH 预习 3 项、下周 SOSC 必读 5 项。保留原课日、旧截止日期及已知完成状态。
+- 10/20 课前读 McDermott、Iyengar 等、Sears；10/22 课前读 Butler/Broockman、Enikolopov 等。后两节课日期按当前大纲核实，未建立未来课堂笔记待办。
+- 私有资料新增 5 份、更新 2 份；PHYS Lab Notebook 1 已由 Canvas 评分确认完成。仅记录完成状态，不公开分数或个人提交文件。
+- Canvas 三门、CMSC Ed/官网可用；Gradescope 登录待恢复。SOSC 阅读库为空，McDermott、Sears、Enikolopov 三篇 PDF 待补，保留可取得的原文入口。
+- 本日整理结果已合并入10/18版本；资料链接指向已核实存在的私有文件。
 
 ## 页面与更新
 

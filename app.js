@@ -153,7 +153,7 @@ $('current-date').textContent = new Intl.DateTimeFormat('zh-CN', {
 $('sync-note').textContent = `${new Intl.DateTimeFormat('zh-CN', {
   month:'2-digit', day:'2-digit', hour:'2-digit', minute:'2-digit', hour12:false, timeZone:zone
 }).format(new Date(data.updatedAt))} 核查 · ${data.scope}`;
-$('office-hours-list').innerHTML = data.officeHours.map(item => `<p><strong>${escapeHtml(item.course ? item.course + " · " + item.person : item.person)}</strong><br>${escapeHtml(item.time)}<br>${escapeHtml(item.place)}</p>`).join('')
+$('office-hours-list').innerHTML = data.officeHours.map(item => `<p><strong>${escapeHtml(item.course ? item.course + " · " + item.person : item.person)}</strong><br>${escapeHtml(item.time)}<br>${escapeHtml(item.place)}${item.url ? `<br><a href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(item.linkLabel || "查看公告")} ↗</a>` : ""}</p>`).join('')
   + `<p><a href="${escapeHtml(data.materials['cmsc-syllabus'].url)}" target="_blank" rel="noopener noreferrer">CMSC 课程官网 ↗</a></p>`;
 $('office-hours-list').innerHTML += '<p><a href="https://canvas.uchicago.edu/courses/74238/announcements" target="_blank" rel="noopener noreferrer">PHYS Office Hours 与临时调整公告 ↗</a></p>';
 $('office-hours-list').innerHTML += '<p><a href="https://canvas.uchicago.edu/courses/75102/discussion_topics/1019507" target="_blank" rel="noopener noreferrer">MATH Office Hours 与临时调整公告 ↗</a></p>';
