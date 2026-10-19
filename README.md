@@ -4,6 +4,15 @@
 
 白底黑字的单页任务清单。2026-10-01 核查 Canvas、CMSC Gradescope、Ed Discussion 和教师官网后同步；当前版本包含截至 10/19 的课程核查和此前未完成事项。
 
+## 2026-10-19 登录后补查
+
+- Canvas三门课程、公告、讨论、作业、模块与课程动态，及三门Gradescope已补查；CMSC Ed/官网沿用今天中午检查结果。没有发现额外DDL或OH改期。
+- MATH Day10新增12页Lecture10及6页MIT补充讲义；Conrad两份参考资料复用既有文件。TA新回复要求明确标出申请反馈的两题；PS3仍未在Gradescope开放，PS2晚交10/21 23:29。
+- PHYS HW4实际开放已确认，10/26 23:59 CDT截止，3页8题PDF已存私有资料库，附Canvas及Gradescope入口。HW3、CMSC HW2仍为已提交；不更改原完成版本。
+- 新增本周Pendulum2实验笔记和个人报告两项，分别在本人实验结束时、结束后24小时截止；个人实验时段未核实，不编造日期。报告题目DOCX、Part1/2原始Colab均已归档，未运行或修改共享原件。
+- SOSC仍Class2–6，Essay1与下两节阅读日期不变。阅读库登录后仍空白，McDermott、Sears、Enikolopov三篇PDF继续标注待补，无需重复登录Canvas。
+- 当前77项；原75项的日期、done及statusVersion全部保留。新增两项默认未完成，今天MATH预习/课堂笔记不重复创建。资料文件链接发布前已核实存在。
+
 ## 2026-10-19 部分核查
 
 - 共75项；新增今天MATH预习、MATH/CMSC课堂笔记，以及按10/18已核实日程建立的PHYS HW4与第4周Ch.10阅读。HW4原定10/26 23:59 CDT截止，今天实际开放及题目文件待登录后复核；Ch.10未列单独截止时间。

@@ -1,6 +1,6 @@
 window.WORKLIST = {
-  "updatedAt": "2026-10-19T17:07:20Z",
-  "scope": "10/19 中午部分核查：新增今天MATH预习、MATH/CMSC笔记；按昨日已核实日程加入PHYS HW4（10/26 23:59）与第4周Ch.10阅读。MATH Lecture 9、期中复习题修订原件已归档。CMSC Ed/官网无新内容；Canvas与Gradescope登录过期，三门Canvas新公告/课件、HW4题目和最新提交状态待登录后补查。SOSC三篇PDF仍待补。",
+  "updatedAt": "2026-10-19T17:28:22Z",
+  "scope": "10/19 登录后已补查三门 Canvas 与 Gradescope；新增 Pendulum 2 实验笔记和报告待办，确认 PHYS HW4 于10/26 23:59截止。MATH Lecture 10、MIT补充讲义、HW4题目、Pendulum 2报告题目与两份原始Colab均已归档。CMSC Ed/官网沿用今天中午核查。SOSC阅读库仍空白，McDermott、Sears、Enikolopov三篇PDF待补。今天MATH预习和MATH/CMSC笔记仍为个人当天期限。",
   "tasks": [
     {
       "id": "sosc-freedman",
@@ -81,7 +81,7 @@ window.WORKLIST = {
       "deadlineKind": "feedback",
       "done": false,
       "statusVersion": 1,
-      "note": "全套 9 个编号项目不计分，原建议 10/7 完成；若需反馈最多提交两题。Gradescope 原截止 10/7 23:59，晚交入口10/14 23:59已关闭；10/17 核查仍 No Submission。原截止日期保留。",
+      "note": "全套 9 个编号项目不计分，原建议 10/7 完成；若需反馈最多提交两题。Gradescope 原截止 10/7 23:59，晚交入口10/14 23:59已关闭；10/19 核查仍 No Submission。原截止日期保留。 10/19 TA补充：申请反馈时须明确标出希望批改的两题；多交但未标明可能无法批改。",
       "materials": [
         "math-ps1",
         "math-policy",
@@ -447,7 +447,7 @@ window.WORKLIST = {
       "deadlineKind": "feedback",
       "done": false,
       "statusVersion": 1,
-      "note": "全套建议 10/14 完成，不计分；若需反馈最多选两题提交 Gradescope，原截止10/14 23:29 CDT，晚交入口至10/21 23:29。10/17 核查仍 No Submission；这是可选反馈期限。",
+      "note": "全套建议 10/14 完成，不计分；若需反馈最多选两题提交 Gradescope，原截止10/14 23:29 CDT，晚交入口至10/21 23:29。10/19 核查仍 No Submission；这是可选反馈期限。 10/19 TA补充：申请反馈时须明确标出希望批改的两题；多交但未标明可能无法批改。",
       "materials": [
         "math-ps2",
         "math-ps2-canvas",
@@ -631,7 +631,8 @@ window.WORKLIST = {
         "phys-lab1-guide",
         "phys-lab1-colab",
         "phys-lab1-notebook-submit",
-        "phys-labs-announcement"
+        "phys-labs-announcement",
+        "phys-lab1-notebook-file"
       ]
     },
     {
@@ -708,7 +709,7 @@ window.WORKLIST = {
         "math-policy",
         "math-gradescope"
       ],
-      "note": "4 页，建议 10/21 完成，不是硬性 DDL。10/17 Gradescope 仍只有 PS1/PS2，尚无 PS3 上传项；最多选两题反馈的既有规则不变。"
+      "note": "4 页，建议 10/21 完成，不是硬性 DDL。10/19 Gradescope 仍只有 PS1/PS2，尚无 PS3 上传项；最多选两题反馈的既有规则不变。 10/19 TA补充：申请反馈时须明确标出希望批改的两题；多交但未标明可能无法批改。"
     },
     {
       "id": "cmsc-hw2",
@@ -820,7 +821,7 @@ window.WORKLIST = {
         "math-conrad-conjugation",
         "math-course"
       ],
-      "note": "个人课日当天期限。Lecture 8《Cauchy's Theorem and the Class Equation》已替换为 10/16 修订的 7 页原件；An 单纯性见新 Lecture 9。保留原课日和完成状态。",
+      "note": "个人课日当天期限。Lecture 8《Cauchy's Theorem and the Class Equation》已替换为 10/16 修订的 7 页原件；A5 单纯性见 Lecture 9，一般 An 单纯性见 Lecture 10。保留原课日和完成状态。",
       "classDate": "2026-10-14"
     },
     {
@@ -901,7 +902,7 @@ window.WORKLIST = {
         "math-conrad-conjugation",
         "math-course"
       ],
-      "note": "每日个人预习待办，包括周末；保留 10/14 的原个人计划日期。Lecture 8 当前为 10/16 修订的 7 页原件，An 单纯性见 Lecture 9。",
+      "note": "每日个人预习待办，包括周末；保留 10/14 的原个人计划日期。Lecture 8 当前为 10/16 修订的 7 页原件，A5 单纯性见 Lecture 9，一般 An 单纯性见 Lecture 10。",
       "planDate": "2026-10-14",
       "recurrenceKey": "math-preview"
     },
@@ -1125,11 +1126,13 @@ window.WORKLIST = {
       "done": false,
       "statusVersion": 1,
       "materials": [
-        "math-course",
-        "math-lecture9",
+        "math-lecture10",
+        "math-mit-icosahedral",
+        "math-conrad-ansimple",
+        "math-conrad-subgroup-series1",
         "math-midterm1-review"
       ],
-      "note": "按现行周一三五课表建立，个人当天整理期限。Canvas登录过期，本次无法核查临时停课及Lecture 10文件；现有讲义提及Lecture 10，但不代表已下载该讲。登录后补链接。"
+      "note": "Day 10（10/19）Lecture 10已发布并归档，12页：十二面体、An的单纯性与小指数子群；附MIT第20讲补充阅读，Conrad资料复用已有归档。个人当天整理期限，不代表已代为完成笔记。"
     },
     {
       "id": "cmsc-notes-2026-10-19",
@@ -1159,12 +1162,14 @@ window.WORKLIST = {
       "statusVersion": 1,
       "recurrenceKey": "math-preview",
       "materials": [
+        "math-lecture10",
+        "math-mit-icosahedral",
         "math-lecture9",
         "math-midterm1-review",
         "math-midterm1-announcement",
         "math-syllabus"
       ],
-      "note": "每日个人预习待办，包括周末；今天完成，旧未完成项保留原日期。已附10/19重新取得的Lecture 9与期中复习题修订版；10/23课内期中，公告范围截至10/21课堂，不能只以当前练习题代替完整范围。"
+      "note": "每日个人预习待办，包括周末；今天完成，旧未完成项保留原日期。已补Lecture 10及MIT补充讲义；10/23课内期中，公告范围截至10/21课堂，复习题不是完整范围。"
     },
     {
       "id": "phys-hw4",
@@ -1176,9 +1181,11 @@ window.WORKLIST = {
       "done": false,
       "statusVersion": 1,
       "materials": [
+        "phys-hw4-pdf",
+        "phys-hw4-submit",
         "phys-hw4-canvas"
       ],
-      "note": "依据10/18 Canvas列表：计划10/19 00:00开放，10/26 23:59 CDT截止。今天登录过期，尚未复核实际开放、题目PDF、Gradescope提交入口或改期；恢复登录后补齐。"
+      "note": "10/19已核实Canvas与Gradescope开放，均10/26 23:59 CDT截止，尚未提交。3页8题：Knight Ch.10 P10.10、16、20、28、30、50、52、58，合并一个PDF。题目PDF写Canvas上传；Gradescope也已开放HW4，使用Gradescope时将页码对应到各题。"
     },
     {
       "id": "phys-reading4",
@@ -1191,7 +1198,40 @@ window.WORKLIST = {
         "phys-textbook",
         "phys-week4"
       ],
-      "note": "第4周阅读，按10/18已核查的Canvas Week 4模块建立；没有列独立截止时刻，不编造DDL。今天Canvas登录过期，尚未复核本周新讲义或调整。"
+      "note": "10/19登录后复核Week 4要求读Ch.10，未列独立截止时刻；模块仍Lecture1–5，尚未发布Lecture6，不编造新讲义链接。"
+    },
+    {
+      "id": "phys-lab2-notebook",
+      "course": "PHYS",
+      "shortName": "Pendulum 2 · 实验与 Lab Notebook 2",
+      "dueDate": null,
+      "deadlineKind": "relative",
+      "relativeDeadline": "本人实验结束时",
+      "done": false,
+      "statusVersion": 1,
+      "note": "第4周（10/19当周）Pendulum Part 2。沿用上周小组实验笔记文档，明确分隔Part 1/Part 2，记录大于10度摆角实验；无需新建模板。实验结束时由一名组员提交完整PDF，包含全组姓名。本人具体实验时段未核实，Canvas无绝对DDL。",
+      "materials": [
+        "phys-lab2-guide",
+        "phys-lab2-notebook-file",
+        "phys-lab2-colab",
+        "phys-lab2-notebook-submit"
+      ]
+    },
+    {
+      "id": "phys-lab2-report",
+      "course": "PHYS",
+      "shortName": "Pendulum 2 · Lab Report 2",
+      "dueDate": null,
+      "deadlineKind": "relative",
+      "relativeDeadline": "本人实验结束后 24 小时",
+      "done": false,
+      "statusVersion": 1,
+      "note": "个人完成Part 2课后结论与问题，以单个PDF上传Canvas；题目DOCX原件已归档。截止为本人实验结束后24小时（America/Chicago），尚未核实个人实验时段，不能据周一日期推定DDL。",
+      "materials": [
+        "phys-lab2-report",
+        "phys-lab2-report-submit",
+        "phys-lab2-guide"
+      ]
     }
   ],
   "materials": {
@@ -1504,7 +1544,7 @@ window.WORKLIST = {
     "phys-lab1-colab": {
       "title": "Period of a Pendulum (Part 1) · Colab 计算与绘图工具",
       "url": "https://colab.research.google.com/drive/1_dNn_Yq_aP5HWJF3CZ2ULYv4PC_cOv7j",
-      "note": "10/11 已确认在线 notebook 可正常打开，无需重新登录；原 .ipynb 下载未完成。只读查看，不修改或运行共享原件。"
+      "note": "10/19已通过Drive取得原始.ipynb并归档；在线共享原件保持不变，未运行代码。"
     },
     "phys-lab1-notebook-submit": {
       "title": "Lab Notebook 1 提交入口（Canvas）",
@@ -1672,12 +1712,57 @@ window.WORKLIST = {
       "url": "https://canvas.uchicago.edu/courses/75102/discussion_topics/1024924"
     },
     "phys-hw4-canvas": {
-      "title": "HW4 · Canvas题目页（PDF与提交入口待登录后补齐）",
+      "title": "HW4 要求与提交入口（Canvas）",
       "url": "https://canvas.uchicago.edu/courses/74238/assignments/908867"
     },
     "phys-week4": {
       "title": "Week 4 · Ch. 10 阅读要求（Canvas）",
       "url": "https://canvas.uchicago.edu/courses/74238/modules/items/3209779"
+    },
+    "math-lecture10": {
+      "title": "Honors Basic Algebra I - Lecture 10 - The Dodecahedron, the Simplicity of An, and Subgroups of Small Index.pdf",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/MATH%2025700/Day%2010/Honors%20Basic%20Algebra%20I%20-%20Lecture%2010%20-%20The%20Dodecahedron%2C%20the%20Simplicity%20of%20An%2C%20and%20Subgroups%20of%20Small%20Index.pdf"
+    },
+    "math-mit-icosahedral": {
+      "title": "The Icosahedral Group - MIT Lecture 20.pdf",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/MATH%2025700/Day%2010/The%20Icosahedral%20Group%20-%20MIT%20Lecture%2020.pdf"
+    },
+    "phys-hw4-pdf": {
+      "title": "General Physics I - Homework 4.pdf",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/PHYS%2012100/Homework%204/General%20Physics%20I%20-%20Homework%204.pdf"
+    },
+    "phys-lab2-report": {
+      "title": "Period of a Pendulum - Post-Lab Assignment 2.docx",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/PHYS%2012100/Lab%202/Period%20of%20a%20Pendulum%20-%20Post-Lab%20Assignment%202.docx"
+    },
+    "phys-lab2-notebook-file": {
+      "title": "Period of a Pendulum (Part 2).ipynb",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/PHYS%2012100/Lab%202/Period%20of%20a%20Pendulum%20%28Part%202%29.ipynb"
+    },
+    "phys-lab1-notebook-file": {
+      "title": "Period of a Pendulum (Part 1).ipynb",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/PHYS%2012100/Lab%201/Period%20of%20a%20Pendulum%20%28Part%201%29.ipynb"
+    },
+    "phys-hw4-submit": {
+      "title": "HW4 提交入口（Gradescope）",
+      "url": "https://www.gradescope.com/courses/1420259/assignments/8890065/submissions/new"
+    },
+    "phys-lab2-guide": {
+      "title": "The Period of a Pendulum (Part 2) · 官方实验指南",
+      "url": "https://www.physlab-wiki.com/phylabs/lab_courses/phys-120_130-wiki-home/fall-experiments/the-period-of-a-pendulum_part-2/the-period-of-a-pendulum_part-2"
+    },
+    "phys-lab2-colab": {
+      "title": "Pendulum Part 2 · 在线 Colab（共享原件只读）",
+      "url": "https://colab.research.google.com/drive/1ScMA0T7IBepp9KN3YlxeDkHeP_4nBCPf",
+      "note": "原始.ipynb已下载归档；不运行或修改共享原件。"
+    },
+    "phys-lab2-notebook-submit": {
+      "title": "Lab Notebook 2 提交入口（Canvas）",
+      "url": "https://canvas.uchicago.edu/courses/74238/assignments/908797"
+    },
+    "phys-lab2-report-submit": {
+      "title": "Lab Report 2 提交入口（Canvas）",
+      "url": "https://canvas.uchicago.edu/courses/74238/assignments/908798"
     }
   },
   "officeHours": [

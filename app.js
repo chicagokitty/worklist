@@ -59,6 +59,7 @@ const escapeHtml = value => String(value ?? '').replace(/[&<>"']/g, char => ({
   '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;'
 })[char]);
 const deadlineLabel = task => {
+  if (task.deadlineKind === 'relative' && task.relativeDeadline) return task.relativeDeadline;
   if (!task.dueDate) return 'DDL 待确认';
   const date = task.dueDate.slice(5).replace('-', '/');
   if (task.deadlineKind === 'suggested') return `建议 ${date} 完成`;
