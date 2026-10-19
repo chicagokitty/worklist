@@ -1,6 +1,6 @@
 window.WORKLIST = {
-  "updatedAt": "2026-10-18T17:11:04Z",
-  "scope": "10/18 中午：PHYS 教授10/19的Office Hour改为Zoom，公告入口已补。课程作业与DDL无新增变动；MATH/CMSC原件和SOSC Class 6下载校验未变。新增今天MATH预习；SOSC阅读库空白，三篇PDF仍待补。",
+  "updatedAt": "2026-10-19T17:07:20Z",
+  "scope": "10/19 中午部分核查：新增今天MATH预习、MATH/CMSC笔记；按昨日已核实日程加入PHYS HW4（10/26 23:59）与第4周Ch.10阅读。MATH Lecture 9、期中复习题修订原件已归档。CMSC Ed/官网无新内容；Canvas与Gradescope登录过期，三门Canvas新公告/课件、HW4题目和最新提交状态待登录后补查。SOSC三篇PDF仍待补。",
   "tasks": [
     {
       "id": "sosc-freedman",
@@ -957,7 +957,7 @@ window.WORKLIST = {
         "math-conrad-ansimple",
         "math-course"
       ],
-      "note": "个人课日当天整理期限，不是教师作业 DDL。Lecture 9 已发布；推荐讲义只作为补充资料，不另设必交任务。"
+      "note": "个人课日当天整理期限，不是教师作业 DDL。Lecture 9已于10/18晚修订为13页，标题末尾改为Simplicity of A5；一般An单纯性移至Lecture 10。已链接新版；推荐讲义不另设必交任务。"
     },
     {
       "id": "cmsc-notes-2026-10-16",
@@ -1113,6 +1113,85 @@ window.WORKLIST = {
         "math-syllabus"
       ],
       "note": "每日个人预习待办，包括周末；今天完成，旧未完成项保留原日期。附 Lecture 9 与期中复习题；10/18 重新下载核对，复习题未变。期中10/23课内，范围截至10/21课堂。"
+    },
+    {
+      "id": "math-notes-2026-10-19",
+      "course": "MATH",
+      "shortName": "整理 10/19（Day 10）笔记",
+      "classDate": "2026-10-19",
+      "dueDate": "2026-10-19",
+      "deadlineKind": "same-day",
+      "taskKind": "lecture-notes",
+      "done": false,
+      "statusVersion": 1,
+      "materials": [
+        "math-course",
+        "math-lecture9",
+        "math-midterm1-review"
+      ],
+      "note": "按现行周一三五课表建立，个人当天整理期限。Canvas登录过期，本次无法核查临时停课及Lecture 10文件；现有讲义提及Lecture 10，但不代表已下载该讲。登录后补链接。"
+    },
+    {
+      "id": "cmsc-notes-2026-10-19",
+      "course": "CMSC",
+      "shortName": "整理 10/19（Day 10）笔记",
+      "classDate": "2026-10-19",
+      "dueDate": "2026-10-19",
+      "deadlineKind": "same-day",
+      "taskKind": "lecture-notes",
+      "done": false,
+      "statusVersion": 1,
+      "materials": [
+        "cmsc-syllabus",
+        "cmsc-syllabus-archive",
+        "cmsc-old-notes"
+      ],
+      "note": "个人课日当天整理期限，以实际课堂笔记为准。10/19官网与Ed核查未见停课通知；官网仍列前三周范围，第四周材料后续补齐。旧年笔记仅作参考。"
+    },
+    {
+      "id": "math-preview-2026-10-19",
+      "course": "MATH",
+      "shortName": "预习 10/19",
+      "dueDate": "2026-10-19",
+      "planDate": "2026-10-19",
+      "deadlineKind": "same-day",
+      "done": false,
+      "statusVersion": 1,
+      "recurrenceKey": "math-preview",
+      "materials": [
+        "math-lecture9",
+        "math-midterm1-review",
+        "math-midterm1-announcement",
+        "math-syllabus"
+      ],
+      "note": "每日个人预习待办，包括周末；今天完成，旧未完成项保留原日期。已附10/19重新取得的Lecture 9与期中复习题修订版；10/23课内期中，公告范围截至10/21课堂，不能只以当前练习题代替完整范围。"
+    },
+    {
+      "id": "phys-hw4",
+      "course": "PHYS",
+      "shortName": "HW4",
+      "dueDate": "2026-10-26",
+      "time": "23:59",
+      "deadlineKind": "exact",
+      "done": false,
+      "statusVersion": 1,
+      "materials": [
+        "phys-hw4-canvas"
+      ],
+      "note": "依据10/18 Canvas列表：计划10/19 00:00开放，10/26 23:59 CDT截止。今天登录过期，尚未复核实际开放、题目PDF、Gradescope提交入口或改期；恢复登录后补齐。"
+    },
+    {
+      "id": "phys-reading4",
+      "course": "PHYS",
+      "shortName": "读教材 Ch. 10",
+      "dueDate": null,
+      "done": false,
+      "statusVersion": 1,
+      "materials": [
+        "phys-textbook",
+        "phys-week4"
+      ],
+      "note": "第4周阅读，按10/18已核查的Canvas Week 4模块建立；没有列独立截止时刻，不编造DDL。今天Canvas登录过期，尚未复核本周新讲义或调整。"
     }
   ],
   "materials": {
@@ -1553,8 +1632,8 @@ window.WORKLIST = {
       "url": "https://edstem.org/us/courses/107374/discussion/8397373"
     },
     "math-lecture9": {
-      "title": "Honors Basic Algebra I - Lecture 9 - Class Equations, the Isomorphism Theorems, and the Simplicity of An.pdf",
-      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/MATH%2025700/Day%209/Honors%20Basic%20Algebra%20I%20-%20Lecture%209%20-%20Class%20Equations%2C%20the%20Isomorphism%20Theorems%2C%20and%20the%20Simplicity%20of%20An.pdf"
+      "title": "Honors Basic Algebra I - Lecture 9 - Class Equations, the Isomorphism Theorems, and the Simplicity of A5.pdf",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/MATH%2025700/Day%209/Honors%20Basic%20Algebra%20I%20-%20Lecture%209%20-%20Class%20Equations%2C%20the%20Isomorphism%20Theorems%2C%20and%20the%20Simplicity%20of%20A5.pdf"
     },
     "math-conrad-subgroup-series1": {
       "title": "Subgroup Series I - Keith Conrad.pdf",
@@ -1591,6 +1670,14 @@ window.WORKLIST = {
     "math-midterm1-announcement": {
       "title": "MATH Midterm 1 · 10/23 课内与考试范围（教师公告）",
       "url": "https://canvas.uchicago.edu/courses/75102/discussion_topics/1024924"
+    },
+    "phys-hw4-canvas": {
+      "title": "HW4 · Canvas题目页（PDF与提交入口待登录后补齐）",
+      "url": "https://canvas.uchicago.edu/courses/74238/assignments/908867"
+    },
+    "phys-week4": {
+      "title": "Week 4 · Ch. 10 阅读要求（Canvas）",
+      "url": "https://canvas.uchicago.edu/courses/74238/modules/items/3209779"
     }
   },
   "officeHours": [

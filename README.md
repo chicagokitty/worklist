@@ -2,7 +2,15 @@
 
 [打开网页](https://chicagokitty.github.io/worklist/)
 
-白底黑字的单页任务清单。2026-10-01 核查 Canvas、CMSC Gradescope、Ed Discussion 和教师官网后同步；当前版本包含截至 10/18 的课程核查和此前未完成事项。
+白底黑字的单页任务清单。2026-10-01 核查 Canvas、CMSC Gradescope、Ed Discussion 和教师官网后同步；当前版本包含截至 10/19 的课程核查和此前未完成事项。
+
+## 2026-10-19 部分核查
+
+- 共75项；新增今天MATH预习、MATH/CMSC课堂笔记，以及按10/18已核实日程建立的PHYS HW4与第4周Ch.10阅读。HW4原定10/26 23:59 CDT截止，今天实际开放及题目文件待登录后复核；Ch.10未列单独截止时间。
+- MATH Lecture 9改为13页《Class Equations, the Isomorphism Theorems, and the Simplicity of A5》，一般An单纯性移至Lecture 10；期中练习仍8页，仅末尾交叉引用有变化。两份修订原PDF已存私有仓库，旧Lecture 9保留为历史版。
+- CMSC官网、Ed 21帖已核查，未见新作业/课件/Office Hours变动。16份已知公开原件重新下载，其中14份未变，不重复上传。
+- Canvas三门课程及Gradescope登录过期，未能复核新公告、作业、讨论、模块、通知和上传状态；这些范围不得视为没有更新。SOSC阅读库及新PPT本轮未能检查，三篇阅读PDF缺口保留。已保留学校登录页。
+- 所有旧任务截止日期、完成状态和statusVersion保留，网页的本浏览器勾选继续沿用。PHYS教授今天15:30–16:30的Zoom临时Office Hour按昨日确认公告保留。
 
 ## 2026-10-18 核查
 
