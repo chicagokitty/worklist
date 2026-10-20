@@ -1,6 +1,6 @@
 window.WORKLIST = {
-  "updatedAt": "2026-10-20T17:17:17Z",
-  "scope": "10/20已查三门Canvas/Gradescope及CMSC Ed/官网。新增MATH PS4（可选反馈10/28 23:59），PS3反馈入口已开放（10/21 23:59）；SOSC新增范文、补齐10/22 Enikolopov阅读PDF。今天MATH预习和SOSC Day7笔记当天截止。Class7课件尚未发布；阅读库仍空白，McDermott/Sears两篇PDF待补。",
+  "updatedAt": "2026-10-20T17:53:16Z",
+  "scope": "10/20已查三门Canvas/Gradescope及CMSC Ed/官网。新增MATH PS4（可选反馈10/28 23:59），PS3反馈入口已开放（10/21 23:59）；SOSC新增范文、补齐10/22 Enikolopov阅读PDF。今天MATH预习和SOSC Day7笔记当天截止。Class7课件尚未发布；阅读库仍空白，Sears原PDF已补齐并归档；McDermott PDF仍待补。",
   "tasks": [
     {
       "id": "sosc-freedman",
@@ -1035,10 +1035,10 @@ window.WORKLIST = {
       "done": false,
       "statusVersion": 1,
       "materials": [
-        "sosc-sears-article",
+        "sosc-sears-pdf",
         "sosc-syllabus"
       ],
-      "note": "Day 7 · Lab Experiments；10/20课前必读 pp.515–530。阅读库仍加载空白；大学旧PDF为404，作者ResearchGate原PDF下载返回403，原件待补。保留出版入口，不能将下载失败当成无需阅读。"
+      "note": "Day 7 · Lab Experiments；10/20课前必读 pp.515–530。完整16页原PDF已从公开存档取得并归档，原内容未改。"
     },
     {
       "id": "sosc-butler-discrimination",
@@ -1288,7 +1288,7 @@ window.WORKLIST = {
       "materials": [
         "sosc-mcdermott-article",
         "sosc-iyengar-news-pdf",
-        "sosc-sears-article",
+        "sosc-sears-pdf",
         "sosc-syllabus"
       ]
     }
@@ -1850,6 +1850,10 @@ window.WORKLIST = {
     "sosc-enikolopov-source": {
       "title": "Electoral Fraud · 作者原 PDF",
       "url": "https://voices.uchicago.edu/ksonin/files/2019/04/Electoral-Fraud-PNAS.pdf"
+    },
+    "sosc-sears-pdf": {
+      "title": "Sears · College Sophomores in the Laboratory（PDF）",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/SOSC%2013100/Day%207/College%20Sophomores%20in%20the%20Laboratory%20-%20Influences%20of%20a%20Narrow%20Data%20Base%20on%20Social%20Psychology's%20View%20of%20Human%20Nature.pdf"
     }
   },
   "officeHours": [
