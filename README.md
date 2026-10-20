@@ -2,7 +2,16 @@
 
 [打开网页](https://chicagokitty.github.io/worklist/)
 
-白底黑字的单页任务清单。2026-10-01 核查 Canvas、CMSC Gradescope、Ed Discussion 和教师官网后同步；当前版本包含截至 10/19 的课程核查和此前未完成事项。
+白底黑字的单页任务清单。2026-10-01 核查 Canvas、CMSC Gradescope、Ed Discussion 和教师官网后同步；当前版本包含截至 10/20 的课程核查和此前未完成事项。
+
+## 2026-10-20 中午核查
+
+- 三门Canvas的课程页/大纲、可见公告、讨论、作业、模块或文件及课程动态已查；三门Gradescope和CMSC Ed/教师官网也已核查。没有新的Office Hours改期；PHYS教授10/19临时线上例外已过。
+- MATH新PS4原PDF已归档；建议10/28完成，可选反馈正常截止10/28 23:59 CDT，晚交11/4 23:59。PS3反馈入口新增，正常10/21 23:59，晚交10/28 23:59。PS2晚交仍10/21 23:29，不能写成23:59。反馈最多两题且需明确标出；作业不计分。
+- 新增今天MATH预习、SOSC Day7笔记及PS4，共80项。原77项的日期、done、statusVersion保留；未完成旧任务不顺延。今天不建MATH/CMSC课堂笔记。
+- SOSC教师新发布匿名范文（6页），附在Writing Assignment 1供参考；范文2024年的题目不替代今年题干。Essay1仍10/26 23:59；新Canvas Quiz1记录未列新日期，不重开10/13任务。中午课件仍Class2–6，Class7待后续补齐。
+- 从共同作者芝大主页取得10/22的Enikolopov原PDF（5页），归Day8。McDermott大学PDF404，Sears作者PDF403，Library Reserves仍加载为空；两份PDF缺口如实保留，不要求重复登录Canvas。
+- PHYS仍Lecture1–5、HW2订正答案；HW4和Pendulum2要求未变。CMSC仍两份作业、Ed21帖；CMSC HW2、PHYS HW3仍已提交，不重置完成状态。18个已有/新公开原件下载核对，只有MATH PS4为新增。
 
 ## 2026-10-19 登录后补查
 

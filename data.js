@@ -1,6 +1,6 @@
 window.WORKLIST = {
-  "updatedAt": "2026-10-19T17:28:22Z",
-  "scope": "10/19 登录后已补查三门 Canvas 与 Gradescope；新增 Pendulum 2 实验笔记和报告待办，确认 PHYS HW4 于10/26 23:59截止。MATH Lecture 10、MIT补充讲义、HW4题目、Pendulum 2报告题目与两份原始Colab均已归档。CMSC Ed/官网沿用今天中午核查。SOSC阅读库仍空白，McDermott、Sears、Enikolopov三篇PDF待补。今天MATH预习和MATH/CMSC笔记仍为个人当天期限。",
+  "updatedAt": "2026-10-20T17:17:17Z",
+  "scope": "10/20已查三门Canvas/Gradescope及CMSC Ed/官网。新增MATH PS4（可选反馈10/28 23:59），PS3反馈入口已开放（10/21 23:59）；SOSC新增范文、补齐10/22 Enikolopov阅读PDF。今天MATH预习和SOSC Day7笔记当天截止。Class7课件尚未发布；阅读库仍空白，McDermott/Sears两篇PDF待补。",
   "tasks": [
     {
       "id": "sosc-freedman",
@@ -81,7 +81,7 @@ window.WORKLIST = {
       "deadlineKind": "feedback",
       "done": false,
       "statusVersion": 1,
-      "note": "全套 9 个编号项目不计分，原建议 10/7 完成；若需反馈最多提交两题。Gradescope 原截止 10/7 23:59，晚交入口10/14 23:59已关闭；10/19 核查仍 No Submission。原截止日期保留。 10/19 TA补充：申请反馈时须明确标出希望批改的两题；多交但未标明可能无法批改。",
+      "note": "全套 9 个编号项目不计分，原建议 10/7 完成；若需反馈最多提交两题。Gradescope 原截止 10/7 23:59，晚交入口10/14 23:59已关闭；10/20 核查仍 No Submission。原截止日期保留。 10/19 TA补充：申请反馈时须明确标出希望批改的两题；多交但未标明可能无法批改。",
       "materials": [
         "math-ps1",
         "math-policy",
@@ -113,10 +113,11 @@ window.WORKLIST = {
       "deadlineKind": "in-class",
       "done": false,
       "statusVersion": 1,
-      "note": "10/6 教师通知：从 10/8 延至 10/13（周二）。课内 30 分钟，open-note；具体开始时刻未单列。",
+      "note": "10/6 教师通知：从 10/8 延至 10/13（周二）。课内 30 分钟，open-note；具体开始时刻未单列。 10/20新增同名Canvas记录，未列新测验日期；保留10/13原课内日期及已有完成状态，不重开任务。",
       "materials": [
         "sosc-course-updates",
-        "sosc-syllabus"
+        "sosc-syllabus",
+        "sosc-quiz1-entry"
       ]
     },
     {
@@ -447,7 +448,7 @@ window.WORKLIST = {
       "deadlineKind": "feedback",
       "done": false,
       "statusVersion": 1,
-      "note": "全套建议 10/14 完成，不计分；若需反馈最多选两题提交 Gradescope，原截止10/14 23:29 CDT，晚交入口至10/21 23:29。10/19 核查仍 No Submission；这是可选反馈期限。 10/19 TA补充：申请反馈时须明确标出希望批改的两题；多交但未标明可能无法批改。",
+      "note": "全套建议 10/14 完成，不计分；若需反馈最多选两题提交 Gradescope，原截止10/14 23:29 CDT，晚交入口至10/21 23:29。10/20 核查仍 No Submission；这是可选反馈期限。 10/19 TA补充：申请反馈时须明确标出希望批改的两题；多交但未标明可能无法批改。",
       "materials": [
         "math-ps2",
         "math-ps2-canvas",
@@ -519,10 +520,11 @@ window.WORKLIST = {
       "dueDate": "2026-10-26",
       "done": false,
       "statusVersion": 1,
-      "note": "正式题目已发布，二选一：AI 学习与成绩的因果关系，或社交媒体不文明内容实验的内外部效度。约 5 页，12pt Times New Roman 或相近字体，双倍行距，以 PDF 提交 Canvas。作业页、题干及 10/15 现行大纲均为 10/26，具体截止为 23:59 CDT。10/28 是入口关闭日期，不是 DDL。",
+      "note": "正式题目已发布，二选一：AI 学习与成绩的因果关系，或社交媒体不文明内容实验的内外部效度。约 5 页，12pt Times New Roman 或相近字体，双倍行距，以 PDF 提交 Canvas。作业页、题干及 10/15 现行大纲均为 10/26，具体截止为 23:59 CDT。10/28 是入口关闭日期，不是 DDL。 10/20补充老师新上传的6页范文，供写作参考；范文是2024年的其他题目，不替代当前二选一题干，也没有新增必交任务。",
       "materials": [
         "sosc-essay1-prompt",
-        "sosc-syllabus"
+        "sosc-syllabus",
+        "sosc-sample-paper"
       ],
       "time": "23:59",
       "deadlineKind": "exact"
@@ -644,7 +646,7 @@ window.WORKLIST = {
       "relativeDeadline": "本人实验结束后 24 小时",
       "done": true,
       "statusVersion": 2,
-      "note": "个人课后报告，DDL 为本人本次实验结束后 24 小时（America/Chicago）；独立作答并以一个 PDF 上传 Canvas。题目已保存为官方 Google Doc 的 DOCX 导出件；本人实验时段尚未核实，Canvas 未列具体日期。 10/15 核实 Canvas 显示已于 10/14 16:15 CDT 提交，待评分；据此标记完成。",
+      "note": "个人课后报告，DDL 为本人本次实验结束后 24 小时（America/Chicago）；独立作答并以一个 PDF 上传 Canvas。题目已保存为官方 Google Doc 的 DOCX 导出件；本人实验时段尚未核实，Canvas 未列具体日期。 10/15 核实 Canvas 显示已于 10/14 16:15 CDT 提交，据此标记完成。10/20已显示评分；保留完成状态。",
       "materials": [
         "phys-lab1-report",
         "phys-lab1-report-submit",
@@ -701,15 +703,17 @@ window.WORKLIST = {
       "course": "MATH",
       "shortName": "PS3",
       "dueDate": "2026-10-21",
-      "deadlineKind": "suggested",
+      "deadlineKind": "feedback",
       "done": false,
       "statusVersion": 1,
       "materials": [
         "math-ps3",
         "math-policy",
-        "math-gradescope"
+        "math-ps3-submit",
+        "math-oh-announcement"
       ],
-      "note": "4 页，建议 10/21 完成，不是硬性 DDL。10/19 Gradescope 仍只有 PS1/PS2，尚无 PS3 上传项；最多选两题反馈的既有规则不变。 10/19 TA补充：申请反馈时须明确标出希望批改的两题；多交但未标明可能无法批改。"
+      "note": "全套4页建议10/21完成，不计入课程成绩。10/20 Gradescope已开放：可选反馈正常截止10/21 23:59 CDT，晚交至10/28 23:59。最多提交两题，并明确标出希望批改的题目；这是可选反馈期限。核查时尚未提交。",
+      "time": "23:59"
     },
     {
       "id": "cmsc-hw2",
@@ -1006,7 +1010,7 @@ window.WORKLIST = {
         "sosc-mcdermott-article",
         "sosc-syllabus"
       ],
-      "note": "Day 7 · Lab Experiments；必读 pp. 31–61。作者全文网页可读；原 PDF 尚未取得，暂保留全文入口。"
+      "note": "Day 7 · Lab Experiments；10/20课前必读 pp.31–61。保留作者全文网页；大学PDF链接本轮404，课程阅读库为空，原PDF仍待补。"
     },
     {
       "id": "sosc-iyengar-news",
@@ -1034,7 +1038,7 @@ window.WORKLIST = {
         "sosc-sears-article",
         "sosc-syllabus"
       ],
-      "note": "Day 7 · Lab Experiments；必读 pp. 515–530。课程阅读库本轮加载为空，大学旧 PDF 链接 404，原件待补。"
+      "note": "Day 7 · Lab Experiments；10/20课前必读 pp.515–530。阅读库仍加载空白；大学旧PDF为404，作者ResearchGate原PDF下载返回403，原件待补。保留出版入口，不能将下载失败当成无需阅读。"
     },
     {
       "id": "sosc-butler-discrimination",
@@ -1062,7 +1066,7 @@ window.WORKLIST = {
         "sosc-enikolopov-article",
         "sosc-syllabus"
       ],
-      "note": "Day 8 · Field Experiments；必读 pp. 448–452。保留 PMC 原文入口；大学存储下载链接 404，PDF 尚待补齐。"
+      "note": "Day 8 · Field Experiments；10/22课前必读 pp.448–452。10/20已从共同作者Konstantin Sonin的芝大主页补齐5页原PDF，并归档Day 8。"
     },
     {
       "id": "math-preview-2026-10-17",
@@ -1198,7 +1202,7 @@ window.WORKLIST = {
         "phys-textbook",
         "phys-week4"
       ],
-      "note": "10/19登录后复核Week 4要求读Ch.10，未列独立截止时刻；模块仍Lecture1–5，尚未发布Lecture6，不编造新讲义链接。"
+      "note": "10/20复核Week 4要求读Ch.10，未列独立截止时刻；模块仍Lecture1–5，尚未发布Lecture6，不编造新讲义链接。"
     },
     {
       "id": "phys-lab2-notebook",
@@ -1231,6 +1235,61 @@ window.WORKLIST = {
         "phys-lab2-report",
         "phys-lab2-report-submit",
         "phys-lab2-guide"
+      ]
+    },
+    {
+      "id": "math-ps4",
+      "course": "MATH",
+      "shortName": "PS4",
+      "dueDate": "2026-10-28",
+      "time": "23:59",
+      "deadlineKind": "feedback",
+      "done": false,
+      "statusVersion": 1,
+      "note": "新发布4页题目，建议10/28完成，不计入课程成绩。若需反馈，最多提交并明确标出两题；Gradescope正常截止10/28 23:59 CDT，晚交至11/4 23:59。10/20核查尚未提交。",
+      "materials": [
+        "math-ps4",
+        "math-ps4-submit",
+        "math-ps4-canvas",
+        "math-policy",
+        "math-oh-announcement"
+      ]
+    },
+    {
+      "id": "math-preview-2026-10-20",
+      "course": "MATH",
+      "shortName": "预习 10/20",
+      "dueDate": "2026-10-20",
+      "planDate": "2026-10-20",
+      "deadlineKind": "same-day",
+      "done": false,
+      "statusVersion": 1,
+      "recurrenceKey": "math-preview",
+      "note": "每日个人预习待办，包括周末；当天完成，旧未完成项保留原日期。附最新Lecture 10、PS4及期中复习题。10/23课内期中范围截至10/21课堂；复习题并非完整范围。",
+      "materials": [
+        "math-lecture10",
+        "math-ps4",
+        "math-midterm1-review",
+        "math-midterm1-announcement",
+        "math-syllabus"
+      ]
+    },
+    {
+      "id": "sosc-notes-2026-10-20",
+      "course": "SOSC",
+      "shortName": "整理 10/20（Day 7）笔记",
+      "classDate": "2026-10-20",
+      "dueDate": "2026-10-20",
+      "deadlineKind": "same-day",
+      "taskKind": "lecture-notes",
+      "done": false,
+      "statusVersion": 1,
+      "note": "个人课日当天整理期限，不是教师作业DDL。今天主题Lab Experiments，三篇课前阅读分别列项。中午Course Slides仍只有Class 2–6，Class 7尚未发布，后续补链接；未代为完成笔记。",
+      "materials": [
+        "sosc-mcdermott-article",
+        "sosc-iyengar-news-pdf",
+        "sosc-sears-article",
+        "sosc-syllabus"
       ]
     }
   ],
@@ -1700,8 +1759,8 @@ window.WORKLIST = {
       "url": "https://doi.org/10.1037/0022-3514.51.3.515"
     },
     "sosc-enikolopov-article": {
-      "title": "Field Experiment Estimate of Electoral Fraud in Russian Parliamentary Elections（PMC 原文；PDF 待补）",
-      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3545790/"
+      "title": "Field Experiment Estimate of Electoral Fraud in Russian Parliamentary Elections.pdf",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/SOSC%2013100/Day%208/Field%20Experiment%20Estimate%20of%20Electoral%20Fraud%20in%20Russian%20Parliamentary%20Elections.pdf"
     },
     "math-midterm1-review": {
       "title": "Honors Basic Algebra I - Review Problems for Midterm 1.pdf",
@@ -1763,6 +1822,34 @@ window.WORKLIST = {
     "phys-lab2-report-submit": {
       "title": "Lab Report 2 提交入口（Canvas）",
       "url": "https://canvas.uchicago.edu/courses/74238/assignments/908798"
+    },
+    "math-ps4": {
+      "title": "Honors Basic Algebra I - Problem Set 4.pdf",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/MATH%2025700/Problem%20Set%204/Honors%20Basic%20Algebra%20I%20-%20Problem%20Set%204.pdf"
+    },
+    "sosc-sample-paper": {
+      "title": "Can We Trust America - Probably Not Through a Public Opinion Poll - Sample Paper.pdf",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/SOSC%2013100/Writing%20Assignment%201/Can%20We%20Trust%20America%20-%20Probably%20Not%20Through%20a%20Public%20Opinion%20Poll%20-%20Sample%20Paper.pdf"
+    },
+    "math-ps3-submit": {
+      "title": "PS3 可选反馈提交 · 10/21 23:59（最多两题）",
+      "url": "https://www.gradescope.com/courses/1423507/assignments/8907492"
+    },
+    "math-ps4-submit": {
+      "title": "PS4 可选反馈提交 · 10/28 23:59（最多两题）",
+      "url": "https://www.gradescope.com/courses/1423507/assignments/8907517"
+    },
+    "math-ps4-canvas": {
+      "title": "PS4 课程要求",
+      "url": "https://canvas.uchicago.edu/courses/75102/assignments/922139"
+    },
+    "sosc-quiz1-entry": {
+      "title": "Quiz 1 · Canvas 记录（未列新考试日期）",
+      "url": "https://canvas.uchicago.edu/courses/74986/assignments/922313"
+    },
+    "sosc-enikolopov-source": {
+      "title": "Electoral Fraud · 作者原 PDF",
+      "url": "https://voices.uchicago.edu/ksonin/files/2019/04/Electoral-Fraud-PNAS.pdf"
     }
   },
   "officeHours": [
@@ -1787,8 +1874,8 @@ window.WORKLIST = {
     {
       "course": "PHYS",
       "person": "Heinrich Jaeger · 教授",
-      "time": "周一 15:30–16:30（10/19 临时改线上）",
-      "place": "仅10/19改为 Zoom；其他周常规地点为 GCIS E229。",
+      "time": "周一 15:30–16:30（10/19 临时线上安排已结束）",
+      "place": "常规地点 GCIS E229；10/19 的 Zoom 例外已过，仅该日适用。",
       "url": "https://canvas.uchicago.edu/courses/74238/discussion_topics/1024991",
       "linkLabel": "10/19 临时调整与 Zoom 入口（Canvas）",
       "exceptionDate": "2026-10-19",
