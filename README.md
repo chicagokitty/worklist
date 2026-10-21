@@ -2,7 +2,16 @@
 
 [打开网页](https://chicagokitty.github.io/worklist/)
 
-白底黑字的单页任务清单。2026-10-01 核查 Canvas、CMSC Gradescope、Ed Discussion 和教师官网后同步；当前版本包含截至 10/20 的课程核查和此前未完成事项。
+白底黑字的单页任务清单。2026-10-01 核查 Canvas、CMSC Gradescope、Ed Discussion 和教师官网后同步；当前版本包含截至 10/21 的课程核查和此前未完成事项。
+
+## 2026-10-21 中午核查
+
+- 新增CMSC HW3（5题2页），10/28 23:59 CDT正常截止，迟交至10/30 23:59。Ed新增AI政策：疑似AI生成或本人未理解的解答可能被标记并要求口头解释；已附原公告。HW1结果已发布，老师确认本次不扣迟交分，旧完成状态保留。
+- 新增今天MATH预习及MATH/CMSC Day11笔记，共84项。原80项日期、done、statusVersion保持；没有将下载材料当作学习任务完成。
+- MATH Lecture11（11页）按Day11归档；现有16份大纲/讲义/PS/期中复习题字节未变。教授10/21答疑16:15开始、18:00前离开；10/22答疑16:45–18:30。10/23期中安排不变。
+- SOSC Quiz1 Rubric原PDF（1页）归Day5并链接既有Quiz1任务，不新建考试。Essay1仍10/26 23:59；10/22两篇必读已归档。Class7仍未发布，Library Reserves空白，McDermott原PDF仍待补。
+- PHYS新增Lecture6（28页）和HW3答案，Canvas预览可读，但下载工具失败，未把登录HTML当PDF归档；保留具体官方文件链接并标注待补。Lecture6实际课日尚未确认，暂不编造Day。HW4仍10/26 23:59，Pendulum2相对期限未变。
+- 已查Canvas课程页/大纲、可见公告/讨论/作业/模块或Files与课程动态；三门Gradescope、CMSC Ed23帖与官网。原PDF存私有库，公开网页不含个人成绩、签名下载参数或私人文件。
 
 ## 2026-10-20 阅读补齐
 

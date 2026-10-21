@@ -1,6 +1,6 @@
 window.WORKLIST = {
-  "updatedAt": "2026-10-20T17:53:16Z",
-  "scope": "10/20已查三门Canvas/Gradescope及CMSC Ed/官网。新增MATH PS4（可选反馈10/28 23:59），PS3反馈入口已开放（10/21 23:59）；SOSC新增范文、补齐10/22 Enikolopov阅读PDF。今天MATH预习和SOSC Day7笔记当天截止。Class7课件尚未发布；阅读库仍空白，Sears原PDF已补齐并归档；McDermott PDF仍待补。",
+  "updatedAt": "2026-10-21T12:16:00-05:00",
+  "scope": "10/21已查三门Canvas/Gradescope及CMSC Ed/官网。新增CMSC HW3（10/28 23:59），附AI政策补充；归档MATH Lecture11、CMSC HW3、SOSC Quiz1 Rubric。今天MATH预习及MATH/CMSC笔记当天截止。MATH教授10/21提前至18:00前结束答疑、10/22延至18:30。PHYS Lecture6/HW3答案已发布但下载待补；SOSC Class7尚未发布，阅读库空白、McDermott PDF仍缺。",
   "tasks": [
     {
       "id": "sosc-freedman",
@@ -81,7 +81,7 @@ window.WORKLIST = {
       "deadlineKind": "feedback",
       "done": false,
       "statusVersion": 1,
-      "note": "全套 9 个编号项目不计分，原建议 10/7 完成；若需反馈最多提交两题。Gradescope 原截止 10/7 23:59，晚交入口10/14 23:59已关闭；10/20 核查仍 No Submission。原截止日期保留。 10/19 TA补充：申请反馈时须明确标出希望批改的两题；多交但未标明可能无法批改。",
+      "note": "全套 9 个编号项目不计分，原建议 10/7 完成；若需反馈最多提交两题。Gradescope 原截止 10/7 23:59，晚交入口10/14 23:59已关闭；10/21 核查仍 No Submission。原截止日期保留。 10/19 TA补充：申请反馈时须明确标出希望批改的两题；多交但未标明可能无法批改。",
       "materials": [
         "math-ps1",
         "math-policy",
@@ -113,11 +113,12 @@ window.WORKLIST = {
       "deadlineKind": "in-class",
       "done": false,
       "statusVersion": 1,
-      "note": "10/6 教师通知：从 10/8 延至 10/13（周二）。课内 30 分钟，open-note；具体开始时刻未单列。 10/20新增同名Canvas记录，未列新测验日期；保留10/13原课内日期及已有完成状态，不重开任务。",
+      "note": "10/6 教师通知：从 10/8 延至 10/13（周二）。课内 30 分钟，open-note；具体开始时刻未单列。 10/20新增同名Canvas记录，未列新测验日期；保留10/13原课内日期及已有完成状态，不重开任务。 10/21补齐教师的1页Quiz 1 Rubric，归Day 5；没有新增考试或截止日期。",
       "materials": [
         "sosc-course-updates",
         "sosc-syllabus",
-        "sosc-quiz1-entry"
+        "sosc-quiz1-entry",
+        "sosc-quiz1-rubric"
       ]
     },
     {
@@ -186,7 +187,7 @@ window.WORKLIST = {
       "dueDate": "2026-10-14",
       "done": true,
       "statusVersion": 2,
-      "note": "10/10 已在 Gradescope 核实 Submitted，原 10/14 23:59 CDT 截止保留。5 道题，PDF 已归档。Q4 教师新说明：需要合理严谨的证明，此要求适用于所有作业。Q2 三个小问的 A 均为有限集；Q1 证明详略、Q5 术语见 Ed。合作需注明同伴姓名，最终解答须独立写作。 10/14 仍已提交；补充 Ed 新答疑链接：Q5 指大小为 6 的偏序集，教师已给出提示；Q1 允许使用 AM–GM。 10/15 TA 在 Ed 通知已重开迟交入口至 10/16 23:59（CDT），可能有少量迟交扣分；原正常截止仍为 10/14 23:59。已有提交与完成状态保持，不重开任务。",
+      "note": "10/10 已在 Gradescope 核实 Submitted，原 10/14 23:59 CDT 截止保留。5 道题，PDF 已归档。Q4 教师新说明：需要合理严谨的证明，此要求适用于所有作业。Q2 三个小问的 A 均为有限集；Q1 证明详略、Q5 术语见 Ed。合作需注明同伴姓名，最终解答须独立写作。 10/14 仍已提交；补充 Ed 新答疑链接：Q5 指大小为 6 的偏序集，教师已给出提示；Q1 允许使用 AM–GM。 10/15 TA 在 Ed 通知已重开迟交入口至 10/16 23:59（CDT），当时提示可能有迟交扣分；原正常截止仍为 10/14 23:59。已有提交与完成状态保持，不重开任务。 10/20新公告确认HW1结果已发布，因工作人员疏漏本次不扣迟交分；今后迟交可能扣分。若有实际评分错误，可经Gradescope申请复核。",
       "materials": [
         "cmsc-hw1-pdf",
         "cmsc-hw1-submit",
@@ -201,7 +202,8 @@ window.WORKLIST = {
         "cmsc-hw1-q5-size",
         "cmsc-hw1-q1-amgm",
         "cmsc-hw1-q2-squares",
-        "cmsc-hw1-late-policy"
+        "cmsc-hw1-late-policy",
+        "cmsc-hw1-results"
       ],
       "time": "23:59"
     },
@@ -448,7 +450,7 @@ window.WORKLIST = {
       "deadlineKind": "feedback",
       "done": false,
       "statusVersion": 1,
-      "note": "全套建议 10/14 完成，不计分；若需反馈最多选两题提交 Gradescope，原截止10/14 23:29 CDT，晚交入口至10/21 23:29。10/20 核查仍 No Submission；这是可选反馈期限。 10/19 TA补充：申请反馈时须明确标出希望批改的两题；多交但未标明可能无法批改。",
+      "note": "全套建议 10/14 完成，不计分；若需反馈最多选两题提交 Gradescope，原截止10/14 23:29 CDT，晚交入口至10/21 23:29。10/21 核查仍 No Submission；这是可选反馈期限。 10/19 TA补充：申请反馈时须明确标出希望批改的两题；多交但未标明可能无法批改。",
       "materials": [
         "math-ps2",
         "math-ps2-canvas",
@@ -743,9 +745,10 @@ window.WORKLIST = {
       "materials": [
         "phys-hw3-pdf",
         "phys-hw3-submit",
-        "phys-hw3-canvas"
+        "phys-hw3-canvas",
+        "phys-hw3-sol"
       ],
-      "note": "10/17 已在 Gradescope 核实 Submitted，确认完成。8 题、3 页；Canvas 与 Gradescope 正常截止均为 10/19 23:59 CDT，保留原日期。Canvas 列表的未提交状态尚未同步。",
+      "note": "10/17 已在 Gradescope 核实 Submitted，确认完成。8 题、3 页；Canvas 与 Gradescope 正常截止均为 10/19 23:59 CDT，保留原日期。Canvas 列表的未提交状态尚未同步。 10/21新增HW3答案，可在Canvas原文件预览；下载受阻，尚未私有归档。",
       "time": "23:59"
     },
     {
@@ -1097,7 +1100,9 @@ window.WORKLIST = {
       "materials": [
         "math-midterm1-review",
         "math-midterm1-announcement",
-        "math-syllabus"
+        "math-syllabus",
+        "math-lecture11",
+        "math-oh-20261021"
       ],
       "note": "教师10/17公告：10/23（周五）课内第一次期中，短解答题，范围截至10/21（周三）的课堂内容。当前8页复习题仅覆盖 Lecture1–9/PS1–3，且可能随时更新，不能将其当作完整考试范围。复习题不是必交作业；具体钟点未单列。"
     },
@@ -1200,9 +1205,10 @@ window.WORKLIST = {
       "statusVersion": 1,
       "materials": [
         "phys-textbook",
-        "phys-week4"
+        "phys-week4",
+        "phys-lecture6"
       ],
-      "note": "10/20复核Week 4要求读Ch.10，未列独立截止时刻；模块仍Lecture1–5，尚未发布Lecture6，不编造新讲义链接。"
+      "note": "Week 4要求读Ch.10，未列独立截止时刻。10/21模块新增28页Lecture 6，可在Canvas原文件预览；下载受阻，暂未归档，实际课日尚待核实，不把文件编号直接当作课程Day。"
     },
     {
       "id": "phys-lab2-notebook",
@@ -1246,7 +1252,7 @@ window.WORKLIST = {
       "deadlineKind": "feedback",
       "done": false,
       "statusVersion": 1,
-      "note": "新发布4页题目，建议10/28完成，不计入课程成绩。若需反馈，最多提交并明确标出两题；Gradescope正常截止10/28 23:59 CDT，晚交至11/4 23:59。10/20核查尚未提交。",
+      "note": "新发布4页题目，建议10/28完成，不计入课程成绩。若需反馈，最多提交并明确标出两题；Gradescope正常截止10/28 23:59 CDT，晚交至11/4 23:59。10/21核查尚未提交。",
       "materials": [
         "math-ps4",
         "math-ps4-submit",
@@ -1291,6 +1297,75 @@ window.WORKLIST = {
         "sosc-sears-pdf",
         "sosc-syllabus"
       ]
+    },
+    {
+      "id": "math-preview-2026-10-21",
+      "course": "MATH",
+      "shortName": "预习 10/21",
+      "dueDate": "2026-10-21",
+      "planDate": "2026-10-21",
+      "deadlineKind": "same-day",
+      "done": false,
+      "statusVersion": 1,
+      "recurrenceKey": "math-preview",
+      "materials": [
+        "math-lecture11",
+        "math-ps4",
+        "math-midterm1-review",
+        "math-midterm1-announcement"
+      ],
+      "note": "每日个人预习待办，包括周末；当天完成，旧未完成项保留原日期。附新 Lecture 11（同构定理、商群子群与直积，11页）；教材参考 §§3.2–3.3、5.4。10/23课内期中范围截至今天课堂，复习题不是完整范围。"
+    },
+    {
+      "id": "math-notes-2026-10-21",
+      "course": "MATH",
+      "shortName": "整理 10/21（Day 11）笔记",
+      "classDate": "2026-10-21",
+      "dueDate": "2026-10-21",
+      "deadlineKind": "same-day",
+      "taskKind": "lecture-notes",
+      "done": false,
+      "statusVersion": 1,
+      "materials": [
+        "math-lecture11",
+        "math-midterm1-review",
+        "math-oh-20261021"
+      ],
+      "note": "Day 11 讲义已发布并归档，11页：第二/第三同构定理、对应定理、商群的子群与直积。根据讲义和已有笔记整理；这是个人当天期限，不是教师作业DDL，也不代表已经完成整理。"
+    },
+    {
+      "id": "cmsc-notes-2026-10-21",
+      "course": "CMSC",
+      "shortName": "整理 10/21（Day 11）笔记",
+      "classDate": "2026-10-21",
+      "dueDate": "2026-10-21",
+      "deadlineKind": "same-day",
+      "taskKind": "lecture-notes",
+      "done": false,
+      "statusVersion": 1,
+      "materials": [
+        "cmsc-syllabus",
+        "cmsc-syllabus-archive",
+        "cmsc-old-notes"
+      ],
+      "note": "个人课日当天整理期限，以实际课堂笔记为准。10/21官网与Ed未见停课通知；官网仍列前三周范围，第四周材料后续补齐。2018讲义仅供参考。"
+    },
+    {
+      "id": "cmsc-hw3",
+      "course": "CMSC",
+      "shortName": "HW3",
+      "dueDate": "2026-10-28",
+      "time": "23:59",
+      "deadlineKind": "exact",
+      "done": false,
+      "statusVersion": 1,
+      "materials": [
+        "cmsc-hw3-pdf",
+        "cmsc-hw3-submit",
+        "cmsc-hw3-announcement",
+        "cmsc-syllabus"
+      ],
+      "note": "新发布5题、2页，正常截止10/28 23:59 CDT；Gradescope迟交窗口至10/30 23:59，可能扣分。核查时尚未提交。合作需写明同伴，最终解答独立撰写。老师提示本次可能比HW2难；AI政策新增：疑似AI生成或本人未充分理解的解答会被标记，累计后可能要求在Office Hours口头解释。具体规则见Ed。"
     }
   ],
   "materials": {
@@ -1854,9 +1929,65 @@ window.WORKLIST = {
     "sosc-sears-pdf": {
       "title": "Sears · College Sophomores in the Laboratory（PDF）",
       "url": "https://github.com/chicagokitty/worklist-materials/blob/main/SOSC%2013100/Day%207/College%20Sophomores%20in%20the%20Laboratory%20-%20Influences%20of%20a%20Narrow%20Data%20Base%20on%20Social%20Psychology's%20View%20of%20Human%20Nature.pdf"
+    },
+    "math-lecture11": {
+      "title": "Honors Basic Algebra I - Lecture 11 - The Isomorphism Theorems, Subgroups of Quotients, and Direct Products.pdf",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/MATH%2025700/Day%2011/Honors%20Basic%20Algebra%20I%20-%20Lecture%2011%20-%20The%20Isomorphism%20Theorems%2C%20Subgroups%20of%20Quotients%2C%20and%20Direct%20Products.pdf"
+    },
+    "cmsc-hw3-pdf": {
+      "title": "Honors Discrete Mathematics - Homework 3.pdf",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/CMSC%2027130/Homework%203/Honors%20Discrete%20Mathematics%20-%20Homework%203.pdf"
+    },
+    "sosc-quiz1-rubric": {
+      "title": "Quiz 1 Rubric.pdf",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/SOSC%2013100/Day%205/Quiz%201%20Rubric.pdf"
+    },
+    "cmsc-hw3-submit": {
+      "title": "HW3 提交入口（Gradescope · 10/28 23:59 CDT）",
+      "url": "https://www.gradescope.com/courses/1417716/assignments/8912579/submissions/new"
+    },
+    "cmsc-hw3-announcement": {
+      "title": "HW3 发布与 AI 政策补充（Ed）",
+      "url": "https://edstem.org/us/courses/107374/discussion/8421049"
+    },
+    "cmsc-hw1-results": {
+      "title": "HW1 评分结果与迟交说明（Ed）",
+      "url": "https://edstem.org/us/courses/107374/discussion/8418323"
+    },
+    "math-oh-20261021": {
+      "title": "MATH 教授 10/21–22 临时 Office Hours 调整",
+      "url": "https://canvas.uchicago.edu/courses/75102/discussion_topics/1026330"
+    },
+    "phys-lecture6": {
+      "title": "Lecture 6 · Canvas 原文件（下载归档待补）",
+      "url": "https://canvas.uchicago.edu/courses/74238/files/15999785"
+    },
+    "phys-hw3-sol": {
+      "title": "PHYS121 HW3 Solutions · Canvas 原文件（下载归档待补）",
+      "url": "https://canvas.uchicago.edu/courses/74238/files/15999807"
     }
   },
   "officeHours": [
+    {
+      "course": "MATH",
+      "person": "Akhil Mathew · 教授",
+      "time": "周三 16:15–18:30；10/21 提前至18:00前结束",
+      "place": "Ryerson 250（大纲所列办公室）",
+      "url": "https://canvas.uchicago.edu/courses/75102/discussion_topics/1026330",
+      "linkLabel": "本周临时调整（10/21公告）",
+      "exceptionDate": "2026-10-21",
+      "note": "10/21只改结束时间，老师将于18:00前离开；常规时段来自大纲。"
+    },
+    {
+      "course": "MATH",
+      "person": "Akhil Mathew · 教授",
+      "time": "周四 16:45–18:00；10/22 延长至18:30",
+      "place": "Ryerson 250（大纲所列办公室）",
+      "url": "https://canvas.uchicago.edu/courses/75102/discussion_topics/1026330",
+      "linkLabel": "本周临时调整（10/21公告）",
+      "exceptionDate": "2026-10-22",
+      "note": "10/22只改结束时间，延长至18:30；常规时段来自大纲。"
+    },
     {
       "person": "Alexander Razborov · 教授",
       "time": "周一 14:00–16:00",
