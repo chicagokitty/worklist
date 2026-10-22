@@ -1,5 +1,14 @@
 # worklist
 
+## 2026-10-22 中午更新
+
+- MATH 10/21下午新公告：10/23期中不考10/21当次课内容，短解答且不要求详细证明。教授OH自10/22改至临时办公室E208-A，今天16:45–18:30。
+- CMSC新考试规则：10/30 09:30–10:20，5题；范围截至10/26课堂，备考按Rosen常规题。本人整理的不限长度纸质笔记可带，禁止书籍/扫描书页及计算器外的电子设备。期末12/10 08:00–10:00，携带规则相同；PHYS期中10/29课内50分钟、Ch.1–5及10也已补入清单。
+- PHYS HW4、Lab Notebook2、Lab Report2由平台可靠记录确认完成；不发布分数或个人作答。
+- 今日新增MATH预习、SOSC Day8笔记；提前列入10/27和10/29三篇SOSC阅读，原PDF归私有Day9/10。Lecture11修订为7页，旧11页原件保留。
+- 共92项任务。仅上述3项完成状态更新，其余已有状态和原DDL保留。没有编辑共享文档、发邮件或提交作业。
+- SOSC Course Slides仍Class2–6，Library Reserves空白；PHYS Lecture6/HW3答案、McDermott阅读PDF仍未补齐。
+
 [打开网页](https://chicagokitty.github.io/worklist/)
 
 白底黑字的单页任务清单。2026-10-01 核查 Canvas、CMSC Gradescope、Ed Discussion 和教师官网后同步；当前版本包含截至 10/21 的课程核查和此前未完成事项。
