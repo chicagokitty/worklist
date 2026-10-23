@@ -1,5 +1,13 @@
 # worklist
 
+## 2026-10-23 中午更新
+
+- PHYS Ryan今日10/23 Office Hours临时改为Zoom 12:00–13:30 CDT；网页只链接Canvas公告，私人入场参数不公开。Lecture8新文件30页可预览，下载超时未归档；模块Lecture7仍指向旧Lecture6文件，已标明。
+- CMSC官网新增第四周计数范围及Rosen章节，原HTML更新至私有资料库。教授在Ed明确不会提供往年试卷或模拟卷；期中时间和范围不变。
+- MATH HW2/3反馈课程公告已附在相应任务；今天课内期中替代普通课堂，不创建MATH课堂笔记。新增每日MATH预习和CMSC Day12笔记，个人截止均为今天。
+- 共94项；原92项的日期、done、statusVersion全部保留。SOSC论文仍10/26 23:59，10/27和10/29阅读不变；Class7/8仍未发布，Library Reserves空白。
+- 三门Canvas课程/大纲、公告、讨论、作业、模块或Files及动态、三门Gradescope、CMSC Ed/官网已查。20个公开原件下载校验：19份PDF不变，仅CMSC HTML修订；PHYS Lecture6/HW3答案和McDermott PDF缺口继续保留。
+
 ## 2026-10-22 中午更新
 
 - MATH 10/21下午新公告：10/23期中不考10/21当次课内容，短解答且不要求详细证明。教授OH自10/22改至临时办公室E208-A，今天16:45–18:30。
@@ -11,7 +19,7 @@
 
 [打开网页](https://chicagokitty.github.io/worklist/)
 
-白底黑字的单页任务清单。2026-10-01 核查 Canvas、CMSC Gradescope、Ed Discussion 和教师官网后同步；当前版本包含截至 10/21 的课程核查和此前未完成事项。
+白底黑字的单页任务清单。2026-10-01 核查 Canvas、CMSC Gradescope、Ed Discussion 和教师官网后同步；当前版本包含截至 10/23 的课程核查和此前未完成事项。
 
 ## 2026-10-21 中午核查
 

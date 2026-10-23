@@ -1,6 +1,6 @@
 window.WORKLIST = {
-  "updatedAt": "2026-10-22T12:18:00-05:00",
-  "scope": "10/22已核查三门Canvas、Gradescope及CMSC Ed/官网。MATH期中不考10/21当次课；教授OH改至E208-A，今天延至18:30。CMSC新考试规则已补。PHYS HW4、Pendulum2笔记/报告确认完成。今日MATH预习、SOSC笔记当天截止；下周三篇阅读与修订Lecture11已私有归档。SOSC Class7/8未发布，阅读库仍空白；PHYS Lecture6/HW3答案及McDermott PDF下载缺口继续记录。",
+  "updatedAt": "2026-10-23T17:09:29.770Z",
+  "scope": "10/23已核查三门Canvas/Gradescope、CMSC Ed和官网。PHYS Ryan今天OH改为12:00–13:30线上；新增Lecture8原文件入口，模块Lecture7仍指向Lecture6。CMSC补第四周计数范围及期中答疑。今天新增MATH预习和CMSC笔记；MATH课内考试不建普通课堂笔记。CMSC网页原件已修订归档；SOSC Class7/8未发布，阅读库空白，PHYS与McDermott下载缺口保留。",
   "tasks": [
     {
       "id": "sosc-freedman",
@@ -450,13 +450,14 @@ window.WORKLIST = {
       "deadlineKind": "feedback",
       "done": false,
       "statusVersion": 1,
-      "note": "全套建议10/14完成，不计分；最多选两题申请可选反馈。正常截止10/14 23:29 CDT，迟交窗口10/21 23:29已关闭。10/22核查No Submission；未完成的学习任务保留原日期，不因窗口结束标记完成。TA要求明确标注希望批改的两题。",
+      "note": "全套建议10/14完成，不计分；最多选两题申请可选反馈。正常截止10/14 23:29 CDT，迟交窗口10/21 23:29已关闭。10/23核查No Submission；未完成的学习任务保留原日期，不因窗口结束标记完成。TA要求明确标注希望批改的两题。 TA已发布HW2/3反馈的课程公告；本人平台仍显示未提交，不能据此认定已有个人反馈或任务完成。",
       "materials": [
         "math-ps2",
         "math-ps2-canvas",
         "math-gradescope",
         "math-oh-announcement",
-        "math-ps2-submit"
+        "math-ps2-submit",
+        "math-hw-feedback"
       ],
       "time": "23:29"
     },
@@ -712,9 +713,10 @@ window.WORKLIST = {
         "math-ps3",
         "math-policy",
         "math-ps3-submit",
-        "math-oh-announcement"
+        "math-oh-announcement",
+        "math-hw-feedback"
       ],
-      "note": "全套4页建议10/21完成，不计入课程成绩。可选反馈正常截止10/21 23:59 CDT已过，Gradescope目前接受迟交至10/28 23:59，10/22仍No Submission。最多提交两题并明确标题号；保留原正常截止，不滚动顺延。",
+      "note": "全套4页建议10/21完成，不计入课程成绩。可选反馈正常截止10/21 23:59 CDT已过，Gradescope目前接受迟交至10/28 23:59，10/23仍No Submission。最多提交两题并明确标题号；保留原正常截止，不滚动顺延。 TA已发布HW2/3反馈的课程公告；本人平台仍显示未提交，不能据此认定已有个人反馈或任务完成。",
       "time": "23:59"
     },
     {
@@ -1160,7 +1162,7 @@ window.WORKLIST = {
         "cmsc-syllabus-archive",
         "cmsc-old-notes"
       ],
-      "note": "个人课日当天整理期限，以实际课堂笔记为准。10/19官网与Ed核查未见停课通知；官网仍列前三周范围，第四周材料后续补齐。旧年笔记仅作参考。"
+      "note": "个人课日当天整理期限，以实际课堂笔记为准。10/23官网补充第四周计数范围及Rosen对应章节，已更新原HTML归档；整周主题不等于单日授课范围。2018讲义仅供参考。"
     },
     {
       "id": "math-preview-2026-10-19",
@@ -1209,9 +1211,10 @@ window.WORKLIST = {
       "materials": [
         "phys-textbook",
         "phys-week4",
-        "phys-lecture6"
+        "phys-lecture6",
+        "phys-lecture8"
       ],
-      "note": "Week 4要求读Ch.10，未列独立截止时刻。10/21模块新增28页Lecture 6，可在Canvas原文件预览；下载受阻，暂未归档，实际课日尚待核实，不把文件编号直接当作课程Day。"
+      "note": "Week 4要求读Ch.10，未列独立截止时刻。10/23模块新增30页Lecture8；模块的Lecture7标题仍指向28页旧Lecture6（15999785），并非另一个新文件。两份具体Canvas预览可读；Lecture6下载被浏览器阻止，Lecture8下载超时，均未归档。实际课日未标明，不把讲义编号当作Day。"
     },
     {
       "id": "phys-lab2-notebook",
@@ -1354,7 +1357,7 @@ window.WORKLIST = {
         "cmsc-syllabus-archive",
         "cmsc-old-notes"
       ],
-      "note": "个人课日当天整理期限，以实际课堂笔记为准。10/21官网与Ed未见停课通知；官网仍列前三周范围，第四周材料后续补齐。2018讲义仅供参考。"
+      "note": "个人课日当天整理期限，以实际课堂笔记为准。10/23官网补充第四周计数范围及Rosen对应章节，已更新原HTML归档；整周主题不等于单日授课范围。2018讲义仅供参考。"
     },
     {
       "id": "cmsc-hw3",
@@ -1419,7 +1422,7 @@ window.WORKLIST = {
         "cmsc-exam-rules",
         "cmsc-syllabus"
       ],
-      "note": "10/30 09:30–10:20（America/Chicago），5题50分钟。范围截至10/26课堂，包括归纳、线性/偏序、数论及已讲计数。老师建议做Rosen对应章节常规题，考试准备可略过星号题及书中未涵盖的高级部分。允许本人为自己准备的不限长度纸质笔记；打印须来自本人写的源文件。可带简单计算器，禁止其他电子设备、书籍及扫描书页。",
+      "note": "10/30 09:30–10:20（America/Chicago），5题50分钟。范围截至10/26课堂，包括归纳、线性/偏序、数论及已讲计数。老师建议做Rosen对应章节常规题，考试准备可略过星号题及书中未涵盖的高级部分。允许本人为自己准备的不限长度纸质笔记；打印须来自本人写的源文件。可带简单计算器，禁止其他电子设备、书籍及扫描书页。 10/23教授回复：不会提供往年试卷或模拟卷；各年选题不同，5题不可能覆盖所有内容。",
       "done": false,
       "statusVersion": 1
     },
@@ -1447,7 +1450,8 @@ window.WORKLIST = {
       "materials": [
         "phys-syllabus",
         "phys-lecture6",
-        "phys-hw3-sol"
+        "phys-hw3-sol",
+        "phys-lecture8"
       ],
       "note": "10/29正常课堂内进行，50分钟；本section上课时段12:30–13:50，KPTC106。模块注明范围Ch.1–5和10。可带一张8.5×11英寸纸的双面笔记及无蓝牙/联网功能的手持计算器；闭卷，其他电子设备不允许。具体50分钟起止未单独公布。",
       "done": false,
@@ -1497,6 +1501,41 @@ window.WORKLIST = {
       "note": "Day10课前必读，大纲指定JEPS2(2),109–138。归档的是作者官网45页稿本，版式和页码与期刊版不同；正文题名与四位作者一致。",
       "done": false,
       "statusVersion": 1
+    },
+    {
+      "id": "math-preview-2026-10-23",
+      "course": "MATH",
+      "shortName": "预习 10/23",
+      "dueDate": "2026-10-23",
+      "planDate": "2026-10-23",
+      "deadlineKind": "same-day",
+      "recurrenceKey": "math-preview",
+      "materials": [
+        "math-lecture11",
+        "math-ps4",
+        "math-midterm1-scope-update",
+        "math-midterm1-review"
+      ],
+      "note": "每日个人预习待办，包括周末，今天完成。今天MATH课内Midterm 1替代普通课堂；预习与考试、笔记整理分开，不自动标记完成。",
+      "done": false,
+      "statusVersion": 1
+    },
+    {
+      "id": "cmsc-notes-2026-10-23",
+      "course": "CMSC",
+      "shortName": "整理 10/23（Day 12）笔记",
+      "classDate": "2026-10-23",
+      "dueDate": "2026-10-23",
+      "deadlineKind": "same-day",
+      "taskKind": "lecture-notes",
+      "done": false,
+      "statusVersion": 1,
+      "materials": [
+        "cmsc-syllabus",
+        "cmsc-syllabus-archive",
+        "cmsc-old-notes"
+      ],
+      "note": "个人课日当天整理期限，以实际课堂笔记为准。官网已补第四周计数：函数与集合基数、二项式系数/定理、容斥及第二类Stirling数等。这是整周范围，不代表每项均在今天讲授；2018讲义仅作参考。"
     }
   ],
   "materials": {
@@ -2090,7 +2129,7 @@ window.WORKLIST = {
       "url": "https://canvas.uchicago.edu/courses/75102/discussion_topics/1026330"
     },
     "phys-lecture6": {
-      "title": "Lecture 6 · Canvas 原文件（下载归档待补）",
+      "title": "Lecture 6 · 模块标题写 Lecture 7，实际仍为旧文件（归档待补）",
       "url": "https://canvas.uchicago.edu/courses/74238/files/15999785"
     },
     "phys-hw3-sol": {
@@ -2120,6 +2159,14 @@ window.WORKLIST = {
     "cmsc-exam-rules": {
       "title": "CMSC 期中/期末规则与期中范围（10/22 Ed）",
       "url": "https://edstem.org/us/courses/107374/discussion/8427445"
+    },
+    "phys-lecture8": {
+      "title": "Lecture 8 · 30页 Canvas 原文件（下载超时，归档待补）",
+      "url": "https://canvas.uchicago.edu/courses/74238/files/16015545"
+    },
+    "math-hw-feedback": {
+      "title": "HW2/3 反馈发布公告",
+      "url": "https://canvas.uchicago.edu/courses/75102/discussion_topics/1027166"
     }
   },
   "officeHours": [
@@ -2135,12 +2182,11 @@ window.WORKLIST = {
     {
       "course": "MATH",
       "person": "Akhil Mathew · 教授",
-      "time": "周四 16:45–18:00；今天10/22延长至18:30",
+      "time": "周四 16:45–18:00",
       "place": "临时办公室 E208-A（10/22起）",
       "url": "https://canvas.uchicago.edu/courses/75102/discussion_topics/1026807",
       "linkLabel": "新地点公告",
-      "exceptionDate": "2026-10-22",
-      "note": "10/21公告延长10/22结束时间至18:30；10/22新公告改地点为E208-A。"
+      "note": "10/22延长至18:30的单次例外已结束；临时办公室E208-A继续按10/22地点公告保留。"
     },
     {
       "person": "Alexander Razborov · 教授",
@@ -2197,8 +2243,12 @@ window.WORKLIST = {
     {
       "course": "PHYS",
       "person": "Ryan Wong · TA",
-      "time": "周五 12:00–13:00（10/9 临时调整已结束）",
-      "place": "KPTC 305"
+      "time": "今天10/23 12:00–13:30（临时）；通常周五12:00–13:00",
+      "place": "今天 Zoom；其他周常规 KPTC 305",
+      "url": "https://canvas.uchicago.edu/courses/74238/discussion_topics/1027147",
+      "linkLabel": "今天调整与 Zoom 入口（Canvas）",
+      "exceptionDate": "2026-10-23",
+      "note": "10/22 18:24课程公告，仅10/23改为线上并延长半小时；时间为America/Chicago。私人入场参数留在Canvas。"
     },
     {
       "course": "PHYS",
