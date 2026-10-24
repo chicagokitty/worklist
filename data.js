@@ -1,6 +1,6 @@
 window.WORKLIST = {
-  "updatedAt": "2026-10-23T17:09:29.770Z",
-  "scope": "10/23已核查三门Canvas/Gradescope、CMSC Ed和官网。PHYS Ryan今天OH改为12:00–13:30线上；新增Lecture8原文件入口，模块Lecture7仍指向Lecture6。CMSC补第四周计数范围及期中答疑。今天新增MATH预习和CMSC笔记；MATH课内考试不建普通课堂笔记。CMSC网页原件已修订归档；SOSC Class7/8未发布，阅读库空白，PHYS与McDermott下载缺口保留。",
+  "updatedAt": "2026-10-24T17:50:30.161076Z",
+  "scope": "10/24已核查三门Canvas、三门Gradescope、CMSC Ed和官网。新增MATH期中带注释解答，Lecture11修订已归档；新增今天MATH预习。周六不建课堂笔记，旧DDL与完成状态保留。SOSC论文仍10/26 23:59；PHYS临时OH已结束。SOSC阅读库空白/Class7–8未发布，PHYS讲义与McDermott下载缺口仍在。",
   "tasks": [
     {
       "id": "sosc-freedman",
@@ -1100,6 +1100,8 @@ window.WORKLIST = {
       "done": false,
       "statusVersion": 1,
       "materials": [
+        "math-midterm1-solutions-announcement",
+        "math-midterm1-annotated",
         "math-midterm1-scope-update",
         "math-midterm1-review",
         "math-midterm1-announcement",
@@ -1107,7 +1109,7 @@ window.WORKLIST = {
         "math-office-location",
         "math-oh-20261021"
       ],
-      "note": "10/23（周五）课内 Midterm 1。10/21 13:49最新公告修订范围：不考10/21当次课的内容，以这条新通知为准。短解答题，不要求详细证明；评分答题区有限，另有草稿纸。8页复习题只是练习，不等同完整范围，也不是必交作业。本人具体section钟点未单独确认。"
+      "note": "10/23（周五）课内 Midterm 1。10/21 13:49最新公告修订范围：不考10/21当次课的内容，以这条新通知为准。短解答题，不要求详细证明；评分答题区有限，另有草稿纸。8页复习题只是练习，不等同完整范围，也不是必交作业。本人具体section钟点未单独确认。 10/23教师已发布带注释解答，10/24原样归档；考试日期及本人完成状态保留。"
     },
     {
       "id": "math-preview-2026-10-18",
@@ -1340,7 +1342,7 @@ window.WORKLIST = {
         "math-oh-20261021",
         "math-midterm1-scope-update"
       ],
-      "note": "Day11讲义已由教师修订为7页《The Isomorphism Theorems and Subgroups of Quotients》，原11页旧版保留供追溯；直积与半直积移至后续Lecture12，尚未发布。按实际课堂与个人笔记整理；个人期限保持10/21，不代表已完成。10/21下午公告说明当次课内容不在Midterm1范围内。"
+      "note": "Day11讲义已由教师修订为7页《The Isomorphism Theorems and Subgroups of Quotients》，原11页旧版保留供追溯；直积与半直积移至后续Lecture13，尚未发布。按实际课堂与个人笔记整理；个人期限保持10/21，不代表已完成。10/21下午公告说明当次课内容不在Midterm1范围内。 10/24原PDF两处后续课次引用已修订；未改变本次课堂日期。"
     },
     {
       "id": "cmsc-notes-2026-10-21",
@@ -1536,6 +1538,23 @@ window.WORKLIST = {
         "cmsc-old-notes"
       ],
       "note": "个人课日当天整理期限，以实际课堂笔记为准。官网已补第四周计数：函数与集合基数、二项式系数/定理、容斥及第二类Stirling数等。这是整周范围，不代表每项均在今天讲授；2018讲义仅作参考。"
+    },
+    {
+      "id": "math-preview-2026-10-24",
+      "course": "MATH",
+      "shortName": "预习 10/24",
+      "dueDate": "2026-10-24",
+      "planDate": "2026-10-24",
+      "deadlineKind": "same-day",
+      "recurrenceKey": "math-preview",
+      "materials": [
+        "math-lecture11",
+        "math-ps4",
+        "math-midterm1-annotated"
+      ],
+      "note": "每日个人预习待办，包括周末，今天完成。Lecture11已更新；另附刚发布的Midterm1解答供按需回看，不是新增必交作业。",
+      "done": false,
+      "statusVersion": 1
     }
   ],
   "materials": {
@@ -2161,12 +2180,20 @@ window.WORKLIST = {
       "url": "https://edstem.org/us/courses/107374/discussion/8427445"
     },
     "phys-lecture8": {
-      "title": "Lecture 8 · 30页 Canvas 原文件（下载超时，归档待补）",
+      "title": "Lecture 8 · 30页 Canvas 原文件（浏览器拦截下载，归档待补）",
       "url": "https://canvas.uchicago.edu/courses/74238/files/16015545"
     },
     "math-hw-feedback": {
       "title": "HW2/3 反馈发布公告",
       "url": "https://canvas.uchicago.edu/courses/75102/discussion_topics/1027166"
+    },
+    "math-midterm1-annotated": {
+      "title": "Math 25700 - Midterm 1 Solutions.pdf",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/MATH%2025700/Day%2012/Math%2025700%20-%20Midterm%201%20Solutions.pdf"
+    },
+    "math-midterm1-solutions-announcement": {
+      "title": "10/23 Midterm 1 带注释解答发布公告",
+      "url": "https://canvas.uchicago.edu/courses/75102/discussion_topics/1027556"
     }
   },
   "officeHours": [
@@ -2243,12 +2270,12 @@ window.WORKLIST = {
     {
       "course": "PHYS",
       "person": "Ryan Wong · TA",
-      "time": "今天10/23 12:00–13:30（临时）；通常周五12:00–13:00",
-      "place": "今天 Zoom；其他周常规 KPTC 305",
+      "time": "周五 12:00–13:00（10/23临时线上安排已结束）",
+      "place": "常规地点 KPTC 305",
       "url": "https://canvas.uchicago.edu/courses/74238/discussion_topics/1027147",
-      "linkLabel": "今天调整与 Zoom 入口（Canvas）",
+      "linkLabel": "10/23临时调整公告（已结束）",
       "exceptionDate": "2026-10-23",
-      "note": "10/22 18:24课程公告，仅10/23改为线上并延长半小时；时间为America/Chicago。私人入场参数留在Canvas。"
+      "note": "10/22公告仅将10/23改为线上并延长至13:30；该次例外已结束。常规时间与地点按10/1公告，America/Chicago。"
     },
     {
       "course": "PHYS",
