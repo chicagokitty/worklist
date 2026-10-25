@@ -1,6 +1,6 @@
 window.WORKLIST = {
-  "updatedAt": "2026-10-24T17:50:30.161076Z",
-  "scope": "10/24已核查三门Canvas、三门Gradescope、CMSC Ed和官网。新增MATH期中带注释解答，Lecture11修订已归档；新增今天MATH预习。周六不建课堂笔记，旧DDL与完成状态保留。SOSC论文仍10/26 23:59；PHYS临时OH已结束。SOSC阅读库空白/Class7–8未发布，PHYS讲义与McDermott下载缺口仍在。",
+  "updatedAt": "2026-10-25T17:08:43.014354Z",
+  "scope": "10/25已核查三门Canvas、三门Gradescope、CMSC Ed及官网。CMSC确认自制纸质笔记本（含线圈本）可带进考试；MATH Lecture11原文件修订已归档。新增今日MATH预习，周日不建课堂笔记；旧DDL与完成状态保留。SOSC Essay1仍10/26 23:59且未提交。SOSC阅读库空白/Class7–8未发布、PHYS与McDermott下载缺口继续注明。",
   "tasks": [
     {
       "id": "sosc-freedman",
@@ -1342,7 +1342,7 @@ window.WORKLIST = {
         "math-oh-20261021",
         "math-midterm1-scope-update"
       ],
-      "note": "Day11讲义已由教师修订为7页《The Isomorphism Theorems and Subgroups of Quotients》，原11页旧版保留供追溯；直积与半直积移至后续Lecture13，尚未发布。按实际课堂与个人笔记整理；个人期限保持10/21，不代表已完成。10/21下午公告说明当次课内容不在Midterm1范围内。 10/24原PDF两处后续课次引用已修订；未改变本次课堂日期。"
+      "note": "Day11讲义已修订为7页《The Isomorphism Theorems and Subgroups of Quotients》，原11页旧版保留供追溯。10/25原PDF更新两处后续引用为Lecture16；后续文件尚未在首页发布，不据此编造课次或日期。按实际课堂与个人笔记整理，个人期限仍10/21，不代表已完成。10/21下午公告说明当次课内容不在Midterm1范围内。"
     },
     {
       "id": "cmsc-notes-2026-10-21",
@@ -1424,7 +1424,7 @@ window.WORKLIST = {
         "cmsc-exam-rules",
         "cmsc-syllabus"
       ],
-      "note": "10/30 09:30–10:20（America/Chicago），5题50分钟。范围截至10/26课堂，包括归纳、线性/偏序、数论及已讲计数。老师建议做Rosen对应章节常规题，考试准备可略过星号题及书中未涵盖的高级部分。允许本人为自己准备的不限长度纸质笔记；打印须来自本人写的源文件。可带简单计算器，禁止其他电子设备、书籍及扫描书页。 10/23教授回复：不会提供往年试卷或模拟卷；各年选题不同，5题不可能覆盖所有内容。",
+      "note": "10/30 09:30–10:20（America/Chicago），5题50分钟。范围截至10/26课堂，包括归纳、线性/偏序、数论及已讲计数。老师建议做Rosen对应章节常规题，考试准备可略过星号题及书中未涵盖的高级部分。允许本人为自己准备的不限长度纸质笔记；打印须来自本人写的源文件。可带简单计算器，禁止其他电子设备、书籍及扫描书页。 10/23教授回复：不会提供往年试卷或模拟卷；各年选题不同，5题不可能覆盖所有内容。 10/25复核Ed新增回复：自制纸质笔记可以放在纸质笔记本（含线圈本）内；教授已澄清其先前对notebook的禁止指电脑，不是纸质本。",
       "done": false,
       "statusVersion": 1
     },
@@ -1439,7 +1439,7 @@ window.WORKLIST = {
         "cmsc-exam-rules",
         "cmsc-syllabus"
       ],
-      "note": "官网确认12/10 08:00–10:00（America/Chicago）。10/22公告的携带物品规则也适用于期末：本人为自己准备的不限长度纸质笔记（打印源文件也须本人写），简单计算器；禁止书籍、扫描书页及其他电子设备。期末具体考试范围尚未另行公布。",
+      "note": "官网确认12/10 08:00–10:00（America/Chicago）。10/22公告的携带物品规则也适用于期末：本人为自己准备的不限长度纸质笔记（打印源文件也须本人写），简单计算器；禁止书籍、扫描书页及其他电子设备。期末具体考试范围尚未另行公布。 10/25复核Ed新增回复：自制纸质笔记可以放在纸质笔记本（含线圈本）内；教授已澄清其先前对notebook的禁止指电脑，不是纸质本。",
       "done": false,
       "statusVersion": 1
     },
@@ -1553,6 +1553,23 @@ window.WORKLIST = {
         "math-midterm1-annotated"
       ],
       "note": "每日个人预习待办，包括周末，今天完成。Lecture11已更新；另附刚发布的Midterm1解答供按需回看，不是新增必交作业。",
+      "done": false,
+      "statusVersion": 1
+    },
+    {
+      "id": "math-preview-2026-10-25",
+      "course": "MATH",
+      "shortName": "预习 10/25",
+      "dueDate": "2026-10-25",
+      "planDate": "2026-10-25",
+      "deadlineKind": "same-day",
+      "recurrenceKey": "math-preview",
+      "materials": [
+        "math-lecture11",
+        "math-ps4",
+        "math-midterm1-annotated"
+      ],
+      "note": "每日个人预习待办，包括周末，今天完成。附当前讲义、HW4和期中解答供自行选择；不是新增教师必交作业。",
       "done": false,
       "statusVersion": 1
     }
