@@ -1,6 +1,6 @@
 window.WORKLIST = {
-  "updatedAt": "2026-10-25T17:08:43.014354Z",
-  "scope": "10/25已核查三门Canvas、三门Gradescope、CMSC Ed及官网。CMSC确认自制纸质笔记本（含线圈本）可带进考试；MATH Lecture11原文件修订已归档。新增今日MATH预习，周日不建课堂笔记；旧DDL与完成状态保留。SOSC Essay1仍10/26 23:59且未提交。SOSC阅读库空白/Class7–8未发布、PHYS与McDermott下载缺口继续注明。",
+  "updatedAt": "2026-10-26T17:18:26.756374Z",
+  "scope": "10/26部分核查：Ed、CMSC官网及PHYS实验官网可访问；Canvas/Gradescope需要重新登录，课程新内容和提交状态待补查。已加今日MATH预习、MATH/CMSC笔记及PHYS本周任务；Cratering三份材料已归档。SOSC Essay1已知DDL为今晚23:59，今日提交状态未核实。",
   "tasks": [
     {
       "id": "sosc-freedman",
@@ -523,7 +523,7 @@ window.WORKLIST = {
       "dueDate": "2026-10-26",
       "done": false,
       "statusVersion": 1,
-      "note": "正式题目已发布，二选一：AI 学习与成绩的因果关系，或社交媒体不文明内容实验的内外部效度。约 5 页，12pt Times New Roman 或相近字体，双倍行距，以 PDF 提交 Canvas。作业页、题干及 10/15 现行大纲均为 10/26，具体截止为 23:59 CDT。10/28 是入口关闭日期，不是 DDL。 10/20补充老师新上传的6页范文，供写作参考；范文是2024年的其他题目，不替代当前二选一题干，也没有新增必交任务。",
+      "note": "正式题目已发布，二选一：AI 学习与成绩的因果关系，或社交媒体不文明内容实验的内外部效度。约 5 页，12pt Times New Roman 或相近字体，双倍行距，以 PDF 提交 Canvas。作业页、题干及 10/15 现行大纲均为 10/26，具体截止为 23:59 CDT。10/28 是入口关闭日期，不是 DDL。 10/20补充老师新上传的6页范文，供写作参考；范文是2024年的其他题目，不替代当前二选一题干，也没有新增必交任务。 10/26 Canvas要求重新登录，今天是否已提交尚未核实；已知截止仍为10/26 23:59 CDT。",
       "materials": [
         "sosc-essay1-prompt",
         "sosc-syllabus",
@@ -1342,7 +1342,7 @@ window.WORKLIST = {
         "math-oh-20261021",
         "math-midterm1-scope-update"
       ],
-      "note": "Day11讲义已修订为7页《The Isomorphism Theorems and Subgroups of Quotients》，原11页旧版保留供追溯。10/25原PDF更新两处后续引用为Lecture16；后续文件尚未在首页发布，不据此编造课次或日期。按实际课堂与个人笔记整理，个人期限仍10/21，不代表已完成。10/21下午公告说明当次课内容不在Midterm1范围内。"
+      "note": "Day11讲义已修订为7页《The Isomorphism Theorems and Subgroups of Quotients》，原11页旧版保留供追溯。10/26复核原PDF：两处后续引用从Lecture16改为Lecture15，数学内容未变；不据此推定后续文件已经发布。个人期限仍10/21，不代表已完成。10/21下午公告说明当次课内容不在Midterm1范围内。"
     },
     {
       "id": "cmsc-notes-2026-10-21",
@@ -1374,9 +1374,10 @@ window.WORKLIST = {
         "cmsc-hw3-pdf",
         "cmsc-hw3-submit",
         "cmsc-hw3-announcement",
-        "cmsc-syllabus"
+        "cmsc-syllabus",
+        "cmsc-hw3-q5"
       ],
-      "note": "新发布5题、2页，正常截止10/28 23:59 CDT；Gradescope迟交窗口至10/30 23:59，可能扣分。核查时尚未提交。合作需写明同伴，最终解答独立撰写。老师提示本次可能比HW2难；AI政策新增：疑似AI生成或本人未充分理解的解答会被标记，累计后可能要求在Office Hours口头解释。具体规则见Ed。"
+      "note": "新发布5题、2页，正常截止10/28 23:59 CDT；Gradescope迟交窗口至10/30 23:59，可能扣分。截至10/25核查尚未提交，10/26提交状态待登录复核。合作需写明同伴，最终解答独立撰写。老师提示本次可能比HW2难；AI政策新增：疑似AI生成或本人未充分理解的解答会被标记，累计后可能要求在Office Hours口头解释。具体规则见Ed。 10/26 Ed复核：第5题的闭式表达式需要给出论证；若不确定解释是否充分，可私下向教师询问。"
     },
     {
       "id": "math-preview-2026-10-22",
@@ -1570,6 +1571,116 @@ window.WORKLIST = {
         "math-midterm1-annotated"
       ],
       "note": "每日个人预习待办，包括周末，今天完成。附当前讲义、HW4和期中解答供自行选择；不是新增教师必交作业。",
+      "done": false,
+      "statusVersion": 1
+    },
+    {
+      "id": "math-preview-2026-10-26",
+      "course": "MATH",
+      "shortName": "预习 10/26",
+      "dueDate": "2026-10-26",
+      "planDate": "2026-10-26",
+      "deadlineKind": "same-day",
+      "recurrenceKey": "math-preview",
+      "materials": [
+        "math-lecture11",
+        "math-ps4"
+      ],
+      "note": "每日个人预习待办，包括周末，今天完成；附已核实的Lecture11与HW4供自行选择。Canvas登录过期，后续新讲义待补查，不表示没有更新。",
+      "done": false,
+      "statusVersion": 1
+    },
+    {
+      "id": "math-notes-2026-10-26",
+      "course": "MATH",
+      "shortName": "整理 10/26 笔记",
+      "classDate": "2026-10-26",
+      "dueDate": "2026-10-26",
+      "deadlineKind": "same-day",
+      "taskKind": "lecture-notes",
+      "materials": [
+        "math-syllabus",
+        "math-lecture11"
+      ],
+      "note": "依据当前周一课表预先建立当次笔记待办，个人期限为今天；Canvas登录过期，今日课堂新材料及临时安排待复核。附上一份已归档讲义作参考，不将其当作今日讲义，不代为完成笔记。",
+      "done": false,
+      "statusVersion": 1
+    },
+    {
+      "id": "cmsc-notes-2026-10-26",
+      "course": "CMSC",
+      "shortName": "整理 10/26（Day 13）笔记",
+      "classDate": "2026-10-26",
+      "dueDate": "2026-10-26",
+      "deadlineKind": "same-day",
+      "taskKind": "lecture-notes",
+      "materials": [
+        "cmsc-syllabus",
+        "cmsc-old-notes",
+        "cmsc-afterclass-20261026"
+      ],
+      "note": "个人当天整理期限。10/26课堂内容包含在10/30期中范围内；官网目前仍列Week1–4，今天的具体新增内容以实际课堂笔记为准。教授今日下课后立即离开，有问题可在Ed或Office Hours问；这条通知没有取消常规Office Hours。",
+      "done": false,
+      "statusVersion": 1
+    },
+    {
+      "id": "phys-hw5",
+      "course": "PHYS",
+      "shortName": "HW5",
+      "dueDate": "2026-11-02",
+      "time": "23:59",
+      "deadlineKind": "exact",
+      "materials": [
+        "phys-hw5-canvas"
+      ],
+      "note": "依据10/25已核实的Canvas安排：10/26 00:00开放，11/2 23:59 CDT截止。10/26登录过期，实际开放状态、题目PDF及Gradescope具体提交入口待补查；当前链接是已存在的HW5要求页，不假称PDF已下载。",
+      "done": false,
+      "statusVersion": 1
+    },
+    {
+      "id": "phys-reading5",
+      "course": "PHYS",
+      "shortName": "读教材 Ch. 11 · Potential Energy",
+      "dueDate": null,
+      "materials": [
+        "phys-textbook",
+        "phys-week5-modules"
+      ],
+      "note": "依据此前已核实Week5课程安排，读Ch.11（Potential Energy），未列独立截止时刻。10/26 Canvas新修订待登录复核；当前已公布10/29期中范围为Ch.1–5、10，不把Ch.11列入期中范围。",
+      "done": false,
+      "statusVersion": 1
+    },
+    {
+      "id": "phys-lab3-notebook",
+      "course": "PHYS",
+      "shortName": "Cratering 1 · 实验与 Lab Notebook 3",
+      "dueDate": null,
+      "deadlineKind": "relative",
+      "relativeDeadline": "本人实验结束时",
+      "materials": [
+        "phys-lab3-guide",
+        "phys-lab3-template",
+        "phys-lab3-notebook-file",
+        "phys-lab3-colab",
+        "phys-lab3-notebook-submit"
+      ],
+      "note": "10/26官方实验课表确认本周10/26–30为Cratering Part1。课前阅读实验指南，组内Notebook在本人实验结束时提交；个人实验时段尚未核实，不编造绝对DDL。模板与Colab已原样归档，未改动或运行共享原文。Canvas当周补充要求待登录复核。",
+      "done": false,
+      "statusVersion": 1
+    },
+    {
+      "id": "phys-lab3-report",
+      "course": "PHYS",
+      "shortName": "Cratering 1 · Lab Report 3",
+      "dueDate": null,
+      "deadlineKind": "relative",
+      "relativeDeadline": "本人实验结束后 24 小时",
+      "materials": [
+        "phys-lab3-report",
+        "phys-lab3-report-submit",
+        "phys-lab3-guide"
+      ],
+      "note": "官方实验政策：个人Post-Lab Assignment在本人实验结束后24小时内以PDF提交；本周题目含阶段性结论及模型假设/实际陨石坑讨论。原题目DOCX已归档，未代写作答。个人实验时段与Canvas新通知待复核。",
       "done": false,
       "statusVersion": 1
     }
@@ -2211,6 +2322,50 @@ window.WORKLIST = {
     "math-midterm1-solutions-announcement": {
       "title": "10/23 Midterm 1 带注释解答发布公告",
       "url": "https://canvas.uchicago.edu/courses/75102/discussion_topics/1027556"
+    },
+    "phys-lab3-template": {
+      "title": "Cratering (Part 1) - Lab Notebook.docx",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/PHYS%2012100/Lab%203/Cratering%20%28Part%201%29%20-%20Lab%20Notebook.docx"
+    },
+    "phys-lab3-report": {
+      "title": "Cratering (Part 1) - Post-Lab Assignment.docx",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/PHYS%2012100/Lab%203/Cratering%20%28Part%201%29%20-%20Post-Lab%20Assignment.docx"
+    },
+    "phys-lab3-notebook-file": {
+      "title": "Cratering.ipynb",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/PHYS%2012100/Lab%203/Cratering.ipynb"
+    },
+    "cmsc-hw3-q5": {
+      "title": "HW3 第5题：闭式公式需要论证",
+      "url": "https://edstem.org/us/courses/107374/discussion/8439978"
+    },
+    "cmsc-afterclass-20261026": {
+      "title": "10/26 教授下课后安排",
+      "url": "https://edstem.org/us/courses/107374/discussion/8441904"
+    },
+    "phys-hw5-canvas": {
+      "title": "PHYS HW5 · Canvas题目与要求（需登录）",
+      "url": "https://canvas.uchicago.edu/courses/74238/assignments/908871"
+    },
+    "phys-week5-modules": {
+      "title": "PHYS Week 5 · Modules（需登录）",
+      "url": "https://canvas.uchicago.edu/courses/74238/modules"
+    },
+    "phys-lab3-guide": {
+      "title": "Cratering Part 1 · 官方实验指南",
+      "url": "https://www.physlab-wiki.com/phylabs/lab_courses/phys-120_130-wiki-home/fall-experiments/cratering_part-1/start"
+    },
+    "phys-lab3-colab": {
+      "title": "Cratering · 在线 Colab（共享原文）",
+      "url": "https://colab.research.google.com/drive/1u3WeqYGafGN8k6ZLAtt50A-HkCDAIqsf"
+    },
+    "phys-lab3-notebook-submit": {
+      "title": "Lab Notebook 3 · Canvas要求",
+      "url": "https://canvas.uchicago.edu/courses/74238/assignments/908799"
+    },
+    "phys-lab3-report-submit": {
+      "title": "Lab Report 3 · Canvas提交",
+      "url": "https://canvas.uchicago.edu/courses/74238/assignments/908801"
     }
   },
   "officeHours": [

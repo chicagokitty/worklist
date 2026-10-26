@@ -1,5 +1,16 @@
 # worklist
 
+## 2026-10-26 中午更新（部分核查）
+
+- Canvas与Gradescope均要求重新登录。三门Canvas新公告、讨论、作业、模块、文件、课程通知以及最新提交状态未能复核，已提示登录；不将访问失败记作无更新。
+- 新增7项：MATH每日预习、MATH/CMSC当日笔记、PHYS HW5、Week5教材Ch.11、Cratering1实验Notebook与个人报告。共103项，原96项日期、完成状态及statusVersion逐项保持。今日个人预习及笔记DDL为10/26；Lab采用本人实验结束时/结束后24小时的相对期限。
+- PHYS实验官网今日确认本周Cratering Part1，原模板/题目DOCX及Colab IPYNB已归档至私有Lab3目录。HW5开放/截止与Week5阅读来自此前已核实安排；HW5题目PDF和实际开放状态待登录补查，不假称已下载。
+- CMSC Ed新帖：HW3第5题闭式公式需论证；教授10/26下课后立即离开，有问题可在Ed或Office Hours问，不误解为取消正常Office Hours。官网仍Week1–4，10/26课堂仍属期中范围。
+- MATH Lecture11原PDF修订：仅两处Lecture16改Lecture15的前向引用。21个公开原件重下比较，20个未变；旧课日不改。
+- SOSC Essay1已知DDL为今晚10/26 23:59 CDT，最新提交状态待核实。SOSC阅读库/McDermott与PHYS旧材料下载缺口保留，不以旧检查结果冒充今天的实时结论。
+- 保持单页布局和浏览器勾选；不公开成绩、个人材料或私人链接，不编辑或运行共享文档。
+
+
 ## 2026-10-25 中午更新
 
 - 新增math-preview-2026-10-25，当天个人期限、默认未完成；周日不创建课堂笔记。共96项，原95项日期、完成状态及statusVersion逐项保持。
