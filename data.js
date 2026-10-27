@@ -1,6 +1,6 @@
 window.WORKLIST = {
-  "updatedAt": "2026-10-26T17:18:26.756374Z",
-  "scope": "10/26部分核查：Ed、CMSC官网及PHYS实验官网可访问；Canvas/Gradescope需要重新登录，课程新内容和提交状态待补查。已加今日MATH预习、MATH/CMSC笔记及PHYS本周任务；Cratering三份材料已归档。SOSC Essay1已知DDL为今晚23:59，今日提交状态未核实。",
+  "updatedAt": "2026-10-27T17:10:18.985901Z",
+  "scope": "10/27部分核查：三门Gradescope、CMSC官网及PHYS实验官网已查；Canvas与Ed待重新登录补查。CMSC HW3已提交，PHYS HW5题目PDF已归档。今日MATH预习、SOSC Day9笔记当天完成；课前读Stantcheva。",
   "tasks": [
     {
       "id": "sosc-freedman",
@@ -523,7 +523,7 @@ window.WORKLIST = {
       "dueDate": "2026-10-26",
       "done": false,
       "statusVersion": 1,
-      "note": "正式题目已发布，二选一：AI 学习与成绩的因果关系，或社交媒体不文明内容实验的内外部效度。约 5 页，12pt Times New Roman 或相近字体，双倍行距，以 PDF 提交 Canvas。作业页、题干及 10/15 现行大纲均为 10/26，具体截止为 23:59 CDT。10/28 是入口关闭日期，不是 DDL。 10/20补充老师新上传的6页范文，供写作参考；范文是2024年的其他题目，不替代当前二选一题干，也没有新增必交任务。 10/26 Canvas要求重新登录，今天是否已提交尚未核实；已知截止仍为10/26 23:59 CDT。",
+      "note": "正式题目已发布，二选一：AI 学习与成绩的因果关系，或社交媒体不文明内容实验的内外部效度。约 5 页，12pt Times New Roman 或相近字体，双倍行距，以 PDF 提交 Canvas。作业页、题干及 10/15 现行大纲均为 10/26，具体截止为 23:59 CDT。10/28 是入口关闭日期，不是 DDL。 10/20补充老师新上传的6页范文，供写作参考；范文是2024年的其他题目，不替代当前二选一题干，也没有新增必交任务。 10/27 Canvas要求重新登录，最新提交状态未核实；原截止为10/26 23:59 CDT，不据此断言尚未提交，也不顺延日期。",
       "materials": [
         "sosc-essay1-prompt",
         "sosc-syllabus",
@@ -716,7 +716,7 @@ window.WORKLIST = {
         "math-oh-announcement",
         "math-hw-feedback"
       ],
-      "note": "全套4页建议10/21完成，不计入课程成绩。可选反馈正常截止10/21 23:59 CDT已过，Gradescope目前接受迟交至10/28 23:59，10/23仍No Submission。最多提交两题并明确标题号；保留原正常截止，不滚动顺延。 TA已发布HW2/3反馈的课程公告；本人平台仍显示未提交，不能据此认定已有个人反馈或任务完成。",
+      "note": "全套4页建议10/21完成，不计入课程成绩。可选反馈正常截止10/21 23:59 CDT已过，Gradescope目前接受迟交至10/28 23:59，10/27仍No Submission。最多提交两题并明确标题号；保留原正常截止，不滚动顺延。 TA已发布HW2/3反馈的课程公告；本人平台仍显示未提交，不能据此认定已有个人反馈或任务完成。",
       "time": "23:59"
     },
     {
@@ -1260,7 +1260,7 @@ window.WORKLIST = {
       "deadlineKind": "feedback",
       "done": false,
       "statusVersion": 1,
-      "note": "新发布4页题目，建议10/28完成，不计入课程成绩。若需反馈，最多提交并明确标出两题；Gradescope正常截止10/28 23:59 CDT，晚交至11/4 23:59。10/21核查尚未提交。",
+      "note": "新发布4页题目，建议10/28完成，不计入课程成绩。若需反馈，最多提交并明确标出两题；Gradescope正常截止10/28 23:59 CDT，晚交至11/4 23:59。10/27 Gradescope仍No Submission；正常截止及迟交窗口均复核无变。",
       "materials": [
         "math-ps4",
         "math-ps4-submit",
@@ -1368,8 +1368,8 @@ window.WORKLIST = {
       "dueDate": "2026-10-28",
       "time": "23:59",
       "deadlineKind": "exact",
-      "done": false,
-      "statusVersion": 1,
+      "done": true,
+      "statusVersion": 2,
       "materials": [
         "cmsc-hw3-pdf",
         "cmsc-hw3-submit",
@@ -1377,7 +1377,7 @@ window.WORKLIST = {
         "cmsc-syllabus",
         "cmsc-hw3-q5"
       ],
-      "note": "新发布5题、2页，正常截止10/28 23:59 CDT；Gradescope迟交窗口至10/30 23:59，可能扣分。截至10/25核查尚未提交，10/26提交状态待登录复核。合作需写明同伴，最终解答独立撰写。老师提示本次可能比HW2难；AI政策新增：疑似AI生成或本人未充分理解的解答会被标记，累计后可能要求在Office Hours口头解释。具体规则见Ed。 10/26 Ed复核：第5题的闭式表达式需要给出论证；若不确定解释是否充分，可私下向教师询问。"
+      "note": "新发布5题、2页，正常截止10/28 23:59 CDT；Gradescope迟交窗口至10/30 23:59，可能扣分。10/27 Gradescope已显示Submitted，据此确认完成；原截止日期保留。合作需写明同伴，最终解答独立撰写。老师提示本次可能比HW2难；AI政策新增：疑似AI生成或本人未充分理解的解答会被标记，累计后可能要求在Office Hours口头解释。具体规则见Ed。 10/26 Ed复核：第5题的闭式表达式需要给出论证；若不确定解释是否充分，可私下向教师询问。"
     },
     {
       "id": "math-preview-2026-10-22",
@@ -1631,9 +1631,11 @@ window.WORKLIST = {
       "time": "23:59",
       "deadlineKind": "exact",
       "materials": [
+        "phys-hw5-pdf",
+        "phys-hw5-gradescope",
         "phys-hw5-canvas"
       ],
-      "note": "依据10/25已核实的Canvas安排：10/26 00:00开放，11/2 23:59 CDT截止。10/26登录过期，实际开放状态、题目PDF及Gradescope具体提交入口待补查；当前链接是已存在的HW5要求页，不假称PDF已下载。",
+      "note": "3页8题，Knight第1版Ch.11：P11.22、26、36、50、52、60、64、74。10/27 Gradescope确认10/26 18:01开放、11/2 23:59 CDT截止，目前No Submission。原题PDF已归档；题头写PDF upload to Canvas，同时Gradescope已开放提交入口，两处链接均保留。Canvas新通知待登录复核，没有代为提交。",
       "done": false,
       "statusVersion": 1
     },
@@ -1681,6 +1683,38 @@ window.WORKLIST = {
         "phys-lab3-guide"
       ],
       "note": "官方实验政策：个人Post-Lab Assignment在本人实验结束后24小时内以PDF提交；本周题目含阶段性结论及模型假设/实际陨石坑讨论。原题目DOCX已归档，未代写作答。个人实验时段与Canvas新通知待复核。",
+      "done": false,
+      "statusVersion": 1
+    },
+    {
+      "id": "math-preview-2026-10-27",
+      "course": "MATH",
+      "shortName": "预习 10/27",
+      "dueDate": "2026-10-27",
+      "planDate": "2026-10-27",
+      "deadlineKind": "same-day",
+      "recurrenceKey": "math-preview",
+      "materials": [
+        "math-lecture11",
+        "math-ps4"
+      ],
+      "note": "每日个人预习待办，包括周末，当天完成。附已归档Lecture11及HW4供自行安排；今天原件复核未变，Canvas后续新讲义待登录补查。",
+      "done": false,
+      "statusVersion": 1
+    },
+    {
+      "id": "sosc-notes-2026-10-27",
+      "course": "SOSC",
+      "shortName": "整理 10/27（Day 9）笔记",
+      "classDate": "2026-10-27",
+      "dueDate": "2026-10-27",
+      "deadlineKind": "same-day",
+      "taskKind": "lecture-notes",
+      "materials": [
+        "sosc-stantcheva-surveys-pdf",
+        "sosc-syllabus"
+      ],
+      "note": "依据已核实大纲，今天Day9主题Survey Data；个人笔记整理期限为上课当天。Stantcheva课前阅读30页正式期刊版已归档。Canvas登录过期，临时课程安排和新课件待补查，不把旧课件冒充本次讲义；未代为完成笔记。",
       "done": false,
       "statusVersion": 1
     }
@@ -2366,6 +2400,14 @@ window.WORKLIST = {
     "phys-lab3-report-submit": {
       "title": "Lab Report 3 · Canvas提交",
       "url": "https://canvas.uchicago.edu/courses/74238/assignments/908801"
+    },
+    "phys-hw5-pdf": {
+      "title": "General Physics I - Homework 5.pdf",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/PHYS%2012100/Homework%205/General%20Physics%20I%20-%20Homework%205.pdf"
+    },
+    "phys-hw5-gradescope": {
+      "title": "PHYS HW5 · Gradescope课程提交入口",
+      "url": "https://www.gradescope.com/courses/1420259"
     }
   },
   "officeHours": [
