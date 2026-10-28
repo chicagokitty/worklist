@@ -1,6 +1,6 @@
 window.WORKLIST = {
-  "updatedAt": "2026-10-28T17:36:31.466306Z",
-  "scope": "10/28部分核查：三门Gradescope、CMSC Ed/官网、PHYS实验官网已查；Canvas待重新登录。新增CMSC HW4（11/5，时刻待确认）及原PDF。今日MATH预习和MATH/CMSC笔记当天完成；PHYS明日期中。",
+  "updatedAt": "2026-10-28T19:28:27.978991Z",
+  "scope": "10/28登录后补查Canvas完成：新增MATH PS5（建议11/4）和Lecture12；PHYS明日12:30 KPTC106期中，范围与排除项已补。Essay1确认已交，另列PDF格式检查。新增归档7份原PDF；McDermott可预览但保存待补。今日MATH预习及MATH/CMSC笔记仍按当天个人期限。",
   "tasks": [
     {
       "id": "sosc-freedman",
@@ -521,9 +521,9 @@ window.WORKLIST = {
       "course": "SOSC",
       "shortName": "Writing Assignment 1",
       "dueDate": "2026-10-26",
-      "done": false,
-      "statusVersion": 1,
-      "note": "正式题目已发布，二选一：AI 学习与成绩的因果关系，或社交媒体不文明内容实验的内外部效度。约 5 页，12pt Times New Roman 或相近字体，双倍行距，以 PDF 提交 Canvas。作业页、题干及 10/15 现行大纲均为 10/26，具体截止为 23:59 CDT。10/28 是入口关闭日期，不是 DDL。 10/20补充老师新上传的6页范文，供写作参考；范文是2024年的其他题目，不替代当前二选一题干，也没有新增必交任务。 10/28 Canvas要求重新登录，最新提交状态未核实；原截止为10/26 23:59 CDT，不据此断言尚未提交，也不顺延日期。",
+      "done": true,
+      "statusVersion": 2,
+      "note": "正式题目已发布，二选一：AI 学习与成绩的因果关系，或社交媒体不文明内容实验的内外部效度。约 5 页，12pt Times New Roman 或相近字体，双倍行距，以 PDF 提交 Canvas。作业页、题干及 10/15 现行大纲均为 10/26，具体截止为 23:59 CDT。10/28 是入口关闭日期，不是 DDL。 10/20补充老师新上传的6页范文，供写作参考；范文是2024年的其他题目，不替代当前二选一题干，也没有新增必交任务。 10/28核查Canvas确认已提交，完成状态据此更新；原DDL保持10/26 23:59 CDT。另列提交格式核对待办，未替用户重交。",
       "materials": [
         "sosc-essay1-prompt",
         "sosc-syllabus",
@@ -750,7 +750,7 @@ window.WORKLIST = {
         "phys-hw3-canvas",
         "phys-hw3-sol"
       ],
-      "note": "10/17 已在 Gradescope 核实 Submitted，确认完成。8 题、3 页；Canvas 与 Gradescope 正常截止均为 10/19 23:59 CDT，保留原日期。Canvas 列表的未提交状态尚未同步。 10/21新增HW3答案，可在Canvas原文件预览；下载受阻，尚未私有归档。",
+      "note": "Gradescope已确认提交，10/28 Canvas亦显示已批改，保持完成；原DDL为10/19 23:59 CDT。8题3页原题保留；新增6页HW3 Corrected Solutions原PDF已于10/28补齐私有归档。",
       "time": "23:59"
     },
     {
@@ -1015,7 +1015,7 @@ window.WORKLIST = {
         "sosc-mcdermott-article",
         "sosc-syllabus"
       ],
-      "note": "Day 7 · Lab Experiments；10/20课前必读 pp.31–61。保留作者全文网页；大学PDF链接本轮404，课程阅读库为空，原PDF仍待补。"
+      "note": "Day 7 · Lab Experiments；10/20课前必读 pp.31–61。保留作者全文网页；大学PDF链接本轮404，课程阅读库为空，原PDF仍待补。 10/28阅读库已恢复，确认有33页期刊原PDF；浏览器保存未返回可验证文件，仍未归档，暂保留作者全文链接。"
     },
     {
       "id": "sosc-iyengar-news",
@@ -1199,7 +1199,8 @@ window.WORKLIST = {
       "materials": [
         "phys-hw4-pdf",
         "phys-hw4-submit",
-        "phys-hw4-canvas"
+        "phys-hw4-canvas",
+        "phys-hw4-sol"
       ],
       "note": "10/22核查Gradescope已显示Submitted，任务完成；原DDL仍10/26 23:59 CDT。3页8题，原题目PDF与提交入口保留。"
     },
@@ -1216,7 +1217,7 @@ window.WORKLIST = {
         "phys-lecture6",
         "phys-lecture8"
       ],
-      "note": "Week 4要求读Ch.10，未列独立截止时刻。10/23模块新增30页Lecture8；模块的Lecture7标题仍指向28页旧Lecture6（15999785），并非另一个新文件。两份具体Canvas预览可读；Lecture6下载被浏览器阻止，Lecture8下载超时，均未归档。实际课日未标明，不把讲义编号当作Day。"
+      "note": "Week4要求读Ch.10，未列独立截止时刻。Lecture8共30页；模块的Lecture7标题仍指向28页Lecture6（15999785），并非另一个新文件。两份原PDF已于10/28下载并归档；实际课日未明确，暂置Reference/Lectures，不把讲义编号当作Day。"
     },
     {
       "id": "phys-lab2-notebook",
@@ -1299,7 +1300,7 @@ window.WORKLIST = {
       "taskKind": "lecture-notes",
       "done": false,
       "statusVersion": 1,
-      "note": "个人课日当天整理期限，不是教师作业DDL。今天主题Lab Experiments，三篇课前阅读分别列项。中午Course Slides仍只有Class 2–6，Class 7尚未发布，后续补链接；未代为完成笔记。",
+      "note": "个人课日当天整理期限，不是教师作业DDL。今天主题Lab Experiments，三篇课前阅读分别列项。中午Course Slides仍只有Class 2–6，Class 7尚未发布，后续补链接；未代为完成笔记。 10/28阅读库已恢复，确认有33页期刊原PDF；浏览器保存未返回可验证文件，仍未归档，暂保留作者全文链接。",
       "materials": [
         "sosc-mcdermott-article",
         "sosc-iyengar-news-pdf",
@@ -1452,16 +1453,19 @@ window.WORKLIST = {
       "course": "PHYS",
       "shortName": "Midterm",
       "dueDate": "2026-10-29",
-      "deadlineKind": "in-class",
+      "deadlineKind": "exact",
       "materials": [
         "phys-syllabus",
         "phys-lecture6",
         "phys-hw3-sol",
-        "phys-lecture8"
+        "phys-lecture8",
+        "phys-midterm-announcement",
+        "phys-hw4-sol"
       ],
-      "note": "10/29正常课堂内进行，50分钟；本section上课时段12:30–13:50，KPTC106。模块注明范围Ch.1–5和10。可带一张8.5×11英寸纸的双面笔记及无蓝牙/联网功能的手持计算器；闭卷，其他电子设备不允许。具体50分钟起止未单独公布。",
+      "note": "10/26晚教师公告确认：10/29 12:30在KPTC106开始，50分钟（据时长至13:20），4题。范围Ch.1–5和10：恒加速度运动、力矢量/摩擦/牛顿定律、恒力与变力的功、动能和功-能定理。不考万有引力定律、随速度变化的阻力、应力应变曲线、杨氏模量、功率和微分方程。可带8.5×11英寸双面笔记纸和合规手持计算器，检查电池并带笔；需写步骤、单位与图示。Lecture9属后续Ch11，未扩大期中范围。时间为America/Chicago。",
       "done": false,
-      "statusVersion": 1
+      "statusVersion": 1,
+      "time": "12:30"
     },
     {
       "id": "sosc-stantcheva-surveys",
@@ -1649,7 +1653,8 @@ window.WORKLIST = {
       "dueDate": null,
       "materials": [
         "phys-textbook",
-        "phys-week5-modules"
+        "phys-week5-modules",
+        "phys-lecture9"
       ],
       "note": "依据此前已核实Week5课程安排，读Ch.11（Potential Energy），未列独立截止时刻。10/26 Canvas新修订待登录复核；当前已公布10/29期中范围为Ch.1–5、10，不把Ch.11列入期中范围。",
       "done": false,
@@ -1669,7 +1674,7 @@ window.WORKLIST = {
         "phys-lab3-colab",
         "phys-lab3-notebook-submit"
       ],
-      "note": "10/26官方实验课表确认本周10/26–30为Cratering Part1。课前阅读实验指南，组内Notebook在本人实验结束时提交；个人实验时段尚未核实，不编造绝对DDL。模板与Colab已原样归档，未改动或运行共享原文。Canvas当周补充要求待登录复核。",
+      "note": "10/26官方实验课表确认本周10/26–30为Cratering Part1。课前阅读实验指南，组内Notebook在本人实验结束时提交；个人实验时段尚未核实，不编造绝对DDL。模板与Colab已原样归档，未改动或运行共享原文。Canvas当周补充要求待登录复核。 10/28下午Canvas仍显示No submission；个人实验时段未确认，继续按本人实验结束/结束后24小时计算，不编造绝对DDL。",
       "done": false,
       "statusVersion": 1
     },
@@ -1685,7 +1690,7 @@ window.WORKLIST = {
         "phys-lab3-report-submit",
         "phys-lab3-guide"
       ],
-      "note": "官方实验政策：个人Post-Lab Assignment在本人实验结束后24小时内以PDF提交；本周题目含阶段性结论及模型假设/实际陨石坑讨论。原题目DOCX已归档，未代写作答。个人实验时段与Canvas新通知待复核。",
+      "note": "官方实验政策：个人Post-Lab Assignment在本人实验结束后24小时内以PDF提交；本周题目含阶段性结论及模型假设/实际陨石坑讨论。原题目DOCX已归档，未代写作答。个人实验时段与Canvas新通知待复核。 10/28下午Canvas仍显示No submission；个人实验时段未确认，继续按本人实验结束/结束后24小时计算，不编造绝对DDL。",
       "done": false,
       "statusVersion": 1
     },
@@ -1731,7 +1736,9 @@ window.WORKLIST = {
       "recurrenceKey": "math-preview",
       "materials": [
         "math-lecture11",
-        "math-ps4"
+        "math-ps4",
+        "math-lecture12",
+        "math-ps5"
       ],
       "note": "每日个人预习待办，包括周末，当天完成。附已归档Lecture11及HW4供自行安排；已知原件今天复核未变，Canvas新讲义待登录补查。",
       "done": false,
@@ -1747,9 +1754,10 @@ window.WORKLIST = {
       "taskKind": "lecture-notes",
       "materials": [
         "math-syllabus",
-        "math-lecture11"
+        "math-lecture11",
+        "math-lecture12"
       ],
-      "note": "依据当前周三课表建立当次笔记待办，个人期限为当天。Canvas登录过期，临时安排和新讲义待复核；附已归档讲义供参考，不把Lecture11当作今日讲义，不代为完成笔记。",
+      "note": "按周三课表维护当次笔记待办，个人期限为当天。Canvas已恢复，首页新发Lecture12，附作近期参考；原PDF未明示课日，暂不认定为10/28课堂讲义，不代为完成笔记。",
       "done": false,
       "statusVersion": 1
     },
@@ -1784,6 +1792,37 @@ window.WORKLIST = {
       "note": "新发布1页5题，官网与原题明确11/5截止；Ed说明考虑期中考试及选举而顺延一天。具体截止时刻和迟交窗口尚未公布，10/28核查Gradescope仍仅HW1–3，待补HW4实际入口。答案须为闭式表达式（第5题为整数），多项系数（multinomial coefficients）可视为闭式；所有答案需合理严谨论证，合作须注明同伴且独立撰写。America/Chicago。",
       "done": false,
       "statusVersion": 1
+    },
+    {
+      "id": "math-ps5",
+      "course": "MATH",
+      "shortName": "PS5",
+      "dueDate": "2026-11-04",
+      "deadlineKind": "suggested",
+      "done": false,
+      "statusVersion": 1,
+      "materials": [
+        "math-ps5",
+        "math-ps5-canvas",
+        "math-policy",
+        "math-lecture12"
+      ],
+      "note": "5页、9道编号题，PDF明确建议11/4完成，不计入课程成绩。Canvas无正式截止时刻；10/28下午Gradescope仍只有HW1–4，PS5反馈提交窗口待发布。沿用最多两题反馈规则，不把建议完成日当作正式交卷DDL。"
+    },
+    {
+      "id": "sosc-essay1-format-check",
+      "course": "SOSC",
+      "shortName": "确认 Essay 1 的 PDF 提交格式",
+      "dueDate": "2026-10-28",
+      "time": "23:59",
+      "deadlineKind": "exact",
+      "taskKind": "personal-action",
+      "done": false,
+      "statusVersion": 1,
+      "materials": [
+        "sosc-essay1-prompt"
+      ],
+      "note": "Essay1已提交；题干要求PDF，请核对最终提交格式。10/28 23:59为Canvas入口关闭时间，作为本项检查的最晚行动时间；原作文DDL仍10/26 23:59，不代表延期。助理未修改或重交作业。"
     }
   ],
   "materials": {
@@ -2377,12 +2416,12 @@ window.WORKLIST = {
       "url": "https://canvas.uchicago.edu/courses/75102/discussion_topics/1026330"
     },
     "phys-lecture6": {
-      "title": "Lecture 6 · 模块标题写 Lecture 7，实际仍为旧文件（归档待补）",
-      "url": "https://canvas.uchicago.edu/courses/74238/files/15999785"
+      "title": "General Physics I - Lecture 6 - Work and Energy.pdf",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/PHYS%2012100/Reference/Lectures/General%20Physics%20I%20-%20Lecture%206%20-%20Work%20and%20Energy.pdf"
     },
     "phys-hw3-sol": {
-      "title": "PHYS121 HW3 Solutions · Canvas 原文件（下载归档待补）",
-      "url": "https://canvas.uchicago.edu/courses/74238/files/15999807"
+      "title": "General Physics I - Homework 3 - Corrected Solutions.pdf",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/PHYS%2012100/Homework%203/General%20Physics%20I%20-%20Homework%203%20-%20Corrected%20Solutions.pdf"
     },
     "sosc-stantcheva-surveys-pdf": {
       "title": "How to Run Surveys - A Guide to Creating Your Own Identifying Variation and Revealing the Invisible.pdf",
@@ -2409,8 +2448,8 @@ window.WORKLIST = {
       "url": "https://edstem.org/us/courses/107374/discussion/8427445"
     },
     "phys-lecture8": {
-      "title": "Lecture 8 · 30页 Canvas 原文件（浏览器拦截下载，归档待补）",
-      "url": "https://canvas.uchicago.edu/courses/74238/files/16015545"
+      "title": "General Physics I - Lecture 8 - Work, Energy, and Power.pdf",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/PHYS%2012100/Reference/Lectures/General%20Physics%20I%20-%20Lecture%208%20-%20Work%2C%20Energy%2C%20and%20Power.pdf"
     },
     "math-hw-feedback": {
       "title": "HW2/3 反馈发布公告",
@@ -2495,6 +2534,34 @@ window.WORKLIST = {
     "cmsc-hw3-totient": {
       "title": "HW3 Q3：可直接使用 totient 公式",
       "url": "https://edstem.org/us/courses/107374/discussion/8449210"
+    },
+    "math-lecture12": {
+      "title": "Honors Basic Algebra I - Lecture 12 - Groups of Order 6, Abelian Groups, and Rotation Groups.pdf",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/MATH%2025700/Reference/Lectures/Honors%20Basic%20Algebra%20I%20-%20Lecture%2012%20-%20Groups%20of%20Order%206%2C%20Abelian%20Groups%2C%20and%20Rotation%20Groups.pdf"
+    },
+    "math-ps5": {
+      "title": "Honors Basic Algebra I - Problem Set 5.pdf",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/MATH%2025700/Problem%20Set%205/Honors%20Basic%20Algebra%20I%20-%20Problem%20Set%205.pdf"
+    },
+    "phys-lecture9": {
+      "title": "General Physics I - Lecture 9 - Potential Energy and Conservation of Energy.pdf",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/PHYS%2012100/Reference/Lectures/General%20Physics%20I%20-%20Lecture%209%20-%20Potential%20Energy%20and%20Conservation%20of%20Energy.pdf"
+    },
+    "phys-hw4-sol": {
+      "title": "General Physics I - Homework 4 - Solutions.pdf",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/PHYS%2012100/Homework%204/General%20Physics%20I%20-%20Homework%204%20-%20Solutions.pdf"
+    },
+    "math-ps5-canvas": {
+      "title": "PS5 要求（Canvas）",
+      "url": "https://canvas.uchicago.edu/courses/75102/assignments/923891"
+    },
+    "phys-midterm-announcement": {
+      "title": "Midterm 开考时间、题型与不考范围（10/26公告）",
+      "url": "https://canvas.uchicago.edu/courses/74238/discussion_topics/1028494"
+    },
+    "math-oh-today-1028": {
+      "title": "10/28 Office Hours 临时地点 E-208A",
+      "url": "https://canvas.uchicago.edu/courses/75102/discussion_topics/1029285"
     }
   },
   "officeHours": [
@@ -2503,9 +2570,9 @@ window.WORKLIST = {
       "person": "Akhil Mathew · 教授",
       "time": "周三 16:15–18:30",
       "place": "临时办公室 E208-A（10/22起）",
-      "url": "https://canvas.uchicago.edu/courses/75102/discussion_topics/1026807",
-      "linkLabel": "新地点公告",
-      "note": "常规时间来自大纲；10/21提前结束的例外已过。10/22公告起改到临时办公室E208-A，公告未展开楼名。"
+      "url": "https://canvas.uchicago.edu/courses/75102/discussion_topics/1029285",
+      "linkLabel": "10/28地点提醒",
+      "note": "10/28 13:56新公告再次确认当天临时办公室E-208A；常规周三时间沿用大纲16:15–18:30。"
     },
     {
       "course": "MATH",
@@ -2602,6 +2669,16 @@ window.WORKLIST = {
       "person": "Félix Houde · College Fellow",
       "time": "周五 15:30–17:30（10/9 起）",
       "place": "Eckhart 312"
+    },
+    {
+      "course": "SOSC",
+      "person": "Scott Cooley · 教授",
+      "time": "周三15:00–17:00；10/28预约组显示15:00–16:30",
+      "place": "线上，按Canvas预约；私人入场链接留在Canvas",
+      "url": "https://canvas.uchicago.edu/appointment_groups/16584",
+      "linkLabel": "10/28 Office Hours 预约",
+      "exceptionDate": "2026-10-28",
+      "note": "常规时段来自大纲；当日预约组窗口单列，不公开个人预约时间或Zoom参数。"
     }
   ],
   "notesPolicy": {
