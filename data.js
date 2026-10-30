@@ -1,6 +1,6 @@
 window.WORKLIST = {
-  "updatedAt": "2026-10-29T20:49:43.001578Z",
-  "scope": "10/29已查三门Canvas主要课程页与材料、三门Gradescope、CMSC Ed/官网。新增4份教师原件；SOSC Quiz2确认11/10，CMSC HW4确认11/5 23:59。今日MATH预习与SOSC Day10笔记当天完成。PHYS Lab3两项已交，report格式待核对；SOSC会话展开及McDermott保存遇浏览器超时，待补。",
+  "updatedAt": "2026-10-30T17:11:12.236Z",
+  "scope": "10/30已查三门Canvas、三门Gradescope、CMSC Ed/官网及实验官网。新增MATH当天预习和笔记；CMSC今天期中，不建普通课堂笔记。已归档SOSC下周五篇阅读并补齐McDermott，更新MATH Lecture11；补充Cratering2材料与待办。Ryan周五OH现12:00–13:30线上。SOSC Class10、CMSC Week5总结及MATH PS5反馈窗口尚未发布。",
   "tasks": [
     {
       "id": "sosc-freedman",
@@ -1015,7 +1015,7 @@ window.WORKLIST = {
         "sosc-mcdermott-article",
         "sosc-syllabus"
       ],
-      "note": "Day 7 · Lab Experiments；10/20课前必读 pp.31–61。保留作者全文网页；大学PDF链接本轮404，课程阅读库为空，原PDF仍待补。 10/28阅读库已恢复，确认有33页期刊原PDF；浏览器保存未返回可验证文件，仍未归档，暂保留作者全文链接。"
+      "note": "Day7 Lab Experiments，10/20课前必读pp.31–61。10/30已从课程阅读库补齐33页原刊PDF（含期刊目录页），私有归档直达链接可用。原期限和完成状态保持。"
     },
     {
       "id": "sosc-iyengar-news",
@@ -1344,7 +1344,7 @@ window.WORKLIST = {
         "math-oh-20261021",
         "math-midterm1-scope-update"
       ],
-      "note": "Day11讲义已修订为7页《The Isomorphism Theorems and Subgroups of Quotients》，原11页旧版保留供追溯。10/26复核原PDF：两处后续引用从Lecture16改为Lecture15，数学内容未变；不据此推定后续文件已经发布。个人期限仍10/21，不代表已完成。10/21下午公告说明当次课内容不在Midterm1范围内。"
+      "note": "Day11讲义当前为7页《The Isomorphism Theorems and Subgroups of Quotients》，原11页旧版保留供追溯。10/30复核10/29修订版：两处后续引用从Lecture15改回Lecture16，数学内容未变；不据此推定后续文件已经发布。个人期限仍10/21，不代表已完成。10/21下午公告说明当次课内容不在Midterm1范围内。"
     },
     {
       "id": "cmsc-notes-2026-10-21",
@@ -1812,7 +1812,7 @@ window.WORKLIST = {
         "math-policy",
         "math-lecture12"
       ],
-      "note": "5页、9道编号题，PDF明确建议11/4完成，不计入课程成绩。Canvas无正式截止时刻；10/28下午Gradescope仍只有HW1–4，PS5反馈提交窗口待发布。沿用最多两题反馈规则，不把建议完成日当作正式交卷DDL。"
+      "note": "5页、9道编号题，PDF建议11/4完成，不计入课程成绩。Canvas无正式截止时刻；10/30 Gradescope仍只有HW1–4，PS5反馈提交窗口待发布。沿用最多两题反馈规则，不把建议完成日当作正式交卷DDL。"
     },
     {
       "id": "sosc-essay1-format-check",
@@ -1891,6 +1891,150 @@ window.WORKLIST = {
         "phys-lab3-guide"
       ],
       "note": "Lab Report 3已交，但10/29页面显示DOCX，实验政策要求个人报告以PDF提交。请核对教师/TA是否接受现有格式或需补交；未查到另设的格式修正DDL，不编造截止时间。助理未修改或重交。",
+      "done": false,
+      "statusVersion": 1
+    },
+    {
+      "id": "math-preview-2026-10-30",
+      "course": "MATH",
+      "shortName": "预习 10/30",
+      "dueDate": "2026-10-30",
+      "planDate": "2026-10-30",
+      "deadlineKind": "same-day",
+      "recurrenceKey": "math-preview",
+      "materials": [
+        "math-lecture13",
+        "math-lecture12",
+        "math-ps5"
+      ],
+      "note": "每日个人预习待办，包括周末，当天完成。附最新Lecture13和PS5供自行安排；只维护待办，未代做预习。",
+      "done": false,
+      "statusVersion": 1
+    },
+    {
+      "id": "math-notes-2026-10-30",
+      "course": "MATH",
+      "shortName": "整理 10/30 笔记",
+      "classDate": "2026-10-30",
+      "dueDate": "2026-10-30",
+      "deadlineKind": "same-day",
+      "taskKind": "lecture-notes",
+      "materials": [
+        "math-lecture13",
+        "math-lecture12",
+        "math-syllabus"
+      ],
+      "note": "按周五课表建立个人整理待办，期限为当天；下午课尚未上课也先建立。首页目前Lecture1–13，确切对应课日未核实，不把讲义编号当Day。后续发布当次讲义再补链接，不代写笔记。",
+      "done": false,
+      "statusVersion": 1
+    },
+    {
+      "id": "sosc-washington-daughters",
+      "course": "SOSC",
+      "shortName": "读 Washington · Female Socialization",
+      "dueDate": "2026-11-03",
+      "classDate": "2026-11-03",
+      "deadlineKind": "before-class",
+      "materials": [
+        "sosc-washington-pdf",
+        "sosc-syllabus"
+      ],
+      "note": "Day11 Cross-sectional Designs课前必读，AER98(1)(2008):311–332。已归档23页期刊原文件（含JSTOR封面），文件名采用原文完整题名。",
+      "done": false,
+      "statusVersion": 1
+    },
+    {
+      "id": "sosc-ba-police",
+      "course": "SOSC",
+      "shortName": "读 Ba 等 · Officer Race and Gender",
+      "dueDate": "2026-11-03",
+      "classDate": "2026-11-03",
+      "deadlineKind": "before-class",
+      "materials": [
+        "sosc-ba-police-pdf",
+        "sosc-syllabus"
+      ],
+      "note": "Day11课前必读，Science371(6530)(2021):696–702。原文件8页，包括7页正文与出版信息页。",
+      "done": false,
+      "statusVersion": 1
+    },
+    {
+      "id": "sosc-becher-vote",
+      "course": "SOSC",
+      "shortName": "读 Becher/Donnelly · Economic Performance and the Vote",
+      "dueDate": "2026-11-05",
+      "classDate": "2026-11-05",
+      "deadlineKind": "before-class",
+      "materials": [
+        "sosc-becher-vote-pdf",
+        "sosc-syllabus"
+      ],
+      "note": "Day12 Colliders and Mediators课前必读，JoP75(4)(2013):968–979。归档官方大学库的34页作者稿（2013/7/15，forthcoming），页码与期刊版不同；不是新增的额外阅读。",
+      "done": false,
+      "statusVersion": 1
+    },
+    {
+      "id": "sosc-gale-neuroticism",
+      "course": "SOSC",
+      "shortName": "读 Gale 等 · Neuroticism（含 Corrigendum）",
+      "dueDate": "2026-11-05",
+      "classDate": "2026-11-05",
+      "deadlineKind": "before-class",
+      "materials": [
+        "sosc-gale-neuroticism-pdf",
+        "sosc-syllabus"
+      ],
+      "note": "Day12课前必读。课程阅读库原PDF共14页：第1页为2019勘误，后13页为2017原论文（Psychological Science28:1345–1357）；整份保留，不把勘误误当完整论文。",
+      "done": false,
+      "statusVersion": 1
+    },
+    {
+      "id": "sosc-richardson-collider",
+      "course": "SOSC",
+      "shortName": "读 Richardson 等 · Conditioning on a Collider",
+      "dueDate": "2026-11-05",
+      "classDate": "2026-11-05",
+      "deadlineKind": "before-class",
+      "materials": [
+        "sosc-richardson-collider-pdf",
+        "sosc-syllabus"
+      ],
+      "note": "Day12课前必读，Psychological Science30(4)(2019):629–632。已取得课程阅读库4页原刊正文，非补充材料。",
+      "done": false,
+      "statusVersion": 1
+    },
+    {
+      "id": "phys-lab4-notebook",
+      "course": "PHYS",
+      "shortName": "Cratering 2 · 实验与 Lab Notebook 4",
+      "dueDate": null,
+      "deadlineKind": "relative",
+      "relativeDeadline": "本人实验结束时",
+      "materials": [
+        "phys-lab4-guide",
+        "phys-lab3-template",
+        "phys-lab3-notebook-file",
+        "phys-lab3-colab",
+        "phys-goodness-of-fit",
+        "phys-lab4-notebook-submit"
+      ],
+      "note": "官方课表：11/2–11/6为Lab4 Cratering Part2。沿用同一Cratering实验本和Colab，不重复上传相同文件；goodness-of-fit为指南中的辅助参考。个人实验时段尚未核实，不虚构日期和钟点。",
+      "done": false,
+      "statusVersion": 1
+    },
+    {
+      "id": "phys-lab4-report",
+      "course": "PHYS",
+      "shortName": "Cratering 2 · Lab Report 4",
+      "dueDate": null,
+      "deadlineKind": "relative",
+      "relativeDeadline": "本人实验结束后 24 小时",
+      "materials": [
+        "phys-lab4-report",
+        "phys-lab4-report-submit",
+        "phys-lab4-guide"
+      ],
+      "note": "11/2–11/6实验周的个人报告：根据Part2数据写1–2段结论，可结合Part1背景，用数据/图表支持。最终提交单个PDF；归档DOCX是教师空白模板，不是提交格式。个人实验时段未核实，保留相对期限。",
       "done": false,
       "statusVersion": 1
     }
@@ -2353,8 +2497,8 @@ window.WORKLIST = {
       "url": "https://github.com/chicagokitty/worklist-materials/blob/main/SOSC%2013100/Day%208/Do%20Politicians%20Racially%20Discriminate%20Against%20Constituents%20-%20A%20Field%20Experiment%20on%20State%20Legislators.pdf"
     },
     "sosc-mcdermott-article": {
-      "title": "Experimental Methods in Political Science（作者全文页；PDF 待补）",
-      "url": "https://www.researchgate.net/publication/51992762_EXPERIMENTALMETHODS_INPOLITICALSCIENCE"
+      "title": "Experimental Methods in Political Science.pdf",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/SOSC%2013100/Day%207/Experimental%20Methods%20in%20Political%20Science.pdf"
     },
     "sosc-sears-article": {
       "title": "College Sophomores in the Laboratory（出版信息；PDF 待补）",
@@ -2652,6 +2796,50 @@ window.WORKLIST = {
     "cmsc-hw4-submit": {
       "title": "HW4（Gradescope 课程列表）",
       "url": "https://www.gradescope.com/courses/1417716"
+    },
+    "sosc-washington-pdf": {
+      "title": "Female Socialization - How Daughters Affect Their Legislator Fathers' Voting on Women's Issues.pdf",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/SOSC%2013100/Day%2011/Female%20Socialization%20-%20How%20Daughters%20Affect%20Their%20Legislator%20Fathers%27%20Voting%20on%20Women%27s%20Issues.pdf"
+    },
+    "sosc-ba-police-pdf": {
+      "title": "The Role of Officer Race and Gender in Police-Civilian Interactions in Chicago.pdf",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/SOSC%2013100/Day%2011/The%20Role%20of%20Officer%20Race%20and%20Gender%20in%20Police-Civilian%20Interactions%20in%20Chicago.pdf"
+    },
+    "sosc-becher-vote-pdf": {
+      "title": "Economic Performance, Individual Evaluations and the Vote - Investigating the Causal Mechanism.pdf（作者稿，34页）",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/SOSC%2013100/Day%2012/Economic%20Performance%2C%20Individual%20Evaluations%20and%20the%20Vote%20-%20Investigating%20the%20Causal%20Mechanism.pdf"
+    },
+    "sosc-gale-neuroticism-pdf": {
+      "title": "When Is Higher Neuroticism Protective Against Death - Findings From UK Biobank - with Corrigendum.pdf",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/SOSC%2013100/Day%2012/When%20Is%20Higher%20Neuroticism%20Protective%20Against%20Death%20-%20Findings%20From%20UK%20Biobank%20-%20with%20Corrigendum.pdf"
+    },
+    "sosc-richardson-collider-pdf": {
+      "title": "Conditioning on a Collider May Induce Spurious Associations - Do the Results of Gale et al. (2017) Support a Health-Protective Effect of Neuroticism in Population Subgroups.pdf",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/SOSC%2013100/Day%2012/Conditioning%20on%20a%20Collider%20May%20Induce%20Spurious%20Associations%20-%20Do%20the%20Results%20of%20Gale%20et%20al.%20(2017)%20Support%20a%20Health-Protective%20Effect%20of%20Neuroticism%20in%20Population%20Subgroups.pdf"
+    },
+    "phys-lab4-report": {
+      "title": "Cratering (Part 2) - Post-Lab Assignment.docx",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/PHYS%2012100/Lab%204/Cratering%20(Part%202)%20-%20Post-Lab%20Assignment.docx"
+    },
+    "phys-goodness-of-fit": {
+      "title": "Chi-Squared - Goodness of Fit.pdf",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/PHYS%2012100/Lab%204/Chi-Squared%20-%20Goodness%20of%20Fit.pdf"
+    },
+    "phys-lab4-guide": {
+      "title": "Cratering Part 2 · 官方实验指南",
+      "url": "https://www.physlab-wiki.com/phylabs/lab_courses/phys-120_130-wiki-home/fall-experiments/cratering_part-2/start"
+    },
+    "phys-lab4-notebook-submit": {
+      "title": "Lab Notebook 4 · Canvas要求",
+      "url": "https://canvas.uchicago.edu/courses/74238/assignments/908802"
+    },
+    "phys-lab4-report-submit": {
+      "title": "Lab Report 4 · Canvas提交",
+      "url": "https://canvas.uchicago.edu/courses/74238/assignments/908803"
+    },
+    "math-reu-2027": {
+      "title": "2027 UChicago Math REU · 可选申请机会",
+      "url": "https://uchicago.joinhandshake.com/jobs/11695960/share_preview"
     }
   },
   "officeHours": [
@@ -2728,12 +2916,11 @@ window.WORKLIST = {
     {
       "course": "PHYS",
       "person": "Ryan Wong · TA",
-      "time": "周五 12:00–13:00（10/23临时线上安排已结束）",
-      "place": "常规地点 KPTC 305",
-      "url": "https://canvas.uchicago.edu/courses/74238/discussion_topics/1027147",
-      "linkLabel": "10/23临时调整公告（已结束）",
-      "exceptionDate": "2026-10-23",
-      "note": "10/22公告仅将10/23改为线上并延长至13:30；该次例外已结束。常规时间与地点按10/1公告，America/Chicago。"
+      "time": "周五 12:00–13:30",
+      "place": "Zoom；如需KPTC 305线下面谈，须在周四结束前向TA提出",
+      "url": "https://canvas.uchicago.edu/courses/74238/discussion_topics/1030132",
+      "linkLabel": "10/30最新安排与 Zoom 入口（Canvas）",
+      "note": "10/30 11:26公告：今后暂维持90分钟线上OH；常规Office Hours公告同步更新。America/Chicago。私人入场参数留在Canvas。"
     },
     {
       "course": "PHYS",

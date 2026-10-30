@@ -1,5 +1,17 @@
 # worklist
 
+## 2026-10-30 中午检查
+
+- 三门Canvas课程页/大纲、公告、讨论、作业、可见模块与材料及通知流均已核查；MATH无独立Modules/Files入口，SOSC无独立Announcements/Modules入口，按首页/大纲、Files和课程动态补查。三门Gradescope、CMSC Ed/官网与PHYS实验官网均可访问。SOSC此前未展开的两条会话已补查，均为10/6旧通知。
+- 新增今日MATH预习与笔记，个人期限均10/30；CMSC10/30为期中考试，不建普通课堂笔记，也不自动标考试完成。所有115项既有任务的日期、完成状态及版本保留，共124项。
+- SOSC提前整理11/3 Day11两篇（Washington、Ba）和11/5 Day12三篇（Becher/Donnelly、Gale含勘误、Richardson）。五份PDF私有归档；Becher为34页作者稿，Gale为课程提供的14页勘误加原论文合并文件，版本已标明。补齐Day7 McDermott33页原刊并更新直达链接，旧阅读期限保持。Class10尚未发布。
+- MATH Lecture11原件修订：仅两处后续引用Lecture15改为Lecture16，数学内容未变；其余24份公开原件校验不变。PS5仍建议11/4完成，Gradescope反馈窗口未发布。
+- PHYS Ryan的OH从10/30起暂维持周五12:00–13:30 Zoom；需线下KPTC305须于周四结束前提出，私人入场参数只留在Canvas。
+- 下周11/2–11/6为Cratering2：新增LabNotebook4和LabReport4待办、DOCX空白报告模板、6页拟合参考讲义；沿用现有Cratering模板/Colab，不重复上传。个人实验时段仍未核实，期限分别保留为实验结束时、结束后24小时，报告提交PDF。
+- PHYS HW5仍11/2 23:59，CMSC HW4仍11/5 23:59；PHYS HW6明确11/2开放、11/9截止，目前锁定，后续开放再取题目。CMSC官网仍Week1–4。
+- MATH Canvas及CMSC Ed转发2027 Math REU申请机会；只增加可选入口，不当作必做任务，公告未写申请截止日。
+- 8份新文件、1份修订文件归档；私有清单123条。全部原文件字节保留，正文、元数据、批注及PDF代表页检查通过。没有编辑或运行共享文档、发送消息、提交作业或发布成绩/登录参数。
+
 ## 2026-10-29 中午检查
 
 - 新增教师原件：MATH Lecture13（12页），SOSC Class7/8/9（26/15/29页PPTX）。SOSC按Day7/8/9归档；MATH确切课日未明，沿用Reference/Lectures，不虚构Day。
