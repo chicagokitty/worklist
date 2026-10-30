@@ -1,5 +1,15 @@
 # worklist
 
+## 2026-10-29 中午检查
+
+- 新增教师原件：MATH Lecture13（12页），SOSC Class7/8/9（26/15/29页PPTX）。SOSC按Day7/8/9归档；MATH确切课日未明，沿用Reference/Lectures，不虚构Day。
+- SOSC现行大纲及Class8确认Quiz2为11/10，课内30分钟、open-note，替代早期11/3记录。今天Day10两篇阅读保持；新增当天笔记整理与MATH预习。Class10尚未发布。
+- CMSC HW4已在Gradescope开放：11/5 23:59 CDT正常截止、11/7 23:59迟交窗口。Ed考试帖仍7回复，官网仍Week1–4，无新增考试范围或课件。
+- PHYS Lab3两项提交证据、SOSC Quiz1批改证据用于确认完成；仅更新完成状态，不发布成绩或个人作答。Lab3 report格式需核对，另列个人待办。SOSC Essay1格式检查仍待确认，入口已关闭，原期限保留。
+- MATH新公告只说明期中统计与curve，无新提交要求；PS5反馈入口尚未发布。原件复核24份未变。PHYS Modules/公告没有新增材料。
+- Canvas/Ed登录有效。后段浏览器操作超时，SOSC两条会话的正文未展开复核，McDermott原刊保存仍待补；不据此声称全部通知均无变化。已有作者全文入口保留。
+- 保留所有旧日期，除三项可靠完成证据外保留全部旧完成状态；共享文档未编辑或运行，未发送消息或提交作业。
+
 ## 2026-10-28 登录后补查
 
 - 三门Canvas首页/大纲、公告、讨论、作业、相关材料与课程动态已补查；SOSC阅读库恢复，Class2–6讲义及评分说明/范文目录未新增。MATH没有可见Modules/Files导航，材料按首页和Assignments核查。

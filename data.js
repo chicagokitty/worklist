@@ -1,6 +1,6 @@
 window.WORKLIST = {
-  "updatedAt": "2026-10-28T19:28:27.978991Z",
-  "scope": "10/28登录后补查Canvas完成：新增MATH PS5（建议11/4）和Lecture12；PHYS明日12:30 KPTC106期中，范围与排除项已补。Essay1确认已交，另列PDF格式检查。新增归档7份原PDF；McDermott可预览但保存待补。今日MATH预习及MATH/CMSC笔记仍按当天个人期限。",
+  "updatedAt": "2026-10-29T20:49:43.001578Z",
+  "scope": "10/29已查三门Canvas主要课程页与材料、三门Gradescope、CMSC Ed/官网。新增4份教师原件；SOSC Quiz2确认11/10，CMSC HW4确认11/5 23:59。今日MATH预习与SOSC Day10笔记当天完成。PHYS Lab3两项已交，report格式待核对；SOSC会话展开及McDermott保存遇浏览器超时，待补。",
   "tasks": [
     {
       "id": "sosc-freedman",
@@ -111,9 +111,9 @@ window.WORKLIST = {
       "shortName": "Quiz 1",
       "dueDate": "2026-10-13",
       "deadlineKind": "in-class",
-      "done": false,
-      "statusVersion": 1,
-      "note": "10/6 教师通知：从 10/8 延至 10/13（周二）。课内 30 分钟，open-note；具体开始时刻未单列。 10/20新增同名Canvas记录，未列新测验日期；保留10/13原课内日期及已有完成状态，不重开任务。 10/21补齐教师的1页Quiz 1 Rubric，归Day 5；没有新增考试或截止日期。",
+      "done": true,
+      "statusVersion": 2,
+      "note": "10/29 Canvas已显示Quiz 1完成批改，据此确认完成，不公开成绩。保留教师10/6通知延期后的实际考试日期10/13：课内30分钟，open-note；10/20新建Canvas评分记录不代表另一次测验。",
       "materials": [
         "sosc-course-updates",
         "sosc-syllabus",
@@ -1300,12 +1300,13 @@ window.WORKLIST = {
       "taskKind": "lecture-notes",
       "done": false,
       "statusVersion": 1,
-      "note": "个人课日当天整理期限，不是教师作业DDL。今天主题Lab Experiments，三篇课前阅读分别列项。中午Course Slides仍只有Class 2–6，Class 7尚未发布，后续补链接；未代为完成笔记。 10/28阅读库已恢复，确认有33页期刊原PDF；浏览器保存未返回可验证文件，仍未归档，暂保留作者全文链接。",
+      "note": "个人笔记整理期限仍为原上课当天。10/29已补齐教师新上传的对应课次PPT原件（Canvas上传于10/28），按大纲课日归档；旧完成状态保留，未代写笔记。",
       "materials": [
         "sosc-mcdermott-article",
         "sosc-iyengar-news-pdf",
         "sosc-sears-pdf",
-        "sosc-syllabus"
+        "sosc-syllabus",
+        "sosc-class7-slides"
       ]
     },
     {
@@ -1412,9 +1413,10 @@ window.WORKLIST = {
       "materials": [
         "sosc-butler-discrimination-pdf",
         "sosc-enikolopov-article",
-        "sosc-syllabus"
+        "sosc-syllabus",
+        "sosc-class8-slides"
       ],
-      "note": "今天Field Experiments课的个人笔记整理期限为当天。两篇课前阅读PDF均已归档；中午Course Slides仍只有Class2–6，Class7/8待老师发布后补链接。未代为完成笔记。",
+      "note": "个人笔记整理期限仍为原上课当天。10/29已补齐教师新上传的对应课次PPT原件（Canvas上传于10/28），按大纲课日归档；旧完成状态保留，未代写笔记。",
       "done": false,
       "statusVersion": 1
     },
@@ -1674,9 +1676,9 @@ window.WORKLIST = {
         "phys-lab3-colab",
         "phys-lab3-notebook-submit"
       ],
-      "note": "10/26官方实验课表确认本周10/26–30为Cratering Part1。课前阅读实验指南，组内Notebook在本人实验结束时提交；个人实验时段尚未核实，不编造绝对DDL。模板与Colab已原样归档，未改动或运行共享原文。Canvas当周补充要求待登录复核。 10/28下午Canvas仍显示No submission；个人实验时段未确认，继续按本人实验结束/结束后24小时计算，不编造绝对DDL。",
-      "done": false,
-      "statusVersion": 1
+      "note": "10/29 Canvas确认Lab Notebook 3已提交（10/28 23:16 CDT）；据提交证据更新完成状态。原期限为本人实验结束时，个人实验时段仍未核实，不据提交时间推算DDL。没有下载或归档个人作答。",
+      "done": true,
+      "statusVersion": 2
     },
     {
       "id": "phys-lab3-report",
@@ -1690,9 +1692,9 @@ window.WORKLIST = {
         "phys-lab3-report-submit",
         "phys-lab3-guide"
       ],
-      "note": "官方实验政策：个人Post-Lab Assignment在本人实验结束后24小时内以PDF提交；本周题目含阶段性结论及模型假设/实际陨石坑讨论。原题目DOCX已归档，未代写作答。个人实验时段与Canvas新通知待复核。 10/28下午Canvas仍显示No submission；个人实验时段未确认，继续按本人实验结束/结束后24小时计算，不编造绝对DDL。",
-      "done": false,
-      "statusVersion": 1
+      "note": "10/29 Canvas确认Lab Report 3已提交（10/29 00:00 CDT）；据提交证据更新完成状态。原期限为本人实验结束后24小时，个人实验时段未核实。提交格式需另行核对，已列个人待办；未代为修改或重交。",
+      "done": true,
+      "statusVersion": 2
     },
     {
       "id": "math-preview-2026-10-27",
@@ -1720,9 +1722,10 @@ window.WORKLIST = {
       "taskKind": "lecture-notes",
       "materials": [
         "sosc-stantcheva-surveys-pdf",
-        "sosc-syllabus"
+        "sosc-syllabus",
+        "sosc-class9-slides"
       ],
-      "note": "依据已核实大纲，今天Day9主题Survey Data；个人笔记整理期限为上课当天。Stantcheva课前阅读30页正式期刊版已归档。Canvas登录过期，临时课程安排和新课件待补查，不把旧课件冒充本次讲义；未代为完成笔记。",
+      "note": "个人笔记整理期限仍为原上课当天。10/29已补齐教师新上传的对应课次PPT原件（Canvas上传于10/28），按大纲课日归档；旧完成状态保留，未代写笔记。",
       "done": false,
       "statusVersion": 1
     },
@@ -1782,16 +1785,18 @@ window.WORKLIST = {
       "course": "CMSC",
       "shortName": "HW4",
       "dueDate": "2026-11-05",
-      "deadlineKind": "date-only",
+      "deadlineKind": "exact",
       "materials": [
         "cmsc-hw4-pdf",
         "cmsc-hw4-announcement",
         "cmsc-syllabus",
-        "cmsc-gradescope"
+        "cmsc-gradescope",
+        "cmsc-hw4-submit"
       ],
-      "note": "新发布1页5题，官网与原题明确11/5截止；Ed说明考虑期中考试及选举而顺延一天。具体截止时刻和迟交窗口尚未公布，10/28核查Gradescope仍仅HW1–3，待补HW4实际入口。答案须为闭式表达式（第5题为整数），多项系数（multinomial coefficients）可视为闭式；所有答案需合理严谨论证，合作须注明同伴且独立撰写。America/Chicago。",
+      "note": "10/29 Gradescope已开放HW4：正常截止11/5 23:59 CDT，迟交窗口至11/7 23:59，可能扣分。仍No Submission。1页5题；Ed说明考虑期中与选举顺延一天。答案须为闭式表达式（第5题整数），多项系数可视为闭式，所有答案需合理严谨论证，合作须注明同伴且独立撰写。America/Chicago。",
       "done": false,
-      "statusVersion": 1
+      "statusVersion": 1,
+      "time": "23:59"
     },
     {
       "id": "math-ps5",
@@ -1822,7 +1827,72 @@ window.WORKLIST = {
       "materials": [
         "sosc-essay1-prompt"
       ],
-      "note": "Essay1已提交；题干要求PDF，请核对最终提交格式。10/28 23:59为Canvas入口关闭时间，作为本项检查的最晚行动时间；原作文DDL仍10/26 23:59，不代表延期。助理未修改或重交作业。"
+      "note": "Essay1已提交；题干要求PDF，请核对最终提交格式。10/28 23:59为Canvas入口关闭时间，作为本项检查的最晚行动时间；原作文DDL仍10/26 23:59，不代表延期。助理未修改或重交作业。 10/29复核仍为DOCX，入口已关闭；请向教师确认是否需补交PDF。保留原检查期限，不自动标完成或顺延。"
+    },
+    {
+      "id": "math-preview-2026-10-29",
+      "course": "MATH",
+      "shortName": "预习 10/29",
+      "dueDate": "2026-10-29",
+      "planDate": "2026-10-29",
+      "deadlineKind": "same-day",
+      "recurrenceKey": "math-preview",
+      "materials": [
+        "math-lecture13",
+        "math-lecture12",
+        "math-ps5"
+      ],
+      "note": "每日个人预习待办，包括周末，当天完成。附最新Lecture13 Finite Rotation Groups及PS5供自行安排；讲义编号不等同课次，未代为完成预习。",
+      "done": false,
+      "statusVersion": 1
+    },
+    {
+      "id": "sosc-notes-2026-10-29",
+      "course": "SOSC",
+      "shortName": "整理 10/29（Day 10）笔记",
+      "classDate": "2026-10-29",
+      "dueDate": "2026-10-29",
+      "deadlineKind": "same-day",
+      "taskKind": "lecture-notes",
+      "materials": [
+        "sosc-wood-backfire-pdf",
+        "sosc-mullinix-generalizability-pdf",
+        "sosc-syllabus"
+      ],
+      "note": "大纲Day10 Survey Experiments，个人整理期限为当天。两篇课前阅读原件已归档；中午Files仅见Class2–9，Day10课件待老师发布后补齐。只维护待办，不代写笔记。",
+      "done": false,
+      "statusVersion": 1
+    },
+    {
+      "id": "sosc-quiz2-2026-11-10",
+      "course": "SOSC",
+      "shortName": "Quiz 2",
+      "classDate": "2026-11-10",
+      "dueDate": "2026-11-10",
+      "deadlineKind": "in-class",
+      "materials": [
+        "sosc-syllabus",
+        "sosc-class8-slides"
+      ],
+      "note": "10/29现行大纲与Class8第2页均确认11/10，取代早期11/3安排；课内30分钟、open-note。未单列具体开考时刻或独立试题文件。America/Chicago。",
+      "done": false,
+      "statusVersion": 1
+    },
+    {
+      "id": "phys-lab3-report-format-check",
+      "course": "PHYS",
+      "shortName": "核对 Lab Report 3 的 PDF 提交格式",
+      "dueDate": null,
+      "deadlineKind": "unknown",
+      "taskKind": "personal-action",
+      "materials": [
+        "phys-lab3-report-submit",
+        "phys-lab3-report",
+        "phys-lab3-guide"
+      ],
+      "note": "Lab Report 3已交，但10/29页面显示DOCX，实验政策要求个人报告以PDF提交。请核对教师/TA是否接受现有格式或需补交；未查到另设的格式修正DDL，不编造截止时间。助理未修改或重交。",
+      "done": false,
+      "statusVersion": 1
     }
   ],
   "materials": {
@@ -2562,6 +2632,26 @@ window.WORKLIST = {
     "math-oh-today-1028": {
       "title": "10/28 Office Hours 临时地点 E-208A",
       "url": "https://canvas.uchicago.edu/courses/75102/discussion_topics/1029285"
+    },
+    "math-lecture13": {
+      "title": "Honors Basic Algebra I - Lecture 13 - Finite Rotation Groups.pdf",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/MATH%2025700/Reference/Lectures/Honors%20Basic%20Algebra%20I%20-%20Lecture%2013%20-%20Finite%20Rotation%20Groups.pdf"
+    },
+    "sosc-class7-slides": {
+      "title": "Class 7 - Experimental Methods and Student Subjects.pptx",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/SOSC%2013100/Day%207/Class%207%20-%20Experimental%20Methods%20and%20Student%20Subjects.pptx"
+    },
+    "sosc-class8-slides": {
+      "title": "Class 8 - Field Experiments, Audit Studies, and Employment Discrimination.pptx",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/SOSC%2013100/Day%208/Class%208%20-%20Field%20Experiments%2C%20Audit%20Studies%2C%20and%20Employment%20Discrimination.pptx"
+    },
+    "sosc-class9-slides": {
+      "title": "Class 9 - Measuring Public Opinion.pptx",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/SOSC%2013100/Day%209/Class%209%20-%20Measuring%20Public%20Opinion.pptx"
+    },
+    "cmsc-hw4-submit": {
+      "title": "HW4（Gradescope 课程列表）",
+      "url": "https://www.gradescope.com/courses/1417716"
     }
   },
   "officeHours": [
@@ -2673,12 +2763,11 @@ window.WORKLIST = {
     {
       "course": "SOSC",
       "person": "Scott Cooley · 教授",
-      "time": "周三15:00–17:00；10/28预约组显示15:00–16:30",
+      "time": "周三 15:00–17:00",
       "place": "线上，按Canvas预约；私人入场链接留在Canvas",
-      "url": "https://canvas.uchicago.edu/appointment_groups/16584",
-      "linkLabel": "10/28 Office Hours 预约",
-      "exceptionDate": "2026-10-28",
-      "note": "常规时段来自大纲；当日预约组窗口单列，不公开个人预约时间或Zoom参数。"
+      "url": "https://canvas.uchicago.edu/courses/74986",
+      "linkLabel": "大纲与预约入口",
+      "note": "按现行大纲常规时段；10/28预约窗口已结束。具体预约以Canvas为准，私人入场信息不公开。"
     }
   ],
   "notesPolicy": {
@@ -2715,6 +2804,11 @@ window.WORKLIST = {
         "course": "MATH",
         "classDate": "2026-10-23",
         "reason": "教师公告：课内 Midterm 1，维护考试任务，不创建普通课堂笔记项"
+      },
+      {
+        "course": "CMSC",
+        "classDate": "2026-10-30",
+        "reason": "教师确认课内Midterm，维护考试任务，不创建普通课堂笔记项"
       }
     ]
   },
