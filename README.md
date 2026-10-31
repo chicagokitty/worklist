@@ -1,5 +1,10 @@
 # worklist
 
+## 2026-10-31 用户新增复习待办
+
+- 新增 SOSC Quiz 复习与 CMSC Midterm 复习，均默认未完成，个人完成期限未指定。
+- 共126项任务，原124项完整保留。本次仅新增用户要求的复习待办，未重新核查课程，资料库不变。
+
 ## 2026-10-30 中午检查
 
 - 三门Canvas课程页/大纲、公告、讨论、作业、可见模块与材料及通知流均已核查；MATH无独立Modules/Files入口，SOSC无独立Announcements/Modules入口，按首页/大纲、Files和课程动态补查。三门Gradescope、CMSC Ed/官网与PHYS实验官网均可访问。SOSC此前未展开的两条会话已补查，均为10/6旧通知。

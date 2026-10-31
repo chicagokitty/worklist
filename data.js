@@ -1,6 +1,6 @@
 window.WORKLIST = {
   "updatedAt": "2026-10-30T17:11:12.236Z",
-  "scope": "10/30已查三门Canvas、三门Gradescope、CMSC Ed/官网及实验官网。新增MATH当天预习和笔记；CMSC今天期中，不建普通课堂笔记。已归档SOSC下周五篇阅读并补齐McDermott，更新MATH Lecture11；补充Cratering2材料与待办。Ryan周五OH现12:00–13:30线上。SOSC Class10、CMSC Week5总结及MATH PS5反馈窗口尚未发布。",
+  "scope": "10/31 按用户要求新增 SOSC Quiz 复习和 CMSC Midterm 复习，个人完成期限待定。课程来源最近一次完整核查为 10/30，本次仅新增待办。",
   "tasks": [
     {
       "id": "sosc-freedman",
