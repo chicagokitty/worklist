@@ -1,6 +1,6 @@
 window.WORKLIST = {
-  "updatedAt": "2026-10-31T06:40:06Z",
-  "scope": "10/31 按用户要求新增 SOSC Quiz 复习、CMSC Midterm 复习，以及经用户明确同意公开的周一（11/2）医生预约待办。三项个人完成期限待定；医生尚未预约。课程来源最近一次完整核查为 10/30。",
+  "updatedAt": "2026-10-31T17:10:00Z",
+  "scope": "10/31 中午已核查三门 Canvas、三门 Gradescope、CMSC Ed/官网及 PHYS 实验来源。新增今日 MATH 预习、补齐 10/30 Lecture 14、更新 CMSC Week 5 和期中说明，并列出 PHYS Week 6 阅读。SOSC 阅读库嵌入页本次未加载，未据此认定无更新；Class 10 仍未见。",
   "tasks": [
     {
       "id": "sosc-freedman",
@@ -1429,9 +1429,11 @@ window.WORKLIST = {
       "deadlineKind": "exact",
       "materials": [
         "cmsc-exam-rules",
-        "cmsc-syllabus"
+        "cmsc-syllabus",
+        "cmsc-midterm-q2-followup",
+        "cmsc-midterm-answers"
       ],
-      "note": "10/30 09:30–10:20（America/Chicago），5题50分钟。范围截至10/26课堂，包括归纳、线性/偏序、数论及已讲计数。老师建议做Rosen对应章节常规题，考试准备可略过星号题及书中未涵盖的高级部分。允许本人为自己准备的不限长度纸质笔记；打印须来自本人写的源文件。可带简单计算器，禁止其他电子设备、书籍及扫描书页。 10/23教授回复：不会提供往年试卷或模拟卷；各年选题不同，5题不可能覆盖所有内容。 10/25复核Ed新增回复：自制纸质笔记可以放在纸质笔记本（含线圈本）内；教授已澄清其先前对notebook的禁止指电脑，不是纸质本。",
+      "note": "10/30 09:30–10:20（America/Chicago），5题50分钟。范围截至10/26课堂，包括归纳、线性/偏序、数论及已讲计数。老师建议做Rosen对应章节常规题，考试准备可略过星号题及书中未涵盖的高级部分。允许本人为自己准备的不限长度纸质笔记；打印须来自本人写的源文件。可带简单计算器，禁止其他电子设备、书籍及扫描书页。 10/23教授回复：不会提供往年试卷或模拟卷；各年选题不同，5题不可能覆盖所有内容。 10/25复核Ed新增回复：自制纸质笔记可以放在纸质笔记本（含线圈本）内；教授已澄清其先前对notebook的禁止指电脑，不是纸质本。 10/30教师新增Q2说明：若因课堂对power set（幂集）未讲清而受影响，可自行私信老师，下周获补充题，按regrade request处理；未说明单独截止时刻。另发简短答案帖，无PDF附件。是否适用由本人判断，未代发消息或自动标记考试完成。",
       "done": false,
       "statusVersion": 1
     },
@@ -1626,9 +1628,10 @@ window.WORKLIST = {
       "materials": [
         "cmsc-syllabus",
         "cmsc-old-notes",
-        "cmsc-afterclass-20261026"
+        "cmsc-afterclass-20261026",
+        "cmsc-syllabus-archive"
       ],
-      "note": "个人当天整理期限。10/26课堂内容包含在10/30期中范围内；官网目前仍列Week1–4，今天的具体新增内容以实际课堂笔记为准。教授今日下课后立即离开，有问题可在Ed或Office Hours问；这条通知没有取消常规Office Hours。",
+      "note": "个人当天整理期限保持。10/26课堂内容包含在10/30期中范围内。10/31官网已补Week5：递推、Twelvefold Way、多项式系数、整数分拆、抽屉原理、Mirsky/Dilworth、Erdős–Szekeres和Dirichlet逼近；官网未逐日拆分，不把整个Week5都当作10/26考试范围。10/26下课后临时离开公告已过期，不影响常规OH。",
       "done": false,
       "statusVersion": 1
     },
@@ -1642,9 +1645,10 @@ window.WORKLIST = {
       "materials": [
         "phys-hw5-pdf",
         "phys-hw5-gradescope",
-        "phys-hw5-canvas"
+        "phys-hw5-canvas",
+        "phys-hw5-solutions-locked"
       ],
-      "note": "3页8题，Knight第1版Ch.11：P11.22、26、36、50、52、60、64、74。10/28 Gradescope确认10/26 18:01开放、11/2 23:59 CDT截止，目前No Submission。原题PDF已归档；题头写PDF upload to Canvas，同时Gradescope已开放提交入口，两处链接均保留。Canvas新通知待登录复核，没有代为提交。",
+      "note": "3页8题，Knight第1版Ch.11：P11.22、26、36、50、52、60、64、74。10/31 Canvas和Gradescope确认11/2 23:59 CDT截止，目前No Submission。题头写PDF upload to Canvas，同时Gradescope已开放提交入口，两处链接均保留。模块已出现HW5 Solutions，但锁定到11/2 00:00 CDT；未下载或归档锁定文件，没有代交作业。",
       "done": false,
       "statusVersion": 1
     },
@@ -1658,7 +1662,7 @@ window.WORKLIST = {
         "phys-week5-modules",
         "phys-lecture9"
       ],
-      "note": "依据此前已核实Week5课程安排，读Ch.11（Potential Energy），未列独立截止时刻。10/26 Canvas新修订待登录复核；当前已公布10/29期中范围为Ch.1–5、10，不把Ch.11列入期中范围。",
+      "note": "10/31复核Canvas Week5要求读Ch.11（Potential Energy），未列独立截止时刻。Lecture9原PDF已归档。10/29期中范围仍是Ch.1–5、10，未把Ch.11列入。",
       "done": false,
       "statusVersion": 1
     },
@@ -1774,9 +1778,10 @@ window.WORKLIST = {
       "taskKind": "lecture-notes",
       "materials": [
         "cmsc-syllabus",
-        "cmsc-old-notes"
+        "cmsc-old-notes",
+        "cmsc-syllabus-archive"
       ],
-      "note": "个人当天整理期限。官网目前仍列Week1–4，今日具体讲授内容以实际课堂为准；2018讲义仅供参考。10/30期中范围截至10/26课堂，不把今天的新内容加入考试范围。",
+      "note": "个人当天整理期限保持。10/31官网已补Week5课程内容与参考：递推、Twelvefold Way、多项式系数、整数分拆、抽屉原理、Mirsky/Dilworth、Erdős–Szekeres和Dirichlet逼近；Dilworth证明推迟，官网未按课日拆分。10/30期中范围仍截至10/26，不把10/28新内容纳入。",
       "done": false,
       "statusVersion": 1
     },
@@ -1812,7 +1817,7 @@ window.WORKLIST = {
         "math-policy",
         "math-lecture12"
       ],
-      "note": "5页、9道编号题，PDF建议11/4完成，不计入课程成绩。Canvas无正式截止时刻；10/30 Gradescope仍只有HW1–4，PS5反馈提交窗口待发布。沿用最多两题反馈规则，不把建议完成日当作正式交卷DDL。"
+      "note": "5页、9道编号题，PDF建议11/4完成，不计入课程成绩。Canvas无正式截止时刻；10/31 Gradescope仍只有HW1–4，PS5反馈提交窗口待发布。沿用最多两题反馈规则，不把建议完成日当作正式交卷DDL。"
     },
     {
       "id": "sosc-essay1-format-check",
@@ -1914,17 +1919,17 @@ window.WORKLIST = {
     {
       "id": "math-notes-2026-10-30",
       "course": "MATH",
-      "shortName": "整理 10/30 笔记",
+      "shortName": "整理 10/30（Day 15）笔记",
       "classDate": "2026-10-30",
       "dueDate": "2026-10-30",
       "deadlineKind": "same-day",
       "taskKind": "lecture-notes",
       "materials": [
-        "math-lecture13",
-        "math-lecture12",
+        "math-lecture14",
+        "math-lecture14-announcement",
         "math-syllabus"
       ],
-      "note": "按周五课表建立个人整理待办，期限为当天；下午课尚未上课也先建立。首页目前Lecture1–13，确切对应课日未核实，不把讲义编号当Day。后续发布当次讲义再补链接，不代写笔记。",
+      "note": "个人整理期限仍为10/30。教师10/30 20:03公告明确Lecture14是当天课堂笔记，已补齐12页原PDF。按9/28起周一三五课表、含10/23期中课次，10/30为Day15；讲义编号14与课次分开。内容为有限域上的线性群及Fano平面；未代写或标记完成。",
       "done": false,
       "statusVersion": 1
     },
@@ -2060,10 +2065,12 @@ window.WORKLIST = {
       "done": false,
       "statusVersion": 1,
       "taskKind": "personal-review",
-      "note": "10/31 用户新增的复习待办，个人完成期限尚未指定；不修改既有考试日期。附教师考试说明与课程内容。",
+      "note": "10/31 用户新增的复习待办，个人完成期限尚未指定；不修改既有考试日期。附教师考试说明与课程内容。 10/30教师新增Q2说明：若因课堂对power set（幂集）未讲清而受影响，可自行私信老师，下周获补充题，按regrade request处理；未说明单独截止时刻。另发简短答案帖，无PDF附件。是否适用由本人判断，未代发消息或自动标记考试完成。",
       "materials": [
         "cmsc-exam-rules",
-        "cmsc-syllabus"
+        "cmsc-syllabus",
+        "cmsc-midterm-q2-followup",
+        "cmsc-midterm-answers"
       ]
     },
     {
@@ -2076,6 +2083,35 @@ window.WORKLIST = {
       "statusVersion": 1,
       "note": "目标就诊日期为周一 11/2（America/Chicago）；预约办理期限和就诊时刻尚未指定。仅记录待办，尚未完成预约。",
       "materials": []
+    },
+    {
+      "id": "math-preview-2026-10-31",
+      "course": "MATH",
+      "shortName": "预习 10/31",
+      "dueDate": "2026-10-31",
+      "planDate": "2026-10-31",
+      "deadlineKind": "same-day",
+      "recurrenceKey": "math-preview",
+      "materials": [
+        "math-lecture14",
+        "math-ps5"
+      ],
+      "note": "每日个人预习待办，包括周末，当天完成。附最新 Lecture 14（有限域上的线性群、Fano 平面）和 PS5 供自行安排；只维护待办，未代做预习。",
+      "done": false,
+      "statusVersion": 1
+    },
+    {
+      "id": "phys-reading6",
+      "course": "PHYS",
+      "shortName": "读教材 Ch. 6",
+      "dueDate": null,
+      "materials": [
+        "phys-textbook",
+        "phys-week6-modules"
+      ],
+      "note": "Canvas Week 6（11/2–11/6）要求阅读 Chapter 6；未列独立截止时刻，不把周一当作正式阅读DDL。",
+      "done": false,
+      "statusVersion": 1
     }
   ],
   "materials": {
@@ -2879,6 +2915,30 @@ window.WORKLIST = {
     "math-reu-2027": {
       "title": "2027 UChicago Math REU · 可选申请机会",
       "url": "https://uchicago.joinhandshake.com/jobs/11695960/share_preview"
+    },
+    "math-lecture14": {
+      "title": "Honors Basic Algebra I - Lecture 14 - Linear Groups over Finite Fields.pdf",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/MATH%2025700/Day%2015/Honors%20Basic%20Algebra%20I%20-%20Lecture%2014%20-%20Linear%20Groups%20over%20Finite%20Fields.pdf"
+    },
+    "math-lecture14-announcement": {
+      "title": "Lecture 14 对应 10/30 课堂（教师公告）",
+      "url": "https://canvas.uchicago.edu/courses/75102/discussion_topics/1030352"
+    },
+    "cmsc-midterm-q2-followup": {
+      "title": "Midterm Q2：power set 误解与补充题说明（Ed）",
+      "url": "https://edstem.org/us/courses/107374/discussion/8461365"
+    },
+    "cmsc-midterm-answers": {
+      "title": "Midterm answers（教师 Ed 帖，无附件）",
+      "url": "https://edstem.org/us/courses/107374/discussion/8461515"
+    },
+    "phys-week6-modules": {
+      "title": "Week 6 · Ch. 6 阅读与课程模块",
+      "url": "https://canvas.uchicago.edu/courses/74238/modules"
+    },
+    "phys-hw5-solutions-locked": {
+      "title": "HW5 Solutions（11/2 00:00 开放，暂未归档）",
+      "url": "https://canvas.uchicago.edu/courses/74238/modules/items/3259808"
     }
   },
   "officeHours": [
