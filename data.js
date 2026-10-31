@@ -1,6 +1,6 @@
 window.WORKLIST = {
-  "updatedAt": "2026-10-31T06:30:48.000Z",
-  "scope": "10/31 按用户要求新增 SOSC Quiz 复习和 CMSC Midterm 复习，个人完成期限待定。课程来源最近一次完整核查为 10/30，本次仅新增待办。",
+  "updatedAt": "2026-10-31T06:40:06Z",
+  "scope": "10/31 按用户要求新增 SOSC Quiz 复习、CMSC Midterm 复习，以及经用户明确同意公开的周一（11/2）医生预约待办。三项个人完成期限待定；医生尚未预约。课程来源最近一次完整核查为 10/30。",
   "tasks": [
     {
       "id": "sosc-freedman",
@@ -2065,6 +2065,17 @@ window.WORKLIST = {
         "cmsc-exam-rules",
         "cmsc-syllabus"
       ]
+    },
+    {
+      "id": "personal-book-doctor-2026-11-02",
+      "course": "日常",
+      "shortName": "预约周一（11/2）的 Doctor",
+      "dueDate": null,
+      "appointmentTargetDate": "2026-11-02",
+      "done": false,
+      "statusVersion": 1,
+      "note": "目标就诊日期为周一 11/2（America/Chicago）；预约办理期限和就诊时刻尚未指定。仅记录待办，尚未完成预约。",
+      "materials": []
     }
   ],
   "materials": {
