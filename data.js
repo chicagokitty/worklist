@@ -1,5 +1,5 @@
 window.WORKLIST = {
-  "updatedAt": "2026-10-30T17:11:12.236Z",
+  "updatedAt": "2026-10-31T06:30:48.000Z",
   "scope": "10/31 按用户要求新增 SOSC Quiz 复习和 CMSC Midterm 复习，个人完成期限待定。课程来源最近一次完整核查为 10/30，本次仅新增待办。",
   "tasks": [
     {
@@ -2037,6 +2037,34 @@ window.WORKLIST = {
       "note": "11/2–11/6实验周的个人报告：根据Part2数据写1–2段结论，可结合Part1背景，用数据/图表支持。最终提交单个PDF；归档DOCX是教师空白模板，不是提交格式。个人实验时段未核实，保留相对期限。",
       "done": false,
       "statusVersion": 1
+    },
+    {
+      "id": "sosc-quiz-review-2026-10-31",
+      "course": "SOSC",
+      "shortName": "复习 Quiz",
+      "dueDate": null,
+      "done": false,
+      "statusVersion": 1,
+      "taskKind": "personal-review",
+      "note": "10/31 用户新增的复习待办，个人完成期限尚未指定。与现有 Quiz 考试任务分开记录。",
+      "materials": [
+        "sosc-syllabus",
+        "sosc-class8-slides"
+      ]
+    },
+    {
+      "id": "cmsc-midterm-review-2026-10-31",
+      "course": "CMSC",
+      "shortName": "复习 Midterm",
+      "dueDate": null,
+      "done": false,
+      "statusVersion": 1,
+      "taskKind": "personal-review",
+      "note": "10/31 用户新增的复习待办，个人完成期限尚未指定；不修改既有考试日期。附教师考试说明与课程内容。",
+      "materials": [
+        "cmsc-exam-rules",
+        "cmsc-syllabus"
+      ]
     }
   ],
   "materials": {
