@@ -1,6 +1,6 @@
 window.WORKLIST = {
-  "updatedAt": "2026-10-31T17:10:00Z",
-  "scope": "10/31 中午已核查三门 Canvas、三门 Gradescope、CMSC Ed/官网及 PHYS 实验来源。新增今日 MATH 预习、补齐 10/30 Lecture 14、更新 CMSC Week 5 和期中说明，并列出 PHYS Week 6 阅读。SOSC 阅读库嵌入页本次未加载，未据此认定无更新；Class 10 仍未见。",
+  "updatedAt": "2026-11-01T19:49:30Z",
+  "scope": "11/1 部分核查：新增今日 MATH 预习，26份已知公开原件均未修订；CMSC官网仍Week 1–5/HW1–4，PHYS Cratering Part2指南与四份共享材料未见变化。浏览器连接中断后，当前Chrome的Canvas、Gradescope、Ed均需登录；受限公告、作业状态及新课件未完成复核，不能据此认定无更新。11月DDL按America/Chicago（CST）显示。",
   "tasks": [
     {
       "id": "sosc-freedman",
@@ -1261,7 +1261,7 @@ window.WORKLIST = {
       "deadlineKind": "feedback",
       "done": false,
       "statusVersion": 1,
-      "note": "新发布4页题目，建议10/28完成，不计入课程成绩。若需反馈，最多提交并明确标出两题；Gradescope正常截止10/28 23:59 CDT，晚交至11/4 23:59。10/28 Gradescope仍No Submission；正常截止及迟交窗口均复核无变。",
+      "note": "新发布4页题目，建议10/28完成，不计入课程成绩。若需反馈，最多提交并明确标出两题；Gradescope正常截止10/28 23:59 CDT，晚交至11/4 23:59 CST。10/28 Gradescope仍No Submission；正常截止及迟交窗口均复核无变。",
       "materials": [
         "math-ps4",
         "math-ps4-submit",
@@ -1648,7 +1648,7 @@ window.WORKLIST = {
         "phys-hw5-canvas",
         "phys-hw5-solutions-locked"
       ],
-      "note": "3页8题，Knight第1版Ch.11：P11.22、26、36、50、52、60、64、74。10/31 Canvas和Gradescope确认11/2 23:59 CDT截止，目前No Submission。题头写PDF upload to Canvas，同时Gradescope已开放提交入口，两处链接均保留。模块已出现HW5 Solutions，但锁定到11/2 00:00 CDT；未下载或归档锁定文件，没有代交作业。",
+      "note": "3页8题，Knight第1版Ch.11：P11.22、26、36、50、52、60、64、74。10/31 Canvas和Gradescope确认11/2 23:59 CST截止，当时为No Submission；11/1因登录受限未复核提交状态。题头写PDF upload to Canvas，同时Gradescope已开放提交入口，两处链接均保留。模块已出现HW5 Solutions，但锁定到11/2 00:00 CST；未下载或归档锁定文件，没有代交作业。",
       "done": false,
       "statusVersion": 1
     },
@@ -1798,7 +1798,7 @@ window.WORKLIST = {
         "cmsc-gradescope",
         "cmsc-hw4-submit"
       ],
-      "note": "10/29 Gradescope已开放HW4：正常截止11/5 23:59 CDT，迟交窗口至11/7 23:59，可能扣分。仍No Submission。1页5题；Ed说明考虑期中与选举顺延一天。答案须为闭式表达式（第5题整数），多项系数可视为闭式，所有答案需合理严谨论证，合作须注明同伴且独立撰写。America/Chicago。",
+      "note": "10/29 Gradescope已开放HW4：正常截止11/5 23:59 CST，迟交窗口至11/7 23:59，可能扣分。上次为No Submission；11/1未复核提交状态。1页5题；Ed说明考虑期中与选举顺延一天。答案须为闭式表达式（第5题整数），多项系数可视为闭式，所有答案需合理严谨论证，合作须注明同伴且独立撰写。America/Chicago。",
       "done": false,
       "statusVersion": 1,
       "time": "23:59"
@@ -2076,12 +2076,11 @@ window.WORKLIST = {
     {
       "id": "personal-book-doctor-2026-11-02",
       "course": "日常",
-      "shortName": "预约周一（11/2）的 Doctor",
+      "shortName": "预约 Doctor",
       "dueDate": null,
-      "appointmentTargetDate": "2026-11-02",
-      "done": false,
-      "statusVersion": 1,
-      "note": "目标就诊日期为周一 11/2（America/Chicago）；预约办理期限和就诊时刻尚未指定。仅记录待办，尚未完成预约。",
+      "done": true,
+      "statusVersion": 2,
+      "note": "用户已确认预约办理完成；实际就诊安排见本人日历。本项只表示预约已办妥，不表示就诊已完成。",
       "materials": []
     },
     {
@@ -2110,6 +2109,22 @@ window.WORKLIST = {
         "phys-week6-modules"
       ],
       "note": "Canvas Week 6（11/2–11/6）要求阅读 Chapter 6；未列独立截止时刻，不把周一当作正式阅读DDL。",
+      "done": false,
+      "statusVersion": 1
+    },
+    {
+      "id": "math-preview-2026-11-01",
+      "course": "MATH",
+      "shortName": "预习 11/01",
+      "dueDate": "2026-11-01",
+      "planDate": "2026-11-01",
+      "deadlineKind": "same-day",
+      "recurrenceKey": "math-preview",
+      "materials": [
+        "math-lecture14",
+        "math-ps5"
+      ],
+      "note": "每日个人预习待办，包括周末，当天完成。附最新 Lecture 14（有限域上的线性群、Fano 平面）和 PS5 供自行安排；只维护待办，未代做预习。",
       "done": false,
       "statusVersion": 1
     }
