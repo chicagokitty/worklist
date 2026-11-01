@@ -1,6 +1,6 @@
 window.WORKLIST = {
-  "updatedAt": "2026-11-01T19:49:30Z",
-  "scope": "11/1 部分核查：新增今日 MATH 预习，26份已知公开原件均未修订；CMSC官网仍Week 1–5/HW1–4，PHYS Cratering Part2指南与四份共享材料未见变化。浏览器连接中断后，当前Chrome的Canvas、Gradescope、Ed均需登录；受限公告、作业状态及新课件未完成复核，不能据此认定无更新。11月DDL按America/Chicago（CST）显示。",
+  "updatedAt": "2026-11-01T20:13:29Z",
+  "scope": "11/1 登录后补查：三门Canvas、三门Gradescope及CMSC Ed已复核。PHYS HW5已提交；补录HW6–8及Week7–9阅读。CMSC HW4未提交，11/5 23:59 CST截止。SOSC Quiz2仍11/10，Class10课件未见；阅读库嵌入页仍空白，该范围未完成核查。今日MATH预习已列，周日不建课堂笔记。",
   "tasks": [
     {
       "id": "sosc-freedman",
@@ -1261,7 +1261,7 @@ window.WORKLIST = {
       "deadlineKind": "feedback",
       "done": false,
       "statusVersion": 1,
-      "note": "新发布4页题目，建议10/28完成，不计入课程成绩。若需反馈，最多提交并明确标出两题；Gradescope正常截止10/28 23:59 CDT，晚交至11/4 23:59 CST。10/28 Gradescope仍No Submission；正常截止及迟交窗口均复核无变。",
+      "note": "新发布4页题目，建议10/28完成，不计入课程成绩。若需反馈，最多提交并明确标出两题；Gradescope正常截止10/28 23:59 CDT，晚交至11/4 23:59 CST。11/1 Gradescope仍No Submission；正常截止及迟交窗口均复核无变。",
       "materials": [
         "math-ps4",
         "math-ps4-submit",
@@ -1648,9 +1648,9 @@ window.WORKLIST = {
         "phys-hw5-canvas",
         "phys-hw5-solutions-locked"
       ],
-      "note": "3页8题，Knight第1版Ch.11：P11.22、26、36、50、52、60、64、74。10/31 Canvas和Gradescope确认11/2 23:59 CST截止，当时为No Submission；11/1因登录受限未复核提交状态。题头写PDF upload to Canvas，同时Gradescope已开放提交入口，两处链接均保留。模块已出现HW5 Solutions，但锁定到11/2 00:00 CST；未下载或归档锁定文件，没有代交作业。",
-      "done": false,
-      "statusVersion": 1
+      "note": "11/1 Gradescope已显示Submitted，据此确认已提交；Canvas仍显示No Submission，存在平台状态差异。原截止11/2 23:59 CST保留，不发布个人作答或成绩。3页8题，Knight第1版Ch.11：P11.22、26、36、50、52、60、64、74。题头写PDF upload to Canvas，同时Gradescope已有提交记录，两处入口均保留。HW5 Solutions再次确认锁定到11/2 00:00 CST，尚未下载或归档；没有代交作业。",
+      "done": true,
+      "statusVersion": 2
     },
     {
       "id": "phys-reading5",
@@ -1798,7 +1798,7 @@ window.WORKLIST = {
         "cmsc-gradescope",
         "cmsc-hw4-submit"
       ],
-      "note": "10/29 Gradescope已开放HW4：正常截止11/5 23:59 CST，迟交窗口至11/7 23:59，可能扣分。上次为No Submission；11/1未复核提交状态。1页5题；Ed说明考虑期中与选举顺延一天。答案须为闭式表达式（第5题整数），多项系数可视为闭式，所有答案需合理严谨论证，合作须注明同伴且独立撰写。America/Chicago。",
+      "note": "11/1 Gradescope复核HW4为No Submission：正常截止11/5 23:59 CST，迟交窗口至11/7 23:59，可能扣分。1页5题；Ed说明考虑期中与选举顺延一天。答案须为闭式表达式（第5题整数），多项系数可视为闭式，所有答案需合理严谨论证，合作须注明同伴且独立撰写。America/Chicago。",
       "done": false,
       "statusVersion": 1,
       "time": "23:59"
@@ -1817,7 +1817,7 @@ window.WORKLIST = {
         "math-policy",
         "math-lecture12"
       ],
-      "note": "5页、9道编号题，PDF建议11/4完成，不计入课程成绩。Canvas无正式截止时刻；10/31 Gradescope仍只有HW1–4，PS5反馈提交窗口待发布。沿用最多两题反馈规则，不把建议完成日当作正式交卷DDL。"
+      "note": "5页、9道编号题，PDF建议11/4完成，不计入课程成绩。Canvas无正式截止时刻；11/1 Gradescope仍只有HW1–4，PS5反馈提交窗口待发布。沿用最多两题反馈规则，不把建议完成日当作正式交卷DDL。"
     },
     {
       "id": "sosc-essay1-format-check",
@@ -1879,7 +1879,7 @@ window.WORKLIST = {
         "sosc-syllabus",
         "sosc-class8-slides"
       ],
-      "note": "10/29现行大纲与Class8第2页均确认11/10，取代早期11/3安排；课内30分钟、open-note。未单列具体开考时刻或独立试题文件。America/Chicago。",
+      "note": "10/29现行大纲与Class8第2页均确认11/10，取代早期11/3安排；课内30分钟、open-note。未单列具体开考时刻或独立试题文件。America/Chicago。 11/1登录后复核现行大纲仍11/10，未见再次改期。",
       "done": false,
       "statusVersion": 1
     },
@@ -2125,6 +2125,90 @@ window.WORKLIST = {
         "math-ps5"
       ],
       "note": "每日个人预习待办，包括周末，当天完成。附最新 Lecture 14（有限域上的线性群、Fano 平面）和 PS5 供自行安排；只维护待办，未代做预习。",
+      "done": false,
+      "statusVersion": 1
+    },
+    {
+      "id": "phys-hw6",
+      "course": "PHYS",
+      "shortName": "HW6",
+      "dueDate": "2026-11-09",
+      "time": "23:59",
+      "deadlineKind": "exact",
+      "state": "waiting",
+      "materials": [
+        "phys-hw6-canvas"
+      ],
+      "note": "11/1 Canvas已公布截止11/9 23:59 CST；作业锁定至11/2 00:00 CST。仅补录已公布安排，当前题目尚不可下载；开放后补充具体文件。America/Chicago。",
+      "done": false,
+      "statusVersion": 1
+    },
+    {
+      "id": "phys-hw7",
+      "course": "PHYS",
+      "shortName": "HW7",
+      "dueDate": "2026-11-16",
+      "time": "23:59",
+      "deadlineKind": "exact",
+      "state": "waiting",
+      "materials": [
+        "phys-hw7-canvas"
+      ],
+      "note": "11/1 Canvas已公布截止11/16 23:59 CST；作业锁定至11/9 00:00 CST。仅补录已公布安排，当前题目尚不可下载；开放后补充具体文件。America/Chicago。",
+      "done": false,
+      "statusVersion": 1
+    },
+    {
+      "id": "phys-hw8",
+      "course": "PHYS",
+      "shortName": "HW8",
+      "dueDate": "2026-11-30",
+      "time": "23:59",
+      "deadlineKind": "exact",
+      "state": "waiting",
+      "materials": [
+        "phys-hw8-canvas"
+      ],
+      "note": "11/1 Canvas已公布截止11/30 23:59 CST；作业锁定至11/16 00:00 CST。仅补录已公布安排，当前题目尚不可下载；开放后补充具体文件。America/Chicago。",
+      "done": false,
+      "statusVersion": 1
+    },
+    {
+      "id": "phys-reading7",
+      "course": "PHYS",
+      "shortName": "Week 7 读教材 Ch. 7、8",
+      "dueDate": null,
+      "materials": [
+        "phys-textbook",
+        "phys-week7-reading"
+      ],
+      "note": "11/1 Canvas Week 7模块要求阅读Chapter 7、8；未列独立截止时刻，按周保留教师安排，不虚构阅读DDL。部分章节跨周重复，是课程原安排。",
+      "done": false,
+      "statusVersion": 1
+    },
+    {
+      "id": "phys-reading8",
+      "course": "PHYS",
+      "shortName": "Week 8 读教材 Ch. 8、9",
+      "dueDate": null,
+      "materials": [
+        "phys-textbook",
+        "phys-week8-reading"
+      ],
+      "note": "11/1 Canvas Week 8模块要求阅读Chapter 8、9；未列独立截止时刻，按周保留教师安排，不虚构阅读DDL。部分章节跨周重复，是课程原安排。",
+      "done": false,
+      "statusVersion": 1
+    },
+    {
+      "id": "phys-reading9",
+      "course": "PHYS",
+      "shortName": "Week 9 读教材 Ch. 9",
+      "dueDate": null,
+      "materials": [
+        "phys-textbook",
+        "phys-week9-reading"
+      ],
+      "note": "11/1 Canvas Week 9模块要求阅读Chapter 9；未列独立截止时刻，按周保留教师安排，不虚构阅读DDL。部分章节跨周重复，是课程原安排。",
       "done": false,
       "statusVersion": 1
     }
@@ -2952,8 +3036,32 @@ window.WORKLIST = {
       "url": "https://canvas.uchicago.edu/courses/74238/modules"
     },
     "phys-hw5-solutions-locked": {
-      "title": "HW5 Solutions（11/2 00:00 开放，暂未归档）",
+      "title": "HW5 Solutions（11/2 00:00 CST开放，暂未归档）",
       "url": "https://canvas.uchicago.edu/courses/74238/modules/items/3259808"
+    },
+    "phys-hw6-canvas": {
+      "title": "HW6 · Canvas作业（11/2开放，题目待发布）",
+      "url": "https://canvas.uchicago.edu/courses/74238/assignments/908872"
+    },
+    "phys-hw7-canvas": {
+      "title": "HW7 · Canvas作业（11/9开放，题目待发布）",
+      "url": "https://canvas.uchicago.edu/courses/74238/assignments/908873"
+    },
+    "phys-hw8-canvas": {
+      "title": "HW8 · Canvas作业（11/16开放，题目待发布）",
+      "url": "https://canvas.uchicago.edu/courses/74238/assignments/908874"
+    },
+    "phys-week7-reading": {
+      "title": "Week 7 · 教师阅读要求",
+      "url": "https://canvas.uchicago.edu/courses/74238/modules/items/3209785"
+    },
+    "phys-week8-reading": {
+      "title": "Week 8 · 教师阅读要求",
+      "url": "https://canvas.uchicago.edu/courses/74238/modules/items/3209788"
+    },
+    "phys-week9-reading": {
+      "title": "Week 9 · 教师阅读要求",
+      "url": "https://canvas.uchicago.edu/courses/74238/modules/items/3209789"
     }
   },
   "officeHours": [
