@@ -1,6 +1,6 @@
 window.WORKLIST = {
-  "updatedAt": "2026-11-01T20:13:29Z",
-  "scope": "11/1 登录后补查：三门Canvas、三门Gradescope及CMSC Ed已复核。PHYS HW5已提交；补录HW6–8及Week7–9阅读。CMSC HW4未提交，11/5 23:59 CST截止。SOSC Quiz2仍11/10，Class10课件未见；阅读库嵌入页仍空白，该范围未完成核查。今日MATH预习已列，周日不建课堂笔记。",
+  "updatedAt": "2026-11-02T18:05:54Z",
+  "scope": "11/2 部分核查：新增今日MATH预习与MATH/CMSC笔记整理；26份公开原件已比对，MATH Lecture11修订已归档，其余未变。CMSC官网仍Week1–5/HW1–4，PHYS本周Cratering Part2。当前无法连接已登录课程浏览器，Canvas/Gradescope/Ed的新通知、提交状态及新课件未复核；PHYS HW6与HW5答案计划今日开放，尚待核实和下载。",
   "tasks": [
     {
       "id": "sosc-freedman",
@@ -1648,7 +1648,7 @@ window.WORKLIST = {
         "phys-hw5-canvas",
         "phys-hw5-solutions-locked"
       ],
-      "note": "11/1 Gradescope已显示Submitted，据此确认已提交；Canvas仍显示No Submission，存在平台状态差异。原截止11/2 23:59 CST保留，不发布个人作答或成绩。3页8题，Knight第1版Ch.11：P11.22、26、36、50、52、60、64、74。题头写PDF upload to Canvas，同时Gradescope已有提交记录，两处入口均保留。HW5 Solutions再次确认锁定到11/2 00:00 CST，尚未下载或归档；没有代交作业。",
+      "note": "11/1 Gradescope已显示Submitted，据此确认已提交；Canvas仍显示No Submission，存在平台状态差异。原截止11/2 23:59 CST保留，不发布个人作答或成绩。3页8题，Knight第1版Ch.11：P11.22、26、36、50、52、60、64、74。题头写PDF upload to Canvas，同时Gradescope已有提交记录，两处入口均保留。11/1确认HW5 Solutions计划11/2 00:00 CST开放；11/2受浏览器连接限制，尚未复核或下载归档；没有代交作业。",
       "done": true,
       "statusVersion": 2
     },
@@ -2139,7 +2139,7 @@ window.WORKLIST = {
       "materials": [
         "phys-hw6-canvas"
       ],
-      "note": "11/1 Canvas已公布截止11/9 23:59 CST；作业锁定至11/2 00:00 CST。仅补录已公布安排，当前题目尚不可下载；开放后补充具体文件。America/Chicago。",
+      "note": "11/1 Canvas公布11/9 23:59 CST截止，计划11/2 00:00 CST开放。11/2当前无法连接已登录课程浏览器，尚未核实实际开放状态或取得题目；保留官方入口，恢复后补下载。America/Chicago。",
       "done": false,
       "statusVersion": 1
     },
@@ -2209,6 +2209,54 @@ window.WORKLIST = {
         "phys-week9-reading"
       ],
       "note": "11/1 Canvas Week 9模块要求阅读Chapter 9；未列独立截止时刻，按周保留教师安排，不虚构阅读DDL。部分章节跨周重复，是课程原安排。",
+      "done": false,
+      "statusVersion": 1
+    },
+    {
+      "id": "math-preview-2026-11-02",
+      "course": "MATH",
+      "shortName": "预习 11/02",
+      "dueDate": "2026-11-02",
+      "planDate": "2026-11-02",
+      "deadlineKind": "same-day",
+      "recurrenceKey": "math-preview",
+      "materials": [
+        "math-lecture14",
+        "math-ps5"
+      ],
+      "note": "每日个人预习待办，当天完成。附最近已核实的Lecture14与PS5供自行安排；当前无法连接课程浏览器，尚未核查今日新讲义。未代做预习。",
+      "done": false,
+      "statusVersion": 1
+    },
+    {
+      "id": "math-notes-2026-11-02",
+      "course": "MATH",
+      "shortName": "整理 11/02 笔记",
+      "classDate": "2026-11-02",
+      "dueDate": "2026-11-02",
+      "deadlineKind": "same-day",
+      "taskKind": "lecture-notes",
+      "materials": [
+        "math-syllabus"
+      ],
+      "note": "按最新已核实的周一课表建立当次笔记待办，个人整理期限为当天；本次受浏览器连接限制，今日公告及新讲义尚待补查。未编造当次讲义或代为完成笔记。",
+      "done": false,
+      "statusVersion": 1
+    },
+    {
+      "id": "cmsc-notes-2026-11-02",
+      "course": "CMSC",
+      "shortName": "整理 11/02 笔记",
+      "classDate": "2026-11-02",
+      "dueDate": "2026-11-02",
+      "deadlineKind": "same-day",
+      "taskKind": "lecture-notes",
+      "materials": [
+        "cmsc-syllabus",
+        "cmsc-old-notes",
+        "cmsc-syllabus-archive"
+      ],
+      "note": "按教师官网周一课表建立当次笔记待办，个人整理期限为当天。11/2官网仍更新至Week5，无独立今日课件；参考既有讲义，但不把Week5内容冒称为11/2课堂。Ed新通知尚待浏览器恢复后核查。",
       "done": false,
       "statusVersion": 1
     }
@@ -2777,7 +2825,8 @@ window.WORKLIST = {
     },
     "math-lecture11": {
       "title": "Honors Basic Algebra I - Lecture 11 - The Isomorphism Theorems and Subgroups of Quotients.pdf",
-      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/MATH%2025700/Day%2011/Honors%20Basic%20Algebra%20I%20-%20Lecture%2011%20-%20The%20Isomorphism%20Theorems%20and%20Subgroups%20of%20Quotients.pdf"
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/MATH%2025700/Day%2011/Honors%20Basic%20Algebra%20I%20-%20Lecture%2011%20-%20The%20Isomorphism%20Theorems%20and%20Subgroups%20of%20Quotients.pdf",
+      "note": "11/2更新教师修订原件；两处后续讲义编号由Lecture16改为Lecture15，7页原PDF，其余正文未见改动。"
     },
     "cmsc-hw3-pdf": {
       "title": "Honors Discrete Mathematics - Homework 3.pdf",
@@ -3036,11 +3085,11 @@ window.WORKLIST = {
       "url": "https://canvas.uchicago.edu/courses/74238/modules"
     },
     "phys-hw5-solutions-locked": {
-      "title": "HW5 Solutions（11/2 00:00 CST开放，暂未归档）",
+      "title": "HW5 Solutions（计划11/2开放，待核实和下载）",
       "url": "https://canvas.uchicago.edu/courses/74238/modules/items/3259808"
     },
     "phys-hw6-canvas": {
-      "title": "HW6 · Canvas作业（11/2开放，题目待发布）",
+      "title": "HW6 · Canvas作业（计划11/2开放，题目待下载）",
       "url": "https://canvas.uchicago.edu/courses/74238/assignments/908872"
     },
     "phys-hw7-canvas": {
