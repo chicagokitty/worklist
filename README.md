@@ -1,5 +1,15 @@
 # worklist
 
+## 2026-11-02 登录后补查
+
+- 三门Canvas首页/大纲、可见公告/讨论/作业、Modules或Files及课程动态、三门Gradescope和CMSC Ed已恢复访问并补查。早先浏览器连接缺口解除；SOSC Library Reserves嵌入页仍空白、无登录提示，这一范围仍未核查。
+- PHYS HW6已开放，原题3页8道Chapter6题，11/9 23:59 CST截止；原PDF归档Homework6并链接到既有任务。HW5继续依据Gradescope为已提交，Canvas仍No Submission，不覆盖可靠完成状态。HW5答案已可预览，普通下载被Chrome阻止，仍保留官方具体入口，不冒称已归档。
+- PHYS Jasper仅今天11/2的Office Hour改为15:00–16:00，KPTC305，替代17:30–18:30；其他周一常规时段保留。
+- MATH新发11页Lecture15《Automorphisms and Semidirect Products》，连同明确推荐的Conrad《Semidirect Products》（29页）、《Dihedral Groups II》（13页）归档；实际课日未明确，暂存Reference，不机械编Day。PS5仍建议11/4完成，Gradescope仍只有HW1–4；PS4可选晚交11/4结束。
+- SOSC仍8份Class2–9，Class10未见；Quiz2仍11/10。Class7–9页面修改时间变动，经Canvas批量ZIP重新下载，三份SHA256与已有归档完全一致，无内容修订，不重复上传。Rubric/Sample Paper未更新，课程流仍两条10/6旧会话及旧作业通知。
+- CMSC Ed新增期中补题安排：Q2申请截止11/2开课前（9:30 CST）已过；获准者11/3在Nikhil Office Hours做12分钟补题，具体时间以TA邮件为准。申请过但未收到邮件者尽快联系TA。未核实本人申请/获准情况，信息加到既有期中与复习任务，不自动列为本人必考或标记考试完成。11/4 15:00 Eckhart206的Justin Moore讲座只作为可选入口。HW4仍未提交，11/5 23:59 CST截止、11/7迟交结束。
+- 共139项任务，21项远端基线完成；今日预习与MATH/CMSC笔记不重复创建，全部旧dueDate、done和statusVersion保持。新增4份原PDF，私有清单128条；原字节/格式保留，无私人作答、成绩、入场参数或凭据。未发消息、提交作业或编辑共享文档。
+
 ## 2026-11-02 中午检查（部分核查）
 
 - 新增当天MATH预习与MATH/CMSC笔记整理，均为11/2个人期限、默认未完成。按最近已核实课表去重，不虚构新讲义。139项任务，原136项完成状态/版本及全部旧DDL保持，PHYS HW5仍依据11/1 Gradescope记录为已提交。

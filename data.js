@@ -1,6 +1,6 @@
 window.WORKLIST = {
-  "updatedAt": "2026-11-02T18:05:54Z",
-  "scope": "11/2 部分核查：新增今日MATH预习与MATH/CMSC笔记整理；26份公开原件已比对，MATH Lecture11修订已归档，其余未变。CMSC官网仍Week1–5/HW1–4，PHYS本周Cratering Part2。当前无法连接已登录课程浏览器，Canvas/Gradescope/Ed的新通知、提交状态及新课件未复核；PHYS HW6与HW5答案计划今日开放，尚待核实和下载。",
+  "updatedAt": "2026-11-02T20:57:13Z",
+  "scope": "11/2登录后补查：Canvas、三门Gradescope与Ed已恢复。PHYS HW6原题及MATH Lecture15、两份推荐讲义已归档；Jasper今日OH改15–16时。CMSC已获准者11/3补题，具体安排见TA邮件。SOSC Quiz2仍11/10、Class10未见；Class7–9重下哈希未变。HW5答案已开放但下载受阻，SOSC阅读库仍空白；这两项待补。今日MATH预习及MATH/CMSC笔记待办保留。",
   "tasks": [
     {
       "id": "sosc-freedman",
@@ -1431,9 +1431,11 @@ window.WORKLIST = {
         "cmsc-exam-rules",
         "cmsc-syllabus",
         "cmsc-midterm-q2-followup",
-        "cmsc-midterm-answers"
+        "cmsc-midterm-answers",
+        "cmsc-midterm-results-announcement",
+        "cmsc-midterm-makeup-email"
       ],
-      "note": "10/30 09:30–10:20（America/Chicago），5题50分钟。范围截至10/26课堂，包括归纳、线性/偏序、数论及已讲计数。老师建议做Rosen对应章节常规题，考试准备可略过星号题及书中未涵盖的高级部分。允许本人为自己准备的不限长度纸质笔记；打印须来自本人写的源文件。可带简单计算器，禁止其他电子设备、书籍及扫描书页。 10/23教授回复：不会提供往年试卷或模拟卷；各年选题不同，5题不可能覆盖所有内容。 10/25复核Ed新增回复：自制纸质笔记可以放在纸质笔记本（含线圈本）内；教授已澄清其先前对notebook的禁止指电脑，不是纸质本。 10/30教师新增Q2说明：若因课堂对power set（幂集）未讲清而受影响，可自行私信老师，下周获补充题，按regrade request处理；未说明单独截止时刻。另发简短答案帖，无PDF附件。是否适用由本人判断，未代发消息或自动标记考试完成。",
+      "note": "10/30 09:30–10:20（America/Chicago），5题50分钟。范围截至10/26课堂，包括归纳、线性/偏序、数论及已讲计数。老师建议做Rosen对应章节常规题，考试准备可略过星号题及书中未涵盖的高级部分。允许本人为自己准备的不限长度纸质笔记；打印须来自本人写的源文件。可带简单计算器，禁止其他电子设备、书籍及扫描书页。 10/23教授回复：不会提供往年试卷或模拟卷；各年选题不同，5题不可能覆盖所有内容。 10/25复核Ed新增回复：自制纸质笔记可以放在纸质笔记本（含线圈本）内；教授已澄清其先前对notebook的禁止指电脑，不是纸质本。 11/2 Ed补充：Q2补题申请截止11/2开课前（9:30 CST），现已过期；获准者11/3于Nikhil Office Hours参加12分钟补题，个人具体安排以TA邮件为准。TA已发邮件，申请过但未收到者应尽快联系TA。尚未核实本人是否申请/获准，不自动新增必考任务、标记考试完成或发送消息。",
       "done": false,
       "statusVersion": 1
     },
@@ -1817,7 +1819,7 @@ window.WORKLIST = {
         "math-policy",
         "math-lecture12"
       ],
-      "note": "5页、9道编号题，PDF建议11/4完成，不计入课程成绩。Canvas无正式截止时刻；11/1 Gradescope仍只有HW1–4，PS5反馈提交窗口待发布。沿用最多两题反馈规则，不把建议完成日当作正式交卷DDL。"
+      "note": "5页、9道编号题，PDF建议11/4完成，不计入课程成绩。Canvas无正式截止时刻；11/2 Gradescope仍只有HW1–4，PS5反馈提交窗口待发布。沿用最多两题反馈规则，不把建议完成日当作正式交卷DDL。"
     },
     {
       "id": "sosc-essay1-format-check",
@@ -1864,7 +1866,7 @@ window.WORKLIST = {
         "sosc-mullinix-generalizability-pdf",
         "sosc-syllabus"
       ],
-      "note": "大纲Day10 Survey Experiments，个人整理期限为当天。两篇课前阅读原件已归档；中午Files仅见Class2–9，Day10课件待老师发布后补齐。只维护待办，不代写笔记。",
+      "note": "大纲Day10 Survey Experiments，个人整理期限为当天。两篇课前阅读原件已归档；11/2补查Files仅见Class2–9，Day10课件待老师发布后补齐。只维护待办，不代写笔记。",
       "done": false,
       "statusVersion": 1
     },
@@ -2065,12 +2067,14 @@ window.WORKLIST = {
       "done": false,
       "statusVersion": 1,
       "taskKind": "personal-review",
-      "note": "10/31 用户新增的复习待办，个人完成期限尚未指定；不修改既有考试日期。附教师考试说明与课程内容。 10/30教师新增Q2说明：若因课堂对power set（幂集）未讲清而受影响，可自行私信老师，下周获补充题，按regrade request处理；未说明单独截止时刻。另发简短答案帖，无PDF附件。是否适用由本人判断，未代发消息或自动标记考试完成。",
+      "note": "10/31 用户新增的复习待办，个人完成期限尚未指定；不修改既有考试日期。附教师考试说明与课程内容。 11/2 Ed补充：Q2补题申请截止11/2开课前（9:30 CST），现已过期；获准者11/3于Nikhil Office Hours参加12分钟补题，个人具体安排以TA邮件为准。TA已发邮件，申请过但未收到者应尽快联系TA。尚未核实本人是否申请/获准，不自动新增必考任务、标记考试完成或发送消息。",
       "materials": [
         "cmsc-exam-rules",
         "cmsc-syllabus",
         "cmsc-midterm-q2-followup",
-        "cmsc-midterm-answers"
+        "cmsc-midterm-answers",
+        "cmsc-midterm-results-announcement",
+        "cmsc-midterm-makeup-email"
       ]
     },
     {
@@ -2135,11 +2139,11 @@ window.WORKLIST = {
       "dueDate": "2026-11-09",
       "time": "23:59",
       "deadlineKind": "exact",
-      "state": "waiting",
       "materials": [
+        "phys-hw6-pdf",
         "phys-hw6-canvas"
       ],
-      "note": "11/1 Canvas公布11/9 23:59 CST截止，计划11/2 00:00 CST开放。11/2当前无法连接已登录课程浏览器，尚未核实实际开放状态或取得题目；保留官方入口，恢复后补下载。America/Chicago。",
+      "note": "11/2已确认开放，Gradescope显示No Submission。8道Chapter 6题（P6.16、18、30、52、58、60、66、68），原题3页PDF已归档；11/9 23:59 CST（America/Chicago）截止，与Canvas和Gradescope一致。合并为一份PDF，经Canvas对应Gradescope入口提交；未替用户提交。",
       "done": false,
       "statusVersion": 1
     },
@@ -2222,9 +2226,12 @@ window.WORKLIST = {
       "recurrenceKey": "math-preview",
       "materials": [
         "math-lecture14",
-        "math-ps5"
+        "math-ps5",
+        "math-lecture15",
+        "math-conrad-semidirect",
+        "math-conrad-dihedral2"
       ],
-      "note": "每日个人预习待办，当天完成。附最近已核实的Lecture14与PS5供自行安排；当前无法连接课程浏览器，尚未核查今日新讲义。未代做预习。",
+      "note": "每日个人预习，期限为11/2当天，未代做预习。11/2首页新发Lecture15（Automorphisms and Semidirect Products）及两份推荐补充阅读已归档。讲义未明确标注实际课日，暂列Reference，不编造Day；推荐资料不另设必交期限。",
       "done": false,
       "statusVersion": 1
     },
@@ -2237,9 +2244,12 @@ window.WORKLIST = {
       "deadlineKind": "same-day",
       "taskKind": "lecture-notes",
       "materials": [
-        "math-syllabus"
+        "math-syllabus",
+        "math-lecture15",
+        "math-conrad-semidirect",
+        "math-conrad-dihedral2"
       ],
-      "note": "按最新已核实的周一课表建立当次笔记待办，个人整理期限为当天；本次受浏览器连接限制，今日公告及新讲义尚待补查。未编造当次讲义或代为完成笔记。",
+      "note": "个人整理期限为11/2当天，按周一课表建立，未代写笔记。11/2首页新发Lecture15（Automorphisms and Semidirect Products）及两份推荐补充阅读已归档。讲义未明确标注实际课日，暂列Reference，不编造Day；推荐资料不另设必交期限。",
       "done": false,
       "statusVersion": 1
     },
@@ -2254,9 +2264,11 @@ window.WORKLIST = {
       "materials": [
         "cmsc-syllabus",
         "cmsc-old-notes",
-        "cmsc-syllabus-archive"
+        "cmsc-syllabus-archive",
+        "cmsc-midterm-makeup-email",
+        "cmsc-colloquium-20261104"
       ],
-      "note": "按教师官网周一课表建立当次笔记待办，个人整理期限为当天。11/2官网仍更新至Week5，无独立今日课件；参考既有讲义，但不把Week5内容冒称为11/2课堂。Ed新通知尚待浏览器恢复后核查。",
+      "note": "按教师官网周一课表建立当次笔记待办，个人整理期限11/2当天。官网仍Week1–5，无独立今日课件；不把整周内容冒称11/2当次课堂。Ed新增期中补题安排已补查，另附11/4可选讲座，不列为必做任务。",
       "done": false,
       "statusVersion": 1
     }
@@ -3085,11 +3097,11 @@ window.WORKLIST = {
       "url": "https://canvas.uchicago.edu/courses/74238/modules"
     },
     "phys-hw5-solutions-locked": {
-      "title": "HW5 Solutions（计划11/2开放，待核实和下载）",
+      "title": "HW5 Solutions（已开放；原PDF下载受阻，暂用官方预览）",
       "url": "https://canvas.uchicago.edu/courses/74238/modules/items/3259808"
     },
     "phys-hw6-canvas": {
-      "title": "HW6 · Canvas作业（计划11/2开放，题目待下载）",
+      "title": "HW6 · Canvas提交入口（已开放）",
       "url": "https://canvas.uchicago.edu/courses/74238/assignments/908872"
     },
     "phys-hw7-canvas": {
@@ -3111,6 +3123,38 @@ window.WORKLIST = {
     "phys-week9-reading": {
       "title": "Week 9 · 教师阅读要求",
       "url": "https://canvas.uchicago.edu/courses/74238/modules/items/3209789"
+    },
+    "math-lecture15": {
+      "title": "Honors Basic Algebra I - Lecture 15 - Automorphisms and Semidirect Products.pdf",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/MATH%2025700/Reference/Lectures/Honors%20Basic%20Algebra%20I%20-%20Lecture%2015%20-%20Automorphisms%20and%20Semidirect%20Products.pdf"
+    },
+    "phys-hw6-pdf": {
+      "title": "General Physics I - Homework 6.pdf",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/PHYS%2012100/Homework%206/General%20Physics%20I%20-%20Homework%206.pdf"
+    },
+    "math-conrad-semidirect": {
+      "title": "Semidirect Products.pdf",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/MATH%2025700/Reference/Semidirect%20Products.pdf"
+    },
+    "math-conrad-dihedral2": {
+      "title": "Dihedral Groups II.pdf",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/MATH%2025700/Reference/Dihedral%20Groups%20II.pdf"
+    },
+    "cmsc-midterm-results-announcement": {
+      "title": "期中补题安排 · 11/1–11/2公告（申请已截止）",
+      "url": "https://edstem.org/us/courses/107374/discussion/8467161"
+    },
+    "cmsc-midterm-makeup-email": {
+      "title": "11/3补题 · 已申请但未收到TA邮件者尽快联系",
+      "url": "https://edstem.org/us/courses/107374/discussion/8470289"
+    },
+    "cmsc-colloquium-20261104": {
+      "title": "可选：Justin Moore讲座 · 11/4 15:00 Eckhart 206",
+      "url": "https://edstem.org/us/courses/107374/discussion/8469410"
+    },
+    "phys-jasper-oh-20261102": {
+      "title": "Jasper今日OH改15:00–16:00 · KPTC305",
+      "url": "https://canvas.uchicago.edu/courses/74238/discussion_topics/1030819"
     }
   },
   "officeHours": [
@@ -3163,8 +3207,11 @@ window.WORKLIST = {
     {
       "course": "PHYS",
       "person": "Jasper Reid · TA",
-      "time": "周一 17:30–18:30（第 2 周起）",
-      "place": "KPTC 305"
+      "time": "仅11/2：15:00–16:00 CST；其他周一17:30–18:30",
+      "place": "KPTC 305",
+      "url": "https://canvas.uchicago.edu/courses/74238/discussion_topics/1030819",
+      "linkLabel": "11/2临时调整公告",
+      "exceptionDate": "2026-11-02"
     },
     {
       "course": "PHYS",
