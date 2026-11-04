@@ -1606,16 +1606,16 @@ window.WORKLIST = {
     {
       "id": "math-notes-2026-10-26",
       "course": "MATH",
-      "shortName": "整理 10/26 笔记",
+      "shortName": "整理 10/26（Day 13）笔记",
       "classDate": "2026-10-26",
       "dueDate": "2026-10-26",
       "deadlineKind": "same-day",
       "taskKind": "lecture-notes",
       "materials": [
-        "math-syllabus",
-        "math-lecture11"
+        "math-lecture12",
+        "math-syllabus"
       ],
-      "note": "依据当前周一课表预先建立当次笔记待办，个人期限为今天；Canvas登录过期，今日课堂新材料及临时安排待复核。附上一份已归档讲义作参考，不将其当作今日讲义，不代为完成笔记。",
+      "note": "按用户11/3确认的课次归档：Day 13 对应 Lecture 12，已附原PDF；讲义编号与课次编号分开。个人整理期限保留10/26，完成状态不变。",
       "done": false,
       "statusVersion": 1
     },
@@ -1756,17 +1756,16 @@ window.WORKLIST = {
     {
       "id": "math-notes-2026-10-28",
       "course": "MATH",
-      "shortName": "整理 10/28 笔记",
+      "shortName": "整理 10/28（Day 14）笔记",
       "classDate": "2026-10-28",
       "dueDate": "2026-10-28",
       "deadlineKind": "same-day",
       "taskKind": "lecture-notes",
       "materials": [
-        "math-syllabus",
-        "math-lecture11",
-        "math-lecture12"
+        "math-lecture13",
+        "math-syllabus"
       ],
-      "note": "按周三课表维护当次笔记待办，个人期限为当天。Canvas已恢复，首页新发Lecture12，附作近期参考；原PDF未明示课日，暂不认定为10/28课堂讲义，不代为完成笔记。",
+      "note": "按用户11/3确认的课次归档：Day 14 对应 Lecture 13，已附原PDF；讲义编号与课次编号分开。个人整理期限保留10/28，完成状态不变。",
       "done": false,
       "statusVersion": 1
     },
@@ -2986,7 +2985,7 @@ window.WORKLIST = {
     },
     "math-lecture12": {
       "title": "Honors Basic Algebra I - Lecture 12 - Groups of Order 6, Abelian Groups, and Rotation Groups.pdf",
-      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/MATH%2025700/Reference/Lectures/Honors%20Basic%20Algebra%20I%20-%20Lecture%2012%20-%20Groups%20of%20Order%206%2C%20Abelian%20Groups%2C%20and%20Rotation%20Groups.pdf"
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/MATH%2025700/Day%2013/Honors%20Basic%20Algebra%20I%20-%20Lecture%2012%20-%20Groups%20of%20Order%206%2C%20Abelian%20Groups%2C%20and%20Rotation%20Groups.pdf"
     },
     "math-ps5": {
       "title": "Honors Basic Algebra I - Problem Set 5.pdf",
@@ -3014,7 +3013,7 @@ window.WORKLIST = {
     },
     "math-lecture13": {
       "title": "Honors Basic Algebra I - Lecture 13 - Finite Rotation Groups.pdf",
-      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/MATH%2025700/Reference/Lectures/Honors%20Basic%20Algebra%20I%20-%20Lecture%2013%20-%20Finite%20Rotation%20Groups.pdf"
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/MATH%2025700/Day%2014/Honors%20Basic%20Algebra%20I%20-%20Lecture%2013%20-%20Finite%20Rotation%20Groups.pdf"
     },
     "sosc-class7-slides": {
       "title": "Class 7 - Experimental Methods and Student Subjects.pptx",

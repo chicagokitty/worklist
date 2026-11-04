@@ -262,3 +262,8 @@ SOSC、MATH、CMSC 按每次上课分别建项，以课程和 classDate 去重�
 10/14 中午复查：CMSC HW2 Gradescope 入口已开放，截止 10/21 23:59 CDT；MATH Day 8 Lecture 8（13 页）及 Keith Conrad《Simplicity of An》（10 页）已归档并加入今天的笔记/预习。任务总数仍 57，原完成状态、状态版本及课日均保留。
 
 10/15 补齐 SOSC 课前阅读：Mlodinow《The Drunkard’s Walk》第 7 章《Measurement and the Law of Errors》课程原版 PDF 已归档到 Day 6，并替换任务下的阅读库入口。共 14 页，正文从 PDF 第 4 页开始（书内第 124–145 页）。本次仅补阅读材料，保留所有任务与完成状态。
+
+
+## 2026-11-03 MATH 讲义目录修正
+
+按用户指定，将 Lecture 12 / Lecture 13 分别归档至私有资料库的 Day 13 / Day 14，并同步 10/26、10/28 笔记任务的具体文件链接；Day 15 的 Lecture 14 保持不变。任务 ID、原 DDL、完成状态及状态版本均保持不变。此次仅修正归档与链接，未推进课程核查时间。
