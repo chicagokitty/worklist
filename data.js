@@ -1,6 +1,6 @@
 window.WORKLIST = {
-  "updatedAt": "2026-11-02T20:57:13Z",
-  "scope": "11/2登录后补查：Canvas、三门Gradescope与Ed已恢复。PHYS HW6原题及MATH Lecture15、两份推荐讲义已归档；Jasper今日OH改15–16时。CMSC已获准者11/3补题，具体安排见TA邮件。SOSC Quiz2仍11/10、Class10未见；Class7–9重下哈希未变。HW5答案已开放但下载受阻，SOSC阅读库仍空白；这两项待补。今日MATH预习及MATH/CMSC笔记待办保留。",
+  "updatedAt": "2026-11-04T18:16:45Z",
+  "scope": "11/4核查：MATH新增Lecture16与PS6（建议11/11），Lecture15修订；SOSC下周五篇必读已归档，Quiz2仍11/10，Class10/11未见。PHYS Doron仅11/5 OH改15:30–16:30，Shuoguang讨论课改为练题；HW5答案及期中解答PDF下载待补。CMSC HW4仍11/5 23:59，新增期中题澄清。今日MATH预习及MATH/CMSC笔记已加入，补录11/3两项并保留原日期。SOSC阅读库仍空白，其他课程平台已核查。",
   "tasks": [
     {
       "id": "sosc-freedman",
@@ -1261,7 +1261,7 @@ window.WORKLIST = {
       "deadlineKind": "feedback",
       "done": false,
       "statusVersion": 1,
-      "note": "新发布4页题目，建议10/28完成，不计入课程成绩。若需反馈，最多提交并明确标出两题；Gradescope正常截止10/28 23:59 CDT，晚交至11/4 23:59 CST。11/1 Gradescope仍No Submission；正常截止及迟交窗口均复核无变。",
+      "note": "新发布4页题目，建议10/28完成，不计入课程成绩。若需反馈，最多提交并明确标出两题；Gradescope正常截止10/28 23:59 CDT，晚交至11/4 23:59 CST。11/4 Gradescope仍No Submission；正常截止及迟交窗口均复核无变。",
       "materials": [
         "math-ps4",
         "math-ps4-submit",
@@ -1433,11 +1433,12 @@ window.WORKLIST = {
         "cmsc-midterm-q2-followup",
         "cmsc-midterm-answers",
         "cmsc-midterm-results-announcement",
-        "cmsc-midterm-makeup-email"
+        "cmsc-midterm-makeup-email",
+        "cmsc-midterm-partitions"
       ],
-      "note": "10/30 09:30–10:20（America/Chicago），5题50分钟。范围截至10/26课堂，包括归纳、线性/偏序、数论及已讲计数。老师建议做Rosen对应章节常规题，考试准备可略过星号题及书中未涵盖的高级部分。允许本人为自己准备的不限长度纸质笔记；打印须来自本人写的源文件。可带简单计算器，禁止其他电子设备、书籍及扫描书页。 10/23教授回复：不会提供往年试卷或模拟卷；各年选题不同，5题不可能覆盖所有内容。 10/25复核Ed新增回复：自制纸质笔记可以放在纸质笔记本（含线圈本）内；教授已澄清其先前对notebook的禁止指电脑，不是纸质本。 11/2 Ed补充：Q2补题申请截止11/2开课前（9:30 CST），现已过期；获准者11/3于Nikhil Office Hours参加12分钟补题，个人具体安排以TA邮件为准。TA已发邮件，申请过但未收到者应尽快联系TA。尚未核实本人是否申请/获准，不自动新增必考任务、标记考试完成或发送消息。",
-      "done": false,
-      "statusVersion": 1
+      "note": "10/30 09:30–10:20（America/Chicago），5题50分钟。范围截至10/26课堂，包括归纳、线性/偏序、数论及已讲计数。老师建议做Rosen对应章节常规题，考试准备可略过星号题及书中未涵盖的高级部分。允许本人为自己准备的不限长度纸质笔记；打印须来自本人写的源文件。可带简单计算器，禁止其他电子设备、书籍及扫描书页。 10/23教授回复：不会提供往年试卷或模拟卷；各年选题不同，5题不可能覆盖所有内容。 10/25复核Ed新增回复：自制纸质笔记可以放在纸质笔记本（含线圈本）内；教授已澄清其先前对notebook的禁止指电脑，不是纸质本。 11/2 Ed补充：Q2补题申请截止11/2开课前（9:30 CST），现已过期；获准者11/3于Nikhil Office Hours参加12分钟补题，个人具体安排以TA邮件为准。TA已发邮件，申请过但未收到者应尽快联系TA。尚未核实本人是否申请/获准，不自动新增必考任务、标记考试完成或发送消息。 11/3补题时段已结束；11/4教师澄清最后一题有序与无序分拆，见新帖。本人补题参加情况未核实。 11/4依据Gradescope实际考试提交记录确认主考试已完成，未公开分数。",
+      "done": true,
+      "statusVersion": 2
     },
     {
       "id": "cmsc-final-2026-12-10",
@@ -1466,11 +1467,14 @@ window.WORKLIST = {
         "phys-hw3-sol",
         "phys-lecture8",
         "phys-midterm-announcement",
-        "phys-hw4-sol"
+        "phys-hw4-sol",
+        "phys-midterm-solutions",
+        "phys-final-study-advice",
+        "phys-discussion-update"
       ],
-      "note": "10/26晚教师公告确认：10/29 12:30在KPTC106开始，50分钟（据时长至13:20），4题。范围Ch.1–5和10：恒加速度运动、力矢量/摩擦/牛顿定律、恒力与变力的功、动能和功-能定理。不考万有引力定律、随速度变化的阻力、应力应变曲线、杨氏模量、功率和微分方程。可带8.5×11英寸双面笔记纸和合规手持计算器，检查电池并带笔；需写步骤、单位与图示。Lecture9属后续Ch11，未扩大期中范围。时间为America/Chicago。",
-      "done": false,
-      "statusVersion": 1,
+      "note": "10/26晚教师公告确认：10/29 12:30在KPTC106开始，50分钟（据时长至13:20），4题。范围Ch.1–5和10：恒加速度运动、力矢量/摩擦/牛顿定律、恒力与变力的功、动能和功-能定理。不考万有引力定律、随速度变化的阻力、应力应变曲线、杨氏模量、功率和微分方程。可带8.5×11英寸双面笔记纸和合规手持计算器，检查电池并带笔；需写步骤、单位与图示。Lecture9属后续Ch11，未扩大期中范围。时间为America/Chicago。 11/4依据Gradescope实际考试提交记录确认主考试已完成，未公开分数。",
+      "done": true,
+      "statusVersion": 2,
       "time": "12:30"
     },
     {
@@ -1818,7 +1822,7 @@ window.WORKLIST = {
         "math-policy",
         "math-lecture12"
       ],
-      "note": "5页、9道编号题，PDF建议11/4完成，不计入课程成绩。Canvas无正式截止时刻；11/2 Gradescope仍只有HW1–4，PS5反馈提交窗口待发布。沿用最多两题反馈规则，不把建议完成日当作正式交卷DDL。"
+      "note": "5页、9道编号题，PDF建议11/4完成，不计入课程成绩。Canvas无正式截止时刻；11/4 Gradescope仍只有HW1–4，PS5反馈提交窗口待发布。沿用最多两题反馈规则，不把建议完成日当作正式交卷DDL。"
     },
     {
       "id": "sosc-essay1-format-check",
@@ -1865,7 +1869,7 @@ window.WORKLIST = {
         "sosc-mullinix-generalizability-pdf",
         "sosc-syllabus"
       ],
-      "note": "大纲Day10 Survey Experiments，个人整理期限为当天。两篇课前阅读原件已归档；11/2补查Files仅见Class2–9，Day10课件待老师发布后补齐。只维护待办，不代写笔记。",
+      "note": "大纲Day10 Survey Experiments，个人整理期限为当天。两篇课前阅读原件已归档；11/4补查Files仅见Class2–9，Day10课件待老师发布后补齐。只维护待办，不代写笔记。",
       "done": false,
       "statusVersion": 1
     },
@@ -1880,7 +1884,7 @@ window.WORKLIST = {
         "sosc-syllabus",
         "sosc-class8-slides"
       ],
-      "note": "10/29现行大纲与Class8第2页均确认11/10，取代早期11/3安排；课内30分钟、open-note。未单列具体开考时刻或独立试题文件。America/Chicago。 11/1登录后复核现行大纲仍11/10，未见再次改期。",
+      "note": "10/29现行大纲与Class8第2页均确认11/10，取代早期11/3安排；课内30分钟、open-note。未单列具体开考时刻或独立试题文件。America/Chicago。 11/1登录后复核现行大纲仍11/10，未见再次改期。 11/4大纲复核仍11/10，同日另有两篇必读，不等同Quiz完整范围。",
       "done": false,
       "statusVersion": 1
     },
@@ -2066,14 +2070,15 @@ window.WORKLIST = {
       "done": false,
       "statusVersion": 1,
       "taskKind": "personal-review",
-      "note": "10/31 用户新增的复习待办，个人完成期限尚未指定；不修改既有考试日期。附教师考试说明与课程内容。 11/2 Ed补充：Q2补题申请截止11/2开课前（9:30 CST），现已过期；获准者11/3于Nikhil Office Hours参加12分钟补题，个人具体安排以TA邮件为准。TA已发邮件，申请过但未收到者应尽快联系TA。尚未核实本人是否申请/获准，不自动新增必考任务、标记考试完成或发送消息。",
+      "note": "10/31 用户新增的复习待办，个人完成期限尚未指定；不修改既有考试日期。附教师考试说明与课程内容。 11/2 Ed补充：Q2补题申请截止11/2开课前（9:30 CST），现已过期；获准者11/3于Nikhil Office Hours参加12分钟补题，个人具体安排以TA邮件为准。TA已发邮件，申请过但未收到者应尽快联系TA。尚未核实本人是否申请/获准，不自动新增必考任务、标记考试完成或发送消息。 11/3补题时段已结束；11/4教师澄清最后一题有序与无序分拆，见新帖。本人补题参加情况未核实。",
       "materials": [
         "cmsc-exam-rules",
         "cmsc-syllabus",
         "cmsc-midterm-q2-followup",
         "cmsc-midterm-answers",
         "cmsc-midterm-results-announcement",
-        "cmsc-midterm-makeup-email"
+        "cmsc-midterm-makeup-email",
+        "cmsc-midterm-partitions"
       ]
     },
     {
@@ -2140,9 +2145,11 @@ window.WORKLIST = {
       "deadlineKind": "exact",
       "materials": [
         "phys-hw6-pdf",
-        "phys-hw6-canvas"
+        "phys-hw6-canvas",
+        "phys-final-study-advice",
+        "phys-discussion-update"
       ],
-      "note": "11/2已确认开放，Gradescope显示No Submission。8道Chapter 6题（P6.16、18、30、52、58、60、66、68），原题3页PDF已归档；11/9 23:59 CST（America/Chicago）截止，与Canvas和Gradescope一致。合并为一份PDF，经Canvas对应Gradescope入口提交；未替用户提交。",
+      "note": "11/4复核仍开放，Gradescope显示No Submission。8道Chapter 6题（P6.16、18、30、52、58、60、66、68），原题3页PDF已归档；11/9 23:59 CST（America/Chicago）截止，与Canvas和Gradescope一致。合并为一份PDF，经Canvas对应Gradescope入口提交；未替用户提交。 教师11/4建议独立限时重做作业、自行整理公式表练习期末。",
       "done": false,
       "statusVersion": 1
     },
@@ -2268,6 +2275,182 @@ window.WORKLIST = {
         "cmsc-colloquium-20261104"
       ],
       "note": "按教师官网周一课表建立当次笔记待办，个人整理期限11/2当天。官网仍Week1–5，无独立今日课件；不把整周内容冒称11/2当次课堂。Ed新增期中补题安排已补查，另附11/4可选讲座，不列为必做任务。",
+      "done": false,
+      "statusVersion": 1
+    },
+    {
+      "id": "math-preview-2026-11-03",
+      "course": "MATH",
+      "shortName": "预习 11/03",
+      "dueDate": "2026-11-03",
+      "planDate": "2026-11-03",
+      "deadlineKind": "same-day",
+      "recurrenceKey": "math-preview",
+      "materials": [
+        "math-lecture15",
+        "math-ps5"
+      ],
+      "note": "补记11/3每日个人预习，保留原日期，未代做或自动完成。",
+      "done": false,
+      "statusVersion": 1
+    },
+    {
+      "id": "math-preview-2026-11-04",
+      "course": "MATH",
+      "shortName": "预习 11/04",
+      "dueDate": "2026-11-04",
+      "planDate": "2026-11-04",
+      "deadlineKind": "same-day",
+      "recurrenceKey": "math-preview",
+      "materials": [
+        "math-lecture15",
+        "math-lecture16",
+        "math-ps6"
+      ],
+      "note": "每日个人预习，期限11/4当天。附11/4修订Lecture15、新Lecture16及PS6；讲义课日未明确，暂存Reference，不等同教师作业DDL。",
+      "done": false,
+      "statusVersion": 1
+    },
+    {
+      "id": "sosc-notes-2026-11-03",
+      "course": "SOSC",
+      "shortName": "整理 11/03（Day 11）笔记",
+      "classDate": "2026-11-03",
+      "dueDate": "2026-11-03",
+      "deadlineKind": "same-day",
+      "taskKind": "lecture-notes",
+      "materials": [
+        "sosc-washington-pdf",
+        "sosc-ba-police-pdf",
+        "sosc-syllabus"
+      ],
+      "note": "补记大纲11/3 Cross-sectional designs课堂笔记，个人期限保留原课日。11/4 Files仅Class2–9，Class11课件待发布；未代写笔记。",
+      "done": false,
+      "statusVersion": 1
+    },
+    {
+      "id": "math-notes-2026-11-04",
+      "course": "MATH",
+      "shortName": "整理 11/04 笔记",
+      "classDate": "2026-11-04",
+      "dueDate": "2026-11-04",
+      "deadlineKind": "same-day",
+      "taskKind": "lecture-notes",
+      "materials": [
+        "math-lecture16",
+        "math-lecture15",
+        "math-syllabus"
+      ],
+      "note": "按周三课表建立当天笔记待办，个人期限当天。附最新Lecture16和修订Lecture15供参照，课日映射未明确，不编造Day；下午课材料后续补齐，未代写笔记。",
+      "done": false,
+      "statusVersion": 1
+    },
+    {
+      "id": "cmsc-notes-2026-11-04",
+      "course": "CMSC",
+      "shortName": "整理 11/04 笔记",
+      "classDate": "2026-11-04",
+      "dueDate": "2026-11-04",
+      "deadlineKind": "same-day",
+      "taskKind": "lecture-notes",
+      "materials": [
+        "cmsc-syllabus",
+        "cmsc-old-notes",
+        "cmsc-midterm-partitions"
+      ],
+      "note": "按官网周三课表建立，个人期限当天。官网仍Week1–5，无独立当日课件，不把整周冒称当天内容；附教师11/4期中题澄清。未代写笔记。",
+      "done": false,
+      "statusVersion": 1
+    },
+    {
+      "id": "math-ps6",
+      "course": "MATH",
+      "shortName": "PS6",
+      "dueDate": "2026-11-11",
+      "deadlineKind": "suggested",
+      "materials": [
+        "math-ps6",
+        "math-ps6-canvas",
+        "math-policy",
+        "math-lecture15",
+        "math-lecture16"
+      ],
+      "note": "7页12题，附部分提示。PDF建议11/11完成，不计入课程成绩；Canvas未给截止时刻，11/4 Gradescope仍仅HW1–4，反馈窗口尚未发布。沿用最多两题反馈规则。America/Chicago。",
+      "done": false,
+      "statusVersion": 1
+    },
+    {
+      "id": "sosc-card-krueger",
+      "course": "SOSC",
+      "shortName": "读 Card & Krueger · Minimum Wages and Employment",
+      "classDate": "2026-11-10",
+      "dueDate": "2026-11-10",
+      "deadlineKind": "before-class",
+      "materials": [
+        "sosc-card-krueger-pdf",
+        "sosc-syllabus"
+      ],
+      "note": "11/4现行大纲Day 13（11/10）必读，课前完成，America/Chicago；未单列提交时刻。原文已按课程/Day归档。",
+      "done": false,
+      "statusVersion": 1
+    },
+    {
+      "id": "sosc-pager-criminal-record",
+      "course": "SOSC",
+      "shortName": "读 Pager · The Mark of a Criminal Record",
+      "classDate": "2026-11-10",
+      "dueDate": "2026-11-10",
+      "deadlineKind": "before-class",
+      "materials": [
+        "sosc-pager-criminal-record-pdf",
+        "sosc-syllabus"
+      ],
+      "note": "11/4现行大纲Day 13（11/10）必读，课前完成，America/Chicago；未单列提交时刻。原文已按课程/Day归档。",
+      "done": false,
+      "statusVersion": 1
+    },
+    {
+      "id": "sosc-dunning-inference",
+      "course": "SOSC",
+      "shortName": "读 Dunning · Improving Causal Inference",
+      "classDate": "2026-11-12",
+      "dueDate": "2026-11-12",
+      "deadlineKind": "before-class",
+      "materials": [
+        "sosc-dunning-inference-pdf",
+        "sosc-syllabus"
+      ],
+      "note": "11/4现行大纲Day 14（11/12）必读，课前完成，America/Chicago；未单列提交时刻。原文已按课程/Day归档。",
+      "done": false,
+      "statusVersion": 1
+    },
+    {
+      "id": "sosc-galiani-property",
+      "course": "SOSC",
+      "shortName": "读 Galiani & Schargrodsky · Property Rights for the Poor",
+      "classDate": "2026-11-12",
+      "dueDate": "2026-11-12",
+      "deadlineKind": "before-class",
+      "materials": [
+        "sosc-galiani-property-pdf",
+        "sosc-syllabus"
+      ],
+      "note": "11/4现行大纲Day 14（11/12）必读，课前完成，America/Chicago；未单列提交时刻。已取得作者大学提供的2010工作论文版55页，不是期刊排版版。",
+      "done": false,
+      "statusVersion": 1
+    },
+    {
+      "id": "sosc-angrist-schooling",
+      "course": "SOSC",
+      "shortName": "读 Angrist & Krueger · Compulsory School Attendance",
+      "classDate": "2026-11-12",
+      "dueDate": "2026-11-12",
+      "deadlineKind": "before-class",
+      "materials": [
+        "sosc-angrist-schooling-pdf",
+        "sosc-syllabus"
+      ],
+      "note": "11/4现行大纲Day 14（11/12）必读，课前完成，America/Chicago；未单列提交时刻。原文已按课程/Day归档。",
       "done": false,
       "statusVersion": 1
     }
@@ -3096,7 +3279,7 @@ window.WORKLIST = {
       "url": "https://canvas.uchicago.edu/courses/74238/modules"
     },
     "phys-hw5-solutions-locked": {
-      "title": "HW5 Solutions（已开放；原PDF下载受阻，暂用官方预览）",
+      "title": "HW5 Solutions（Canvas；原PDF下载待补）",
       "url": "https://canvas.uchicago.edu/courses/74238/modules/items/3259808"
     },
     "phys-hw6-canvas": {
@@ -3154,6 +3337,60 @@ window.WORKLIST = {
     "phys-jasper-oh-20261102": {
       "title": "Jasper今日OH改15:00–16:00 · KPTC305",
       "url": "https://canvas.uchicago.edu/courses/74238/discussion_topics/1030819"
+    },
+    "math-lecture16": {
+      "title": "Honors Basic Algebra I - Lecture 16 - Semidirect Products, Continued.pdf",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/MATH%2025700/Reference/Lectures/Honors%20Basic%20Algebra%20I%20-%20Lecture%2016%20-%20Semidirect%20Products%2C%20Continued.pdf"
+    },
+    "math-ps6": {
+      "title": "Honors Basic Algebra I - Problem Set 6.pdf",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/MATH%2025700/Problem%20Set%206/Honors%20Basic%20Algebra%20I%20-%20Problem%20Set%206.pdf"
+    },
+    "sosc-card-krueger-pdf": {
+      "title": "Minimum Wages and Employment - A Case Study of the Fast-Food Industry in New Jersey and Pennsylvania.pdf",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/SOSC%2013100/Day%2013/Minimum%20Wages%20and%20Employment%20-%20A%20Case%20Study%20of%20the%20Fast-Food%20Industry%20in%20New%20Jersey%20and%20Pennsylvania.pdf"
+    },
+    "sosc-pager-criminal-record-pdf": {
+      "title": "The Mark of a Criminal Record.pdf",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/SOSC%2013100/Day%2013/The%20Mark%20of%20a%20Criminal%20Record.pdf"
+    },
+    "sosc-galiani-property-pdf": {
+      "title": "Property Rights for the Poor - Effects of Land Titling.pdf（2010作者工作论文版）",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/SOSC%2013100/Day%2014/Property%20Rights%20for%20the%20Poor%20-%20Effects%20of%20Land%20Titling.pdf"
+    },
+    "sosc-angrist-schooling-pdf": {
+      "title": "Does Compulsory School Attendance Affect Schooling and Earnings.pdf",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/SOSC%2013100/Day%2014/Does%20Compulsory%20School%20Attendance%20Affect%20Schooling%20and%20Earnings.pdf"
+    },
+    "sosc-dunning-inference-pdf": {
+      "title": "Improving Causal Inference - Strengths and Limitations of Natural Experiments.pdf",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/SOSC%2013100/Day%2014/Improving%20Causal%20Inference%20-%20Strengths%20and%20Limitations%20of%20Natural%20Experiments.pdf"
+    },
+    "math-ps6-canvas": {
+      "title": "PS6 要求（Canvas）",
+      "url": "https://canvas.uchicago.edu/courses/75102/assignments/925664"
+    },
+    "phys-midterm-solutions": {
+      "title": "Midterm 教师解答（Canvas；PDF下载待补）",
+      "url": "https://canvas.uchicago.edu/courses/74238/modules/items/3261752",
+      "note": "11/4新核实附件；原PDF下载超时，未伪造私有文件链接。"
+    },
+    "phys-final-study-advice": {
+      "title": "教师期末练习建议（11/4）",
+      "url": "https://canvas.uchicago.edu/courses/74238/discussion_topics/1031791"
+    },
+    "phys-discussion-update": {
+      "title": "Shuoguang 讨论课与 Office Hour 新说明（11/4 Canvas消息）",
+      "url": "https://canvas.uchicago.edu/conversations/3500870",
+      "note": "讨论课改为概念回顾、独立练题、TA带领列式；周五OH时段不变，线上入口留在Canvas。"
+    },
+    "phys-doron-oh-20261105": {
+      "title": "Doron 11/5 OH 改15:30–16:30（KPTC305）",
+      "url": "https://canvas.uchicago.edu/courses/74238/discussion_topics/1031532"
+    },
+    "cmsc-midterm-partitions": {
+      "title": "期中最后一题：有序/无序分拆澄清（11/4教师回复）",
+      "url": "https://edstem.org/us/courses/107374/discussion/8476927"
     }
   },
   "officeHours": [
@@ -3206,7 +3443,7 @@ window.WORKLIST = {
     {
       "course": "PHYS",
       "person": "Jasper Reid · TA",
-      "time": "仅11/2：15:00–16:00 CST；其他周一17:30–18:30",
+      "time": "周一17:30–18:30（11/2临时例外已结束）",
       "place": "KPTC 305",
       "url": "https://canvas.uchicago.edu/courses/74238/discussion_topics/1030819",
       "linkLabel": "11/2临时调整公告",
@@ -3227,8 +3464,12 @@ window.WORKLIST = {
     {
       "course": "PHYS",
       "person": "Doron Sumeruk · TA",
-      "time": "周四 14:30–15:30（第 2 周起）",
-      "place": "KPTC 305"
+      "time": "仅11/5：15:30–16:30 CST；下周恢复周四14:30–15:30",
+      "place": "KPTC 305",
+      "url": "https://canvas.uchicago.edu/courses/74238/discussion_topics/1031532",
+      "linkLabel": "11/3临时调整公告",
+      "exceptionDate": "2026-11-05",
+      "note": "11/3 15:06公告，本周延后一小时，地点KPTC305不变。"
     },
     {
       "course": "PHYS",
@@ -3242,8 +3483,11 @@ window.WORKLIST = {
     {
       "course": "PHYS",
       "person": "Shuoguang Liu · TA",
-      "time": "周五 14:30–15:30（第 2 周起）",
-      "place": "KPTC 305"
+      "time": "周五14:30–15:30",
+      "place": "KPTC305；线上入口见Canvas消息",
+      "url": "https://canvas.uchicago.edu/conversations/3500870",
+      "linkLabel": "11/4讨论课/OH新说明",
+      "note": "时段不变。讨论课改为5分钟概念回顾、10–15分钟独立练题、30–35分钟TA带领列式。私人线上入场参数留在Canvas。"
     },
     {
       "course": "MATH",
