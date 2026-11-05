@@ -1,6 +1,6 @@
 window.WORKLIST = {
-  "updatedAt": "2026-11-04T18:16:45Z",
-  "scope": "11/4核查：MATH新增Lecture16与PS6（建议11/11），Lecture15修订；SOSC下周五篇必读已归档，Quiz2仍11/10，Class10/11未见。PHYS Doron仅11/5 OH改15:30–16:30，Shuoguang讨论课改为练题；HW5答案及期中解答PDF下载待补。CMSC HW4仍11/5 23:59，新增期中题澄清。今日MATH预习及MATH/CMSC笔记已加入，补录11/3两项并保留原日期。SOSC阅读库仍空白，其他课程平台已核查。",
+  "updatedAt": "2026-11-05T18:49:13Z",
+  "scope": "11/5 核查：MATH 第二次期中 11/13 课内，累积考查，重点为第一次期中后内容。Mathew 本周答疑改至 11/6 15:20–16:40，Ryerson 250。PS5 可选反馈今晚 23:59 截止，PS6 可选反馈 11/11 截止。CMSC HW5 截止 11/11，时刻待公布。CMSC HW4、PHYS HW6 和 Lab Notebook 4 已完成；Lab Report 4 待交。PHYS Lecture 10、HW5 与期中解答已归档。MATH Lecture 16、PS6 和 CMSC 官网快照已更新。SOSC 今天三篇阅读已核实，Class 10–12 PPT 尚未列出，阅读库未显示条目。今日个人计划：SOSC 笔记、MATH 预习。时间均为芝加哥时间。",
   "tasks": [
     {
       "id": "sosc-freedman",
@@ -523,7 +523,7 @@ window.WORKLIST = {
       "dueDate": "2026-10-26",
       "done": true,
       "statusVersion": 2,
-      "note": "正式题目已发布，二选一：AI 学习与成绩的因果关系，或社交媒体不文明内容实验的内外部效度。约 5 页，12pt Times New Roman 或相近字体，双倍行距，以 PDF 提交 Canvas。作业页、题干及 10/15 现行大纲均为 10/26，具体截止为 23:59 CDT。10/28 是入口关闭日期，不是 DDL。 10/20补充老师新上传的6页范文，供写作参考；范文是2024年的其他题目，不替代当前二选一题干，也没有新增必交任务。 10/28核查Canvas确认已提交，完成状态据此更新；原DDL保持10/26 23:59 CDT。另列提交格式核对待办，未替用户重交。",
+      "note": "正式题目已发布，二选一：AI 学习与成绩的因果关系，或社交媒体不文明内容实验的内外部效度。约 5 页，12pt Times New Roman 或相近字体，双倍行距，以 PDF 提交 Canvas。作业页、题干及 10/15 现行大纲均为 10/26，具体截止为 23:59 CDT。11/5 作业详情显示入口开放至 11/8 23:59 CST。作业截止仍为 10/26。 10/20补充老师新上传的6页范文，供写作参考；范文是2024年的其他题目，不替代当前二选一题干，也没有新增必交任务。 10/28核查Canvas确认已提交，完成状态据此更新；原DDL保持10/26 23:59 CDT。另列提交格式核对待办，未替用户重交。",
       "materials": [
         "sosc-essay1-prompt",
         "sosc-syllabus",
@@ -1261,7 +1261,7 @@ window.WORKLIST = {
       "deadlineKind": "feedback",
       "done": false,
       "statusVersion": 1,
-      "note": "新发布4页题目，建议10/28完成，不计入课程成绩。若需反馈，最多提交并明确标出两题；Gradescope正常截止10/28 23:59 CDT，晚交至11/4 23:59 CST。11/4 Gradescope仍No Submission；正常截止及迟交窗口均复核无变。",
+      "note": "新发布4页题目，建议10/28完成，不计入课程成绩。若需反馈，最多提交并明确标出两题；Gradescope正常截止10/28 23:59 CDT，晚交至11/4 23:59 CST。11/5 核实可选反馈窗口已结束。",
       "materials": [
         "math-ps4",
         "math-ps4-submit",
@@ -1652,9 +1652,9 @@ window.WORKLIST = {
         "phys-hw5-pdf",
         "phys-hw5-gradescope",
         "phys-hw5-canvas",
-        "phys-hw5-solutions-locked"
+        "phys-hw5-sol"
       ],
-      "note": "11/1 Gradescope已显示Submitted，据此确认已提交；Canvas仍显示No Submission，存在平台状态差异。原截止11/2 23:59 CST保留，不发布个人作答或成绩。3页8题，Knight第1版Ch.11：P11.22、26、36、50、52、60、64、74。题头写PDF upload to Canvas，同时Gradescope已有提交记录，两处入口均保留。11/1确认HW5 Solutions计划11/2 00:00 CST开放；11/2受浏览器连接限制，尚未复核或下载归档；没有代交作业。",
+      "note": "11/1 Gradescope已显示Submitted，据此确认已提交；Canvas仍显示No Submission，存在平台状态差异。原截止11/2 23:59 CST保留，不发布个人作答或成绩。3页8题，Knight第1版Ch.11：P11.22、26、36、50、52、60、64、74。题头写PDF upload to Canvas，同时Gradescope已有提交记录，两处入口均保留。11/5 已取得 Canvas 教师解答，6 页 PDF 已附。",
       "done": true,
       "statusVersion": 2
     },
@@ -1803,9 +1803,9 @@ window.WORKLIST = {
         "cmsc-gradescope",
         "cmsc-hw4-submit"
       ],
-      "note": "11/1 Gradescope复核HW4为No Submission：正常截止11/5 23:59 CST，迟交窗口至11/7 23:59，可能扣分。1页5题；Ed说明考虑期中与选举顺延一天。答案须为闭式表达式（第5题整数），多项系数可视为闭式，所有答案需合理严谨论证，合作须注明同伴且独立撰写。America/Chicago。",
-      "done": false,
-      "statusVersion": 1,
+      "note": "11/5 Gradescope 已显示 Submitted。原截止为 11/5 23:59 CST，迟交至 11/7 23:59 CST。",
+      "done": true,
+      "statusVersion": 2,
       "time": "23:59"
     },
     {
@@ -1820,9 +1820,10 @@ window.WORKLIST = {
         "math-ps5",
         "math-ps5-canvas",
         "math-policy",
-        "math-lecture12"
+        "math-lecture12",
+        "math-gradescope"
       ],
-      "note": "5页、9道编号题，PDF建议11/4完成，不计入课程成绩。Canvas无正式截止时刻；11/4 Gradescope仍只有HW1–4，PS5反馈提交窗口待发布。沿用最多两题反馈规则，不把建议完成日当作正式交卷DDL。"
+      "note": "全套建议 11/4 完成，不计分。共 5 页 9 题。仅在希望获得反馈时提交，最多两题并标出题号。Gradescope 正常截止 11/5 23:59 CST，晚交至 11/11 23:59 CST。 教师建议复习作业准备 11/13 期中。"
     },
     {
       "id": "sosc-essay1-format-check",
@@ -2028,9 +2029,9 @@ window.WORKLIST = {
         "phys-goodness-of-fit",
         "phys-lab4-notebook-submit"
       ],
-      "note": "官方课表：11/2–11/6为Lab4 Cratering Part2。沿用同一Cratering实验本和Colab，不重复上传相同文件；goodness-of-fit为指南中的辅助参考。个人实验时段尚未核实，不虚构日期和钟点。",
-      "done": false,
-      "statusVersion": 1
+      "note": "官方课表：11/2–11/6为Lab4 Cratering Part2。沿用同一Cratering实验本和Colab，不重复上传相同文件；goodness-of-fit为指南中的辅助参考。个人实验时段尚未核实，不虚构日期和钟点。 11/5 Canvas 已有该实验本的批改记录。",
+      "done": true,
+      "statusVersion": 2
     },
     {
       "id": "phys-lab4-report",
@@ -2044,7 +2045,7 @@ window.WORKLIST = {
         "phys-lab4-report-submit",
         "phys-lab4-guide"
       ],
-      "note": "11/2–11/6实验周的个人报告：根据Part2数据写1–2段结论，可结合Part1背景，用数据/图表支持。最终提交单个PDF；归档DOCX是教师空白模板，不是提交格式。个人实验时段未核实，保留相对期限。",
+      "note": "11/2–11/6实验周的个人报告：根据Part2数据写1–2段结论，可结合Part1背景，用数据/图表支持。最终提交单个PDF；归档DOCX是教师空白模板，不是提交格式。个人实验时段未核实，保留相对期限。 11/5 Canvas 显示尚未提交，按本人实验结束后 24 小时计算。",
       "done": false,
       "statusVersion": 1
     },
@@ -2114,7 +2115,8 @@ window.WORKLIST = {
       "dueDate": null,
       "materials": [
         "phys-textbook",
-        "phys-week6-modules"
+        "phys-week6-modules",
+        "phys-lecture10"
       ],
       "note": "Canvas Week 6（11/2–11/6）要求阅读 Chapter 6；未列独立截止时刻，不把周一当作正式阅读DDL。",
       "done": false,
@@ -2147,11 +2149,12 @@ window.WORKLIST = {
         "phys-hw6-pdf",
         "phys-hw6-canvas",
         "phys-final-study-advice",
-        "phys-discussion-update"
+        "phys-discussion-update",
+        "phys-lecture10"
       ],
-      "note": "11/4复核仍开放，Gradescope显示No Submission。8道Chapter 6题（P6.16、18、30、52、58、60、66、68），原题3页PDF已归档；11/9 23:59 CST（America/Chicago）截止，与Canvas和Gradescope一致。合并为一份PDF，经Canvas对应Gradescope入口提交；未替用户提交。 教师11/4建议独立限时重做作业、自行整理公式表练习期末。",
-      "done": false,
-      "statusVersion": 1
+      "note": "11/5 Gradescope 已显示 Submitted。11/9 23:59 CST 截止；共 8 道 Chapter 6 题。期末复习时可按教师建议限时重做。",
+      "done": true,
+      "statusVersion": 2
     },
     {
       "id": "phys-hw7",
@@ -2373,9 +2376,10 @@ window.WORKLIST = {
         "math-ps6-canvas",
         "math-policy",
         "math-lecture15",
-        "math-lecture16"
+        "math-lecture16",
+        "math-gradescope"
       ],
-      "note": "7页12题，附部分提示。PDF建议11/11完成，不计入课程成绩；Canvas未给截止时刻，11/4 Gradescope仍仅HW1–4，反馈窗口尚未发布。沿用最多两题反馈规则。America/Chicago。",
+      "note": "全套建议 11/11 完成，不计分。修订版 7 页 12 题，Mp 小题改引 Lecture 17 §1。仅在希望获得反馈时提交，最多两题并标出题号。Gradescope 正常截止 11/11 23:59 CST，晚交至 11/18 23:59 CST。 教师建议复习作业准备 11/13 期中。",
       "done": false,
       "statusVersion": 1
     },
@@ -2451,6 +2455,105 @@ window.WORKLIST = {
         "sosc-syllabus"
       ],
       "note": "11/4现行大纲Day 14（11/12）必读，课前完成，America/Chicago；未单列提交时刻。原文已按课程/Day归档。",
+      "done": false,
+      "statusVersion": 1
+    },
+    {
+      "id": "cmsc-hw5",
+      "course": "CMSC",
+      "shortName": "HW5",
+      "dueDate": "2026-11-11",
+      "deadlineKind": "exact",
+      "materials": [
+        "cmsc-hw5-pdf",
+        "cmsc-hw5-ed",
+        "cmsc-syllabus",
+        "cmsc-gradescope"
+      ],
+      "note": "教师官网和题面均写 11/11。Gradescope 尚未列出 HW5，具体截止时刻待确认。共 5 题，第 2 题答案须为整数，第 5 题须为有理数。",
+      "done": false,
+      "statusVersion": 1
+    },
+    {
+      "id": "math-preview-2026-11-05",
+      "course": "MATH",
+      "shortName": "预习 11/05",
+      "dueDate": "2026-11-05",
+      "deadlineKind": "same-day",
+      "materials": [
+        "math-lecture16",
+        "math-ps6"
+      ],
+      "note": "个人预习，11/5 当天完成。附 11/5 核实的修订版 Lecture 16 和 PS6。",
+      "done": false,
+      "statusVersion": 1,
+      "planDate": "2026-11-05",
+      "recurrenceKey": "math-preview"
+    },
+    {
+      "id": "sosc-notes-2026-11-05",
+      "course": "SOSC",
+      "shortName": "整理 11/05（Day 12）笔记",
+      "dueDate": "2026-11-05",
+      "deadlineKind": "same-day",
+      "materials": [
+        "sosc-becher-vote-pdf",
+        "sosc-gale-neuroticism-pdf",
+        "sosc-richardson-collider-pdf",
+        "sosc-syllabus"
+      ],
+      "note": "11/5 复核 Canvas 大纲，Day 12 主题为 Colliders and Mediators。个人笔记整理期限为今天。已附三篇必读，Course Slides 目前仅列 Class 2–9。",
+      "done": false,
+      "statusVersion": 1,
+      "classDate": "2026-11-05",
+      "taskKind": "lecture-notes"
+    },
+    {
+      "id": "math-ps5-feedback",
+      "course": "MATH",
+      "shortName": "PS5 提交反馈题（可选）",
+      "dueDate": "2026-11-05",
+      "deadlineKind": "feedback",
+      "materials": [
+        "math-ps5",
+        "math-gradescope",
+        "math-policy"
+      ],
+      "note": "仅在希望获得反馈时提交，最多两题并标出题号。Gradescope 正常截止 11/5 23:59 CST，晚交至 11/11 23:59 CST。",
+      "done": false,
+      "statusVersion": 1,
+      "time": "23:59"
+    },
+    {
+      "id": "math-ps6-feedback",
+      "course": "MATH",
+      "shortName": "PS6 提交反馈题（可选）",
+      "dueDate": "2026-11-11",
+      "deadlineKind": "feedback",
+      "materials": [
+        "math-ps6",
+        "math-gradescope",
+        "math-policy"
+      ],
+      "note": "仅在希望获得反馈时提交，最多两题并标出题号。Gradescope 正常截止 11/11 23:59 CST，晚交至 11/18 23:59 CST。",
+      "done": false,
+      "statusVersion": 1,
+      "time": "23:59"
+    },
+    {
+      "id": "math-midterm2-2026-11-13",
+      "course": "MATH",
+      "shortName": "Midterm 2",
+      "dueDate": "2026-11-13",
+      "deadlineKind": "in-class",
+      "materials": [
+        "math-midterm2-announcement",
+        "math-syllabus",
+        "math-ps4",
+        "math-ps5",
+        "math-ps6"
+      ],
+      "note": "11/5 教师公告确认 11/13（周五）课内考试。累积考查，重点是第一次期中后的内容。老师建议复习作业，计划周末前发布练习清单，届时补链接。",
       "done": false,
       "statusVersion": 1
     }
@@ -3278,10 +3381,6 @@ window.WORKLIST = {
       "title": "Week 6 · Ch. 6 阅读与课程模块",
       "url": "https://canvas.uchicago.edu/courses/74238/modules"
     },
-    "phys-hw5-solutions-locked": {
-      "title": "HW5 Solutions（Canvas；原PDF下载待补）",
-      "url": "https://canvas.uchicago.edu/courses/74238/modules/items/3259808"
-    },
     "phys-hw6-canvas": {
       "title": "HW6 · Canvas提交入口（已开放）",
       "url": "https://canvas.uchicago.edu/courses/74238/assignments/908872"
@@ -3371,9 +3470,8 @@ window.WORKLIST = {
       "url": "https://canvas.uchicago.edu/courses/75102/assignments/925664"
     },
     "phys-midterm-solutions": {
-      "title": "Midterm 教师解答（Canvas；PDF下载待补）",
-      "url": "https://canvas.uchicago.edu/courses/74238/modules/items/3261752",
-      "note": "11/4新核实附件；原PDF下载超时，未伪造私有文件链接。"
+      "title": "General Physics I - Midterm Exam - Solutions.pdf",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/PHYS%2012100/Midterm/General%20Physics%20I%20-%20Midterm%20Exam%20-%20Solutions.pdf"
     },
     "phys-final-study-advice": {
       "title": "教师期末练习建议（11/4）",
@@ -3391,6 +3489,26 @@ window.WORKLIST = {
     "cmsc-midterm-partitions": {
       "title": "期中最后一题：有序/无序分拆澄清（11/4教师回复）",
       "url": "https://edstem.org/us/courses/107374/discussion/8476927"
+    },
+    "cmsc-hw5-pdf": {
+      "title": "Honors Discrete Mathematics - Homework 5.pdf",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/CMSC%2027130/Homework%205/Honors%20Discrete%20Mathematics%20-%20Homework%205.pdf"
+    },
+    "cmsc-hw5-ed": {
+      "title": "HW5 发布公告（Ed）",
+      "url": "https://edstem.org/us/courses/107374/discussion/8482144"
+    },
+    "phys-lecture10": {
+      "title": "General Physics I - Lecture 10 - Equilibrium and Elasticity.pdf",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/PHYS%2012100/Reference/Lectures/General%20Physics%20I%20-%20Lecture%2010%20-%20Equilibrium%20and%20Elasticity.pdf"
+    },
+    "phys-hw5-sol": {
+      "title": "General Physics I - Homework 5 - Solutions.pdf",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/PHYS%2012100/Homework%205/General%20Physics%20I%20-%20Homework%205%20-%20Solutions.pdf"
+    },
+    "math-midterm2-announcement": {
+      "title": "Midterm 2 范围与复习建议（Canvas）",
+      "url": "https://canvas.uchicago.edu/courses/75102/discussion_topics/1032277"
     }
   },
   "officeHours": [
@@ -3398,19 +3516,19 @@ window.WORKLIST = {
       "course": "MATH",
       "person": "Akhil Mathew · 教授",
       "time": "周三 16:15–18:30",
-      "place": "临时办公室 E208-A（10/22起）",
-      "url": "https://canvas.uchicago.edu/courses/75102/discussion_topics/1029285",
-      "linkLabel": "10/28地点提醒",
-      "note": "10/28 13:56新公告再次确认当天临时办公室E-208A；常规周三时间沿用大纲16:15–18:30。"
+      "place": "Ryerson 250",
+      "url": "https://canvas.uchicago.edu/courses/75102/discussion_topics/1031960",
+      "linkLabel": "办公室地点公告",
+      "note": "11/4 教师确认办公室已搬回 Ryerson 250。"
     },
     {
       "course": "MATH",
       "person": "Akhil Mathew · 教授",
-      "time": "周四 16:45–18:00",
-      "place": "临时办公室 E208-A（10/22起）",
-      "url": "https://canvas.uchicago.edu/courses/75102/discussion_topics/1026807",
-      "linkLabel": "新地点公告",
-      "note": "10/22延长至18:30的单次例外已结束；临时办公室E208-A继续按10/22地点公告保留。"
+      "time": "通常周四 16:45–18:00；本周改为 11/6 周五 15:20–16:40",
+      "place": "Ryerson 250",
+      "url": "https://canvas.uchicago.edu/courses/75102/discussion_topics/1032205",
+      "linkLabel": "11/5 调整公告",
+      "note": "11/5 周四取消，改至 11/6 周五。芝加哥时间。"
     },
     {
       "person": "Alexander Razborov · 教授",

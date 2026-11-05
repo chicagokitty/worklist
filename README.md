@@ -1,5 +1,9 @@
 # worklist
 
+## 11/5 课程核查
+
+11/5 核查：MATH 第二次期中 11/13 课内，累积考查，重点为第一次期中后内容。Mathew 本周答疑改至 11/6 15:20–16:40，Ryerson 250。PS5 可选反馈今晚 23:59 截止，PS6 可选反馈 11/11 截止。CMSC HW5 截止 11/11，时刻待公布。CMSC HW4、PHYS HW6 和 Lab Notebook 4 已完成；Lab Report 4 待交。PHYS Lecture 10、HW5 与期中解答已归档。MATH Lecture 16、PS6 和 CMSC 官网快照已更新。SOSC 今天三篇阅读已核实，Class 10–12 PPT 尚未列出，阅读库未显示条目。今日个人计划：SOSC 笔记、MATH 预习。时间均为芝加哥时间。
+
 ## 2026-11-02 登录后补查
 
 - 三门Canvas首页/大纲、可见公告/讨论/作业、Modules或Files及课程动态、三门Gradescope和CMSC Ed已恢复访问并补查。早先浏览器连接缺口解除；SOSC Library Reserves嵌入页仍空白、无登录提示，这一范围仍未核查。
