@@ -1,5 +1,9 @@
 # worklist
 
+## 11/6 课程核查
+
+11/6 核查：SOSC Class 10–12 PPT 已补齐；PHYS Lecture 11 已归档，Lab Report 4 已提交。MATH PS6 再修订提示至 Lecture 17 §2，今天 Mathew 答疑 15:20–16:40，Ryerson 250；期中2仍11/13。CMSC HW5 正常截止11/11 23:59，晚交至11/13 23:59，第2题按标准棋子组理解。今日 MATH 预习及 MATH/CMSC 笔记已加入。Canvas、三门Gradescope、Ed已核查；CMSC教师官网暂时无法访问，SOSC阅读库仍无法显示条目。时间为America/Chicago。
+
 ## 11/5 课程核查
 
 11/5 核查：MATH 第二次期中 11/13 课内，累积考查，重点为第一次期中后内容。Mathew 本周答疑改至 11/6 15:20–16:40，Ryerson 250。PS5 可选反馈今晚 23:59 截止，PS6 可选反馈 11/11 截止。CMSC HW5 截止 11/11，时刻待公布。CMSC HW4、PHYS HW6 和 Lab Notebook 4 已完成；Lab Report 4 待交。PHYS Lecture 10、HW5 与期中解答已归档。MATH Lecture 16、PS6 和 CMSC 官网快照已更新。SOSC 今天三篇阅读已核实，Class 10–12 PPT 尚未列出，阅读库未显示条目。今日个人计划：SOSC 笔记、MATH 预习。时间均为芝加哥时间。

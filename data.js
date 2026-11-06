@@ -1,6 +1,6 @@
 window.WORKLIST = {
-  "updatedAt": "2026-11-05T18:49:13Z",
-  "scope": "11/5 核查：MATH 第二次期中 11/13 课内，累积考查，重点为第一次期中后内容。Mathew 本周答疑改至 11/6 15:20–16:40，Ryerson 250。PS5 可选反馈今晚 23:59 截止，PS6 可选反馈 11/11 截止。CMSC HW5 截止 11/11，时刻待公布。CMSC HW4、PHYS HW6 和 Lab Notebook 4 已完成；Lab Report 4 待交。PHYS Lecture 10、HW5 与期中解答已归档。MATH Lecture 16、PS6 和 CMSC 官网快照已更新。SOSC 今天三篇阅读已核实，Class 10–12 PPT 尚未列出，阅读库未显示条目。今日个人计划：SOSC 笔记、MATH 预习。时间均为芝加哥时间。",
+  "updatedAt": "2026-11-06T18:09:45Z",
+  "scope": "11/6 核查：SOSC Class 10–12 PPT 已补齐；PHYS Lecture 11 已归档，Lab Report 4 已提交。MATH PS6 再修订提示至 Lecture 17 §2，今天 Mathew 答疑 15:20–16:40，Ryerson 250；期中2仍11/13。CMSC HW5 正常截止11/11 23:59，晚交至11/13 23:59，第2题按标准棋子组理解。今日 MATH 预习及 MATH/CMSC 笔记已加入。Canvas、三门Gradescope、Ed已核查；CMSC教师官网暂时无法访问，SOSC阅读库仍无法显示条目。时间为America/Chicago。",
   "tasks": [
     {
       "id": "sosc-freedman",
@@ -1434,9 +1434,10 @@ window.WORKLIST = {
         "cmsc-midterm-answers",
         "cmsc-midterm-results-announcement",
         "cmsc-midterm-makeup-email",
-        "cmsc-midterm-partitions"
+        "cmsc-midterm-partitions",
+        "cmsc-midterm-updated-scores"
       ],
-      "note": "10/30 09:30–10:20（America/Chicago），5题50分钟。范围截至10/26课堂，包括归纳、线性/偏序、数论及已讲计数。老师建议做Rosen对应章节常规题，考试准备可略过星号题及书中未涵盖的高级部分。允许本人为自己准备的不限长度纸质笔记；打印须来自本人写的源文件。可带简单计算器，禁止其他电子设备、书籍及扫描书页。 10/23教授回复：不会提供往年试卷或模拟卷；各年选题不同，5题不可能覆盖所有内容。 10/25复核Ed新增回复：自制纸质笔记可以放在纸质笔记本（含线圈本）内；教授已澄清其先前对notebook的禁止指电脑，不是纸质本。 11/2 Ed补充：Q2补题申请截止11/2开课前（9:30 CST），现已过期；获准者11/3于Nikhil Office Hours参加12分钟补题，个人具体安排以TA邮件为准。TA已发邮件，申请过但未收到者应尽快联系TA。尚未核实本人是否申请/获准，不自动新增必考任务、标记考试完成或发送消息。 11/3补题时段已结束；11/4教师澄清最后一题有序与无序分拆，见新帖。本人补题参加情况未核实。 11/4依据Gradescope实际考试提交记录确认主考试已完成，未公开分数。",
+      "note": "10/30 09:30–10:20（America/Chicago），5题50分钟。范围截至10/26课堂，包括归纳、线性/偏序、数论及已讲计数。老师建议做Rosen对应章节常规题，考试准备可略过星号题及书中未涵盖的高级部分。允许本人为自己准备的不限长度纸质笔记；打印须来自本人写的源文件。可带简单计算器，禁止其他电子设备、书籍及扫描书页。 10/23教授回复：不会提供往年试卷或模拟卷；各年选题不同，5题不可能覆盖所有内容。 10/25复核Ed新增回复：自制纸质笔记可以放在纸质笔记本（含线圈本）内；教授已澄清其先前对notebook的禁止指电脑，不是纸质本。 11/2 Ed补充：Q2补题申请截止11/2开课前（9:30 CST），现已过期；获准者11/3于Nikhil Office Hours参加12分钟补题，个人具体安排以TA邮件为准。TA已发邮件，申请过但未收到者应尽快联系TA。尚未核实本人是否申请/获准，不自动新增必考任务、标记考试完成或发送消息。 11/3补题时段已结束；11/4教师澄清最后一题有序与无序分拆，见新帖。本人补题参加情况未核实。 11/4依据Gradescope实际考试提交记录确认主考试已完成，未公开分数。 11/6 TA 通知补考后成绩已更新，如应有变动但未显示，请联系课程团队。",
       "done": true,
       "statusVersion": 2
     },
@@ -1866,11 +1867,12 @@ window.WORKLIST = {
       "deadlineKind": "same-day",
       "taskKind": "lecture-notes",
       "materials": [
+        "sosc-class10-slides",
         "sosc-wood-backfire-pdf",
         "sosc-mullinix-generalizability-pdf",
         "sosc-syllabus"
       ],
-      "note": "大纲Day10 Survey Experiments，个人整理期限为当天。两篇课前阅读原件已归档；11/4补查Files仅见Class2–9，Day10课件待老师发布后补齐。只维护待办，不代写笔记。",
+      "note": "Day 10 课堂笔记，个人整理期限保留原课日。11/6 已补上教师 Class 10 原始 PPT。",
       "done": false,
       "statusVersion": 1
     },
@@ -1883,9 +1885,12 @@ window.WORKLIST = {
       "deadlineKind": "in-class",
       "materials": [
         "sosc-syllabus",
-        "sosc-class8-slides"
+        "sosc-class8-slides",
+        "sosc-class10-slides",
+        "sosc-class11-slides",
+        "sosc-class12-slides"
       ],
-      "note": "10/29现行大纲与Class8第2页均确认11/10，取代早期11/3安排；课内30分钟、open-note。未单列具体开考时刻或独立试题文件。America/Chicago。 11/1登录后复核现行大纲仍11/10，未见再次改期。 11/4大纲复核仍11/10，同日另有两篇必读，不等同Quiz完整范围。",
+      "note": "10/29现行大纲与Class8第2页均确认11/10，取代早期11/3安排；课内30分钟、open-note。未单列具体开考时刻或独立试题文件。America/Chicago。 11/1登录后复核现行大纲仍11/10，未见再次改期。 11/4大纲复核仍11/10，同日另有两篇必读，不等同Quiz完整范围。 11/6 补上 Class 10–12 教师课件供复习。课件列表本身不定义完整测验范围。",
       "done": false,
       "statusVersion": 1
     },
@@ -2045,9 +2050,9 @@ window.WORKLIST = {
         "phys-lab4-report-submit",
         "phys-lab4-guide"
       ],
-      "note": "11/2–11/6实验周的个人报告：根据Part2数据写1–2段结论，可结合Part1背景，用数据/图表支持。最终提交单个PDF；归档DOCX是教师空白模板，不是提交格式。个人实验时段未核实，保留相对期限。 11/5 Canvas 显示尚未提交，按本人实验结束后 24 小时计算。",
-      "done": false,
-      "statusVersion": 1
+      "note": "11/6 Canvas 详情显示当日 01:09 CST 已提交，待批改。保留原实验结束后 24 小时的相对期限。",
+      "done": true,
+      "statusVersion": 2
     },
     {
       "id": "sosc-quiz-review-2026-10-31",
@@ -2057,10 +2062,13 @@ window.WORKLIST = {
       "done": false,
       "statusVersion": 1,
       "taskKind": "personal-review",
-      "note": "10/31 用户新增的复习待办，个人完成期限尚未指定。与现有 Quiz 考试任务分开记录。",
+      "note": "10/31 用户新增的复习待办，个人完成期限尚未指定。与现有 Quiz 考试任务分开记录。 11/6 补上 Class 10–12 教师课件供复习。课件列表本身不定义完整测验范围。",
       "materials": [
         "sosc-syllabus",
-        "sosc-class8-slides"
+        "sosc-class8-slides",
+        "sosc-class10-slides",
+        "sosc-class11-slides",
+        "sosc-class12-slides"
       ]
     },
     {
@@ -2116,7 +2124,8 @@ window.WORKLIST = {
       "materials": [
         "phys-textbook",
         "phys-week6-modules",
-        "phys-lecture10"
+        "phys-lecture10",
+        "phys-lecture11"
       ],
       "note": "Canvas Week 6（11/2–11/6）要求阅读 Chapter 6；未列独立截止时刻，不把周一当作正式阅读DDL。",
       "done": false,
@@ -2150,7 +2159,8 @@ window.WORKLIST = {
         "phys-hw6-canvas",
         "phys-final-study-advice",
         "phys-discussion-update",
-        "phys-lecture10"
+        "phys-lecture10",
+        "phys-lecture11"
       ],
       "note": "11/5 Gradescope 已显示 Submitted。11/9 23:59 CST 截止；共 8 道 Chapter 6 题。期末复习时可按教师建议限时重做。",
       "done": true,
@@ -2323,11 +2333,12 @@ window.WORKLIST = {
       "deadlineKind": "same-day",
       "taskKind": "lecture-notes",
       "materials": [
+        "sosc-class11-slides",
         "sosc-washington-pdf",
         "sosc-ba-police-pdf",
         "sosc-syllabus"
       ],
-      "note": "补记大纲11/3 Cross-sectional designs课堂笔记，个人期限保留原课日。11/4 Files仅Class2–9，Class11课件待发布；未代写笔记。",
+      "note": "Day 11 课堂笔记，个人整理期限保留原课日。11/6 已补上教师 Class 11 原始 PPT。",
       "done": false,
       "statusVersion": 1
     },
@@ -2379,7 +2390,7 @@ window.WORKLIST = {
         "math-lecture16",
         "math-gradescope"
       ],
-      "note": "全套建议 11/11 完成，不计分。修订版 7 页 12 题，Mp 小题改引 Lecture 17 §1。仅在希望获得反馈时提交，最多两题并标出题号。Gradescope 正常截止 11/11 23:59 CST，晚交至 11/18 23:59 CST。 教师建议复习作业准备 11/13 期中。",
+      "note": "全套建议 11/11 完成，不计分。修订版 7 页 12 题，Mp 小题改引 Lecture 17 §2。仅在希望获得反馈时提交，最多两题并标出题号。Gradescope 正常截止 11/11 23:59 CST，晚交至 11/18 23:59 CST。 教师建议复习作业准备 11/13 期中。",
       "done": false,
       "statusVersion": 1
     },
@@ -2468,11 +2479,13 @@ window.WORKLIST = {
         "cmsc-hw5-pdf",
         "cmsc-hw5-ed",
         "cmsc-syllabus",
-        "cmsc-gradescope"
+        "cmsc-gradescope",
+        "cmsc-hw5-clarification"
       ],
-      "note": "教师官网和题面均写 11/11。Gradescope 尚未列出 HW5，具体截止时刻待确认。共 5 题，第 2 题答案须为整数，第 5 题须为有理数。",
+      "note": "11/6 Gradescope 核实 No Submission。正常截止 11/11 23:59 CST，晚交至 11/13 23:59 CST。2 页 5 题，题2按标准32枚国际象棋棋子组合理解，答案须为整数；题5答案须为有理数。",
       "done": false,
-      "statusVersion": 1
+      "statusVersion": 1,
+      "time": "23:59"
     },
     {
       "id": "math-preview-2026-11-05",
@@ -2497,12 +2510,13 @@ window.WORKLIST = {
       "dueDate": "2026-11-05",
       "deadlineKind": "same-day",
       "materials": [
+        "sosc-class12-slides",
         "sosc-becher-vote-pdf",
         "sosc-gale-neuroticism-pdf",
         "sosc-richardson-collider-pdf",
         "sosc-syllabus"
       ],
-      "note": "11/5 复核 Canvas 大纲，Day 12 主题为 Colliders and Mediators。个人笔记整理期限为今天。已附三篇必读，Course Slides 目前仅列 Class 2–9。",
+      "note": "Day 12 课堂笔记，个人整理期限保留原课日。11/6 已补上教师 Class 12 原始 PPT。",
       "done": false,
       "statusVersion": 1,
       "classDate": "2026-11-05",
@@ -2519,7 +2533,7 @@ window.WORKLIST = {
         "math-gradescope",
         "math-policy"
       ],
-      "note": "仅在希望获得反馈时提交，最多两题并标出题号。Gradescope 正常截止 11/5 23:59 CST，晚交至 11/11 23:59 CST。",
+      "note": "可选反馈正常截止 11/5 23:59 CST 已过，11/6 Gradescope 显示仍未提交，晚交入口至 11/11 23:59 CST。最多选两题并明确标出题号。保留原截止日。",
       "done": false,
       "statusVersion": 1,
       "time": "23:59"
@@ -2556,6 +2570,57 @@ window.WORKLIST = {
       "note": "11/5 教师公告确认 11/13（周五）课内考试。累积考查，重点是第一次期中后的内容。老师建议复习作业，计划周末前发布练习清单，届时补链接。",
       "done": false,
       "statusVersion": 1
+    },
+    {
+      "id": "math-preview-2026-11-06",
+      "course": "MATH",
+      "shortName": "预习 11/06",
+      "dueDate": "2026-11-06",
+      "deadlineKind": "same-day",
+      "materials": [
+        "math-lecture16",
+        "math-ps6",
+        "math-midterm2-announcement"
+      ],
+      "note": "个人计划，期限为今天。每日预习。",
+      "done": false,
+      "statusVersion": 1,
+      "planDate": "2026-11-06",
+      "recurrenceKey": "math-preview"
+    },
+    {
+      "id": "math-notes-2026-11-06",
+      "course": "MATH",
+      "shortName": "整理 11/06 笔记",
+      "dueDate": "2026-11-06",
+      "deadlineKind": "same-day",
+      "materials": [
+        "math-lecture16",
+        "math-ps6",
+        "math-syllabus"
+      ],
+      "note": "个人计划，期限为今天。依据周五正常课表建立本次笔记整理待办，已附现有参考材料，新课件发布后再补充。",
+      "done": false,
+      "statusVersion": 1,
+      "classDate": "2026-11-06",
+      "taskKind": "lecture-notes"
+    },
+    {
+      "id": "cmsc-notes-2026-11-06",
+      "course": "CMSC",
+      "shortName": "整理 11/06 笔记",
+      "dueDate": "2026-11-06",
+      "deadlineKind": "same-day",
+      "materials": [
+        "cmsc-syllabus",
+        "cmsc-old-notes",
+        "cmsc-hw5-pdf"
+      ],
+      "note": "个人计划，期限为今天。依据周五正常课表建立本次笔记整理待办，已附现有参考材料，新课件发布后再补充。",
+      "done": false,
+      "statusVersion": 1,
+      "classDate": "2026-11-06",
+      "taskKind": "lecture-notes"
     }
   ],
   "materials": {
@@ -3509,6 +3574,30 @@ window.WORKLIST = {
     "math-midterm2-announcement": {
       "title": "Midterm 2 范围与复习建议（Canvas）",
       "url": "https://canvas.uchicago.edu/courses/75102/discussion_topics/1032277"
+    },
+    "sosc-class10-slides": {
+      "title": "Class 10 - Survey Experiments.pptx",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/SOSC%2013100/Day%2010/Class%2010%20-%20Survey%20Experiments.pptx"
+    },
+    "sosc-class11-slides": {
+      "title": "Class 11 - Natural Experiments, Female Socialization, and Police-Civilian Interactions.pptx",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/SOSC%2013100/Day%2011/Class%2011%20-%20Natural%20Experiments%2C%20Female%20Socialization%2C%20and%20Police-Civilian%20Interactions.pptx"
+    },
+    "sosc-class12-slides": {
+      "title": "Class 12 - Colliders and Mediators.pptx",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/SOSC%2013100/Day%2012/Class%2012%20-%20Colliders%20and%20Mediators.pptx"
+    },
+    "phys-lecture11": {
+      "title": "General Physics I - Lecture 11 - Elasticity and Deformation.pdf",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/PHYS%2012100/Reference/Lectures/General%20Physics%20I%20-%20Lecture%2011%20-%20Elasticity%20and%20Deformation.pdf"
+    },
+    "cmsc-hw5-clarification": {
+      "title": "HW5 第2题棋子构成澄清（Ed）",
+      "url": "https://edstem.org/us/courses/107374/discussion/8487426"
+    },
+    "cmsc-midterm-updated-scores": {
+      "title": "期中补考后成绩更新公告（Ed）",
+      "url": "https://edstem.org/us/courses/107374/discussion/8487541"
     }
   },
   "officeHours": [
@@ -3524,7 +3613,7 @@ window.WORKLIST = {
     {
       "course": "MATH",
       "person": "Akhil Mathew · 教授",
-      "time": "通常周四 16:45–18:00；本周改为 11/6 周五 15:20–16:40",
+      "time": "今天 11/6（周五）15:20–16:40；通常周四 16:45–18:00",
       "place": "Ryerson 250",
       "url": "https://canvas.uchicago.edu/courses/75102/discussion_topics/1032205",
       "linkLabel": "11/5 调整公告",
@@ -3582,12 +3671,11 @@ window.WORKLIST = {
     {
       "course": "PHYS",
       "person": "Doron Sumeruk · TA",
-      "time": "仅11/5：15:30–16:30 CST；下周恢复周四14:30–15:30",
+      "time": "周四 14:30–15:30",
       "place": "KPTC 305",
       "url": "https://canvas.uchicago.edu/courses/74238/discussion_topics/1031532",
       "linkLabel": "11/3临时调整公告",
-      "exceptionDate": "2026-11-05",
-      "note": "11/3 15:06公告，本周延后一小时，地点KPTC305不变。"
+      "note": "11/3 公告确认 11/5 单次调整结束后恢复常规时段。"
     },
     {
       "course": "PHYS",
