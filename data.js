@@ -1,6 +1,6 @@
 window.WORKLIST = {
-  "updatedAt": "2026-11-06T18:09:45Z",
-  "scope": "11/6 核查：SOSC Class 10–12 PPT 已补齐；PHYS Lecture 11 已归档，Lab Report 4 已提交。MATH PS6 再修订提示至 Lecture 17 §2，今天 Mathew 答疑 15:20–16:40，Ryerson 250；期中2仍11/13。CMSC HW5 正常截止11/11 23:59，晚交至11/13 23:59，第2题按标准棋子组理解。今日 MATH 预习及 MATH/CMSC 笔记已加入。Canvas、三门Gradescope、Ed已核查；CMSC教师官网暂时无法访问，SOSC阅读库仍无法显示条目。时间为America/Chicago。",
+  "updatedAt": "2026-11-07T18:10:07Z",
+  "scope": "11/7 已归档 MATH 期中 2 练习题和 Lecture 17。11/13 课内考试 50 分钟，Lecture 17 §3 不考。PHYS 机械共振两次实验的指南、模板与提交入口已加入。SOSC Quiz 2 仍为 11/10，CMSC HW5 仍为 11/11 23:59。今日 MATH 预习已加入。SOSC 阅读库和 CMSC 教师官网本次未能读取。",
   "tasks": [
     {
       "id": "sosc-freedman",
@@ -2383,6 +2383,7 @@ window.WORKLIST = {
       "dueDate": "2026-11-11",
       "deadlineKind": "suggested",
       "materials": [
+        "math-lecture17",
         "math-ps6",
         "math-ps6-canvas",
         "math-policy",
@@ -2545,6 +2546,7 @@ window.WORKLIST = {
       "dueDate": "2026-11-11",
       "deadlineKind": "feedback",
       "materials": [
+        "math-lecture17",
         "math-ps6",
         "math-gradescope",
         "math-policy"
@@ -2561,13 +2563,16 @@ window.WORKLIST = {
       "dueDate": "2026-11-13",
       "deadlineKind": "in-class",
       "materials": [
+        "math-midterm2-practice",
+        "math-lecture17",
+        "math-midterm2-practice-ann",
         "math-midterm2-announcement",
         "math-syllabus",
         "math-ps4",
         "math-ps5",
         "math-ps6"
       ],
-      "note": "11/5 教师公告确认 11/13（周五）课内考试。累积考查，重点是第一次期中后的内容。老师建议复习作业，计划周末前发布练习清单，届时补链接。",
+      "note": "11/13（周五）课内 50 分钟，累积考查，侧重第一次期中后的内容。老师建议复习作业。11/6 发布 30 道复习题，A 部分为简答，第 30 题为判断并简述理由。Lecture 17 第 3 节不考。",
       "done": false,
       "statusVersion": 1
     },
@@ -2595,11 +2600,12 @@ window.WORKLIST = {
       "dueDate": "2026-11-06",
       "deadlineKind": "same-day",
       "materials": [
+        "math-lecture17",
         "math-lecture16",
         "math-ps6",
         "math-syllabus"
       ],
-      "note": "个人计划，期限为今天。依据周五正常课表建立本次笔记整理待办，已附现有参考材料，新课件发布后再补充。",
+      "note": "个人整理期限为 11/6。补入课程新发的 Lecture 17 供对照，教师页未注明它对应的实际课日。",
       "done": false,
       "statusVersion": 1,
       "classDate": "2026-11-06",
@@ -2621,6 +2627,90 @@ window.WORKLIST = {
       "statusVersion": 1,
       "classDate": "2026-11-06",
       "taskKind": "lecture-notes"
+    },
+    {
+      "id": "math-preview-2026-11-07",
+      "course": "MATH",
+      "shortName": "预习 11/07",
+      "dueDate": "2026-11-07",
+      "deadlineKind": "same-day",
+      "materials": [
+        "math-lecture17",
+        "math-midterm2-practice",
+        "math-ps6"
+      ],
+      "note": "个人计划，期限为今天。每日预习。",
+      "done": false,
+      "statusVersion": 1,
+      "planDate": "2026-11-07",
+      "recurrenceKey": "math-preview"
+    },
+    {
+      "id": "phys-lab5-notebook",
+      "course": "PHYS",
+      "shortName": "SHM and Resonance 1 · Lab Notebook 5",
+      "dueDate": null,
+      "deadlineKind": "relative",
+      "relativeDeadline": "本人实验结束时",
+      "materials": [
+        "phys-lab5-guide",
+        "phys-lab5-template",
+        "phys-lab5-colab",
+        "phys-lab5-notebook-submit"
+      ],
+      "note": "实验周 11/9–11/13。小组一人上传含全组姓名的 PDF。",
+      "done": false,
+      "statusVersion": 1
+    },
+    {
+      "id": "phys-lab5-report",
+      "course": "PHYS",
+      "shortName": "SHM and Resonance 1 · Lab Report 5",
+      "dueDate": null,
+      "deadlineKind": "relative",
+      "relativeDeadline": "本人实验结束后 24 小时",
+      "materials": [
+        "phys-lab5-report",
+        "phys-lab5-guide",
+        "phys-lab5-report-submit"
+      ],
+      "note": "实验周 11/9–11/13。个人在实验结束后 24 小时内上传单个 PDF。",
+      "done": false,
+      "statusVersion": 1
+    },
+    {
+      "id": "phys-lab6-notebook",
+      "course": "PHYS",
+      "shortName": "SHM and Resonance 2 · Lab Notebook 6",
+      "dueDate": null,
+      "deadlineKind": "relative",
+      "relativeDeadline": "本人实验结束时",
+      "materials": [
+        "phys-lab6-guide",
+        "phys-lab5-template",
+        "phys-lab6-colab",
+        "phys-lab6-troubleshoot",
+        "phys-lab6-notebook-submit"
+      ],
+      "note": "实验周 11/16–11/20。小组一人上传含全组姓名的 PDF。第二次沿用第一次的实验本，标明 Part 2 起点。",
+      "done": false,
+      "statusVersion": 1
+    },
+    {
+      "id": "phys-lab6-report",
+      "course": "PHYS",
+      "shortName": "SHM and Resonance 2 · Lab Report 6",
+      "dueDate": null,
+      "deadlineKind": "relative",
+      "relativeDeadline": "本人实验结束后 24 小时",
+      "materials": [
+        "phys-lab6-report",
+        "phys-lab6-guide",
+        "phys-lab6-report-submit"
+      ],
+      "note": "实验周 11/16–11/20。个人在实验结束后 24 小时内上传单个 PDF。使用指南链接的 Assignment 2 模板，其正文页首印为 Part 1。",
+      "done": false,
+      "statusVersion": 1
     }
   ],
   "materials": {
@@ -3598,6 +3688,66 @@ window.WORKLIST = {
     "cmsc-midterm-updated-scores": {
       "title": "期中补考后成绩更新公告（Ed）",
       "url": "https://edstem.org/us/courses/107374/discussion/8487541"
+    },
+    "math-lecture17": {
+      "title": "Honors Basic Algebra I - Lecture 17 - Semidirect Products - Examples and Constructions.pdf",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/MATH%2025700/Reference/Lectures/Honors%20Basic%20Algebra%20I%20-%20Lecture%2017%20-%20Semidirect%20Products%20-%20Examples%20and%20Constructions.pdf"
+    },
+    "math-midterm2-practice": {
+      "title": "Honors Basic Algebra I - Review Problems for Midterm 2.pdf",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/MATH%2025700/Midterm%202/Honors%20Basic%20Algebra%20I%20-%20Review%20Problems%20for%20Midterm%202.pdf"
+    },
+    "phys-lab5-template": {
+      "title": "SHM and Resonance (Part 1) - Lab Notebook.docx",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/PHYS%2012100/Lab%205/SHM%20and%20Resonance%20%28Part%201%29%20-%20Lab%20Notebook.docx"
+    },
+    "phys-lab5-report": {
+      "title": "SHM and Resonance - Post-Lab Assignment 1.docx",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/PHYS%2012100/Lab%205/SHM%20and%20Resonance%20-%20Post-Lab%20Assignment%201.docx"
+    },
+    "phys-lab5-colab": {
+      "title": "Simple Harmonic Motion and Mechanical Resonance (Part 1).ipynb",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/PHYS%2012100/Lab%205/Simple%20Harmonic%20Motion%20and%20Mechanical%20Resonance%20%28Part%201%29.ipynb"
+    },
+    "phys-lab6-report": {
+      "title": "SHM and Resonance - Post-Lab Assignment 2.docx",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/PHYS%2012100/Lab%206/SHM%20and%20Resonance%20-%20Post-Lab%20Assignment%202.docx"
+    },
+    "phys-lab6-colab": {
+      "title": "Simple Harmonic Motion and Mechanical Resonance (Part 2).ipynb",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/PHYS%2012100/Lab%206/Simple%20Harmonic%20Motion%20and%20Mechanical%20Resonance%20%28Part%202%29.ipynb"
+    },
+    "phys-lab6-troubleshoot": {
+      "title": "Trouble - And How to Shoot It - Student Version.pdf",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/PHYS%2012100/Lab%206/Trouble%20-%20And%20How%20to%20Shoot%20It%20-%20Student%20Version.pdf"
+    },
+    "math-midterm2-practice-ann": {
+      "title": "Midterm practice problems · 教师公告",
+      "url": "https://canvas.uchicago.edu/courses/75102/discussion_topics/1032893"
+    },
+    "phys-lab5-guide": {
+      "title": "SHM and Resonance (Part 1) · 实验指南",
+      "url": "https://www.physlab-wiki.com/phylabs/lab_courses/phys-120_130-wiki-home/fall-experiments/mechanical-resonance_part-1/mechanical-resonance_part-1"
+    },
+    "phys-lab5-notebook-submit": {
+      "title": "Canvas · Lab Notebook 5 提交",
+      "url": "https://canvas.uchicago.edu/courses/74238/assignments/908804"
+    },
+    "phys-lab5-report-submit": {
+      "title": "Canvas · Lab Report 5 提交",
+      "url": "https://canvas.uchicago.edu/courses/74238/assignments/908805"
+    },
+    "phys-lab6-guide": {
+      "title": "SHM and Resonance (Part 2) · 实验指南",
+      "url": "https://www.physlab-wiki.com/phylabs/lab_courses/phys-120_130-wiki-home/fall-experiments/mechanical-resonance_part-2/mechanical-resonance_part-2"
+    },
+    "phys-lab6-notebook-submit": {
+      "title": "Canvas · Lab Notebook 6 提交",
+      "url": "https://canvas.uchicago.edu/courses/74238/assignments/908806"
+    },
+    "phys-lab6-report-submit": {
+      "title": "Canvas · Lab Report 6 提交",
+      "url": "https://canvas.uchicago.edu/courses/74238/assignments/908807"
     }
   },
   "officeHours": [
@@ -3613,11 +3763,11 @@ window.WORKLIST = {
     {
       "course": "MATH",
       "person": "Akhil Mathew · 教授",
-      "time": "今天 11/6（周五）15:20–16:40；通常周四 16:45–18:00",
+      "time": "周四 16:45–18:00",
       "place": "Ryerson 250",
-      "url": "https://canvas.uchicago.edu/courses/75102/discussion_topics/1032205",
-      "linkLabel": "11/5 调整公告",
-      "note": "11/5 周四取消，改至 11/6 周五。芝加哥时间。"
+      "url": "https://canvas.uchicago.edu/courses/75102",
+      "linkLabel": "课程主页",
+      "note": "11/6 临时调整已结束。"
     },
     {
       "person": "Alexander Razborov · 教授",

@@ -1,5 +1,9 @@
 # worklist
 
+## 11/7 课程核查
+
+11/7 已归档 MATH 期中 2 练习题和 Lecture 17。11/13 课内考试 50 分钟，Lecture 17 §3 不考。PHYS 机械共振两次实验的指南、模板与提交入口已加入。SOSC Quiz 2 仍为 11/10，CMSC HW5 仍为 11/11 23:59。今日 MATH 预习已加入。SOSC 阅读库和 CMSC 教师官网本次未能读取。
+
 ## 11/6 课程核查
 
 11/6 核查：SOSC Class 10–12 PPT 已补齐；PHYS Lecture 11 已归档，Lab Report 4 已提交。MATH PS6 再修订提示至 Lecture 17 §2，今天 Mathew 答疑 15:20–16:40，Ryerson 250；期中2仍11/13。CMSC HW5 正常截止11/11 23:59，晚交至11/13 23:59，第2题按标准棋子组理解。今日 MATH 预习及 MATH/CMSC 笔记已加入。Canvas、三门Gradescope、Ed已核查；CMSC教师官网暂时无法访问，SOSC阅读库仍无法显示条目。时间为America/Chicago。
