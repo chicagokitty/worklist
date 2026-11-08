@@ -1,6 +1,6 @@
 window.WORKLIST = {
-  "updatedAt": "2026-11-07T18:10:07Z",
-  "scope": "11/7 已归档 MATH 期中 2 练习题和 Lecture 17。11/13 课内考试 50 分钟，Lecture 17 §3 不考。PHYS 机械共振两次实验的指南、模板与提交入口已加入。SOSC Quiz 2 仍为 11/10，CMSC HW5 仍为 11/11 23:59。今日 MATH 预习已加入。SOSC 阅读库和 CMSC 教师官网本次未能读取。",
+  "updatedAt": "2026-11-08T21:17:24Z",
+  "scope": "11/8 已核对 Gradescope 和 Ed。CMSC HW5 截止 11/11 23:59，PHYS HW6 已提交。28 份可读的讲义、题集等原件与归档一致，PHYS 实验模板未见修订。今日 MATH 预习已加入。Canvas 需重新登录，三门课的新公告、作业和课件待补查。CMSC 教师官网暂时无法访问。",
   "tasks": [
     {
       "id": "sosc-freedman",
@@ -2711,6 +2711,23 @@ window.WORKLIST = {
       "note": "实验周 11/16–11/20。个人在实验结束后 24 小时内上传单个 PDF。使用指南链接的 Assignment 2 模板，其正文页首印为 Part 1。",
       "done": false,
       "statusVersion": 1
+    },
+    {
+      "id": "math-preview-2026-11-08",
+      "course": "MATH",
+      "shortName": "预习 11/08",
+      "dueDate": "2026-11-08",
+      "deadlineKind": "same-day",
+      "materials": [
+        "math-lecture17",
+        "math-midterm2-practice",
+        "math-ps6"
+      ],
+      "note": "个人计划，期限为今天。每日预习。",
+      "done": false,
+      "statusVersion": 1,
+      "planDate": "2026-11-08",
+      "recurrenceKey": "math-preview"
     }
   ],
   "materials": {
