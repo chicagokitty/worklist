@@ -1,6 +1,6 @@
 window.WORKLIST = {
-  "updatedAt": "2026-11-08T21:17:24Z",
-  "scope": "11/8 已核对 Gradescope 和 Ed。CMSC HW5 截止 11/11 23:59，PHYS HW6 已提交。28 份可读的讲义、题集等原件与归档一致，PHYS 实验模板未见修订。今日 MATH 预习已加入。Canvas 需重新登录，三门课的新公告、作业和课件待补查。CMSC 教师官网暂时无法访问。",
+  "updatedAt": "2026-11-09T18:09:18Z",
+  "scope": "11/9 已取得 PHYS HW7 原题，11/16 23:59 截止。CMSC HW5 第 4 题按整数 n ≥ 3，正方形包含边界。今天的 MATH 预习与 MATH、CMSC 笔记已加入。Gradescope 和 Ed 已核查，Canvas 三门课的通知、作业与新课件仍待登录补查，CMSC 教师官网未能读取。",
   "tasks": [
     {
       "id": "sosc-freedman",
@@ -2173,11 +2173,11 @@ window.WORKLIST = {
       "dueDate": "2026-11-16",
       "time": "23:59",
       "deadlineKind": "exact",
-      "state": "waiting",
       "materials": [
+        "phys-hw7-pdf",
         "phys-hw7-canvas"
       ],
-      "note": "11/1 Canvas已公布截止11/16 23:59 CST；作业锁定至11/9 00:00 CST。仅补录已公布安排，当前题目尚不可下载；开放后补充具体文件。America/Chicago。",
+      "note": "Gradescope 已开放，11/9 核实时未提交。Knight 第 1 版，第 7 章 P7.6、24、30、34、42、64、66、68。11/16 23:59 CST 截止，按题面说明上传 PDF 至 Canvas。",
       "done": false,
       "statusVersion": 1
     },
@@ -2481,9 +2481,10 @@ window.WORKLIST = {
         "cmsc-hw5-ed",
         "cmsc-syllabus",
         "cmsc-gradescope",
-        "cmsc-hw5-clarification"
+        "cmsc-hw5-clarification",
+        "cmsc-hw5-ed-copy"
       ],
-      "note": "11/6 Gradescope 核实 No Submission。正常截止 11/11 23:59 CST，晚交至 11/13 23:59 CST。2 页 5 题，题2按标准32枚国际象棋棋子组合理解，答案须为整数；题5答案须为有理数。",
+      "note": "11/11 23:59 CST 截止，迟交至 11/13 23:59，Gradescope 11/9 显示未提交。第 4 题按整数 n ≥ 3，包含正方形边界。官网归档版已含此条件，Ed 补发 PDF 需配合教授的文字更正。第 2 题使用标准 32 枚棋子，答案写成整数，第 5 题答案写成有理数。",
       "done": false,
       "statusVersion": 1,
       "time": "23:59"
@@ -2728,6 +2729,58 @@ window.WORKLIST = {
       "statusVersion": 1,
       "planDate": "2026-11-08",
       "recurrenceKey": "math-preview"
+    },
+    {
+      "id": "math-preview-2026-11-09",
+      "course": "MATH",
+      "shortName": "预习 11/09",
+      "dueDate": "2026-11-09",
+      "deadlineKind": "same-day",
+      "materials": [
+        "math-lecture17",
+        "math-midterm2-practice",
+        "math-ps6"
+      ],
+      "note": "个人计划，期限为今天。每日预习。",
+      "done": false,
+      "statusVersion": 1,
+      "planDate": "2026-11-09",
+      "recurrenceKey": "math-preview"
+    },
+    {
+      "id": "math-notes-2026-11-09",
+      "course": "MATH",
+      "shortName": "整理 11/09 笔记",
+      "dueDate": "2026-11-09",
+      "deadlineKind": "same-day",
+      "materials": [
+        "math-lecture17",
+        "math-lecture16",
+        "math-ps6",
+        "math-syllabus"
+      ],
+      "note": "按最近核实的周一课表列入，个人整理期限为 11/9。所附为已有参考材料，今日讲义待补查。",
+      "done": false,
+      "statusVersion": 1,
+      "classDate": "2026-11-09",
+      "taskKind": "lecture-notes"
+    },
+    {
+      "id": "cmsc-notes-2026-11-09",
+      "course": "CMSC",
+      "shortName": "整理 11/09 笔记",
+      "dueDate": "2026-11-09",
+      "deadlineKind": "same-day",
+      "materials": [
+        "cmsc-syllabus",
+        "cmsc-old-notes",
+        "cmsc-hw5-pdf"
+      ],
+      "note": "按最近核实的周一课表列入，个人整理期限为 11/9。所附为已有参考材料，今日讲义待补查。",
+      "done": false,
+      "statusVersion": 1,
+      "classDate": "2026-11-09",
+      "taskKind": "lecture-notes"
     }
   ],
   "materials": {
@@ -3667,7 +3720,7 @@ window.WORKLIST = {
       "url": "https://github.com/chicagokitty/worklist-materials/blob/main/CMSC%2027130/Homework%205/Honors%20Discrete%20Mathematics%20-%20Homework%205.pdf"
     },
     "cmsc-hw5-ed": {
-      "title": "HW5 发布公告（Ed）",
+      "title": "教授公告与第 4 题更正（Ed）",
       "url": "https://edstem.org/us/courses/107374/discussion/8482144"
     },
     "phys-lecture10": {
@@ -3765,6 +3818,14 @@ window.WORKLIST = {
     "phys-lab6-report-submit": {
       "title": "Canvas · Lab Report 6 提交",
       "url": "https://canvas.uchicago.edu/courses/74238/assignments/908807"
+    },
+    "phys-hw7-pdf": {
+      "title": "General Physics I - Homework 7.pdf",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/PHYS%2012100/Homework%207/General%20Physics%20I%20-%20Homework%207.pdf"
+    },
+    "cmsc-hw5-ed-copy": {
+      "title": "Honors Discrete Mathematics - Homework 5 (Ed copy).pdf",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/CMSC%2027130/Homework%205/Honors%20Discrete%20Mathematics%20-%20Homework%205%20%28Ed%20copy%29.pdf"
     }
   },
   "officeHours": [

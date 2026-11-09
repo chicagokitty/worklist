@@ -1,5 +1,9 @@
 # worklist
 
+## 11/9 课程核查
+
+11/9 已取得 PHYS HW7 原题，11/16 23:59 截止。CMSC HW5 第 4 题按整数 n ≥ 3，正方形包含边界。今天的 MATH 预习与 MATH、CMSC 笔记已加入。Gradescope 和 Ed 已核查，Canvas 三门课的通知、作业与新课件仍待登录补查，CMSC 教师官网未能读取。
+
 ## 11/8 课程核查
 
 11/8 已核对 Gradescope 和 Ed。CMSC HW5 截止 11/11 23:59，PHYS HW6 已提交。28 份可读的讲义、题集等原件与归档一致，PHYS 实验模板未见修订。今日 MATH 预习已加入。Canvas 需重新登录，三门课的新公告、作业和课件待补查。CMSC 教师官网暂时无法访问。
