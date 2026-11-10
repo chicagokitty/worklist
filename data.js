@@ -1,6 +1,6 @@
 window.WORKLIST = {
-  "updatedAt": "2026-11-10T18:02:35Z",
-  "scope": "11/10 按最近核实的大纲，SOSC 今天课内 Quiz 2（30 分钟，可看笔记），课前读 Card & Krueger 和 Pager。已加入今天的 SOSC 笔记和 MATH 预习。CMSC HW5 上次确认截止 11/11 23:59。今天已核对 Ed、PHYS 实验站和可访问的材料原件。Canvas、Gradescope 需登录，三门 Canvas 的课堂变动、新课件及最新提交状态待补查。CMSC 教师官网暂不可用。",
+  "updatedAt": "2026-11-10T18:39:52Z",
+  "scope": "11/10 登录后确认：SOSC Quiz 2 推迟至 11/12（周四）课内，30 分钟、可看笔记。Essay 2 定于 11/12 发放，11/30 截止。CMSC HW5、MATH PS6 可选反馈均未提交，正常截止 11/11 23:59。PHYS HW6 已提交，HW7 未提交。MATH Lecture 18 与 PHYS HW6 解答已归档。SOSC 阅读库仍无可读条目，CMSC 教师官网本日未能访问。",
   "tasks": [
     {
       "id": "sosc-freedman",
@@ -1880,8 +1880,8 @@ window.WORKLIST = {
       "id": "sosc-quiz2-2026-11-10",
       "course": "SOSC",
       "shortName": "Quiz 2",
-      "classDate": "2026-11-10",
-      "dueDate": "2026-11-10",
+      "classDate": "2026-11-12",
+      "dueDate": "2026-11-12",
       "deadlineKind": "in-class",
       "materials": [
         "sosc-syllabus",
@@ -1890,7 +1890,7 @@ window.WORKLIST = {
         "sosc-class11-slides",
         "sosc-class12-slides"
       ],
-      "note": "10/29现行大纲与Class8第2页均确认11/10，取代早期11/3安排；课内30分钟、open-note。未单列具体开考时刻或独立试题文件。America/Chicago。 11/1登录后复核现行大纲仍11/10，未见再次改期。 11/4大纲复核仍11/10，同日另有两篇必读，不等同Quiz完整范围。 11/6 补上 Class 10–12 教师课件供复习。课件列表本身不定义完整测验范围。",
+      "note": "教师 11/8 课程消息确认推迟到周四，现行大纲将 Quiz 2 列在 11/12。课内 30 分钟，可看笔记，短文作答。",
       "done": false,
       "statusVersion": 1
     },
@@ -2062,7 +2062,7 @@ window.WORKLIST = {
       "done": false,
       "statusVersion": 1,
       "taskKind": "personal-review",
-      "note": "10/31 用户新增的复习待办，个人完成期限尚未指定。与现有 Quiz 考试任务分开记录。 11/6 补上 Class 10–12 教师课件供复习。课件列表本身不定义完整测验范围。",
+      "note": "10/31 用户新增的复习待办，个人完成期限尚未指定。与现有 Quiz 考试任务分开记录。 11/6 补上 Class 10–12 教师课件供复习。课件列表本身不定义完整测验范围。 11/8 教师通知测验改至 11/12。",
       "materials": [
         "sosc-syllabus",
         "sosc-class8-slides",
@@ -2156,13 +2156,14 @@ window.WORKLIST = {
       "deadlineKind": "exact",
       "materials": [
         "phys-hw6-pdf",
+        "phys-hw6-sol",
         "phys-hw6-canvas",
         "phys-final-study-advice",
         "phys-discussion-update",
         "phys-lecture10",
         "phys-lecture11"
       ],
-      "note": "11/5 Gradescope 已显示 Submitted。11/9 23:59 CST 截止；共 8 道 Chapter 6 题。期末复习时可按教师建议限时重做。",
+      "note": "11/5 Gradescope 已显示 Submitted。11/9 23:59 CST 截止；共 8 道 Chapter 6 题。期末复习时可按教师建议限时重做。 11/10 已归档并补上教师解答。",
       "done": true,
       "statusVersion": 2
     },
@@ -2564,6 +2565,7 @@ window.WORKLIST = {
       "dueDate": "2026-11-13",
       "deadlineKind": "in-class",
       "materials": [
+        "math-lecture18",
         "math-midterm2-practice",
         "math-lecture17",
         "math-midterm2-practice-ann",
@@ -2754,12 +2756,13 @@ window.WORKLIST = {
       "dueDate": "2026-11-09",
       "deadlineKind": "same-day",
       "materials": [
+        "math-lecture18",
         "math-lecture17",
         "math-lecture16",
         "math-ps6",
         "math-syllabus"
       ],
-      "note": "按最近核实的周一课表列入，个人整理期限为 11/9。所附为已有参考材料，今日讲义待补查。",
+      "note": "个人整理期限为 11/9。已附新发 Lecture 18 供对照，课程页未标讲义对应的实际课日。",
       "done": false,
       "statusVersion": 1,
       "classDate": "2026-11-09",
@@ -2789,6 +2792,7 @@ window.WORKLIST = {
       "dueDate": "2026-11-10",
       "deadlineKind": "same-day",
       "materials": [
+        "math-lecture18",
         "math-lecture17",
         "math-midterm2-practice",
         "math-ps6"
@@ -2810,11 +2814,23 @@ window.WORKLIST = {
         "sosc-pager-criminal-record-pdf",
         "sosc-syllabus"
       ],
-      "note": "Day 13 为双重差分与审计研究。个人整理期限为当天。已附课前阅读，课堂讲义待 Canvas 核实。",
+      "note": "Day 13 双重差分与审计研究，两篇课前必读见下方。11/10 补查时 Course Slides 已列至 Class 12。",
       "done": false,
       "statusVersion": 1,
       "classDate": "2026-11-10",
       "taskKind": "lecture-notes"
+    },
+    {
+      "id": "sosc-essay2",
+      "course": "SOSC",
+      "shortName": "Essay 2",
+      "dueDate": "2026-11-30",
+      "materials": [
+        "sosc-syllabus"
+      ],
+      "done": false,
+      "statusVersion": 1,
+      "note": "现行大纲列 11/12 发放、11/30 截止。Canvas 尚无独立作业入口，截止钟点待公布。"
     }
   ],
   "materials": {
@@ -3860,6 +3876,14 @@ window.WORKLIST = {
     "cmsc-hw5-ed-copy": {
       "title": "Honors Discrete Mathematics - Homework 5 (Ed copy).pdf",
       "url": "https://github.com/chicagokitty/worklist-materials/blob/main/CMSC%2027130/Homework%205/Honors%20Discrete%20Mathematics%20-%20Homework%205%20%28Ed%20copy%29.pdf"
+    },
+    "math-lecture18": {
+      "title": "Honors Basic Algebra I - Lecture 18 - The Sylow Theorems.pdf",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/MATH%2025700/Reference/Lectures/Honors%20Basic%20Algebra%20I%20-%20Lecture%2018%20-%20The%20Sylow%20Theorems.pdf"
+    },
+    "phys-hw6-sol": {
+      "title": "PHYS 12100 Homework 6 - Solutions.pdf",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/PHYS%2012100/Homework%206/PHYS%2012100%20Homework%206%20-%20Solutions.pdf"
     }
   },
   "officeHours": [

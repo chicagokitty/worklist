@@ -1,5 +1,9 @@
 # worklist
 
+## 11/10 登录后补查
+
+11/10 登录后确认：SOSC Quiz 2 推迟至 11/12（周四）课内，30 分钟、可看笔记。Essay 2 定于 11/12 发放，11/30 截止。CMSC HW5、MATH PS6 可选反馈均未提交，正常截止 11/11 23:59。PHYS HW6 已提交，HW7 未提交。MATH Lecture 18 与 PHYS HW6 解答已归档。SOSC 阅读库仍无可读条目，CMSC 教师官网本日未能访问。
+
 ## 11/10 课程核查
 
 11/10 按最近核实的大纲，SOSC 今天课内 Quiz 2（30 分钟，可看笔记），课前读 Card & Krueger 和 Pager。已加入今天的 SOSC 笔记和 MATH 预习。CMSC HW5 上次确认截止 11/11 23:59。今天已核对 Ed、PHYS 实验站和可访问的材料原件。Canvas、Gradescope 需登录，三门 Canvas 的课堂变动、新课件及最新提交状态待补查。CMSC 教师官网暂不可用。
