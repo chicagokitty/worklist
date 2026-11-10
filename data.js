@@ -1,6 +1,6 @@
 window.WORKLIST = {
-  "updatedAt": "2026-11-09T18:09:18Z",
-  "scope": "11/9 已取得 PHYS HW7 原题，11/16 23:59 截止。CMSC HW5 第 4 题按整数 n ≥ 3，正方形包含边界。今天的 MATH 预习与 MATH、CMSC 笔记已加入。Gradescope 和 Ed 已核查，Canvas 三门课的通知、作业与新课件仍待登录补查，CMSC 教师官网未能读取。",
+  "updatedAt": "2026-11-10T18:02:35Z",
+  "scope": "11/10 按最近核实的大纲，SOSC 今天课内 Quiz 2（30 分钟，可看笔记），课前读 Card & Krueger 和 Pager。已加入今天的 SOSC 笔记和 MATH 预习。CMSC HW5 上次确认截止 11/11 23:59。今天已核对 Ed、PHYS 实验站和可访问的材料原件。Canvas、Gradescope 需登录，三门 Canvas 的课堂变动、新课件及最新提交状态待补查。CMSC 教师官网暂不可用。",
   "tasks": [
     {
       "id": "sosc-freedman",
@@ -2780,6 +2780,40 @@ window.WORKLIST = {
       "done": false,
       "statusVersion": 1,
       "classDate": "2026-11-09",
+      "taskKind": "lecture-notes"
+    },
+    {
+      "id": "math-preview-2026-11-10",
+      "course": "MATH",
+      "shortName": "预习 11/10",
+      "dueDate": "2026-11-10",
+      "deadlineKind": "same-day",
+      "materials": [
+        "math-lecture17",
+        "math-midterm2-practice",
+        "math-ps6"
+      ],
+      "note": "个人计划，期限为今天。每日预习。",
+      "done": false,
+      "statusVersion": 1,
+      "planDate": "2026-11-10",
+      "recurrenceKey": "math-preview"
+    },
+    {
+      "id": "sosc-notes-2026-11-10",
+      "course": "SOSC",
+      "shortName": "整理 11/10（Day 13）笔记",
+      "dueDate": "2026-11-10",
+      "deadlineKind": "same-day",
+      "materials": [
+        "sosc-card-krueger-pdf",
+        "sosc-pager-criminal-record-pdf",
+        "sosc-syllabus"
+      ],
+      "note": "Day 13 为双重差分与审计研究。个人整理期限为当天。已附课前阅读，课堂讲义待 Canvas 核实。",
+      "done": false,
+      "statusVersion": 1,
+      "classDate": "2026-11-10",
       "taskKind": "lecture-notes"
     }
   ],

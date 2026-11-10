@@ -1,5 +1,9 @@
 # worklist
 
+## 11/10 课程核查
+
+11/10 按最近核实的大纲，SOSC 今天课内 Quiz 2（30 分钟，可看笔记），课前读 Card & Krueger 和 Pager。已加入今天的 SOSC 笔记和 MATH 预习。CMSC HW5 上次确认截止 11/11 23:59。今天已核对 Ed、PHYS 实验站和可访问的材料原件。Canvas、Gradescope 需登录，三门 Canvas 的课堂变动、新课件及最新提交状态待补查。CMSC 教师官网暂不可用。
+
 ## 11/9 课程核查
 
 11/9 已取得 PHYS HW7 原题，11/16 23:59 截止。CMSC HW5 第 4 题按整数 n ≥ 3，正方形包含边界。今天的 MATH 预习与 MATH、CMSC 笔记已加入。Gradescope 和 Ed 已核查，Canvas 三门课的通知、作业与新课件仍待登录补查，CMSC 教师官网未能读取。
