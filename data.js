@@ -1,6 +1,6 @@
 window.WORKLIST = {
-  "updatedAt": "2026-11-10T18:39:52Z",
-  "scope": "11/10 登录后确认：SOSC Quiz 2 推迟至 11/12（周四）课内，30 分钟、可看笔记。Essay 2 定于 11/12 发放，11/30 截止。CMSC HW5、MATH PS6 可选反馈均未提交，正常截止 11/11 23:59。PHYS HW6 已提交，HW7 未提交。MATH Lecture 18 与 PHYS HW6 解答已归档。SOSC 阅读库仍无可读条目，CMSC 教师官网本日未能访问。",
+  "updatedAt": "2026-11-11T12:35:26.724Z",
+  "scope": "11/11 早晨专项核对 CMSC/PHYS 作业：CMSC HW5 今天23:59 CST截止，HW6已发、11/18截止但钟点待公布。PHYS HW7 11/16 23:59截止，已更新Canvas修订原题，第5题改为滚罐头课堂实验。其余课程沿用11/10核查结果。",
   "tasks": [
     {
       "id": "sosc-freedman",
@@ -2178,7 +2178,7 @@ window.WORKLIST = {
         "phys-hw7-pdf",
         "phys-hw7-canvas"
       ],
-      "note": "Gradescope 已开放，11/9 核实时未提交。Knight 第 1 版，第 7 章 P7.6、24、30、34、42、64、66、68。11/16 23:59 CST 截止，按题面说明上传 PDF 至 Canvas。",
+      "note": "11/11 Canvas与Gradescope确认11/16 23:59 CST截止，尚未提交。采用Canvas标注11/9 17:35修订的原题，第5题改为滚罐头课堂实验（题面写11/12演示），另有Knight第1版P7.6、24、30、34、64、66、68。上传单个PDF。",
       "done": false,
       "statusVersion": 1
     },
@@ -2482,10 +2482,9 @@ window.WORKLIST = {
         "cmsc-hw5-ed",
         "cmsc-syllabus",
         "cmsc-gradescope",
-        "cmsc-hw5-clarification",
-        "cmsc-hw5-ed-copy"
+        "cmsc-hw5-clarification"
       ],
-      "note": "11/11 23:59 CST 截止，迟交至 11/13 23:59，Gradescope 11/9 显示未提交。第 4 题按整数 n ≥ 3，包含正方形边界。官网归档版已含此条件，Ed 补发 PDF 需配合教授的文字更正。第 2 题使用标准 32 枚棋子，答案写成整数，第 5 题答案写成有理数。",
+      "note": "11/11 Gradescope 确认未提交，今天23:59 CST正常截止，晚交至11/13 23:59。11/10教授在Ed确认新附件为最新版，与主归档相同。第4题整数 n≥3，可奇可偶，包含正方形边界；第2题标准32枚棋子，答案为整数；第5题答案为有理数。",
       "done": false,
       "statusVersion": 1,
       "time": "23:59"
@@ -2831,6 +2830,20 @@ window.WORKLIST = {
       "done": false,
       "statusVersion": 1,
       "note": "现行大纲列 11/12 发放、11/30 截止。Canvas 尚无独立作业入口，截止钟点待公布。"
+    },
+    {
+      "id": "cmsc-hw6",
+      "course": "CMSC",
+      "shortName": "HW6",
+      "dueDate": "2026-11-18",
+      "materials": [
+        "cmsc-hw6-pdf",
+        "cmsc-hw6-ed",
+        "cmsc-gradescope"
+      ],
+      "note": "11/10 20:09教授在Ed发布，原题2页5题。题面明确11/18截止，11/11早晨Gradescope尚未开放，具体钟点待确认。",
+      "done": false,
+      "statusVersion": 1
     }
   ],
   "materials": {
@@ -3661,7 +3674,7 @@ window.WORKLIST = {
       "url": "https://canvas.uchicago.edu/courses/74238/assignments/908872"
     },
     "phys-hw7-canvas": {
-      "title": "HW7 · Canvas作业（11/9开放，题目待发布）",
+      "title": "HW7 · Canvas作业与修订原题",
       "url": "https://canvas.uchicago.edu/courses/74238/assignments/908873"
     },
     "phys-hw8-canvas": {
@@ -3884,6 +3897,14 @@ window.WORKLIST = {
     "phys-hw6-sol": {
       "title": "PHYS 12100 Homework 6 - Solutions.pdf",
       "url": "https://github.com/chicagokitty/worklist-materials/blob/main/PHYS%2012100/Homework%206/PHYS%2012100%20Homework%206%20-%20Solutions.pdf"
+    },
+    "cmsc-hw6-pdf": {
+      "title": "Honors Discrete Mathematics - Homework 6.pdf",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/CMSC%2027130/Homework%206/Honors%20Discrete%20Mathematics%20-%20Homework%206.pdf"
+    },
+    "cmsc-hw6-ed": {
+      "title": "HW6 发布公告（Ed）",
+      "url": "https://edstem.org/us/courses/107374/discussion/8504153"
     }
   },
   "officeHours": [
