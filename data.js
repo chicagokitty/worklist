@@ -1,6 +1,6 @@
 window.WORKLIST = {
-  "updatedAt": "2026-11-11T12:35:26.724Z",
-  "scope": "11/11 早晨专项核对 CMSC/PHYS 作业：CMSC HW5 今天23:59 CST截止，HW6已发、11/18截止但钟点待公布。PHYS HW7 11/16 23:59截止，已更新Canvas修订原题，第5题改为滚罐头课堂实验。其余课程沿用11/10核查结果。",
+  "updatedAt": "2026-11-11T18:49:12.857Z",
+  "scope": "11/11中午已检查三门Canvas现有课程页/公告/讨论/作业及相关通知、PHYS模块、SOSC文件和CMSC Ed/Gradescope。新增MATH Lecture19、PHYS Lecture12，归档4份Conrad参考阅读与SHM配置；MATH期中练习原件更新但提取文本相同。CMSC HW5今晚23:59 CST截止；SOSC Quiz2仍为11/12课内，PPT仍至Class12。CMSC官网不可访问；SOSC阅读库仍未加载，不能据此判定无更新。",
   "tasks": [
     {
       "id": "sosc-freedman",
@@ -2176,7 +2176,8 @@ window.WORKLIST = {
       "deadlineKind": "exact",
       "materials": [
         "phys-hw7-pdf",
-        "phys-hw7-canvas"
+        "phys-hw7-canvas",
+        "phys-lecture12"
       ],
       "note": "11/11 Canvas与Gradescope确认11/16 23:59 CST截止，尚未提交。采用Canvas标注11/9 17:35修订的原题，第5题改为滚罐头课堂实验（题面写11/12演示），另有Knight第1版P7.6、24、30、34、64、66、68。上传单个PDF。",
       "done": false,
@@ -2484,7 +2485,7 @@ window.WORKLIST = {
         "cmsc-gradescope",
         "cmsc-hw5-clarification"
       ],
-      "note": "11/11 Gradescope 确认未提交，今天23:59 CST正常截止，晚交至11/13 23:59。11/10教授在Ed确认新附件为最新版，与主归档相同。第4题整数 n≥3，可奇可偶，包含正方形边界；第2题标准32枚棋子，答案为整数；第5题答案为有理数。",
+      "note": "11/11 Gradescope 确认未提交，今天23:59 CST正常截止，晚交至11/13 23:59。11/10教授在Ed确认新附件为最新版，与主归档相同。第4题整数 n≥3，可奇可偶，包含正方形边界；第2题标准32枚棋子，答案为整数；第5题答案为有理数。 11/11 TA补充：第2题最终结果请写成一个整数，可用计算器完成最后的数值计算。",
       "done": false,
       "statusVersion": 1,
       "time": "23:59"
@@ -2564,6 +2565,7 @@ window.WORKLIST = {
       "dueDate": "2026-11-13",
       "deadlineKind": "in-class",
       "materials": [
+        "math-lecture19",
         "math-lecture18",
         "math-midterm2-practice",
         "math-lecture17",
@@ -2658,7 +2660,8 @@ window.WORKLIST = {
         "phys-lab5-guide",
         "phys-lab5-template",
         "phys-lab5-colab",
-        "phys-lab5-notebook-submit"
+        "phys-lab5-notebook-submit",
+        "phys-lab5-loggerpro"
       ],
       "note": "实验周 11/9–11/13。小组一人上传含全组姓名的 PDF。",
       "done": false,
@@ -2813,7 +2816,7 @@ window.WORKLIST = {
         "sosc-pager-criminal-record-pdf",
         "sosc-syllabus"
       ],
-      "note": "Day 13 双重差分与审计研究，两篇课前必读见下方。11/10 补查时 Course Slides 已列至 Class 12。",
+      "note": "Day13双重差分与审计研究，两篇课前必读见下方。11/11检查Course Slides仍只列至Class12，Class13尚未见。",
       "done": false,
       "statusVersion": 1,
       "classDate": "2026-11-10",
@@ -2841,7 +2844,64 @@ window.WORKLIST = {
         "cmsc-hw6-ed",
         "cmsc-gradescope"
       ],
-      "note": "11/10 20:09教授在Ed发布，原题2页5题。题面明确11/18截止，11/11早晨Gradescope尚未开放，具体钟点待确认。",
+      "note": "11/10 20:09教授在Ed发布，原题2页5题。题面明确11/18截止，11/11中午Gradescope仍未开放，具体钟点待确认。",
+      "done": false,
+      "statusVersion": 1
+    },
+    {
+      "id": "math-preview-2026-11-11",
+      "course": "MATH",
+      "shortName": "预习 11/11",
+      "dueDate": "2026-11-11",
+      "planDate": "2026-11-11",
+      "deadlineKind": "same-day",
+      "recurrenceKey": "math-preview",
+      "materials": [
+        "math-lecture19",
+        "math-lecture18",
+        "math-midterm2-practice",
+        "math-ps6",
+        "math-conrad-sylowpf",
+        "math-conrad-sylowmore",
+        "math-conrad-sylowapp",
+        "math-conrad-group12"
+      ],
+      "note": "个人计划，期限为今天。新发Lecture19及其Conrad参考阅读已归档；参考阅读不是新增必交作业。",
+      "done": false,
+      "statusVersion": 1
+    },
+    {
+      "id": "math-notes-2026-11-11",
+      "course": "MATH",
+      "shortName": "整理 11/11 笔记",
+      "dueDate": "2026-11-11",
+      "classDate": "2026-11-11",
+      "deadlineKind": "same-day",
+      "taskKind": "lecture-notes",
+      "materials": [
+        "math-lecture19",
+        "math-lecture18",
+        "math-syllabus"
+      ],
+      "note": "个人整理期限为11/11。新发Lecture19供对照，课程页未明确讲义对应的实际课日；不代替完成笔记。",
+      "done": false,
+      "statusVersion": 1
+    },
+    {
+      "id": "cmsc-notes-2026-11-11",
+      "course": "CMSC",
+      "shortName": "整理 11/11 笔记",
+      "dueDate": "2026-11-11",
+      "classDate": "2026-11-11",
+      "deadlineKind": "same-day",
+      "taskKind": "lecture-notes",
+      "materials": [
+        "cmsc-hw6-pdf",
+        "cmsc-hw5-pdf",
+        "cmsc-old-notes",
+        "cmsc-syllabus"
+      ],
+      "note": "按周三课表列入，个人整理期限为11/11。Ed未见今日新讲义，教师官网仍不可用；所附为已有作业与参考笔记。",
       "done": false,
       "statusVersion": 1
     }
@@ -3815,7 +3875,7 @@ window.WORKLIST = {
       "url": "https://github.com/chicagokitty/worklist-materials/blob/main/PHYS%2012100/Reference/Lectures/General%20Physics%20I%20-%20Lecture%2011%20-%20Elasticity%20and%20Deformation.pdf"
     },
     "cmsc-hw5-clarification": {
-      "title": "HW5 第2题棋子构成澄清（Ed）",
+      "title": "HW5 第2题：标准棋子与整数答案（Ed澄清）",
       "url": "https://edstem.org/us/courses/107374/discussion/8487426"
     },
     "cmsc-midterm-updated-scores": {
@@ -3905,6 +3965,34 @@ window.WORKLIST = {
     "cmsc-hw6-ed": {
       "title": "HW6 发布公告（Ed）",
       "url": "https://edstem.org/us/courses/107374/discussion/8504153"
+    },
+    "math-lecture19": {
+      "title": "Honors Basic Algebra I - Lecture 19 - The Sylow Theorems, Continued.pdf",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/MATH%2025700/Reference/Lectures/Honors%20Basic%20Algebra%20I%20-%20Lecture%2019%20-%20The%20Sylow%20Theorems%2C%20Continued.pdf"
+    },
+    "phys-lecture12": {
+      "title": "General Physics I - Lecture 12 - Circular and Rotational Motion.pdf",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/PHYS%2012100/Reference/Lectures/General%20Physics%20I%20-%20Lecture%2012%20-%20Circular%20and%20Rotational%20Motion.pdf"
+    },
+    "math-conrad-sylowpf": {
+      "title": "The Sylow Theorems.pdf",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/MATH%2025700/Reference/The%20Sylow%20Theorems.pdf"
+    },
+    "math-conrad-sylowmore": {
+      "title": "More on the Sylow Theorems.pdf",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/MATH%2025700/Reference/More%20on%20the%20Sylow%20Theorems.pdf"
+    },
+    "math-conrad-sylowapp": {
+      "title": "Consequences of the Sylow Theorems.pdf",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/MATH%2025700/Reference/Consequences%20of%20the%20Sylow%20Theorems.pdf"
+    },
+    "math-conrad-group12": {
+      "title": "Groups of Order 12.pdf",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/MATH%2025700/Reference/Groups%20of%20Order%2012.pdf"
+    },
+    "phys-lab5-loggerpro": {
+      "title": "SHM - Logger Pro Configuration.cmbl",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/PHYS%2012100/Lab%205/SHM%20-%20Logger%20Pro%20Configuration.cmbl"
     }
   },
   "officeHours": [
