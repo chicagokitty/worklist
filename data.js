@@ -1,6 +1,6 @@
 window.WORKLIST = {
-  "updatedAt": "2026-11-11T18:49:12.857Z",
-  "scope": "11/11中午已检查三门Canvas现有课程页/公告/讨论/作业及相关通知、PHYS模块、SOSC文件和CMSC Ed/Gradescope。新增MATH Lecture19、PHYS Lecture12，归档4份Conrad参考阅读与SHM配置；MATH期中练习原件更新但提取文本相同。CMSC HW5今晚23:59 CST截止；SOSC Quiz2仍为11/12课内，PPT仍至Class12。CMSC官网不可访问；SOSC阅读库仍未加载，不能据此判定无更新。",
+  "updatedAt": "2026-11-12T18:07:21Z",
+  "scope": "11/12中午已检查Canvas课程页/公告/讨论/作业及相关通知、PHYS模块与实验指南、SOSC文件、CMSC Ed及三门Gradescope。新增MATH PS7（建议11/20）、更新Lecture19/Conrad Sylow参考和教师补发CMSC 2018笔记；MATH明日期中范围已按11/11公告补充。CMSC HW5仍未提交、晚交至11/13 23:59；HW6正式截止11/18 23:59 CST。今天SOSC Quiz2安排未变，课件仍至Class12。CMSC官网不可访问，SOSC阅读库仍空白，不能据此认定无更新。",
   "tasks": [
     {
       "id": "sosc-freedman",
@@ -2483,9 +2483,10 @@ window.WORKLIST = {
         "cmsc-hw5-ed",
         "cmsc-syllabus",
         "cmsc-gradescope",
-        "cmsc-hw5-clarification"
+        "cmsc-hw5-clarification",
+        "cmsc-hw5-hint"
       ],
-      "note": "11/11 Gradescope 确认未提交，今天23:59 CST正常截止，晚交至11/13 23:59。11/10教授在Ed确认新附件为最新版，与主归档相同。第4题整数 n≥3，可奇可偶，包含正方形边界；第2题标准32枚棋子，答案为整数；第5题答案为有理数。 11/11 TA补充：第2题最终结果请写成一个整数，可用计算器完成最后的数值计算。",
+      "note": "11/12 Gradescope仍显示未提交；正常截止11/11 23:59 CST已过，仍接受晚交至11/13 23:59 CST。11/10教授确认的最新版已归档。第4题整数n≥3、包含正方形边界；第2题标准32枚棋子，最终写一个整数，可用计算器完成数值计算；第5题答案为有理数。11/11晚教授补充类比提示：公平硬币抛101次，正面总数≤50的概率及原因，见下方原帖。",
       "done": false,
       "statusVersion": 1,
       "time": "23:59"
@@ -2565,6 +2566,8 @@ window.WORKLIST = {
       "dueDate": "2026-11-13",
       "deadlineKind": "in-class",
       "materials": [
+        "math-midterm2-scope",
+        "math-lecture-correction-1109",
         "math-lecture19",
         "math-lecture18",
         "math-midterm2-practice",
@@ -2576,7 +2579,7 @@ window.WORKLIST = {
         "math-ps5",
         "math-ps6"
       ],
-      "note": "11/13（周五）课内 50 分钟，累积考查，侧重第一次期中后的内容。老师建议复习作业。11/6 发布 30 道复习题，A 部分为简答，第 30 题为判断并简述理由。Lecture 17 第 3 节不考。",
+      "note": "11/13（周五）课内50分钟，累积考查，侧重第一次期中后的内容。11/11最新公告：范围截至11/11课堂；不打算考练习卷中超出课堂的Sylow应用题（例如某些阶数的群分类），但仍应会陈述和应用Sylow定理。老师推荐复习作业与30道练习题；Lecture17第3节不考。Lecture19已更新为6页、删去原12阶群分类部分。",
       "done": false,
       "statusVersion": 1
     },
@@ -2762,9 +2765,10 @@ window.WORKLIST = {
         "math-lecture17",
         "math-lecture16",
         "math-ps6",
-        "math-syllabus"
+        "math-syllabus",
+        "math-lecture-correction-1109"
       ],
-      "note": "个人整理期限为 11/9。已附新发 Lecture 18 供对照，课程页未标讲义对应的实际课日。",
+      "note": "个人整理期限为 11/9。已附新发 Lecture 18 供对照，课程页未标讲义对应的实际课日。 11/11教师更正：一般(G/H)^H为满足g⁻¹Hg⊆H的陪集gH；H有限时才等于N(H)/H，课堂应用仅涉及有限群。",
       "done": false,
       "statusVersion": 1,
       "classDate": "2026-11-09",
@@ -2816,7 +2820,7 @@ window.WORKLIST = {
         "sosc-pager-criminal-record-pdf",
         "sosc-syllabus"
       ],
-      "note": "Day13双重差分与审计研究，两篇课前必读见下方。11/11检查Course Slides仍只列至Class12，Class13尚未见。",
+      "note": "Day13双重差分与审计研究，两篇课前必读见下方。11/12检查Course Slides仍只列至Class12，Class13尚未见。",
       "done": false,
       "statusVersion": 1,
       "classDate": "2026-11-10",
@@ -2844,9 +2848,11 @@ window.WORKLIST = {
         "cmsc-hw6-ed",
         "cmsc-gradescope"
       ],
-      "note": "11/10 20:09教授在Ed发布，原题2页5题。题面明确11/18截止，11/11中午Gradescope仍未开放，具体钟点待确认。",
+      "note": "11/12 Gradescope确认未提交，正常截止11/18 23:59 CST，晚交截止11/20 23:59 CST。11/10教授在Ed发布原题，2页5题。",
       "done": false,
-      "statusVersion": 1
+      "statusVersion": 1,
+      "time": "23:59",
+      "deadlineKind": "exact"
     },
     {
       "id": "math-preview-2026-11-11",
@@ -2899,9 +2905,66 @@ window.WORKLIST = {
         "cmsc-hw6-pdf",
         "cmsc-hw5-pdf",
         "cmsc-old-notes",
-        "cmsc-syllabus"
+        "cmsc-syllabus",
+        "cmsc-notes-ed-1112"
       ],
-      "note": "按周三课表列入，个人整理期限为11/11。Ed未见今日新讲义，教师官网仍不可用；所附为已有作业与参考笔记。",
+      "note": "按周三课表列入，个人整理期限为11/11。Ed未见今日新讲义，教师官网仍不可用；所附为已有作业与参考笔记。 11/12教授补发2018旧课程笔记，可作参考，不等同本次课的逐课讲义。",
+      "done": false,
+      "statusVersion": 1
+    },
+    {
+      "id": "math-ps7",
+      "course": "MATH",
+      "shortName": "PS7",
+      "dueDate": "2026-11-20",
+      "deadlineKind": "suggested",
+      "materials": [
+        "math-ps7",
+        "math-ps7-canvas",
+        "math-lecture18",
+        "math-lecture19",
+        "math-policy",
+        "math-gradescope"
+      ],
+      "note": "6页12题，含部分提示；题面建议11/20完成，全套不计分。涉及Sylow与半直积。需要教师反馈时最多提交两题；11/12 Gradescope尚未开放HW7，可选反馈期限待公布。",
+      "done": false,
+      "statusVersion": 1
+    },
+    {
+      "id": "math-preview-2026-11-12",
+      "course": "MATH",
+      "shortName": "预习 11/12",
+      "dueDate": "2026-11-12",
+      "planDate": "2026-11-12",
+      "deadlineKind": "same-day",
+      "recurrenceKey": "math-preview",
+      "materials": [
+        "math-lecture19",
+        "math-lecture18",
+        "math-midterm2-scope",
+        "math-midterm2-practice",
+        "math-lecture-correction-1109",
+        "math-ps7"
+      ],
+      "note": "每日个人预习待办，截止当天；未代做。Lecture19已更新为6页；明天期中范围以11/11教师公告为准。",
+      "done": false,
+      "statusVersion": 1
+    },
+    {
+      "id": "sosc-notes-2026-11-12",
+      "course": "SOSC",
+      "shortName": "整理 11/12（Day 14）笔记",
+      "dueDate": "2026-11-12",
+      "classDate": "2026-11-12",
+      "deadlineKind": "same-day",
+      "taskKind": "lecture-notes",
+      "materials": [
+        "sosc-dunning-inference-pdf",
+        "sosc-galiani-property-pdf",
+        "sosc-angrist-schooling-pdf",
+        "sosc-syllabus"
+      ],
+      "note": "Day14自然实验的论证与工具变量；当天个人整理期限，未代做笔记。今天课内Quiz2，11/17停课。中午Course Slides仍至Class12，Day14课件尚未见，后续补齐。",
       "done": false,
       "statusVersion": 1
     }
@@ -3993,6 +4056,30 @@ window.WORKLIST = {
     "phys-lab5-loggerpro": {
       "title": "SHM - Logger Pro Configuration.cmbl",
       "url": "https://github.com/chicagokitty/worklist-materials/blob/main/PHYS%2012100/Lab%205/SHM%20-%20Logger%20Pro%20Configuration.cmbl"
+    },
+    "math-ps7": {
+      "title": "Honors Basic Algebra I - Problem Set 7.pdf",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/MATH%2025700/Problem%20Set%207/Honors%20Basic%20Algebra%20I%20-%20Problem%20Set%207.pdf"
+    },
+    "math-ps7-canvas": {
+      "title": "PS7 · Canvas作业页",
+      "url": "https://canvas.uchicago.edu/courses/75102/assignments/927749"
+    },
+    "math-midterm2-scope": {
+      "title": "Midterm 2 最新范围（教师11/11公告）",
+      "url": "https://canvas.uchicago.edu/courses/75102/discussion_topics/1034626"
+    },
+    "math-lecture-correction-1109": {
+      "title": "11/9课堂更正：固定陪集与正规化子（教师11/11公告）",
+      "url": "https://canvas.uchicago.edu/courses/75102/discussion_topics/1034627"
+    },
+    "cmsc-notes-ed-1112": {
+      "title": "教师补发2018课程笔记（Ed · 11/12）",
+      "url": "https://edstem.org/us/courses/107374/discussion/8510142"
+    },
+    "cmsc-hw5-hint": {
+      "title": "HW5 第5题提示：抛101次硬币的对称性（教师11/11回复）",
+      "url": "https://edstem.org/us/courses/107374/discussion/8499043"
     }
   },
   "officeHours": [
@@ -4158,6 +4245,11 @@ window.WORKLIST = {
         "course": "CMSC",
         "classDate": "2026-10-30",
         "reason": "教师确认课内Midterm，维护考试任务，不创建普通课堂笔记项"
+      },
+      {
+        "course": "MATH",
+        "classDate": "2026-11-13",
+        "reason": "教师公告：课内Midterm 2，维护考试任务，不创建普通课堂笔记项"
       }
     ]
   },
