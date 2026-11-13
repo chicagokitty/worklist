@@ -1,6 +1,6 @@
 window.WORKLIST = {
-  "updatedAt": "2026-11-12T18:07:21Z",
-  "scope": "11/12中午已检查Canvas课程页/公告/讨论/作业及相关通知、PHYS模块与实验指南、SOSC文件、CMSC Ed及三门Gradescope。新增MATH PS7（建议11/20）、更新Lecture19/Conrad Sylow参考和教师补发CMSC 2018笔记；MATH明日期中范围已按11/11公告补充。CMSC HW5仍未提交、晚交至11/13 23:59；HW6正式截止11/18 23:59 CST。今天SOSC Quiz2安排未变，课件仍至Class12。CMSC官网不可访问，SOSC阅读库仍空白，不能据此认定无更新。",
+  "updatedAt": "2026-11-13T18:08:37Z",
+  "scope": "11/13中午完成CMSC Ed、MATH已知公开原件和PHYS实验指南检查。Canvas、Gradescope需重新登录，三门课的新公告/作业/课件及最新提交状态尚未核实，相关期限沿用11/12已确认信息。新增今天MATH预习、CMSC笔记及PHYS可选TA反馈；MATH今天为期中2，不建普通课堂笔记。CMSC老师今天下课后不能答疑；官网仍不可访问。39份可取原文件与归档一致，5份实验共享文件修改时间不变。",
   "tasks": [
     {
       "id": "sosc-freedman",
@@ -2967,6 +2967,60 @@ window.WORKLIST = {
       "note": "Day14自然实验的论证与工具变量；当天个人整理期限，未代做笔记。今天课内Quiz2，11/17停课。中午Course Slides仍至Class12，Day14课件尚未见，后续补齐。",
       "done": false,
       "statusVersion": 1
+    },
+    {
+      "id": "math-preview-2026-11-13",
+      "course": "MATH",
+      "shortName": "预习 11/13",
+      "dueDate": "2026-11-13",
+      "planDate": "2026-11-13",
+      "deadlineKind": "same-day",
+      "recurrenceKey": "math-preview",
+      "materials": [
+        "math-lecture19",
+        "math-lecture18",
+        "math-midterm2-scope",
+        "math-midterm2-practice",
+        "math-lecture-correction-1109",
+        "math-ps7"
+      ],
+      "note": "每日个人预习待办，截止当天；未代做。今天为Midterm 2，已有考试任务另列；已附最新归档讲义和PS7。11/13公开原件核验与归档一致，Canvas新发布内容待登录补查。",
+      "done": false,
+      "statusVersion": 1
+    },
+    {
+      "id": "cmsc-notes-2026-11-13",
+      "course": "CMSC",
+      "shortName": "整理 11/13 笔记",
+      "dueDate": "2026-11-13",
+      "classDate": "2026-11-13",
+      "deadlineKind": "same-day",
+      "taskKind": "lecture-notes",
+      "materials": [
+        "cmsc-afterclass-20261113",
+        "cmsc-hw6-pdf",
+        "cmsc-old-notes",
+        "cmsc-notes-ed-1112",
+        "cmsc-syllabus"
+      ],
+      "note": "按周五课表列入，个人整理期限为今天。教授11/12公告确认今天有课，但课后须立即离开，不能照常答疑。Ed未见新的逐课讲义，所附2018笔记仅供参考；教师官网仍不可访问。",
+      "done": false,
+      "statusVersion": 1
+    },
+    {
+      "id": "phys-lab-ta-feedback-2026-autumn",
+      "course": "PHYS",
+      "shortName": "实验 TA/LA 反馈（可选）",
+      "dueDate": "2026-11-21",
+      "time": "17:00",
+      "deadlineKind": "exact",
+      "materials": [
+        "phys-lab-ta-survey",
+        "phys-lab6-guide"
+      ],
+      "note": "11/13核实实验Part 2指南：匿名反馈，不影响成绩，可选择不参加，开放至11/21（周六）17:00；表单标题确认Autumn 2026。时间按校区America/Chicago（CST）记录，原文未另写时区。未代填或提交。",
+      "done": false,
+      "statusVersion": 1
     }
   ],
   "materials": {
@@ -4080,6 +4134,16 @@ window.WORKLIST = {
     "cmsc-hw5-hint": {
       "title": "HW5 第5题提示：抛101次硬币的对称性（教师11/11回复）",
       "url": "https://edstem.org/us/courses/107374/discussion/8499043"
+    },
+    "cmsc-afterclass-20261113": {
+      "title": "Ed · 11/13 下课后不答疑",
+      "url": "https://edstem.org/us/courses/107374/discussion/8512235",
+      "note": "教授11/12 19:12公告：11/13课后须立即离开，不能照常答疑；不代表停课或长期Office Hours调整。"
+    },
+    "phys-lab-ta-survey": {
+      "title": "PHYS 实验 TA/LA 反馈问卷（Autumn 2026）",
+      "url": "https://forms.gle/U9Lq3dwHr3WiUuxh9",
+      "note": "Part 2实验指南提供的匿名反馈；不会影响成绩，可选择不参加。"
     }
   },
   "officeHours": [
