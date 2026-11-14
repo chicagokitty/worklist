@@ -1,6 +1,6 @@
 window.WORKLIST = {
-  "updatedAt": "2026-11-13T18:08:37Z",
-  "scope": "11/13中午完成CMSC Ed、MATH已知公开原件和PHYS实验指南检查。Canvas、Gradescope需重新登录，三门课的新公告/作业/课件及最新提交状态尚未核实，相关期限沿用11/12已确认信息。新增今天MATH预习、CMSC笔记及PHYS可选TA反馈；MATH今天为期中2，不建普通课堂笔记。CMSC老师今天下课后不能答疑；官网仍不可访问。39份可取原文件与归档一致，5份实验共享文件修改时间不变。",
+  "updatedAt": "2026-11-14T20:51:06Z",
+  "scope": "11/14 已查 Canvas、Gradescope 和 Ed。MATH 期中二讲评、PHYS Lecture 13 和 SOSC 两篇阅读已归档。CMSC HW5 与 PHYS Lab Report 5 已提交。CMSC HW6、PHYS HW7 待交。SOSC 11/17 停课，11/19 课前有三篇阅读。CMSC 教师官网暂时不可访问，SOSC 阅读库未显示条目，《Mastering ’Metrics》第 3 章 PDF 待补。",
   "tasks": [
     {
       "id": "sosc-freedman",
@@ -2175,11 +2175,12 @@ window.WORKLIST = {
       "time": "23:59",
       "deadlineKind": "exact",
       "materials": [
+        "phys-lecture13",
         "phys-hw7-pdf",
         "phys-hw7-canvas",
         "phys-lecture12"
       ],
-      "note": "11/11 Canvas与Gradescope确认11/16 23:59 CST截止，尚未提交。采用Canvas标注11/9 17:35修订的原题，第5题改为滚罐头课堂实验（题面写11/12演示），另有Knight第1版P7.6、24、30、34、64、66、68。上传单个PDF。",
+      "note": "11/11 Canvas与Gradescope确认11/16 23:59 CST截止，尚未提交。采用Canvas标注11/9 17:35修订的原题，第5题改为滚罐头课堂实验（题面写11/12演示），另有Knight第1版P7.6、24、30、34、64、66、68。上传单个PDF。 11/14 Gradescope 显示尚未提交，Lecture 13 的滚动实验可参考第 5 题。",
       "done": false,
       "statusVersion": 1
     },
@@ -2486,9 +2487,9 @@ window.WORKLIST = {
         "cmsc-hw5-clarification",
         "cmsc-hw5-hint"
       ],
-      "note": "11/12 Gradescope仍显示未提交；正常截止11/11 23:59 CST已过，仍接受晚交至11/13 23:59 CST。11/10教授确认的最新版已归档。第4题整数n≥3、包含正方形边界；第2题标准32枚棋子，最终写一个整数，可用计算器完成数值计算；第5题答案为有理数。11/11晚教授补充类比提示：公平硬币抛101次，正面总数≤50的概率及原因，见下方原帖。",
-      "done": false,
-      "statusVersion": 1,
+      "note": "11/10教授确认的最新版已归档。第4题整数n≥3、包含正方形边界；第2题标准32枚棋子，最终写一个整数，可用计算器完成数值计算；第5题答案为有理数。11/11晚教授补充类比提示：公平硬币抛101次，正面总数≤50的概率及原因，见下方原帖。 11/14 Gradescope 已确认提交。",
+      "done": true,
+      "statusVersion": 2,
       "time": "23:59"
     },
     {
@@ -2566,6 +2567,8 @@ window.WORKLIST = {
       "dueDate": "2026-11-13",
       "deadlineKind": "in-class",
       "materials": [
+        "math-midterm2-annotated",
+        "math-midterm2-solutions-ann",
         "math-midterm2-scope",
         "math-lecture-correction-1109",
         "math-lecture19",
@@ -2579,7 +2582,7 @@ window.WORKLIST = {
         "math-ps5",
         "math-ps6"
       ],
-      "note": "11/13（周五）课内50分钟，累积考查，侧重第一次期中后的内容。11/11最新公告：范围截至11/11课堂；不打算考练习卷中超出课堂的Sylow应用题（例如某些阶数的群分类），但仍应会陈述和应用Sylow定理。老师推荐复习作业与30道练习题；Lecture17第3节不考。Lecture19已更新为6页、删去原12阶群分类部分。",
+      "note": "11/13（周五）课内50分钟，累积考查，侧重第一次期中后的内容。11/11最新公告：范围截至11/11课堂；不打算考练习卷中超出课堂的Sylow应用题（例如某些阶数的群分类），但仍应会陈述和应用Sylow定理。老师推荐复习作业与30道练习题；Lecture17第3节不考。Lecture19已更新为6页、删去原12阶群分类部分。 11/14 教师发布 6 页带注释的原题和解答。",
       "done": false,
       "statusVersion": 1
     },
@@ -2682,9 +2685,9 @@ window.WORKLIST = {
         "phys-lab5-guide",
         "phys-lab5-report-submit"
       ],
-      "note": "实验周 11/9–11/13。个人在实验结束后 24 小时内上传单个 PDF。",
-      "done": false,
-      "statusVersion": 1
+      "note": "实验周 11/9–11/13。个人在实验结束后 24 小时内上传单个 PDF。 11/14 Canvas 已确认个人报告提交。",
+      "done": true,
+      "statusVersion": 2
     },
     {
       "id": "phys-lab6-notebook",
@@ -2781,11 +2784,13 @@ window.WORKLIST = {
       "dueDate": "2026-11-09",
       "deadlineKind": "same-day",
       "materials": [
+        "cmsc-week7-ed",
+        "cmsc-vershynin-hdp",
         "cmsc-syllabus",
         "cmsc-old-notes",
         "cmsc-hw5-pdf"
       ],
-      "note": "按最近核实的周一课表列入，个人整理期限为 11/9。所附为已有参考材料，今日讲义待补查。",
+      "note": "按最近核实的周一课表列入，个人整理期限为 11/9。所附为已有参考材料，今日讲义待补查。 第七周提纲涵盖期望、方差、Markov、Chebyshev 和 Hoeffding 不等式，以及图的度数、路径、连通性和直径。教师引用 Vershynin 定理 2.2.2，作者 10/23 版 §2.2 的编号有差异，可按标题 Hoeffding inequality 查找。",
       "done": false,
       "statusVersion": 1,
       "classDate": "2026-11-09",
@@ -2836,7 +2841,7 @@ window.WORKLIST = {
       ],
       "done": false,
       "statusVersion": 1,
-      "note": "现行大纲列 11/12 发放、11/30 截止。Canvas 尚无独立作业入口，截止钟点待公布。"
+      "note": "大纲列 11/12 发放、11/30 截止。11/14 Canvas 作业列表仍未列出独立题目或截止钟点。"
     },
     {
       "id": "cmsc-hw6",
@@ -2848,7 +2853,7 @@ window.WORKLIST = {
         "cmsc-hw6-ed",
         "cmsc-gradescope"
       ],
-      "note": "11/12 Gradescope确认未提交，正常截止11/18 23:59 CST，晚交截止11/20 23:59 CST。11/10教授在Ed发布原题，2页5题。",
+      "note": "11/14 Gradescope确认未提交，正常截止11/18 23:59 CST，晚交截止11/20 23:59 CST。11/10教授在Ed发布原题，2页5题。",
       "done": false,
       "statusVersion": 1,
       "time": "23:59",
@@ -2902,13 +2907,15 @@ window.WORKLIST = {
       "deadlineKind": "same-day",
       "taskKind": "lecture-notes",
       "materials": [
+        "cmsc-week7-ed",
+        "cmsc-vershynin-hdp",
         "cmsc-hw6-pdf",
         "cmsc-hw5-pdf",
         "cmsc-old-notes",
         "cmsc-syllabus",
         "cmsc-notes-ed-1112"
       ],
-      "note": "按周三课表列入，个人整理期限为11/11。Ed未见今日新讲义，教师官网仍不可用；所附为已有作业与参考笔记。 11/12教授补发2018旧课程笔记，可作参考，不等同本次课的逐课讲义。",
+      "note": "按周三课表列入，个人整理期限为11/11。Ed未见今日新讲义，教师官网仍不可用；所附为已有作业与参考笔记。 11/12教授补发2018旧课程笔记，可作参考，不等同本次课的逐课讲义。 第七周提纲涵盖期望、方差、Markov、Chebyshev 和 Hoeffding 不等式，以及图的度数、路径、连通性和直径。教师引用 Vershynin 定理 2.2.2，作者 10/23 版 §2.2 的编号有差异，可按标题 Hoeffding inequality 查找。",
       "done": false,
       "statusVersion": 1
     },
@@ -2997,13 +3004,15 @@ window.WORKLIST = {
       "deadlineKind": "same-day",
       "taskKind": "lecture-notes",
       "materials": [
+        "cmsc-week7-ed",
+        "cmsc-vershynin-hdp",
         "cmsc-afterclass-20261113",
         "cmsc-hw6-pdf",
         "cmsc-old-notes",
         "cmsc-notes-ed-1112",
         "cmsc-syllabus"
       ],
-      "note": "按周五课表列入，个人整理期限为今天。教授11/12公告确认今天有课，但课后须立即离开，不能照常答疑。Ed未见新的逐课讲义，所附2018笔记仅供参考；教师官网仍不可访问。",
+      "note": "按周五课表列入，个人整理期限为今天。教授11/12公告确认今天有课，但课后须立即离开，不能照常答疑。Ed未见新的逐课讲义，所附2018笔记仅供参考；教师官网仍不可访问。 第七周提纲涵盖期望、方差、Markov、Chebyshev 和 Hoeffding 不等式，以及图的度数、路径、连通性和直径。教师引用 Vershynin 定理 2.2.2，作者 10/23 版 §2.2 的编号有差异，可按标题 Hoeffding inequality 查找。",
       "done": false,
       "statusVersion": 1
     },
@@ -3019,6 +3028,68 @@ window.WORKLIST = {
         "phys-lab6-guide"
       ],
       "note": "11/13核实实验Part 2指南：匿名反馈，不影响成绩，可选择不参加，开放至11/21（周六）17:00；表单标题确认Autumn 2026。时间按校区America/Chicago（CST）记录，原文未另写时区。未代填或提交。",
+      "done": false,
+      "statusVersion": 1
+    },
+    {
+      "id": "math-preview-2026-11-14",
+      "course": "MATH",
+      "shortName": "预习 11/14",
+      "dueDate": "2026-11-14",
+      "planDate": "2026-11-14",
+      "deadlineKind": "same-day",
+      "recurrenceKey": "math-preview",
+      "materials": [
+        "math-lecture19",
+        "math-ps7",
+        "math-midterm2-annotated"
+      ],
+      "note": "周六个人预习，期限为当天。可直接打开 Lecture 19、PS7 和老师今天发布的期中二讲评。",
+      "done": false,
+      "statusVersion": 1
+    },
+    {
+      "id": "sosc-mastering-iv",
+      "course": "SOSC",
+      "shortName": "读 Mastering ’Metrics 第 3 章 · Instrumental Variables",
+      "dueDate": "2026-11-19",
+      "classDate": "2026-11-19",
+      "deadlineKind": "before-class",
+      "materials": [
+        "sosc-mastering-iv-book",
+        "sosc-syllabus"
+      ],
+      "note": "11/19（Day 15）课前必读。第 98–146 页。课程阅读库为空，出版社提供书籍入口，章节 PDF 待补。",
+      "done": false,
+      "statusVersion": 1
+    },
+    {
+      "id": "sosc-eggers-thresholds",
+      "course": "SOSC",
+      "shortName": "读 Eggers 等 · Regression Discontinuity Designs Based on Population Thresholds",
+      "dueDate": "2026-11-19",
+      "classDate": "2026-11-19",
+      "deadlineKind": "before-class",
+      "materials": [
+        "sosc-eggers-thresholds-pdf",
+        "sosc-syllabus"
+      ],
+      "note": "11/19（Day 15）课前必读。牛津大学提供含附录的接受稿，期刊版页码 210–229。",
+      "done": false,
+      "statusVersion": 1
+    },
+    {
+      "id": "sosc-bleemer-major",
+      "course": "SOSC",
+      "shortName": "读 Bleemer & Mehta · Will Studying Economics Make You Rich?",
+      "dueDate": "2026-11-19",
+      "classDate": "2026-11-19",
+      "deadlineKind": "before-class",
+      "materials": [
+        "sosc-bleemer-major-pdf",
+        "sosc-syllabus"
+      ],
+      "note": "11/19（Day 15）课前必读。原刊正文第 1–22 页，PDF 末页另有引用记录。",
       "done": false,
       "statusVersion": 1
     }
@@ -4144,6 +4215,38 @@ window.WORKLIST = {
       "title": "PHYS 实验 TA/LA 反馈问卷（Autumn 2026）",
       "url": "https://forms.gle/U9Lq3dwHr3WiUuxh9",
       "note": "Part 2实验指南提供的匿名反馈；不会影响成绩，可选择不参加。"
+    },
+    "math-midterm2-annotated": {
+      "title": "MATH Midterm 2 · 教师带注释解答（6 页）",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/MATH%2025700/Day%2021/Math%2025700%20-%20Midterm%202%20Solutions.pdf"
+    },
+    "phys-lecture13": {
+      "title": "PHYS Lecture 13 · Rotational Dynamics, Rolling Motion and Momentum（42 页）",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/PHYS%2012100/Reference/Lectures/General%20Physics%20I%20-%20Lecture%2013%20-%20Rotational%20Dynamics%2C%20Rolling%20Motion%20and%20Momentum.pdf"
+    },
+    "sosc-eggers-thresholds-pdf": {
+      "title": "Eggers 等 · Regression Discontinuity Designs Based on Population Thresholds（接受稿）",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/SOSC%2013100/Day%2015/Regression%20Discontinuity%20Designs%20Based%20on%20Population%20Thresholds%20-%20Pitfalls%20and%20Solutions.pdf"
+    },
+    "sosc-bleemer-major-pdf": {
+      "title": "Bleemer & Mehta · Will Studying Economics Make You Rich?（期刊版）",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/SOSC%2013100/Day%2015/Will%20Studying%20Economics%20Make%20You%20Rich%20-%20A%20Regression%20Discontinuity%20Analysis%20of%20the%20Returns%20to%20College%20Major.pdf"
+    },
+    "math-midterm2-solutions-ann": {
+      "title": "Canvas · 11/14 期中二讲评公告",
+      "url": "https://canvas.uchicago.edu/courses/75102/discussion_topics/1035580"
+    },
+    "cmsc-week7-ed": {
+      "title": "Ed · 第七周教学提纲",
+      "url": "https://edstem.org/us/courses/107374/discussion/8514771"
+    },
+    "cmsc-vershynin-hdp": {
+      "title": "Vershynin · High-Dimensional Probability（作者 PDF，§2.2）",
+      "url": "https://www.math.uci.edu/~rvershyn/papers/HDP-book/HDP-2.pdf"
+    },
+    "sosc-mastering-iv-book": {
+      "title": "Mastering ’Metrics · 出版社书目（第 3 章 PDF 待补）",
+      "url": "https://press.princeton.edu/books/ebook/9781400852383/mastering-metrics-pdf"
     }
   },
   "officeHours": [
