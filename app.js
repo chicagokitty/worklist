@@ -1,162 +1,175 @@
 'use strict';
 
-const zone = 'America/Chicago';
-const parts = new Intl.DateTimeFormat('en-CA', {
-  timeZone: zone, year: 'numeric', month: '2-digit', day: '2-digit'
-}).formatToParts(new Date());
-const part = name => parts.find(item => item.type === name).value;
-// Calendar dates are compared in the course timezone, independent of the viewer's timezone.
-const today = `${part('year')}-${part('month')}-${part('day')}`;
-const todayAnchor = new Date(`${today}T12:00:00Z`);
-const dateAfter = days => {
-  if (days === null || days === undefined) return null;
-  const date = new Date(todayAnchor);
-  date.setUTCDate(date.getUTCDate() + days);
-  return date.toISOString().slice(0, 10);
-};
-const tomorrow = dateAfter(1);
-const $ = id => document.getElementById(id);
 const data = window.WORKLIST;
+const zone = 'America/Chicago';
+const byId = id => document.getElementById(id);
 const storageKey = 'worklist-task-status-v1';
-let storageAvailable = true;
+const courseNames = {MATH: 'MATH 25700', CMSC: 'CMSC 27130', SOSC: 'SOSC 13100', PHYS: 'PHYS 12100'};
+const calendarDay = new Intl.DateTimeFormat('sv-SE', {timeZone: zone, year: 'numeric', month: '2-digit', day: '2-digit'});
+const localDate = new Intl.DateTimeFormat('zh-CN', {timeZone: zone, month: 'long', day: 'numeric', weekday: 'short'});
+const localTime = new Intl.DateTimeFormat('en-GB', {timeZone: zone, hour: '2-digit', minute: '2-digit', hourCycle: 'h23'});
+const finals = [...data.finals].sort((a, b) => Date.parse(a.start) - Date.parse(b.start));
+let today, tomorrow, undoItems = [], feedbackTimeout;
+let groups = new Map();
+const escapeHtml = value => String(value ?? '').replace(/[&<>"']/g, char => ({
+  '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
+})[char]);
+
 function readOverrides() {
   try {
     const saved = JSON.parse(localStorage.getItem(storageKey) || '{}');
     return saved && typeof saved === 'object' && !Array.isArray(saved) ? saved : {};
-  } catch {
-    storageAvailable = false;
-    return {};
-  }
+  } catch { return {}; }
 }
-function loadTasks() {
-  const saved = readOverrides();
-  return data.tasks.map(task => {
-    const override = saved[task.id];
-    const done = override?.statusVersion === task.statusVersion && typeof override.done === 'boolean'
-      ? override.done : task.done;
-    return {...task, done};
-  });
+let overrides = readOverrides();
+let sessionOnly = false;
+
+function completed(task) {
+  const entry = overrides[task.id];
+  return entry?.statusVersion === task.statusVersion && typeof entry.done === 'boolean'
+    ? entry.done : task.done;
 }
-let tasks = loadTasks();
-function saveTask(task) {
-  const saved = readOverrides();
-  const baseline = data.tasks.find(item => item.id === task.id);
-  if (task.done === baseline.done) delete saved[task.id];
-  else saved[task.id] = {done: task.done, statusVersion: task.statusVersion};
-  try {
-    localStorage.setItem(storageKey, JSON.stringify(saved));
-  } catch {
-    storageAvailable = false;
-  }
-  updateStorageNote();
+function isReading(task) {
+  return (task.course === 'SOSC' || task.course === 'SOSC 13100') && task.taskKind === 'preclass-reading';
 }
-function updateStorageNote() {
-  $('storage-note').textContent = storageAvailable
-    ? '勾选保存在当前浏览器；向我报告的完成状态会同步至网站。'
-    : '当前浏览器无法保存勾选，刷新后将恢复网站同步状态。';
-}
-const escapeHtml = value => String(value ?? '').replace(/[&<>"']/g, char => ({
-  '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;'
-})[char]);
-const deadlineLabel = task => {
-  if (task.deadlineKind === 'relative' && task.relativeDeadline) return task.relativeDeadline;
+function classDay(task) { return task.classDate || task.dueDate; }
+
+function deadlineLabel(task) {
+  if (task.deadlineKind === 'relative' && task.relativeDeadline) return 'DDL ' + task.relativeDeadline;
   if (!task.dueDate) return 'DDL 待确认';
   const date = task.dueDate.slice(5).replace('-', '/');
-  if (task.deadlineKind === 'suggested') return `建议 ${date} 完成`;
-  if (task.deadlineKind === 'feedback') return `可选反馈 ${date} ${task.time || '时刻待确认'}`;
-  const suffix = {'before-class':'上课前', 'in-class':'课内', 'same-day':'当天'}[task.deadlineKind];
-  return `${date} ${task.time || suffix || '时刻待确认'}`;
-};
-const taskName = task => `${task.course} ${task.shortName} · ${deadlineLabel(task)}`;
-const dueKey = task => task.dueDate
-  ? `${task.dueDate}|${task.deadlineKind === 'before-class' ? '0' : task.deadlineKind === 'in-class' ? '1' : task.time ? `2${task.time}` : '3'}`
-  : '9999-12-31';
-const urgency = task => {
-  if (task.done || task.deadlineKind === 'suggested') return '';
-  if (task.dueDate === today) return 'due-today';
-  if (task.dueDate === tomorrow) return 'due-tomorrow';
-  if (task.dueDate && task.dueDate < today) return 'overdue';
-  return '';
-};
-const statusLabel = task => {
-  if (task.done) return '已完成';
-  const labels = {'due-today':'今天', 'due-tomorrow':'明天', overdue:'已过 DDL'};
-  return labels[urgency(task)] || (task.state === 'suggestion' ? '建议' : task.state === 'waiting' ? '等待中' : '');
-};
-const paperclip = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 17 7-7a3 3 0 0 0-4-4l-7 7a5 5 0 0 0 7 7l8-8"/></svg>';
-
-function taskMarkup(task) {
-    const materials = task.materials.map(id => data.materials[id]).filter(Boolean);
-    return `<li class="task-row ${urgency(task)} ${task.done ? 'is-done' : ''}" data-task-id="${escapeHtml(task.id)}">
-      <input class="task-checkbox" type="checkbox" id="check-${escapeHtml(task.id)}" data-task="${escapeHtml(task.id)}" ${task.done ? 'checked' : ''}>
-      <div class="task-body">
-        <div class="task-title-line"><label class="task-title" for="check-${escapeHtml(task.id)}"><span class="task-name">${escapeHtml(task.course)} ${escapeHtml(task.shortName)}</span><span class="title-separator"> · </span><span class="task-deadline">${escapeHtml(deadlineLabel(task))}</span></label><span class="task-status">${escapeHtml(statusLabel(task))}</span></div>
-        ${task.note ? `<p class="task-note">${escapeHtml(task.note)}</p>` : ''}
-        <div class="task-files">${materials.map(material => `<a href="${escapeHtml(material.url)}" target="_blank" rel="noopener noreferrer" aria-label="打开${escapeHtml(task.course+' '+task.shortName+'的'+material.title)}">${paperclip}<span>${escapeHtml(material.title)}</span><span aria-hidden="true">↗</span></a>`).join('') || '<span class="no-files">资料待补充</span>'}</div>
-      </div>
-    </li>`;
+  if (task.deadlineKind === 'suggested') return '建议 ' + date + ' 完成';
+  if (task.deadlineKind === 'feedback') return '可选反馈 ' + date + ' ' + (task.time || '时刻待确认');
+  const suffix = {'before-class': '课前', 'in-class': '课内', 'same-day': '当天'}[task.deadlineKind];
+  return 'DDL ' + date + ' ' + (task.time || suffix || '时刻待确认');
 }
-
+function dueKey(task) {
+  const priority = {'before-class': '0', 'in-class': '1'}[task.deadlineKind] || (task.time ? '2' + task.time : '3');
+  return (task.dueDate || '9999-12-31') + '|' + priority;
+}
+function rowLinks(items) {
+  const links = new Map();
+  for (const item of items) {
+    let keys = item.displayMaterials || item.materials || [];
+    if (isReading(item) && keys.some(key => key !== 'sosc-syllabus')) {
+      keys = keys.filter(key => key !== 'sosc-syllabus');
+    }
+    for (const key of keys) {
+      const m = data.materials[key];
+      if (m && !links.has(m.url)) links.set(m.url, m.title);
+    }
+  }
+  return [...links].map(([url, title]) => '<a href="' + escapeHtml(url) + '" target="_blank" rel="noopener noreferrer">' + escapeHtml(title) + '</a>').join('');
+}
+function rowMarkup(id, items) {
+  const task = items[0];
+  const course = courseNames[task.course] || task.course;
+  const label = course + ' ' + (isReading(task) ? '课前阅读（' + items.length + ' 篇）' : task.shortName.replace(/^HW(\d+)$/, 'HW $1'));
+  const urgency = task.dueDate === today ? 'due-today' : task.dueDate === tomorrow ? 'due-tomorrow' : '';
+  const links = rowLinks(items);
+  return '<li class="task-row ' + urgency + '"><input id="check-' + escapeHtml(id) + '" data-task="' + escapeHtml(id) + '" type="checkbox">' +
+    '<label for="check-' + escapeHtml(id) + '">' + escapeHtml(label) + '</label>' +
+    '<span class="deadline">' + escapeHtml(deadlineLabel(task)) + '</span>' +
+    (links ? '<div class="files">' + links + '</div>' : '') + '</li>';
+}
 function renderTasks() {
-  const sorted = [...tasks].sort((a, b) => dueKey(a).localeCompare(dueKey(b)));
-  const pending = sorted.filter(task => !task.done);
-  const completed = sorted.filter(task => task.done);
-  $('task-count').textContent = `${pending.length} 项待办`;
-  $('archive-count').textContent = completed.length;
-  $('task-list').innerHTML = pending.map(taskMarkup).join('') || `<li class="empty-state">${tasks.length ? '待办已全部完成。' : '暂无待办任务。'}</li>`;
-  $('completed-list').innerHTML = completed.map(taskMarkup).join('') || '<li class="empty-state">还没有已完成任务。</li>';
-  updateProgress();
+  groups = new Map();
+  for (const task of [...data.tasks].sort((a, b) => dueKey(a).localeCompare(dueKey(b)))) {
+    const date = isReading(task) && classDay(task);
+    if (completed(task) || (date && date < today)) continue;
+    const id = date ? 'sosc-readings-' + date : task.id;
+    if (!groups.has(id)) groups.set(id, []);
+    groups.get(id).push(task);
+  }
+  byId('task-count').textContent = groups.size + ' 项';
+  byId('task-list').innerHTML = [...groups].map(([id, items]) => rowMarkup(id, items)).join('') || '<li class="empty">暂无待办任务。</li>';
 }
-
-function updateProgress() {
-  const completed = tasks.filter(task => task.done).length;
-  const total = tasks.length;
-  const ratio = total ? completed / total : 0;
-  const percent = Math.round(ratio * 100);
-  $('completed-count').textContent = completed;
-  $('total-count').textContent = total;
-  $('progress-percent').innerHTML = `${percent}<span>%</span>`;
-  $('progress-ring').setAttribute('aria-valuenow', percent);
-  $('progress-ring').setAttribute('aria-valuetext', `${completed} / ${total} 项已完成，${percent}%`);
-  $('ring-value').style.strokeDashoffset = 100 - ratio * 100;
+function persist(items, done) {
+  const merged = sessionOnly ? {...overrides} : readOverrides();
+  for (const task of items) {
+    if (done === task.done) delete merged[task.id];
+    else merged[task.id] = {done, statusVersion: task.statusVersion};
+  }
+  overrides = merged;
+  try {
+    localStorage.setItem(storageKey, JSON.stringify(merged));
+    sessionOnly = false;
+    return '';
+  } catch {
+    sessionOnly = true;
+    return '（仅本次打开有效）';
+  }
 }
-
-function changeTask(event) {
-  const checkbox = event.target;
-  if (!checkbox.matches('input[data-task]')) return;
-  const task = tasks.find(item => item.id === checkbox.dataset.task);
-  if (!task) return;
-  // Keep keyboard focus in the current list instead of jumping to the moved task.
-  const list = checkbox.closest('ul');
-  const siblings = [...list.querySelectorAll('input[data-task]')];
-  const index = siblings.indexOf(checkbox);
-  const nextFocusId = (siblings[index + 1] || siblings[index - 1])?.id;
-  const fallbackHeading = list.id === 'task-list' ? 'task-heading' : 'completed-heading';
-  task.done = checkbox.checked;
-  saveTask(task);
+function feedback(message, items = []) {
+  clearTimeout(feedbackTimeout);
+  undoItems = items;
+  byId('status-message').textContent = message;
+  byId('undo').hidden = !items.length;
+  feedbackTimeout = setTimeout(() => {
+    byId('status-message').textContent = '';
+    byId('undo').hidden = true;
+    undoItems = [];
+  }, 10000);
+}
+byId('task-list').addEventListener('change', event => {
+  const input = event.target;
+  const items = groups.get(input.dataset.task);
+  if (!items || !input.checked) return;
+  const next = input.closest('li').nextElementSibling?.querySelector('input')?.id;
+  const note = persist(items, true);
   renderTasks();
-  (nextFocusId ? $(nextFocusId) : $(fallbackHeading))?.focus({preventScroll:true});
-  $('status-message').textContent = `${taskName(task)}，${task.done ? '已移到页面底部的已完成列表' : '已恢复到待办列表'}`;
-}
-$('task-list').addEventListener('change', changeTask);
-$('completed-list').addEventListener('change', changeTask);
+  feedback('已标为完成' + note, items);
+  (byId(next) || byId('undo')).focus({preventScroll: true});
+});
+byId('undo').addEventListener('click', () => {
+  if (!undoItems.length) return;
+  const task = undoItems[0];
+  const note = persist(undoItems, false);
+  renderTasks();
+  feedback('已恢复待办' + note);
+  const key = isReading(task) && classDay(task) ? 'sosc-readings-' + classDay(task) : task.id;
+  (byId('check-' + key) || byId('task-heading')).focus({preventScroll: true});
+});
 window.addEventListener('storage', event => {
   if (event.key === storageKey || event.key === null) {
-    tasks = loadTasks();
+    overrides = readOverrides();
     renderTasks();
-    updateStorageNote();
   }
 });
-$('current-date').dateTime = today;
-$('current-date').textContent = new Intl.DateTimeFormat('zh-CN', {
-  year: 'numeric', month: 'long', day: 'numeric', weekday: 'long', timeZone: 'UTC'
-}).format(todayAnchor);
-$('sync-note').textContent = `${new Intl.DateTimeFormat('zh-CN', {
-  month:'2-digit', day:'2-digit', hour:'2-digit', minute:'2-digit', hour12:false, timeZone:zone
-}).format(new Date(data.updatedAt))} 核查 · ${data.scope}`;
-$('office-hours-list').innerHTML = data.officeHours.map(item => `<p><strong>${escapeHtml(item.course ? item.course + " · " + item.person : item.person)}</strong><br>${escapeHtml(item.time)}<br>${escapeHtml(item.place)}${item.url ? `<br><a href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(item.linkLabel || "查看公告")} ↗</a>` : ""}</p>`).join('')
-  + `<p><a href="${escapeHtml(data.materials['cmsc-syllabus'].url)}" target="_blank" rel="noopener noreferrer">CMSC 课程官网 ↗</a></p>`;
-$('office-hours-list').innerHTML += '<p><a href="https://canvas.uchicago.edu/courses/74238/announcements" target="_blank" rel="noopener noreferrer">PHYS Office Hours 与临时调整公告 ↗</a></p>';
-$('office-hours-list').innerHTML += '<p><a href="https://canvas.uchicago.edu/courses/75102/discussion_topics/1019507" target="_blank" rel="noopener noreferrer">MATH Office Hours 与临时调整公告 ↗</a></p>';
-updateStorageNote();
-renderTasks();
+
+function countdown(exam, now) {
+  const start = Date.parse(exam.start), end = Date.parse(exam.end);
+  if (now >= end) return '已结束';
+  if (now >= start) return '考试中';
+  const minutes = Math.ceil((start - now) / 60000);
+  const days = Math.floor(minutes / 1440);
+  const hours = Math.floor(minutes % 1440 / 60);
+  if (days) return '距开考 ' + days + ' 天 ' + hours + ' 小时';
+  return '距开考 ' + (hours ? hours + ' 小时 ' : '') + (minutes % 60) + ' 分钟';
+}
+byId('exam-list').innerHTML = finals.map(exam => {
+  const start = new Date(exam.start), end = new Date(exam.end);
+  return '<li class="exam-row"><span class="exam-course">' + escapeHtml(exam.course) +
+    '</span><span class="countdown"></span><span class="exam-detail"><time datetime="' +
+    escapeHtml(exam.start) + '">' + localDate.format(start) + '　' + localTime.format(start) +
+    '–' + localTime.format(end) + '</time> · ' + escapeHtml(exam.room) + '</span></li>';
+}).join('');
+function refreshClock() {
+  const now = new Date();
+  const date = calendarDay.format(now);
+  if (today !== date) {
+    today = date;
+    const day = new Date(date + 'T12:00:00Z');
+    day.setUTCDate(day.getUTCDate() + 1);
+    tomorrow = day.toISOString().slice(0, 10);
+    byId('current-date').dateTime = date;
+    byId('current-date').textContent = localDate.format(now);
+    renderTasks();
+  }
+  byId('exam-list').querySelectorAll('.countdown').forEach((span, i) => {
+    span.textContent = countdown(finals[i], now.getTime());
+  });
+}
+refreshClock();
+setInterval(refreshClock, 1000 * 30);
+document.addEventListener('visibilitychange', () => { if (!document.hidden) refreshClock(); });

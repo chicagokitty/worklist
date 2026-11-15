@@ -8,13 +8,15 @@ window.WORKLIST = {
       "shortName": "读 Freedman · Statistical Models and Shoe Leather",
       "dueDate": "2026-10-01",
       "deadlineKind": "before-class",
-      "done": false,
-      "statusVersion": 1,
+      "done": true,
+      "statusVersion": 2,
       "note": "1991 正式版，pp. 291–313；课前阅读并带打印材料。",
       "materials": [
         "freedman",
         "sosc-syllabus"
-      ]
+      ],
+      "taskKind": "preclass-reading",
+      "completionReason": "class-date-passed"
     },
     {
       "id": "sosc-implication",
@@ -22,13 +24,15 @@ window.WORKLIST = {
       "shortName": "读 Implication Analysis",
       "dueDate": "2026-10-01",
       "deadlineKind": "before-class",
-      "done": false,
-      "statusVersion": 1,
+      "done": true,
+      "statusVersion": 2,
       "note": "列于 10/1 日程；大纲排版未清晰区分必读／推荐，归属待确认。",
       "materials": [
         "sosc-implication-pdf",
         "sosc-syllabus"
-      ]
+      ],
+      "taskKind": "preclass-reading",
+      "completionReason": "class-date-passed"
     },
     {
       "id": "phys-hw1",
@@ -44,6 +48,10 @@ window.WORKLIST = {
         "phys-hw1-submit",
         "phys-hw1-gradescope",
         "phys-hw1-sol"
+      ],
+      "displayMaterials": [
+        "phys-hw1-pdf",
+        "phys-hw1-submit"
       ]
     },
     {
@@ -52,12 +60,14 @@ window.WORKLIST = {
       "shortName": "读 Shively · The Craft of Political Research Ch. 4",
       "dueDate": "2026-10-06",
       "deadlineKind": "before-class",
-      "done": false,
-      "statusVersion": 1,
+      "done": true,
+      "statusVersion": 2,
       "materials": [
         "sosc-shively-pdf",
         "sosc-syllabus"
-      ]
+      ],
+      "taskKind": "preclass-reading",
+      "completionReason": "class-date-passed"
     },
     {
       "id": "sosc-populism",
@@ -65,13 +75,15 @@ window.WORKLIST = {
       "shortName": "读 Meijers & Zaslove · Measuring Populism",
       "dueDate": "2026-10-06",
       "deadlineKind": "before-class",
-      "done": false,
-      "statusVersion": 1,
+      "done": true,
+      "statusVersion": 2,
       "note": "Meijers & Zaslove（2021），Comparative Political Studies 54(2): 372–407；36 页 PDF 已归档（CC BY 4.0）。",
       "materials": [
         "sosc-populism-pdf",
         "sosc-syllabus"
-      ]
+      ],
+      "taskKind": "preclass-reading",
+      "completionReason": "class-date-passed"
     },
     {
       "id": "math-ps1",
@@ -88,7 +100,11 @@ window.WORKLIST = {
         "math-ps1-submit",
         "math-oh-announcement"
       ],
-      "time": "23:59"
+      "time": "23:59",
+      "displayMaterials": [
+        "math-ps1",
+        "math-ps1-submit"
+      ]
     },
     {
       "id": "sosc-data",
@@ -96,14 +112,16 @@ window.WORKLIST = {
       "shortName": "读 Thinking Clearly with Data Ch. 2 & 4",
       "dueDate": "2026-10-08",
       "deadlineKind": "before-class",
-      "done": false,
-      "statusVersion": 1,
+      "done": true,
+      "statusVersion": 2,
       "note": "书名按 PDF 标题页核对；Ch. 2 Correlation、Ch. 4 Correlation Requires Variation。",
       "materials": [
         "sosc-data-ch2",
         "sosc-data-ch4",
         "sosc-syllabus"
-      ]
+      ],
+      "taskKind": "preclass-reading",
+      "completionReason": "class-date-passed"
     },
     {
       "id": "sosc-quiz",
@@ -150,6 +168,9 @@ window.WORKLIST = {
         "phys-hw2-gradescope",
         "phys-hw2",
         "phys-hw2-sol"
+      ],
+      "displayMaterials": [
+        "phys-hw2-pdf"
       ]
     },
     {
@@ -158,13 +179,15 @@ window.WORKLIST = {
       "shortName": "读 Thinking Clearly About Correlations and Causation（Rohrer）",
       "dueDate": "2026-10-13",
       "deadlineKind": "before-class",
-      "done": false,
-      "statusVersion": 1,
+      "done": true,
+      "statusVersion": 2,
       "note": "Julia M. Rohrer（2018）：Thinking Clearly About Correlations and Causation: Graphical Causal Models for Observational Data，pp. 27–42。10/13 课前阅读；16 页原 PDF 已于 10/15 从课程阅读库的出版社链接补齐，归档 Day 5。原截止日期与完成状态保留。",
       "materials": [
         "sosc-rohrer-pdf",
         "sosc-syllabus"
-      ]
+      ],
+      "taskKind": "preclass-reading",
+      "completionReason": "class-date-passed"
     },
     {
       "id": "sosc-imbens",
@@ -172,13 +195,15 @@ window.WORKLIST = {
       "shortName": "读 Imbens & Rubin · Causal Inference Ch. 1",
       "dueDate": "2026-10-13",
       "deadlineKind": "before-class",
-      "done": false,
-      "statusVersion": 1,
+      "done": true,
+      "statusVersion": 2,
       "materials": [
         "sosc-imbens-pdf",
         "sosc-syllabus"
       ],
-      "note": "Imbens & Rubin（2015）第 1 章 Causality: The Basic Framework；20 页 PDF 已归档。与 Rohrer 的 Thinking Clearly About Correlations and Causation 一并在 10/13 课前阅读。"
+      "note": "Imbens & Rubin（2015）第 1 章 Causality: The Basic Framework；20 页 PDF 已归档。与 Rohrer 的 Thinking Clearly About Correlations and Causation 一并在 10/13 课前阅读。",
+      "taskKind": "preclass-reading",
+      "completionReason": "class-date-passed"
     },
     {
       "id": "cmsc-hw1",
@@ -205,7 +230,11 @@ window.WORKLIST = {
         "cmsc-hw1-late-policy",
         "cmsc-hw1-results"
       ],
-      "time": "23:59"
+      "time": "23:59",
+      "displayMaterials": [
+        "cmsc-hw1-pdf",
+        "cmsc-hw1-submit"
+      ]
     },
     {
       "id": "phys-reading",
@@ -250,22 +279,6 @@ window.WORKLIST = {
         "phys-week3",
         "phys-lecture5"
       ]
-    },
-    {
-      "id": "new-notes",
-      "course": "MATH",
-      "shortName": "整理 9/30（Day 2）笔记",
-      "dueDate": "2026-09-30",
-      "done": false,
-      "statusVersion": 1,
-      "note": "个人安排：笔记在上课当天整理；不是教师作业截止时间。对应 Lecture 2，6 页。",
-      "materials": [
-        "math-lecture2",
-        "math-lecture1"
-      ],
-      "classDate": "2026-09-30",
-      "deadlineKind": "same-day",
-      "taskKind": "lecture-notes"
     },
     {
       "id": "syllabus",
@@ -329,37 +342,8 @@ window.WORKLIST = {
       "materials": [
         "npr",
         "sosc-mhe-ch1"
-      ]
-    },
-    {
-      "id": "cmsc-notes1",
-      "course": "CMSC",
-      "shortName": "整理第一节课笔记",
-      "dueDate": "2026-09-28",
-      "done": true,
-      "statusVersion": 1,
-      "note": "9/30 已确认完成。",
-      "materials": [
-        "cmsc-old-notes"
       ],
-      "classDate": "2026-09-28",
-      "deadlineKind": "same-day",
-      "taskKind": "lecture-notes"
-    },
-    {
-      "id": "math-notes1",
-      "course": "MATH",
-      "shortName": "整理第一节课笔记",
-      "dueDate": "2026-09-28",
-      "done": true,
-      "statusVersion": 1,
-      "note": "9/30 已确认完成。",
-      "materials": [
-        "math-lecture1"
-      ],
-      "classDate": "2026-09-28",
-      "deadlineKind": "same-day",
-      "taskKind": "lecture-notes"
+      "taskKind": "preclass-reading"
     },
     {
       "id": "sosc-coursepack",
@@ -372,74 +356,6 @@ window.WORKLIST = {
       "materials": [
         "sosc-course-updates",
         "sosc-syllabus"
-      ]
-    },
-    {
-      "id": "cmsc-notes-2026-09-30",
-      "course": "CMSC",
-      "shortName": "整理 9/30（Day 2）笔记",
-      "classDate": "2026-09-30",
-      "dueDate": "2026-09-30",
-      "deadlineKind": "same-day",
-      "taskKind": "lecture-notes",
-      "done": false,
-      "statusVersion": 1,
-      "note": "个人安排：笔记在上课当天整理；以本次课堂内容为准，2018 讲义仅供参考。",
-      "materials": [
-        "cmsc-old-notes",
-        "cmsc-syllabus"
-      ]
-    },
-    {
-      "id": "sosc-notes-2026-10-01",
-      "course": "SOSC",
-      "shortName": "整理 10/1（Day 2）笔记",
-      "classDate": "2026-10-01",
-      "dueDate": "2026-10-01",
-      "deadlineKind": "same-day",
-      "taskKind": "lecture-notes",
-      "done": false,
-      "statusVersion": 1,
-      "note": "个人安排：笔记在课日当天整理，阅读任务与笔记任务分别勾选。第二节课 Class 2: Hypotheses and Shoe Leather 原 PPTX 已补齐（15 页）。",
-      "materials": [
-        "sosc-class2-slides",
-        "freedman",
-        "sosc-implication-pdf",
-        "sosc-syllabus"
-      ]
-    },
-    {
-      "id": "math-notes-2026-10-02",
-      "course": "MATH",
-      "shortName": "整理 10/2（Day 3）笔记",
-      "classDate": "2026-10-02",
-      "dueDate": "2026-10-02",
-      "deadlineKind": "same-day",
-      "taskKind": "lecture-notes",
-      "done": false,
-      "statusVersion": 1,
-      "note": "个人安排：笔记在上课当天整理，不是教师作业 DDL。Lecture 3 讲义已归档，13 页。",
-      "materials": [
-        "math-lecture3",
-        "math-course"
-      ]
-    },
-    {
-      "id": "cmsc-notes-2026-10-02",
-      "course": "CMSC",
-      "shortName": "整理 10/2（Day 3）笔记",
-      "classDate": "2026-10-02",
-      "dueDate": "2026-10-02",
-      "deadlineKind": "same-day",
-      "taskKind": "lecture-notes",
-      "done": false,
-      "statusVersion": 1,
-      "note": "个人安排：笔记在课日当天整理，不是教师作业 DDL。官网新增第一周 Induction and ordered sets：Rosen §§5.1–5.3、4.3.2、9.6、3.2.2，详细例题见大纲。以后周末前后直接更新官网；2018 讲义仅供参考。",
-      "materials": [
-        "cmsc-old-notes",
-        "cmsc-syllabus",
-        "cmsc-syllabus-archive",
-        "cmsc-week1-announcement"
       ]
     },
     {
@@ -459,61 +375,11 @@ window.WORKLIST = {
         "math-ps2-submit",
         "math-hw-feedback"
       ],
-      "time": "23:29"
-    },
-    {
-      "id": "math-notes-2026-10-05",
-      "course": "MATH",
-      "shortName": "整理 10/5（Day 4）笔记",
-      "classDate": "2026-10-05",
-      "dueDate": "2026-10-05",
-      "deadlineKind": "same-day",
-      "taskKind": "lecture-notes",
-      "done": false,
-      "statusVersion": 1,
-      "note": "个人安排：当次笔记在课日当天整理，不是教师作业 DDL。Lecture 4: Group Actions 已更新为 10/6 晚修订版（8 页），新增 Keith Conrad 的两份推荐补充阅读，已一并归档；补充阅读并非新必交作业。",
-      "materials": [
-        "math-lecture4",
-        "math-conrad-actions",
-        "math-conrad-cosets",
-        "math-course"
-      ]
-    },
-    {
-      "id": "cmsc-notes-2026-10-05",
-      "course": "CMSC",
-      "shortName": "整理 10/5（Day 4）笔记",
-      "classDate": "2026-10-05",
-      "dueDate": "2026-10-05",
-      "deadlineKind": "same-day",
-      "taskKind": "lecture-notes",
-      "done": false,
-      "statusVersion": 1,
-      "note": "个人安排：当次笔记在课日当天整理，不是教师作业 DDL。10/10 官网已补第二周范围及参考章节：强归纳、序数、数论、Bézout 与 Euclidean Algorithm、交换环和理想。按实际课堂整理；该列表覆盖整周，未按课日细分，2018 讲义仅供参考。",
-      "materials": [
-        "cmsc-syllabus",
-        "cmsc-old-notes",
-        "cmsc-abstract-concrete",
-        "cmsc-syllabus-archive"
-      ]
-    },
-    {
-      "id": "sosc-notes-2026-10-06",
-      "course": "SOSC",
-      "shortName": "整理 10/6（Day 3）笔记",
-      "classDate": "2026-10-06",
-      "dueDate": "2026-10-06",
-      "deadlineKind": "same-day",
-      "taskKind": "lecture-notes",
-      "done": false,
-      "statusVersion": 1,
-      "note": "个人安排：当次笔记在课日当天整理，不是教师作业 DDL。Class 3《Measurement and Populism》PPTX（29 页）已归档；附老师课后分享的 WSJ 文章，未另设阅读 DDL。",
-      "materials": [
-        "sosc-class3-slides",
-        "sosc-shively-pdf",
-        "sosc-populism-pdf",
-        "sosc-ai-article",
-        "sosc-syllabus"
+      "time": "23:29",
+      "displayMaterials": [
+        "math-ps2",
+        "math-ps2-submit",
+        "math-ps2-canvas"
       ]
     },
     {
@@ -531,95 +397,6 @@ window.WORKLIST = {
       ],
       "time": "23:59",
       "deadlineKind": "exact"
-    },
-    {
-      "id": "math-notes-2026-10-07",
-      "course": "MATH",
-      "shortName": "整理 10/7（Day 5）笔记",
-      "classDate": "2026-10-07",
-      "dueDate": "2026-10-07",
-      "deadlineKind": "same-day",
-      "taskKind": "lecture-notes",
-      "done": false,
-      "statusVersion": 1,
-      "note": "个人安排：当次笔记在课日当天整理，不是教师作业 DDL。Lecture 5《Burnside’s Lemma》已更新为 11 页修订版：附录未在课堂讲授，附录 B 为选读。补充阅读复用 Day 4 的 Keith Conrad《Group Actions》；笔记期限仍为 10/7。",
-      "materials": [
-        "math-lecture5",
-        "math-conrad-actions",
-        "math-course"
-      ]
-    },
-    {
-      "id": "cmsc-notes-2026-10-07",
-      "course": "CMSC",
-      "shortName": "整理 10/7（Day 5）笔记",
-      "classDate": "2026-10-07",
-      "dueDate": "2026-10-07",
-      "deadlineKind": "same-day",
-      "taskKind": "lecture-notes",
-      "done": false,
-      "statusVersion": 1,
-      "note": "个人安排：当次笔记在课日当天整理，不是教师作业 DDL。10/10 官网已补第二周范围及参考章节：强归纳、序数、数论、Bézout 与 Euclidean Algorithm、交换环和理想。按实际课堂整理；该列表覆盖整周，未按课日细分，2018 讲义仅供参考。",
-      "materials": [
-        "cmsc-syllabus",
-        "cmsc-old-notes",
-        "cmsc-abstract-concrete",
-        "cmsc-syllabus-archive"
-      ]
-    },
-    {
-      "id": "sosc-notes-2026-10-08",
-      "course": "SOSC",
-      "shortName": "整理 10/8（Day 4）笔记",
-      "classDate": "2026-10-08",
-      "dueDate": "2026-10-08",
-      "deadlineKind": "same-day",
-      "taskKind": "lecture-notes",
-      "done": false,
-      "statusVersion": 1,
-      "note": "个人安排：当次笔记在课日当天整理，不是教师作业 DDL。Class 4《Correlations》原 PPTX 已补齐，保留既有勾选状态和 10/8 日期。",
-      "materials": [
-        "sosc-class4",
-        "sosc-data-ch2",
-        "sosc-data-ch4",
-        "sosc-syllabus"
-      ]
-    },
-    {
-      "id": "math-notes-2026-10-09",
-      "course": "MATH",
-      "shortName": "整理 10/9（Day 6）笔记",
-      "classDate": "2026-10-09",
-      "dueDate": "2026-10-09",
-      "deadlineKind": "same-day",
-      "taskKind": "lecture-notes",
-      "done": false,
-      "statusVersion": 1,
-      "note": "个人安排：当次笔记在课日当天整理，不是教师作业 DDL。Lecture 6《Conjugation and Normal Subgroups》（11 页）已发布并归档；两份 Keith Conrad 文件为推荐补充阅读，不另设必交任务。",
-      "materials": [
-        "math-lecture6",
-        "math-conrad-conjugation",
-        "math-conrad-quotients",
-        "math-course"
-      ]
-    },
-    {
-      "id": "cmsc-notes-2026-10-09",
-      "course": "CMSC",
-      "shortName": "整理 10/9（Day 6）笔记",
-      "classDate": "2026-10-09",
-      "dueDate": "2026-10-09",
-      "deadlineKind": "same-day",
-      "taskKind": "lecture-notes",
-      "done": false,
-      "statusVersion": 1,
-      "note": "个人安排：当次笔记在课日当天整理，不是教师作业 DDL。10/10 官网已补第二周范围及参考章节：强归纳、序数、数论、Bézout 与 Euclidean Algorithm、交换环和理想。按实际课堂整理；该列表覆盖整周，未按课日细分，2018 讲义仅供参考。",
-      "materials": [
-        "cmsc-syllabus",
-        "cmsc-old-notes",
-        "cmsc-abstract-concrete",
-        "cmsc-syllabus-archive"
-      ]
     },
     {
       "id": "phys-lab1-notebook",
@@ -686,22 +463,6 @@ window.WORKLIST = {
       "planDate": "2026-10-11"
     },
     {
-      "id": "math-preview-2026-10-11",
-      "course": "MATH",
-      "shortName": "预习 10/11",
-      "dueDate": "2026-10-11",
-      "done": false,
-      "statusVersion": 1,
-      "note": "每日个人预习待办，今天（10/11）完成。以后每天（含周末）单独列项、当天截止；具体章节未指定。",
-      "materials": [
-        "math-syllabus",
-        "math-course"
-      ],
-      "deadlineKind": "same-day",
-      "planDate": "2026-10-11",
-      "recurrenceKey": "math-preview"
-    },
-    {
       "id": "math-ps3",
       "course": "MATH",
       "shortName": "PS3",
@@ -717,7 +478,11 @@ window.WORKLIST = {
         "math-hw-feedback"
       ],
       "note": "全套4页建议10/21完成，不计入课程成绩。可选反馈正常截止10/21 23:59 CDT已过，Gradescope目前接受迟交至10/28 23:59，10/28仍No Submission。最多提交两题并明确标题号；保留原正常截止，不滚动顺延。 TA已发布HW2/3反馈的课程公告；本人平台仍显示未提交，不能据此认定已有个人反馈或任务完成。",
-      "time": "23:59"
+      "time": "23:59",
+      "displayMaterials": [
+        "math-ps3",
+        "math-ps3-submit"
+      ]
     },
     {
       "id": "cmsc-hw2",
@@ -734,7 +499,11 @@ window.WORKLIST = {
         "cmsc-syllabus"
       ],
       "note": "10/17 已在 Gradescope 核实 Submitted，确认完成。5 题、2 页；正常截止仍为 10/21 23:59 CDT，迟交窗口至 10/23 23:59。保留原截止日期，未下载或公开个人提交文件。",
-      "time": "23:59"
+      "time": "23:59",
+      "displayMaterials": [
+        "cmsc-hw2-pdf",
+        "cmsc-hw2-submit"
+      ]
     },
     {
       "id": "phys-hw3",
@@ -751,7 +520,12 @@ window.WORKLIST = {
         "phys-hw3-sol"
       ],
       "note": "Gradescope已确认提交，10/28 Canvas亦显示已批改，保持完成；原DDL为10/19 23:59 CDT。8题3页原题保留；新增6页HW3 Corrected Solutions原PDF已于10/28补齐私有归档。",
-      "time": "23:59"
+      "time": "23:59",
+      "displayMaterials": [
+        "phys-hw3-pdf",
+        "phys-hw3-submit",
+        "phys-hw3-canvas"
+      ]
     },
     {
       "id": "sosc-metrics-randomized",
@@ -759,13 +533,15 @@ window.WORKLIST = {
       "shortName": "读 Mastering Metrics · Randomized Trials",
       "dueDate": "2026-10-15",
       "deadlineKind": "before-class",
-      "done": false,
-      "statusVersion": 1,
+      "done": true,
+      "statusVersion": 2,
       "materials": [
         "sosc-metrics-randomized",
         "sosc-syllabus"
       ],
-      "note": "大纲写 Chapter 2 - Randomized Trials；出版社实际标 Chapter 1，46 页。按指定标题提供原文，章节号差异待老师澄清。出版社禁止再次发布，PDF 已下载本地，网页使用官方直达链接。"
+      "note": "大纲写 Chapter 2 - Randomized Trials；出版社实际标 Chapter 1，46 页。按指定标题提供原文，章节号差异待老师澄清。出版社禁止再次发布，PDF 已下载本地，网页使用官方直达链接。",
+      "taskKind": "preclass-reading",
+      "completionReason": "class-date-passed"
     },
     {
       "id": "sosc-mlodinow-ch7",
@@ -773,235 +549,15 @@ window.WORKLIST = {
       "shortName": "读 The Drunkard’s Walk Ch. 7",
       "dueDate": "2026-10-15",
       "deadlineKind": "before-class",
-      "done": false,
-      "statusVersion": 1,
+      "done": true,
+      "statusVersion": 2,
       "materials": [
         "sosc-mlodinow-ch7-pdf",
         "sosc-syllabus"
       ],
-      "note": "Measurement and the Law of Errors；10/15 课前阅读。课程原版 PDF 已归档至 Day 6，共 14 页，正文从 PDF 第 4 页开始（书内第 124–145 页）。"
-    },
-    {
-      "id": "math-notes-2026-10-12",
-      "course": "MATH",
-      "shortName": "整理 10/12（Day 7）笔记",
-      "dueDate": "2026-10-12",
-      "deadlineKind": "same-day",
-      "done": false,
-      "statusVersion": 1,
-      "materials": [
-        "math-lecture7",
-        "math-conrad-isometry",
-        "math-conrad-psln",
-        "math-etingof-groups",
-        "math-tilings",
-        "math-conrad-conjugation",
-        "math-course"
-      ],
-      "note": "个人课日当天期限。Lecture 7 已替换为 10/16 修订的 14 页原件；保留原课日和完成状态。",
-      "classDate": "2026-10-12"
-    },
-    {
-      "id": "cmsc-notes-2026-10-12",
-      "course": "CMSC",
-      "shortName": "整理 10/12（Day 7）笔记",
-      "dueDate": "2026-10-12",
-      "deadlineKind": "same-day",
-      "done": false,
-      "statusVersion": 1,
-      "materials": [
-        "cmsc-syllabus",
-        "cmsc-syllabus-archive",
-        "cmsc-old-notes"
-      ],
-      "note": "个人课日当天整理期限，以实际课堂笔记为准。10/17 官网已补第三周范围：主理想与 Bézout、Noetherian 环/Hilbert 基定理（不证明）、PID/Euclidean domains、等价关系、模同余与商环、单位、Euler/Fermat/Lagrange 定理、CRT 与 RSA（简提）。该列表覆盖整周，不按课日细分；Rosen 与 Lang 的具体参考章节见官网。",
-      "classDate": "2026-10-12"
-    },
-    {
-      "id": "math-notes-2026-10-14",
-      "course": "MATH",
-      "shortName": "整理 10/14（Day 8）笔记",
-      "dueDate": "2026-10-14",
-      "deadlineKind": "same-day",
-      "done": false,
-      "statusVersion": 1,
-      "materials": [
-        "math-lecture8",
-        "math-conrad-conjugation",
-        "math-course"
-      ],
-      "note": "个人课日当天期限。Lecture 8《Cauchy's Theorem and the Class Equation》已替换为 10/16 修订的 7 页原件；A5 单纯性见 Lecture 9，一般 An 单纯性见 Lecture 10。保留原课日和完成状态。",
-      "classDate": "2026-10-14"
-    },
-    {
-      "id": "cmsc-notes-2026-10-14",
-      "course": "CMSC",
-      "shortName": "整理 10/14（Day 8）笔记",
-      "dueDate": "2026-10-14",
-      "deadlineKind": "same-day",
-      "done": false,
-      "statusVersion": 1,
-      "materials": [
-        "cmsc-syllabus",
-        "cmsc-syllabus-archive",
-        "cmsc-old-notes"
-      ],
-      "note": "个人课日当天整理期限，以实际课堂笔记为准。10/17 官网已补第三周范围：主理想与 Bézout、Noetherian 环/Hilbert 基定理（不证明）、PID/Euclidean domains、等价关系、模同余与商环、单位、Euler/Fermat/Lagrange 定理、CRT 与 RSA（简提）。该列表覆盖整周，不按课日细分；Rosen 与 Lang 的具体参考章节见官网。",
-      "classDate": "2026-10-14"
-    },
-    {
-      "id": "sosc-notes-2026-10-13",
-      "course": "SOSC",
-      "shortName": "整理 10/13（Day 5）笔记",
-      "dueDate": "2026-10-13",
-      "deadlineKind": "same-day",
-      "done": false,
-      "statusVersion": 1,
-      "materials": [
-        "sosc-class5",
-        "sosc-imbens-pdf",
-        "sosc-rohrer-pdf",
-        "sosc-syllabus"
-      ],
-      "note": "个人课日当天期限。Class 5《From Correlations to Causation》原 PPTX 已归档；保留原课日，不顺延到今天。",
-      "classDate": "2026-10-13"
-    },
-    {
-      "id": "math-preview-2026-10-12",
-      "course": "MATH",
-      "shortName": "预习 10/12",
-      "dueDate": "2026-10-12",
-      "deadlineKind": "same-day",
-      "done": false,
-      "statusVersion": 1,
-      "materials": [
-        "math-lecture7",
-        "math-course"
-      ],
-      "note": "每日个人预习待办，包括周末；以当日预习为目标，未完成项保留原日期。具体章节未指定，附最新讲义和课程页。",
-      "planDate": "2026-10-12",
-      "recurrenceKey": "math-preview"
-    },
-    {
-      "id": "math-preview-2026-10-13",
-      "course": "MATH",
-      "shortName": "预习 10/13",
-      "dueDate": "2026-10-13",
-      "deadlineKind": "same-day",
-      "done": false,
-      "statusVersion": 1,
-      "materials": [
-        "math-lecture7",
-        "math-course"
-      ],
-      "note": "每日个人预习待办，包括周末；以当日预习为目标，未完成项保留原日期。具体章节未指定，附最新讲义和课程页。",
-      "planDate": "2026-10-13",
-      "recurrenceKey": "math-preview"
-    },
-    {
-      "id": "math-preview-2026-10-14",
-      "course": "MATH",
-      "shortName": "预习 10/14",
-      "dueDate": "2026-10-14",
-      "deadlineKind": "same-day",
-      "done": false,
-      "statusVersion": 1,
-      "materials": [
-        "math-lecture8",
-        "math-conrad-conjugation",
-        "math-course"
-      ],
-      "note": "每日个人预习待办，包括周末；保留 10/14 的原个人计划日期。Lecture 8 当前为 10/16 修订的 7 页原件，A5 单纯性见 Lecture 9，一般 An 单纯性见 Lecture 10。",
-      "planDate": "2026-10-14",
-      "recurrenceKey": "math-preview"
-    },
-    {
-      "id": "sosc-notes-2026-10-15",
-      "course": "SOSC",
-      "shortName": "整理 10/15（Day 6）笔记",
-      "classDate": "2026-10-15",
-      "dueDate": "2026-10-15",
-      "deadlineKind": "same-day",
-      "taskKind": "lecture-notes",
-      "done": false,
-      "statusVersion": 1,
-      "note": "个人课日当天整理期限，不是教师作业 DDL。10/16 已补齐昨天发布的 Class 6 PPT；保留原 10/15 期限和完成状态。",
-      "materials": [
-        "sosc-class6",
-        "sosc-mlodinow-ch7-pdf",
-        "sosc-metrics-randomized",
-        "sosc-syllabus"
-      ]
-    },
-    {
-      "id": "math-preview-2026-10-15",
-      "course": "MATH",
-      "shortName": "预习 10/15",
-      "dueDate": "2026-10-15",
-      "planDate": "2026-10-15",
-      "deadlineKind": "same-day",
-      "recurrenceKey": "math-preview",
-      "done": false,
-      "statusVersion": 1,
-      "note": "每日个人预习待办，包括周末；今天完成，旧未完成项保留原日期。附 Lecture 8 的最新 7 页修订版（Cauchy's Theorem and the Class Equation）及课程页；具体预习章节由你安排。",
-      "materials": [
-        "math-lecture8",
-        "math-conrad-conjugation",
-        "math-course"
-      ]
-    },
-    {
-      "id": "math-notes-2026-10-16",
-      "course": "MATH",
-      "shortName": "整理 10/16（Day 9）笔记",
-      "classDate": "2026-10-16",
-      "dueDate": "2026-10-16",
-      "deadlineKind": "same-day",
-      "taskKind": "lecture-notes",
-      "done": false,
-      "statusVersion": 1,
-      "materials": [
-        "math-lecture9",
-        "math-conrad-subgroup-series1",
-        "math-conrad-conjugation",
-        "math-conrad-ansimple",
-        "math-course"
-      ],
-      "note": "个人课日当天整理期限，不是教师作业 DDL。Lecture 9已于10/18晚修订为13页，标题末尾改为Simplicity of A5；一般An单纯性移至Lecture 10。已链接新版；推荐讲义不另设必交任务。"
-    },
-    {
-      "id": "cmsc-notes-2026-10-16",
-      "course": "CMSC",
-      "shortName": "整理 10/16（Day 9）笔记",
-      "classDate": "2026-10-16",
-      "dueDate": "2026-10-16",
-      "deadlineKind": "same-day",
-      "taskKind": "lecture-notes",
-      "done": false,
-      "statusVersion": 1,
-      "materials": [
-        "cmsc-syllabus",
-        "cmsc-syllabus-archive",
-        "cmsc-old-notes"
-      ],
-      "note": "个人课日当天整理期限，以实际课堂笔记为准。10/17 官网已补第三周范围：主理想与 Bézout、Noetherian 环/Hilbert 基定理（不证明）、PID/Euclidean domains、等价关系、模同余与商环、单位、Euler/Fermat/Lagrange 定理、CRT 与 RSA（简提）。该列表覆盖整周，不按课日细分；Rosen 与 Lang 的具体参考章节见官网。"
-    },
-    {
-      "id": "math-preview-2026-10-16",
-      "course": "MATH",
-      "shortName": "预习 10/16",
-      "dueDate": "2026-10-16",
-      "planDate": "2026-10-16",
-      "deadlineKind": "same-day",
-      "recurrenceKey": "math-preview",
-      "done": false,
-      "statusVersion": 1,
-      "materials": [
-        "math-lecture9",
-        "math-conrad-subgroup-series1",
-        "math-course"
-      ],
-      "note": "每日个人预习待办，包括周末；今天完成，旧未完成项保留原日期。附最新 Lecture 9 与推荐讲义，具体预习进度由你安排。"
+      "note": "Measurement and the Law of Errors；10/15 课前阅读。课程原版 PDF 已归档至 Day 6，共 14 页，正文从 PDF 第 4 页开始（书内第 124–145 页）。",
+      "taskKind": "preclass-reading",
+      "completionReason": "class-date-passed"
     },
     {
       "id": "sosc-mcdermott-experiments",
@@ -1009,13 +565,15 @@ window.WORKLIST = {
       "shortName": "读 McDermott · Experimental Methods",
       "dueDate": "2026-10-20",
       "deadlineKind": "before-class",
-      "done": false,
-      "statusVersion": 1,
+      "done": true,
+      "statusVersion": 2,
       "materials": [
         "sosc-mcdermott-article",
         "sosc-syllabus"
       ],
-      "note": "Day7 Lab Experiments，10/20课前必读pp.31–61。10/30已从课程阅读库补齐33页原刊PDF（含期刊目录页），私有归档直达链接可用。原期限和完成状态保持。"
+      "note": "Day7 Lab Experiments，10/20课前必读pp.31–61。10/30已从课程阅读库补齐33页原刊PDF（含期刊目录页），私有归档直达链接可用。原期限和完成状态保持。",
+      "taskKind": "preclass-reading",
+      "completionReason": "class-date-passed"
     },
     {
       "id": "sosc-iyengar-news",
@@ -1023,13 +581,15 @@ window.WORKLIST = {
       "shortName": "读 Iyengar 等 · Television News Experiments",
       "dueDate": "2026-10-20",
       "deadlineKind": "before-class",
-      "done": false,
-      "statusVersion": 1,
+      "done": true,
+      "statusVersion": 2,
       "materials": [
         "sosc-iyengar-news-pdf",
         "sosc-syllabus"
       ],
-      "note": "Day 7 · Lab Experiments；必读 pp. 848–858。12 页原 PDF（含一页来源说明）已归档。"
+      "note": "Day 7 · Lab Experiments；必读 pp. 848–858。12 页原 PDF（含一页来源说明）已归档。",
+      "taskKind": "preclass-reading",
+      "completionReason": "class-date-passed"
     },
     {
       "id": "sosc-sears-college",
@@ -1037,13 +597,15 @@ window.WORKLIST = {
       "shortName": "读 Sears · College Sophomores in the Laboratory",
       "dueDate": "2026-10-20",
       "deadlineKind": "before-class",
-      "done": false,
-      "statusVersion": 1,
+      "done": true,
+      "statusVersion": 2,
       "materials": [
         "sosc-sears-pdf",
         "sosc-syllabus"
       ],
-      "note": "Day 7 · Lab Experiments；10/20课前必读 pp.515–530。完整16页原PDF已从公开存档取得并归档，原内容未改。"
+      "note": "Day 7 · Lab Experiments；10/20课前必读 pp.515–530。完整16页原PDF已从公开存档取得并归档，原内容未改。",
+      "taskKind": "preclass-reading",
+      "completionReason": "class-date-passed"
     },
     {
       "id": "sosc-butler-discrimination",
@@ -1051,13 +613,15 @@ window.WORKLIST = {
       "shortName": "读 Butler/Broockman · Racial Discrimination",
       "dueDate": "2026-10-22",
       "deadlineKind": "before-class",
-      "done": false,
-      "statusVersion": 1,
+      "done": true,
+      "statusVersion": 2,
       "materials": [
         "sosc-butler-discrimination-pdf",
         "sosc-syllabus"
       ],
-      "note": "Day 8 · Field Experiments；必读 pp. 463–477。作者公开的 15 页原 PDF 已归档。"
+      "note": "Day 8 · Field Experiments；必读 pp. 463–477。作者公开的 15 页原 PDF 已归档。",
+      "taskKind": "preclass-reading",
+      "completionReason": "class-date-passed"
     },
     {
       "id": "sosc-enikolopov-fraud",
@@ -1065,31 +629,15 @@ window.WORKLIST = {
       "shortName": "读 Enikolopov 等 · Electoral Fraud",
       "dueDate": "2026-10-22",
       "deadlineKind": "before-class",
-      "done": false,
-      "statusVersion": 1,
+      "done": true,
+      "statusVersion": 2,
       "materials": [
         "sosc-enikolopov-article",
         "sosc-syllabus"
       ],
-      "note": "Day 8 · Field Experiments；10/22课前必读 pp.448–452。10/20已从共同作者Konstantin Sonin的芝大主页补齐5页原PDF，并归档Day 8。"
-    },
-    {
-      "id": "math-preview-2026-10-17",
-      "course": "MATH",
-      "shortName": "预习 10/17",
-      "dueDate": "2026-10-17",
-      "planDate": "2026-10-17",
-      "deadlineKind": "same-day",
-      "done": false,
-      "statusVersion": 1,
-      "recurrenceKey": "math-preview",
-      "materials": [
-        "math-lecture9",
-        "math-midterm1-review",
-        "math-midterm1-announcement",
-        "math-syllabus"
-      ],
-      "note": "每日个人预习待办，包括周末；今天完成，旧未完成项保留原日期。附 Lecture 9 与新发布的期中复习题供安排学习，复习题不是另加的必交作业。"
+      "note": "Day 8 · Field Experiments；10/22课前必读 pp.448–452。10/20已从共同作者Konstantin Sonin的芝大主页补齐5页原PDF，并归档Day 8。",
+      "taskKind": "preclass-reading",
+      "completionReason": "class-date-passed"
     },
     {
       "id": "math-midterm1-2026-10-23",
@@ -1112,82 +660,6 @@ window.WORKLIST = {
       "note": "10/23（周五）课内 Midterm 1。10/21 13:49最新公告修订范围：不考10/21当次课的内容，以这条新通知为准。短解答题，不要求详细证明；评分答题区有限，另有草稿纸。8页复习题只是练习，不等同完整范围，也不是必交作业。本人具体section钟点未单独确认。 10/23教师已发布带注释解答，10/24原样归档；考试日期及本人完成状态保留。"
     },
     {
-      "id": "math-preview-2026-10-18",
-      "course": "MATH",
-      "shortName": "预习 10/18",
-      "dueDate": "2026-10-18",
-      "planDate": "2026-10-18",
-      "deadlineKind": "same-day",
-      "done": false,
-      "statusVersion": 1,
-      "recurrenceKey": "math-preview",
-      "materials": [
-        "math-lecture9",
-        "math-midterm1-review",
-        "math-midterm1-announcement",
-        "math-syllabus",
-        "math-midterm1-scope-update"
-      ],
-      "note": "每日个人预习待办，包括周末；今天完成，旧未完成项保留原日期。附 Lecture 9 与期中复习题；10/18 重新下载核对，复习题未变。期中10/23课内，范围已由10/21下午新公告修订。 最新：10/21当次课内容不考；详见范围更新公告。"
-    },
-    {
-      "id": "math-notes-2026-10-19",
-      "course": "MATH",
-      "shortName": "整理 10/19（Day 10）笔记",
-      "classDate": "2026-10-19",
-      "dueDate": "2026-10-19",
-      "deadlineKind": "same-day",
-      "taskKind": "lecture-notes",
-      "done": false,
-      "statusVersion": 1,
-      "materials": [
-        "math-lecture10",
-        "math-mit-icosahedral",
-        "math-conrad-ansimple",
-        "math-conrad-subgroup-series1",
-        "math-midterm1-review"
-      ],
-      "note": "Day 10（10/19）Lecture 10已发布并归档，12页：十二面体、An的单纯性与小指数子群；附MIT第20讲补充阅读，Conrad资料复用已有归档。个人当天整理期限，不代表已代为完成笔记。"
-    },
-    {
-      "id": "cmsc-notes-2026-10-19",
-      "course": "CMSC",
-      "shortName": "整理 10/19（Day 10）笔记",
-      "classDate": "2026-10-19",
-      "dueDate": "2026-10-19",
-      "deadlineKind": "same-day",
-      "taskKind": "lecture-notes",
-      "done": false,
-      "statusVersion": 1,
-      "materials": [
-        "cmsc-syllabus",
-        "cmsc-syllabus-archive",
-        "cmsc-old-notes"
-      ],
-      "note": "个人课日当天整理期限，以实际课堂笔记为准。10/23官网补充第四周计数范围及Rosen对应章节，已更新原HTML归档；整周主题不等于单日授课范围。2018讲义仅供参考。"
-    },
-    {
-      "id": "math-preview-2026-10-19",
-      "course": "MATH",
-      "shortName": "预习 10/19",
-      "dueDate": "2026-10-19",
-      "planDate": "2026-10-19",
-      "deadlineKind": "same-day",
-      "done": false,
-      "statusVersion": 1,
-      "recurrenceKey": "math-preview",
-      "materials": [
-        "math-lecture10",
-        "math-mit-icosahedral",
-        "math-lecture9",
-        "math-midterm1-review",
-        "math-midterm1-announcement",
-        "math-syllabus",
-        "math-midterm1-scope-update"
-      ],
-      "note": "每日个人预习待办，包括周末；今天完成，旧未完成项保留原日期。已补Lecture 10及MIT补充讲义；10/23课内期中，范围已由10/21下午新公告修订，复习题不是完整范围。 最新：10/21当次课内容不考；详见范围更新公告。"
-    },
-    {
       "id": "phys-hw4",
       "course": "PHYS",
       "shortName": "HW4",
@@ -1202,7 +674,12 @@ window.WORKLIST = {
         "phys-hw4-canvas",
         "phys-hw4-sol"
       ],
-      "note": "10/22核查Gradescope已显示Submitted，任务完成；原DDL仍10/26 23:59 CDT。3页8题，原题目PDF与提交入口保留。"
+      "note": "10/22核查Gradescope已显示Submitted，任务完成；原DDL仍10/26 23:59 CDT。3页8题，原题目PDF与提交入口保留。",
+      "displayMaterials": [
+        "phys-hw4-pdf",
+        "phys-hw4-submit",
+        "phys-hw4-canvas"
+      ]
     },
     {
       "id": "phys-reading4",
@@ -1268,100 +745,12 @@ window.WORKLIST = {
         "math-ps4-canvas",
         "math-policy",
         "math-oh-announcement"
-      ]
-    },
-    {
-      "id": "math-preview-2026-10-20",
-      "course": "MATH",
-      "shortName": "预习 10/20",
-      "dueDate": "2026-10-20",
-      "planDate": "2026-10-20",
-      "deadlineKind": "same-day",
-      "done": false,
-      "statusVersion": 1,
-      "recurrenceKey": "math-preview",
-      "note": "每日个人预习待办，包括周末；当天完成，旧未完成项保留原日期。附最新Lecture 10、PS4及期中复习题。10/23课内期中范围已由10/21下午新公告修订；复习题并非完整范围。 最新：10/21当次课内容不考；详见范围更新公告。",
-      "materials": [
-        "math-lecture10",
+      ],
+      "displayMaterials": [
         "math-ps4",
-        "math-midterm1-review",
-        "math-midterm1-announcement",
-        "math-syllabus",
-        "math-midterm1-scope-update"
+        "math-ps4-submit",
+        "math-ps4-canvas"
       ]
-    },
-    {
-      "id": "sosc-notes-2026-10-20",
-      "course": "SOSC",
-      "shortName": "整理 10/20（Day 7）笔记",
-      "classDate": "2026-10-20",
-      "dueDate": "2026-10-20",
-      "deadlineKind": "same-day",
-      "taskKind": "lecture-notes",
-      "done": false,
-      "statusVersion": 1,
-      "note": "个人笔记整理期限仍为原上课当天。10/29已补齐教师新上传的对应课次PPT原件（Canvas上传于10/28），按大纲课日归档；旧完成状态保留，未代写笔记。",
-      "materials": [
-        "sosc-mcdermott-article",
-        "sosc-iyengar-news-pdf",
-        "sosc-sears-pdf",
-        "sosc-syllabus",
-        "sosc-class7-slides"
-      ]
-    },
-    {
-      "id": "math-preview-2026-10-21",
-      "course": "MATH",
-      "shortName": "预习 10/21",
-      "dueDate": "2026-10-21",
-      "planDate": "2026-10-21",
-      "deadlineKind": "same-day",
-      "done": false,
-      "statusVersion": 1,
-      "recurrenceKey": "math-preview",
-      "materials": [
-        "math-lecture11",
-        "math-ps4",
-        "math-midterm1-review",
-        "math-midterm1-announcement",
-        "math-midterm1-scope-update"
-      ],
-      "note": "每日个人预习待办，包括周末；当天完成，旧未完成项保留原日期。Lecture 11已修订为7页《The Isomorphism Theorems and Subgroups of Quotients》，教材§§3.2–3.3。10/23课内期中范围已由10/21下午新公告修订，复习题不是完整范围。 最新：10/21当次课内容不考；详见范围更新公告。"
-    },
-    {
-      "id": "math-notes-2026-10-21",
-      "course": "MATH",
-      "shortName": "整理 10/21（Day 11）笔记",
-      "classDate": "2026-10-21",
-      "dueDate": "2026-10-21",
-      "deadlineKind": "same-day",
-      "taskKind": "lecture-notes",
-      "done": false,
-      "statusVersion": 1,
-      "materials": [
-        "math-lecture11",
-        "math-midterm1-review",
-        "math-oh-20261021",
-        "math-midterm1-scope-update"
-      ],
-      "note": "Day11讲义当前为7页《The Isomorphism Theorems and Subgroups of Quotients》，原11页旧版保留供追溯。10/30复核10/29修订版：两处后续引用从Lecture15改回Lecture16，数学内容未变；不据此推定后续文件已经发布。个人期限仍10/21，不代表已完成。10/21下午公告说明当次课内容不在Midterm1范围内。"
-    },
-    {
-      "id": "cmsc-notes-2026-10-21",
-      "course": "CMSC",
-      "shortName": "整理 10/21（Day 11）笔记",
-      "classDate": "2026-10-21",
-      "dueDate": "2026-10-21",
-      "deadlineKind": "same-day",
-      "taskKind": "lecture-notes",
-      "done": false,
-      "statusVersion": 1,
-      "materials": [
-        "cmsc-syllabus",
-        "cmsc-syllabus-archive",
-        "cmsc-old-notes"
-      ],
-      "note": "个人课日当天整理期限，以实际课堂笔记为准。10/23官网补充第四周计数范围及Rosen对应章节，已更新原HTML归档；整周主题不等于单日授课范围。2018讲义仅供参考。"
     },
     {
       "id": "cmsc-hw3",
@@ -1382,43 +771,11 @@ window.WORKLIST = {
         "cmsc-hw3-intrinsic",
         "cmsc-hw3-totient"
       ],
-      "note": "新发布5题、2页，正常截止10/28 23:59 CDT；Gradescope迟交窗口至10/30 23:59，可能扣分。10/27 Gradescope已显示Submitted，据此确认完成；原截止日期保留。合作需写明同伴，最终解答独立撰写。老师提示本次可能比HW2难；AI政策新增：疑似AI生成或本人未充分理解的解答会被标记，累计后可能要求在Office Hours口头解释。具体规则见Ed。 10/26 Ed复核：第5题的闭式表达式需要给出论证；若不确定解释是否充分，可私下向教师询问。 10/28核查仍Submitted，保持完成。新增答疑：Q5有序对(A,B)与(B,A)须分别计数（A=B除外）；Q4 intrinsic 描述应仅涉及函数本身及定义域/陪域；Q3允许直接使用totient公式，无需另证。"
-    },
-    {
-      "id": "math-preview-2026-10-22",
-      "course": "MATH",
-      "shortName": "预习 10/22",
-      "dueDate": "2026-10-22",
-      "planDate": "2026-10-22",
-      "deadlineKind": "same-day",
-      "recurrenceKey": "math-preview",
-      "materials": [
-        "math-lecture11",
-        "math-ps4",
-        "math-midterm1-scope-update",
-        "math-midterm1-review"
-      ],
-      "note": "每日个人预习待办，包括周末，今天完成。Lecture11已更新为7页；明天期中不考10/21当次课内容，以最新公告为准。今天教授OH 16:45–18:30，临时办公室E208-A。",
-      "done": false,
-      "statusVersion": 1
-    },
-    {
-      "id": "sosc-notes-2026-10-22",
-      "course": "SOSC",
-      "shortName": "整理 10/22（Day 8）笔记",
-      "dueDate": "2026-10-22",
-      "classDate": "2026-10-22",
-      "deadlineKind": "same-day",
-      "taskKind": "lecture-notes",
-      "materials": [
-        "sosc-butler-discrimination-pdf",
-        "sosc-enikolopov-article",
-        "sosc-syllabus",
-        "sosc-class8-slides"
-      ],
-      "note": "个人笔记整理期限仍为原上课当天。10/29已补齐教师新上传的对应课次PPT原件（Canvas上传于10/28），按大纲课日归档；旧完成状态保留，未代写笔记。",
-      "done": false,
-      "statusVersion": 1
+      "note": "新发布5题、2页，正常截止10/28 23:59 CDT；Gradescope迟交窗口至10/30 23:59，可能扣分。10/27 Gradescope已显示Submitted，据此确认完成；原截止日期保留。合作需写明同伴，最终解答独立撰写。老师提示本次可能比HW2难；AI政策新增：疑似AI生成或本人未充分理解的解答会被标记，累计后可能要求在Office Hours口头解释。具体规则见Ed。 10/26 Ed复核：第5题的闭式表达式需要给出论证；若不确定解释是否充分，可私下向教师询问。 10/28核查仍Submitted，保持完成。新增答疑：Q5有序对(A,B)与(B,A)须分别计数（A=B除外）；Q4 intrinsic 描述应仅涉及函数本身及定义域/陪域；Q3允许直接使用totient公式，无需另证。",
+      "displayMaterials": [
+        "cmsc-hw3-pdf",
+        "cmsc-hw3-submit"
+      ]
     },
     {
       "id": "cmsc-midterm-2026-10-30",
@@ -1440,21 +797,6 @@ window.WORKLIST = {
       "note": "10/30 09:30–10:20（America/Chicago），5题50分钟。范围截至10/26课堂，包括归纳、线性/偏序、数论及已讲计数。老师建议做Rosen对应章节常规题，考试准备可略过星号题及书中未涵盖的高级部分。允许本人为自己准备的不限长度纸质笔记；打印须来自本人写的源文件。可带简单计算器，禁止其他电子设备、书籍及扫描书页。 10/23教授回复：不会提供往年试卷或模拟卷；各年选题不同，5题不可能覆盖所有内容。 10/25复核Ed新增回复：自制纸质笔记可以放在纸质笔记本（含线圈本）内；教授已澄清其先前对notebook的禁止指电脑，不是纸质本。 11/2 Ed补充：Q2补题申请截止11/2开课前（9:30 CST），现已过期；获准者11/3于Nikhil Office Hours参加12分钟补题，个人具体安排以TA邮件为准。TA已发邮件，申请过但未收到者应尽快联系TA。尚未核实本人是否申请/获准，不自动新增必考任务、标记考试完成或发送消息。 11/3补题时段已结束；11/4教师澄清最后一题有序与无序分拆，见新帖。本人补题参加情况未核实。 11/4依据Gradescope实际考试提交记录确认主考试已完成，未公开分数。 11/6 TA 通知补考后成绩已更新，如应有变动但未显示，请联系课程团队。",
       "done": true,
       "statusVersion": 2
-    },
-    {
-      "id": "cmsc-final-2026-12-10",
-      "course": "CMSC",
-      "shortName": "Final",
-      "dueDate": "2026-12-10",
-      "time": "08:00",
-      "deadlineKind": "exact",
-      "materials": [
-        "cmsc-exam-rules",
-        "cmsc-syllabus"
-      ],
-      "note": "官网确认12/10 08:00–10:00（America/Chicago）。10/22公告的携带物品规则也适用于期末：本人为自己准备的不限长度纸质笔记（打印源文件也须本人写），简单计算器；禁止书籍、扫描书页及其他电子设备。期末具体考试范围尚未另行公布。 10/25复核Ed新增回复：自制纸质笔记可以放在纸质笔记本（含线圈本）内；教授已澄清其先前对notebook的禁止指电脑，不是纸质本。",
-      "done": false,
-      "statusVersion": 1
     },
     {
       "id": "phys-midterm-2026-10-29",
@@ -1490,8 +832,10 @@ window.WORKLIST = {
         "sosc-syllabus"
       ],
       "note": "Day9 Survey Data课前必读，大纲指定Annual Review of Economics 15:205–234。已归档30页正式期刊版；不是100页的2022工作论文和附录版本。",
-      "done": false,
-      "statusVersion": 1
+      "done": true,
+      "statusVersion": 2,
+      "taskKind": "preclass-reading",
+      "completionReason": "class-date-passed"
     },
     {
       "id": "sosc-wood-backfire",
@@ -1505,8 +849,10 @@ window.WORKLIST = {
         "sosc-syllabus"
       ],
       "note": "Day10 Survey Experiments课前必读，大纲为Political Behavior 41(2019):135–163。已归档29页出版商原版（2018在线先行版），题目及DOI相符。",
-      "done": false,
-      "statusVersion": 1
+      "done": true,
+      "statusVersion": 2,
+      "taskKind": "preclass-reading",
+      "completionReason": "class-date-passed"
     },
     {
       "id": "sosc-mullinix-generalizability",
@@ -1520,127 +866,10 @@ window.WORKLIST = {
         "sosc-syllabus"
       ],
       "note": "Day10课前必读，大纲指定JEPS2(2),109–138。归档的是作者官网45页稿本，版式和页码与期刊版不同；正文题名与四位作者一致。",
-      "done": false,
-      "statusVersion": 1
-    },
-    {
-      "id": "math-preview-2026-10-23",
-      "course": "MATH",
-      "shortName": "预习 10/23",
-      "dueDate": "2026-10-23",
-      "planDate": "2026-10-23",
-      "deadlineKind": "same-day",
-      "recurrenceKey": "math-preview",
-      "materials": [
-        "math-lecture11",
-        "math-ps4",
-        "math-midterm1-scope-update",
-        "math-midterm1-review"
-      ],
-      "note": "每日个人预习待办，包括周末，今天完成。今天MATH课内Midterm 1替代普通课堂；预习与考试、笔记整理分开，不自动标记完成。",
-      "done": false,
-      "statusVersion": 1
-    },
-    {
-      "id": "cmsc-notes-2026-10-23",
-      "course": "CMSC",
-      "shortName": "整理 10/23（Day 12）笔记",
-      "classDate": "2026-10-23",
-      "dueDate": "2026-10-23",
-      "deadlineKind": "same-day",
-      "taskKind": "lecture-notes",
-      "done": false,
-      "statusVersion": 1,
-      "materials": [
-        "cmsc-syllabus",
-        "cmsc-syllabus-archive",
-        "cmsc-old-notes"
-      ],
-      "note": "个人课日当天整理期限，以实际课堂笔记为准。官网已补第四周计数：函数与集合基数、二项式系数/定理、容斥及第二类Stirling数等。这是整周范围，不代表每项均在今天讲授；2018讲义仅作参考。"
-    },
-    {
-      "id": "math-preview-2026-10-24",
-      "course": "MATH",
-      "shortName": "预习 10/24",
-      "dueDate": "2026-10-24",
-      "planDate": "2026-10-24",
-      "deadlineKind": "same-day",
-      "recurrenceKey": "math-preview",
-      "materials": [
-        "math-lecture11",
-        "math-ps4",
-        "math-midterm1-annotated"
-      ],
-      "note": "每日个人预习待办，包括周末，今天完成。Lecture11已更新；另附刚发布的Midterm1解答供按需回看，不是新增必交作业。",
-      "done": false,
-      "statusVersion": 1
-    },
-    {
-      "id": "math-preview-2026-10-25",
-      "course": "MATH",
-      "shortName": "预习 10/25",
-      "dueDate": "2026-10-25",
-      "planDate": "2026-10-25",
-      "deadlineKind": "same-day",
-      "recurrenceKey": "math-preview",
-      "materials": [
-        "math-lecture11",
-        "math-ps4",
-        "math-midterm1-annotated"
-      ],
-      "note": "每日个人预习待办，包括周末，今天完成。附当前讲义、HW4和期中解答供自行选择；不是新增教师必交作业。",
-      "done": false,
-      "statusVersion": 1
-    },
-    {
-      "id": "math-preview-2026-10-26",
-      "course": "MATH",
-      "shortName": "预习 10/26",
-      "dueDate": "2026-10-26",
-      "planDate": "2026-10-26",
-      "deadlineKind": "same-day",
-      "recurrenceKey": "math-preview",
-      "materials": [
-        "math-lecture11",
-        "math-ps4"
-      ],
-      "note": "每日个人预习待办，包括周末，今天完成；附已核实的Lecture11与HW4供自行选择。Canvas登录过期，后续新讲义待补查，不表示没有更新。",
-      "done": false,
-      "statusVersion": 1
-    },
-    {
-      "id": "math-notes-2026-10-26",
-      "course": "MATH",
-      "shortName": "整理 10/26（Day 13）笔记",
-      "classDate": "2026-10-26",
-      "dueDate": "2026-10-26",
-      "deadlineKind": "same-day",
-      "taskKind": "lecture-notes",
-      "materials": [
-        "math-lecture12",
-        "math-syllabus"
-      ],
-      "note": "按用户11/3确认的课次归档：Day 13 对应 Lecture 12，已附原PDF；讲义编号与课次编号分开。个人整理期限保留10/26，完成状态不变。",
-      "done": false,
-      "statusVersion": 1
-    },
-    {
-      "id": "cmsc-notes-2026-10-26",
-      "course": "CMSC",
-      "shortName": "整理 10/26（Day 13）笔记",
-      "classDate": "2026-10-26",
-      "dueDate": "2026-10-26",
-      "deadlineKind": "same-day",
-      "taskKind": "lecture-notes",
-      "materials": [
-        "cmsc-syllabus",
-        "cmsc-old-notes",
-        "cmsc-afterclass-20261026",
-        "cmsc-syllabus-archive"
-      ],
-      "note": "个人当天整理期限保持。10/26课堂内容包含在10/30期中范围内。10/31官网已补Week5：递推、Twelvefold Way、多项式系数、整数分拆、抽屉原理、Mirsky/Dilworth、Erdős–Szekeres和Dirichlet逼近；官网未逐日拆分，不把整个Week5都当作10/26考试范围。10/26下课后临时离开公告已过期，不影响常规OH。",
-      "done": false,
-      "statusVersion": 1
+      "done": true,
+      "statusVersion": 2,
+      "taskKind": "preclass-reading",
+      "completionReason": "class-date-passed"
     },
     {
       "id": "phys-hw5",
@@ -1657,7 +886,11 @@ window.WORKLIST = {
       ],
       "note": "11/1 Gradescope已显示Submitted，据此确认已提交；Canvas仍显示No Submission，存在平台状态差异。原截止11/2 23:59 CST保留，不发布个人作答或成绩。3页8题，Knight第1版Ch.11：P11.22、26、36、50、52、60、64、74。题头写PDF upload to Canvas，同时Gradescope已有提交记录，两处入口均保留。11/5 已取得 Canvas 教师解答，6 页 PDF 已附。",
       "done": true,
-      "statusVersion": 2
+      "statusVersion": 2,
+      "displayMaterials": [
+        "phys-hw5-pdf",
+        "phys-hw5-canvas"
+      ]
     },
     {
       "id": "phys-reading5",
@@ -1708,90 +941,6 @@ window.WORKLIST = {
       "statusVersion": 2
     },
     {
-      "id": "math-preview-2026-10-27",
-      "course": "MATH",
-      "shortName": "预习 10/27",
-      "dueDate": "2026-10-27",
-      "planDate": "2026-10-27",
-      "deadlineKind": "same-day",
-      "recurrenceKey": "math-preview",
-      "materials": [
-        "math-lecture11",
-        "math-ps4"
-      ],
-      "note": "每日个人预习待办，包括周末，当天完成。附已归档Lecture11及HW4供自行安排；今天原件复核未变，Canvas后续新讲义待登录补查。",
-      "done": false,
-      "statusVersion": 1
-    },
-    {
-      "id": "sosc-notes-2026-10-27",
-      "course": "SOSC",
-      "shortName": "整理 10/27（Day 9）笔记",
-      "classDate": "2026-10-27",
-      "dueDate": "2026-10-27",
-      "deadlineKind": "same-day",
-      "taskKind": "lecture-notes",
-      "materials": [
-        "sosc-stantcheva-surveys-pdf",
-        "sosc-syllabus",
-        "sosc-class9-slides"
-      ],
-      "note": "个人笔记整理期限仍为原上课当天。10/29已补齐教师新上传的对应课次PPT原件（Canvas上传于10/28），按大纲课日归档；旧完成状态保留，未代写笔记。",
-      "done": false,
-      "statusVersion": 1
-    },
-    {
-      "id": "math-preview-2026-10-28",
-      "course": "MATH",
-      "shortName": "预习 10/28",
-      "dueDate": "2026-10-28",
-      "planDate": "2026-10-28",
-      "deadlineKind": "same-day",
-      "recurrenceKey": "math-preview",
-      "materials": [
-        "math-lecture11",
-        "math-ps4",
-        "math-lecture12",
-        "math-ps5"
-      ],
-      "note": "每日个人预习待办，包括周末，当天完成。附已归档Lecture11及HW4供自行安排；已知原件今天复核未变，Canvas新讲义待登录补查。",
-      "done": false,
-      "statusVersion": 1
-    },
-    {
-      "id": "math-notes-2026-10-28",
-      "course": "MATH",
-      "shortName": "整理 10/28（Day 14）笔记",
-      "classDate": "2026-10-28",
-      "dueDate": "2026-10-28",
-      "deadlineKind": "same-day",
-      "taskKind": "lecture-notes",
-      "materials": [
-        "math-lecture13",
-        "math-syllabus"
-      ],
-      "note": "按用户11/3确认的课次归档：Day 14 对应 Lecture 13，已附原PDF；讲义编号与课次编号分开。个人整理期限保留10/28，完成状态不变。",
-      "done": false,
-      "statusVersion": 1
-    },
-    {
-      "id": "cmsc-notes-2026-10-28",
-      "course": "CMSC",
-      "shortName": "整理 10/28（Day 14）笔记",
-      "classDate": "2026-10-28",
-      "dueDate": "2026-10-28",
-      "deadlineKind": "same-day",
-      "taskKind": "lecture-notes",
-      "materials": [
-        "cmsc-syllabus",
-        "cmsc-old-notes",
-        "cmsc-syllabus-archive"
-      ],
-      "note": "个人当天整理期限保持。10/31官网已补Week5课程内容与参考：递推、Twelvefold Way、多项式系数、整数分拆、抽屉原理、Mirsky/Dilworth、Erdős–Szekeres和Dirichlet逼近；Dilworth证明推迟，官网未按课日拆分。10/30期中范围仍截至10/26，不把10/28新内容纳入。",
-      "done": false,
-      "statusVersion": 1
-    },
-    {
       "id": "cmsc-hw4",
       "course": "CMSC",
       "shortName": "HW4",
@@ -1807,7 +956,11 @@ window.WORKLIST = {
       "note": "11/5 Gradescope 已显示 Submitted。原截止为 11/5 23:59 CST，迟交至 11/7 23:59 CST。",
       "done": true,
       "statusVersion": 2,
-      "time": "23:59"
+      "time": "23:59",
+      "displayMaterials": [
+        "cmsc-hw4-pdf",
+        "cmsc-hw4-submit"
+      ]
     },
     {
       "id": "math-ps5",
@@ -1824,7 +977,11 @@ window.WORKLIST = {
         "math-lecture12",
         "math-gradescope"
       ],
-      "note": "全套建议 11/4 完成，不计分。共 5 页 9 题。仅在希望获得反馈时提交，最多两题并标出题号。Gradescope 正常截止 11/5 23:59 CST，晚交至 11/11 23:59 CST。 教师建议复习作业准备 11/13 期中。"
+      "note": "全套建议 11/4 完成，不计分。共 5 页 9 题。仅在希望获得反馈时提交，最多两题并标出题号。Gradescope 正常截止 11/5 23:59 CST，晚交至 11/11 23:59 CST。 教师建议复习作业准备 11/13 期中。",
+      "displayMaterials": [
+        "math-ps5",
+        "math-ps5-canvas"
+      ]
     },
     {
       "id": "sosc-essay1-format-check",
@@ -1840,41 +997,6 @@ window.WORKLIST = {
         "sosc-essay1-prompt"
       ],
       "note": "Essay1已提交；题干要求PDF，请核对最终提交格式。10/28 23:59为Canvas入口关闭时间，作为本项检查的最晚行动时间；原作文DDL仍10/26 23:59，不代表延期。助理未修改或重交作业。 10/29复核仍为DOCX，入口已关闭；请向教师确认是否需补交PDF。保留原检查期限，不自动标完成或顺延。"
-    },
-    {
-      "id": "math-preview-2026-10-29",
-      "course": "MATH",
-      "shortName": "预习 10/29",
-      "dueDate": "2026-10-29",
-      "planDate": "2026-10-29",
-      "deadlineKind": "same-day",
-      "recurrenceKey": "math-preview",
-      "materials": [
-        "math-lecture13",
-        "math-lecture12",
-        "math-ps5"
-      ],
-      "note": "每日个人预习待办，包括周末，当天完成。附最新Lecture13 Finite Rotation Groups及PS5供自行安排；讲义编号不等同课次，未代为完成预习。",
-      "done": false,
-      "statusVersion": 1
-    },
-    {
-      "id": "sosc-notes-2026-10-29",
-      "course": "SOSC",
-      "shortName": "整理 10/29（Day 10）笔记",
-      "classDate": "2026-10-29",
-      "dueDate": "2026-10-29",
-      "deadlineKind": "same-day",
-      "taskKind": "lecture-notes",
-      "materials": [
-        "sosc-class10-slides",
-        "sosc-wood-backfire-pdf",
-        "sosc-mullinix-generalizability-pdf",
-        "sosc-syllabus"
-      ],
-      "note": "Day 10 课堂笔记，个人整理期限保留原课日。11/6 已补上教师 Class 10 原始 PPT。",
-      "done": false,
-      "statusVersion": 1
     },
     {
       "id": "sosc-quiz2-2026-11-10",
@@ -1911,40 +1033,6 @@ window.WORKLIST = {
       "statusVersion": 1
     },
     {
-      "id": "math-preview-2026-10-30",
-      "course": "MATH",
-      "shortName": "预习 10/30",
-      "dueDate": "2026-10-30",
-      "planDate": "2026-10-30",
-      "deadlineKind": "same-day",
-      "recurrenceKey": "math-preview",
-      "materials": [
-        "math-lecture13",
-        "math-lecture12",
-        "math-ps5"
-      ],
-      "note": "每日个人预习待办，包括周末，当天完成。附最新Lecture13和PS5供自行安排；只维护待办，未代做预习。",
-      "done": false,
-      "statusVersion": 1
-    },
-    {
-      "id": "math-notes-2026-10-30",
-      "course": "MATH",
-      "shortName": "整理 10/30（Day 15）笔记",
-      "classDate": "2026-10-30",
-      "dueDate": "2026-10-30",
-      "deadlineKind": "same-day",
-      "taskKind": "lecture-notes",
-      "materials": [
-        "math-lecture14",
-        "math-lecture14-announcement",
-        "math-syllabus"
-      ],
-      "note": "个人整理期限仍为10/30。教师10/30 20:03公告明确Lecture14是当天课堂笔记，已补齐12页原PDF。按9/28起周一三五课表、含10/23期中课次，10/30为Day15；讲义编号14与课次分开。内容为有限域上的线性群及Fano平面；未代写或标记完成。",
-      "done": false,
-      "statusVersion": 1
-    },
-    {
       "id": "sosc-washington-daughters",
       "course": "SOSC",
       "shortName": "读 Washington · Female Socialization",
@@ -1956,8 +1044,10 @@ window.WORKLIST = {
         "sosc-syllabus"
       ],
       "note": "Day11 Cross-sectional Designs课前必读，AER98(1)(2008):311–332。已归档23页期刊原文件（含JSTOR封面），文件名采用原文完整题名。",
-      "done": false,
-      "statusVersion": 1
+      "done": true,
+      "statusVersion": 2,
+      "taskKind": "preclass-reading",
+      "completionReason": "class-date-passed"
     },
     {
       "id": "sosc-ba-police",
@@ -1971,8 +1061,10 @@ window.WORKLIST = {
         "sosc-syllabus"
       ],
       "note": "Day11课前必读，Science371(6530)(2021):696–702。原文件8页，包括7页正文与出版信息页。",
-      "done": false,
-      "statusVersion": 1
+      "done": true,
+      "statusVersion": 2,
+      "taskKind": "preclass-reading",
+      "completionReason": "class-date-passed"
     },
     {
       "id": "sosc-becher-vote",
@@ -1986,8 +1078,10 @@ window.WORKLIST = {
         "sosc-syllabus"
       ],
       "note": "Day12 Colliders and Mediators课前必读，JoP75(4)(2013):968–979。归档官方大学库的34页作者稿（2013/7/15，forthcoming），页码与期刊版不同；不是新增的额外阅读。",
-      "done": false,
-      "statusVersion": 1
+      "done": true,
+      "statusVersion": 2,
+      "taskKind": "preclass-reading",
+      "completionReason": "class-date-passed"
     },
     {
       "id": "sosc-gale-neuroticism",
@@ -2001,8 +1095,10 @@ window.WORKLIST = {
         "sosc-syllabus"
       ],
       "note": "Day12课前必读。课程阅读库原PDF共14页：第1页为2019勘误，后13页为2017原论文（Psychological Science28:1345–1357）；整份保留，不把勘误误当完整论文。",
-      "done": false,
-      "statusVersion": 1
+      "done": true,
+      "statusVersion": 2,
+      "taskKind": "preclass-reading",
+      "completionReason": "class-date-passed"
     },
     {
       "id": "sosc-richardson-collider",
@@ -2016,8 +1112,10 @@ window.WORKLIST = {
         "sosc-syllabus"
       ],
       "note": "Day12课前必读，Psychological Science30(4)(2019):629–632。已取得课程阅读库4页原刊正文，非补充材料。",
-      "done": false,
-      "statusVersion": 1
+      "done": true,
+      "statusVersion": 2,
+      "taskKind": "preclass-reading",
+      "completionReason": "class-date-passed"
     },
     {
       "id": "phys-lab4-notebook",
@@ -2101,22 +1199,6 @@ window.WORKLIST = {
       "materials": []
     },
     {
-      "id": "math-preview-2026-10-31",
-      "course": "MATH",
-      "shortName": "预习 10/31",
-      "dueDate": "2026-10-31",
-      "planDate": "2026-10-31",
-      "deadlineKind": "same-day",
-      "recurrenceKey": "math-preview",
-      "materials": [
-        "math-lecture14",
-        "math-ps5"
-      ],
-      "note": "每日个人预习待办，包括周末，当天完成。附最新 Lecture 14（有限域上的线性群、Fano 平面）和 PS5 供自行安排；只维护待办，未代做预习。",
-      "done": false,
-      "statusVersion": 1
-    },
-    {
       "id": "phys-reading6",
       "course": "PHYS",
       "shortName": "读教材 Ch. 6",
@@ -2128,22 +1210,6 @@ window.WORKLIST = {
         "phys-lecture11"
       ],
       "note": "Canvas Week 6（11/2–11/6）要求阅读 Chapter 6；未列独立截止时刻，不把周一当作正式阅读DDL。",
-      "done": false,
-      "statusVersion": 1
-    },
-    {
-      "id": "math-preview-2026-11-01",
-      "course": "MATH",
-      "shortName": "预习 11/01",
-      "dueDate": "2026-11-01",
-      "planDate": "2026-11-01",
-      "deadlineKind": "same-day",
-      "recurrenceKey": "math-preview",
-      "materials": [
-        "math-lecture14",
-        "math-ps5"
-      ],
-      "note": "每日个人预习待办，包括周末，当天完成。附最新 Lecture 14（有限域上的线性群、Fano 平面）和 PS5 供自行安排；只维护待办，未代做预习。",
       "done": false,
       "statusVersion": 1
     },
@@ -2165,7 +1231,11 @@ window.WORKLIST = {
       ],
       "note": "11/5 Gradescope 已显示 Submitted。11/9 23:59 CST 截止；共 8 道 Chapter 6 题。期末复习时可按教师建议限时重做。 11/10 已归档并补上教师解答。",
       "done": true,
-      "statusVersion": 2
+      "statusVersion": 2,
+      "displayMaterials": [
+        "phys-hw6-pdf",
+        "phys-hw6-canvas"
+      ]
     },
     {
       "id": "phys-hw7",
@@ -2182,7 +1252,11 @@ window.WORKLIST = {
       ],
       "note": "11/11 Canvas与Gradescope确认11/16 23:59 CST截止，尚未提交。采用Canvas标注11/9 17:35修订的原题，第5题改为滚罐头课堂实验（题面写11/12演示），另有Knight第1版P7.6、24、30、34、64、66、68。上传单个PDF。 11/14 Gradescope 显示尚未提交，Lecture 13 的滚动实验可参考第 5 题。",
       "done": false,
-      "statusVersion": 1
+      "statusVersion": 1,
+      "displayMaterials": [
+        "phys-hw7-pdf",
+        "phys-hw7-canvas"
+      ]
     },
     {
       "id": "phys-hw8",
@@ -2197,7 +1271,10 @@ window.WORKLIST = {
       ],
       "note": "11/1 Canvas已公布截止11/30 23:59 CST；作业锁定至11/16 00:00 CST。仅补录已公布安排，当前题目尚不可下载；开放后补充具体文件。America/Chicago。",
       "done": false,
-      "statusVersion": 1
+      "statusVersion": 1,
+      "displayMaterials": [
+        "phys-hw8-canvas"
+      ]
     },
     {
       "id": "phys-reading7",
@@ -2239,147 +1316,6 @@ window.WORKLIST = {
       "statusVersion": 1
     },
     {
-      "id": "math-preview-2026-11-02",
-      "course": "MATH",
-      "shortName": "预习 11/02",
-      "dueDate": "2026-11-02",
-      "planDate": "2026-11-02",
-      "deadlineKind": "same-day",
-      "recurrenceKey": "math-preview",
-      "materials": [
-        "math-lecture14",
-        "math-ps5",
-        "math-lecture15",
-        "math-conrad-semidirect",
-        "math-conrad-dihedral2"
-      ],
-      "note": "每日个人预习，期限为11/2当天，未代做预习。11/2首页新发Lecture15（Automorphisms and Semidirect Products）及两份推荐补充阅读已归档。讲义未明确标注实际课日，暂列Reference，不编造Day；推荐资料不另设必交期限。",
-      "done": false,
-      "statusVersion": 1
-    },
-    {
-      "id": "math-notes-2026-11-02",
-      "course": "MATH",
-      "shortName": "整理 11/02 笔记",
-      "classDate": "2026-11-02",
-      "dueDate": "2026-11-02",
-      "deadlineKind": "same-day",
-      "taskKind": "lecture-notes",
-      "materials": [
-        "math-syllabus",
-        "math-lecture15",
-        "math-conrad-semidirect",
-        "math-conrad-dihedral2"
-      ],
-      "note": "个人整理期限为11/2当天，按周一课表建立，未代写笔记。11/2首页新发Lecture15（Automorphisms and Semidirect Products）及两份推荐补充阅读已归档。讲义未明确标注实际课日，暂列Reference，不编造Day；推荐资料不另设必交期限。",
-      "done": false,
-      "statusVersion": 1
-    },
-    {
-      "id": "cmsc-notes-2026-11-02",
-      "course": "CMSC",
-      "shortName": "整理 11/02 笔记",
-      "classDate": "2026-11-02",
-      "dueDate": "2026-11-02",
-      "deadlineKind": "same-day",
-      "taskKind": "lecture-notes",
-      "materials": [
-        "cmsc-syllabus",
-        "cmsc-old-notes",
-        "cmsc-syllabus-archive",
-        "cmsc-midterm-makeup-email",
-        "cmsc-colloquium-20261104"
-      ],
-      "note": "按教师官网周一课表建立当次笔记待办，个人整理期限11/2当天。官网仍Week1–5，无独立今日课件；不把整周内容冒称11/2当次课堂。Ed新增期中补题安排已补查，另附11/4可选讲座，不列为必做任务。",
-      "done": false,
-      "statusVersion": 1
-    },
-    {
-      "id": "math-preview-2026-11-03",
-      "course": "MATH",
-      "shortName": "预习 11/03",
-      "dueDate": "2026-11-03",
-      "planDate": "2026-11-03",
-      "deadlineKind": "same-day",
-      "recurrenceKey": "math-preview",
-      "materials": [
-        "math-lecture15",
-        "math-ps5"
-      ],
-      "note": "补记11/3每日个人预习，保留原日期，未代做或自动完成。",
-      "done": false,
-      "statusVersion": 1
-    },
-    {
-      "id": "math-preview-2026-11-04",
-      "course": "MATH",
-      "shortName": "预习 11/04",
-      "dueDate": "2026-11-04",
-      "planDate": "2026-11-04",
-      "deadlineKind": "same-day",
-      "recurrenceKey": "math-preview",
-      "materials": [
-        "math-lecture15",
-        "math-lecture16",
-        "math-ps6"
-      ],
-      "note": "每日个人预习，期限11/4当天。附11/4修订Lecture15、新Lecture16及PS6；讲义课日未明确，暂存Reference，不等同教师作业DDL。",
-      "done": false,
-      "statusVersion": 1
-    },
-    {
-      "id": "sosc-notes-2026-11-03",
-      "course": "SOSC",
-      "shortName": "整理 11/03（Day 11）笔记",
-      "classDate": "2026-11-03",
-      "dueDate": "2026-11-03",
-      "deadlineKind": "same-day",
-      "taskKind": "lecture-notes",
-      "materials": [
-        "sosc-class11-slides",
-        "sosc-washington-pdf",
-        "sosc-ba-police-pdf",
-        "sosc-syllabus"
-      ],
-      "note": "Day 11 课堂笔记，个人整理期限保留原课日。11/6 已补上教师 Class 11 原始 PPT。",
-      "done": false,
-      "statusVersion": 1
-    },
-    {
-      "id": "math-notes-2026-11-04",
-      "course": "MATH",
-      "shortName": "整理 11/04 笔记",
-      "classDate": "2026-11-04",
-      "dueDate": "2026-11-04",
-      "deadlineKind": "same-day",
-      "taskKind": "lecture-notes",
-      "materials": [
-        "math-lecture16",
-        "math-lecture15",
-        "math-syllabus"
-      ],
-      "note": "按周三课表建立当天笔记待办，个人期限当天。附最新Lecture16和修订Lecture15供参照，课日映射未明确，不编造Day；下午课材料后续补齐，未代写笔记。",
-      "done": false,
-      "statusVersion": 1
-    },
-    {
-      "id": "cmsc-notes-2026-11-04",
-      "course": "CMSC",
-      "shortName": "整理 11/04 笔记",
-      "classDate": "2026-11-04",
-      "dueDate": "2026-11-04",
-      "deadlineKind": "same-day",
-      "taskKind": "lecture-notes",
-      "materials": [
-        "cmsc-syllabus",
-        "cmsc-old-notes",
-        "cmsc-midterm-partitions"
-      ],
-      "note": "按官网周三课表建立，个人期限当天。官网仍Week1–5，无独立当日课件，不把整周冒称当天内容；附教师11/4期中题澄清。未代写笔记。",
-      "done": false,
-      "statusVersion": 1
-    },
-    {
       "id": "math-ps6",
       "course": "MATH",
       "shortName": "PS6",
@@ -2396,7 +1332,11 @@ window.WORKLIST = {
       ],
       "note": "全套建议 11/11 完成，不计分。修订版 7 页 12 题，Mp 小题改引 Lecture 17 §2。仅在希望获得反馈时提交，最多两题并标出题号。Gradescope 正常截止 11/11 23:59 CST，晚交至 11/18 23:59 CST。 教师建议复习作业准备 11/13 期中。",
       "done": false,
-      "statusVersion": 1
+      "statusVersion": 1,
+      "displayMaterials": [
+        "math-ps6",
+        "math-ps6-canvas"
+      ]
     },
     {
       "id": "sosc-card-krueger",
@@ -2410,8 +1350,10 @@ window.WORKLIST = {
         "sosc-syllabus"
       ],
       "note": "11/4现行大纲Day 13（11/10）必读，课前完成，America/Chicago；未单列提交时刻。原文已按课程/Day归档。",
-      "done": false,
-      "statusVersion": 1
+      "done": true,
+      "statusVersion": 2,
+      "taskKind": "preclass-reading",
+      "completionReason": "class-date-passed"
     },
     {
       "id": "sosc-pager-criminal-record",
@@ -2425,8 +1367,10 @@ window.WORKLIST = {
         "sosc-syllabus"
       ],
       "note": "11/4现行大纲Day 13（11/10）必读，课前完成，America/Chicago；未单列提交时刻。原文已按课程/Day归档。",
-      "done": false,
-      "statusVersion": 1
+      "done": true,
+      "statusVersion": 2,
+      "taskKind": "preclass-reading",
+      "completionReason": "class-date-passed"
     },
     {
       "id": "sosc-dunning-inference",
@@ -2440,8 +1384,10 @@ window.WORKLIST = {
         "sosc-syllabus"
       ],
       "note": "11/4现行大纲Day 14（11/12）必读，课前完成，America/Chicago；未单列提交时刻。原文已按课程/Day归档。",
-      "done": false,
-      "statusVersion": 1
+      "done": true,
+      "statusVersion": 2,
+      "taskKind": "preclass-reading",
+      "completionReason": "class-date-passed"
     },
     {
       "id": "sosc-galiani-property",
@@ -2455,8 +1401,10 @@ window.WORKLIST = {
         "sosc-syllabus"
       ],
       "note": "11/4现行大纲Day 14（11/12）必读，课前完成，America/Chicago；未单列提交时刻。已取得作者大学提供的2010工作论文版55页，不是期刊排版版。",
-      "done": false,
-      "statusVersion": 1
+      "done": true,
+      "statusVersion": 2,
+      "taskKind": "preclass-reading",
+      "completionReason": "class-date-passed"
     },
     {
       "id": "sosc-angrist-schooling",
@@ -2470,8 +1418,10 @@ window.WORKLIST = {
         "sosc-syllabus"
       ],
       "note": "11/4现行大纲Day 14（11/12）必读，课前完成，America/Chicago；未单列提交时刻。原文已按课程/Day归档。",
-      "done": false,
-      "statusVersion": 1
+      "done": true,
+      "statusVersion": 2,
+      "taskKind": "preclass-reading",
+      "completionReason": "class-date-passed"
     },
     {
       "id": "cmsc-hw5",
@@ -2490,42 +1440,10 @@ window.WORKLIST = {
       "note": "11/10教授确认的最新版已归档。第4题整数n≥3、包含正方形边界；第2题标准32枚棋子，最终写一个整数，可用计算器完成数值计算；第5题答案为有理数。11/11晚教授补充类比提示：公平硬币抛101次，正面总数≤50的概率及原因，见下方原帖。 11/14 Gradescope 已确认提交。",
       "done": true,
       "statusVersion": 2,
-      "time": "23:59"
-    },
-    {
-      "id": "math-preview-2026-11-05",
-      "course": "MATH",
-      "shortName": "预习 11/05",
-      "dueDate": "2026-11-05",
-      "deadlineKind": "same-day",
-      "materials": [
-        "math-lecture16",
-        "math-ps6"
-      ],
-      "note": "个人预习，11/5 当天完成。附 11/5 核实的修订版 Lecture 16 和 PS6。",
-      "done": false,
-      "statusVersion": 1,
-      "planDate": "2026-11-05",
-      "recurrenceKey": "math-preview"
-    },
-    {
-      "id": "sosc-notes-2026-11-05",
-      "course": "SOSC",
-      "shortName": "整理 11/05（Day 12）笔记",
-      "dueDate": "2026-11-05",
-      "deadlineKind": "same-day",
-      "materials": [
-        "sosc-class12-slides",
-        "sosc-becher-vote-pdf",
-        "sosc-gale-neuroticism-pdf",
-        "sosc-richardson-collider-pdf",
-        "sosc-syllabus"
-      ],
-      "note": "Day 12 课堂笔记，个人整理期限保留原课日。11/6 已补上教师 Class 12 原始 PPT。",
-      "done": false,
-      "statusVersion": 1,
-      "classDate": "2026-11-05",
-      "taskKind": "lecture-notes"
+      "time": "23:59",
+      "displayMaterials": [
+        "cmsc-hw5-pdf"
+      ]
     },
     {
       "id": "math-ps5-feedback",
@@ -2541,7 +1459,11 @@ window.WORKLIST = {
       "note": "可选反馈正常截止 11/5 23:59 CST 已过，11/6 Gradescope 显示仍未提交，晚交入口至 11/11 23:59 CST。最多选两题并明确标出题号。保留原截止日。",
       "done": false,
       "statusVersion": 1,
-      "time": "23:59"
+      "time": "23:59",
+      "displayMaterials": [
+        "math-ps5",
+        "math-gradescope"
+      ]
     },
     {
       "id": "math-ps6-feedback",
@@ -2558,7 +1480,11 @@ window.WORKLIST = {
       "note": "仅在希望获得反馈时提交，最多两题并标出题号。Gradescope 正常截止 11/11 23:59 CST，晚交至 11/18 23:59 CST。",
       "done": false,
       "statusVersion": 1,
-      "time": "23:59"
+      "time": "23:59",
+      "displayMaterials": [
+        "math-ps6",
+        "math-gradescope"
+      ]
     },
     {
       "id": "math-midterm2-2026-11-13",
@@ -2585,75 +1511,6 @@ window.WORKLIST = {
       "note": "11/13（周五）课内50分钟，累积考查，侧重第一次期中后的内容。11/11最新公告：范围截至11/11课堂；不打算考练习卷中超出课堂的Sylow应用题（例如某些阶数的群分类），但仍应会陈述和应用Sylow定理。老师推荐复习作业与30道练习题；Lecture17第3节不考。Lecture19已更新为6页、删去原12阶群分类部分。 11/14 教师发布 6 页带注释的原题和解答。",
       "done": false,
       "statusVersion": 1
-    },
-    {
-      "id": "math-preview-2026-11-06",
-      "course": "MATH",
-      "shortName": "预习 11/06",
-      "dueDate": "2026-11-06",
-      "deadlineKind": "same-day",
-      "materials": [
-        "math-lecture16",
-        "math-ps6",
-        "math-midterm2-announcement"
-      ],
-      "note": "个人计划，期限为今天。每日预习。",
-      "done": false,
-      "statusVersion": 1,
-      "planDate": "2026-11-06",
-      "recurrenceKey": "math-preview"
-    },
-    {
-      "id": "math-notes-2026-11-06",
-      "course": "MATH",
-      "shortName": "整理 11/06 笔记",
-      "dueDate": "2026-11-06",
-      "deadlineKind": "same-day",
-      "materials": [
-        "math-lecture17",
-        "math-lecture16",
-        "math-ps6",
-        "math-syllabus"
-      ],
-      "note": "个人整理期限为 11/6。补入课程新发的 Lecture 17 供对照，教师页未注明它对应的实际课日。",
-      "done": false,
-      "statusVersion": 1,
-      "classDate": "2026-11-06",
-      "taskKind": "lecture-notes"
-    },
-    {
-      "id": "cmsc-notes-2026-11-06",
-      "course": "CMSC",
-      "shortName": "整理 11/06 笔记",
-      "dueDate": "2026-11-06",
-      "deadlineKind": "same-day",
-      "materials": [
-        "cmsc-syllabus",
-        "cmsc-old-notes",
-        "cmsc-hw5-pdf"
-      ],
-      "note": "个人计划，期限为今天。依据周五正常课表建立本次笔记整理待办，已附现有参考材料，新课件发布后再补充。",
-      "done": false,
-      "statusVersion": 1,
-      "classDate": "2026-11-06",
-      "taskKind": "lecture-notes"
-    },
-    {
-      "id": "math-preview-2026-11-07",
-      "course": "MATH",
-      "shortName": "预习 11/07",
-      "dueDate": "2026-11-07",
-      "deadlineKind": "same-day",
-      "materials": [
-        "math-lecture17",
-        "math-midterm2-practice",
-        "math-ps6"
-      ],
-      "note": "个人计划，期限为今天。每日预习。",
-      "done": false,
-      "statusVersion": 1,
-      "planDate": "2026-11-07",
-      "recurrenceKey": "math-preview"
     },
     {
       "id": "phys-lab5-notebook",
@@ -2724,114 +1581,6 @@ window.WORKLIST = {
       "statusVersion": 1
     },
     {
-      "id": "math-preview-2026-11-08",
-      "course": "MATH",
-      "shortName": "预习 11/08",
-      "dueDate": "2026-11-08",
-      "deadlineKind": "same-day",
-      "materials": [
-        "math-lecture17",
-        "math-midterm2-practice",
-        "math-ps6"
-      ],
-      "note": "个人计划，期限为今天。每日预习。",
-      "done": false,
-      "statusVersion": 1,
-      "planDate": "2026-11-08",
-      "recurrenceKey": "math-preview"
-    },
-    {
-      "id": "math-preview-2026-11-09",
-      "course": "MATH",
-      "shortName": "预习 11/09",
-      "dueDate": "2026-11-09",
-      "deadlineKind": "same-day",
-      "materials": [
-        "math-lecture17",
-        "math-midterm2-practice",
-        "math-ps6"
-      ],
-      "note": "个人计划，期限为今天。每日预习。",
-      "done": false,
-      "statusVersion": 1,
-      "planDate": "2026-11-09",
-      "recurrenceKey": "math-preview"
-    },
-    {
-      "id": "math-notes-2026-11-09",
-      "course": "MATH",
-      "shortName": "整理 11/09 笔记",
-      "dueDate": "2026-11-09",
-      "deadlineKind": "same-day",
-      "materials": [
-        "math-lecture18",
-        "math-lecture17",
-        "math-lecture16",
-        "math-ps6",
-        "math-syllabus",
-        "math-lecture-correction-1109"
-      ],
-      "note": "个人整理期限为 11/9。已附新发 Lecture 18 供对照，课程页未标讲义对应的实际课日。 11/11教师更正：一般(G/H)^H为满足g⁻¹Hg⊆H的陪集gH；H有限时才等于N(H)/H，课堂应用仅涉及有限群。",
-      "done": false,
-      "statusVersion": 1,
-      "classDate": "2026-11-09",
-      "taskKind": "lecture-notes"
-    },
-    {
-      "id": "cmsc-notes-2026-11-09",
-      "course": "CMSC",
-      "shortName": "整理 11/09 笔记",
-      "dueDate": "2026-11-09",
-      "deadlineKind": "same-day",
-      "materials": [
-        "cmsc-week7-ed",
-        "cmsc-vershynin-hdp",
-        "cmsc-syllabus",
-        "cmsc-old-notes",
-        "cmsc-hw5-pdf"
-      ],
-      "note": "按最近核实的周一课表列入，个人整理期限为 11/9。所附为已有参考材料，今日讲义待补查。 第七周提纲涵盖期望、方差、Markov、Chebyshev 和 Hoeffding 不等式，以及图的度数、路径、连通性和直径。教师引用 Vershynin 定理 2.2.2，作者 10/23 版 §2.2 的编号有差异，可按标题 Hoeffding inequality 查找。",
-      "done": false,
-      "statusVersion": 1,
-      "classDate": "2026-11-09",
-      "taskKind": "lecture-notes"
-    },
-    {
-      "id": "math-preview-2026-11-10",
-      "course": "MATH",
-      "shortName": "预习 11/10",
-      "dueDate": "2026-11-10",
-      "deadlineKind": "same-day",
-      "materials": [
-        "math-lecture18",
-        "math-lecture17",
-        "math-midterm2-practice",
-        "math-ps6"
-      ],
-      "note": "个人计划，期限为今天。每日预习。",
-      "done": false,
-      "statusVersion": 1,
-      "planDate": "2026-11-10",
-      "recurrenceKey": "math-preview"
-    },
-    {
-      "id": "sosc-notes-2026-11-10",
-      "course": "SOSC",
-      "shortName": "整理 11/10（Day 13）笔记",
-      "dueDate": "2026-11-10",
-      "deadlineKind": "same-day",
-      "materials": [
-        "sosc-card-krueger-pdf",
-        "sosc-pager-criminal-record-pdf",
-        "sosc-syllabus"
-      ],
-      "note": "Day13双重差分与审计研究，两篇课前必读见下方。11/12检查Course Slides仍只列至Class12，Class13尚未见。",
-      "done": false,
-      "statusVersion": 1,
-      "classDate": "2026-11-10",
-      "taskKind": "lecture-notes"
-    },
-    {
       "id": "sosc-essay2",
       "course": "SOSC",
       "shortName": "Essay 2",
@@ -2857,67 +1606,10 @@ window.WORKLIST = {
       "done": false,
       "statusVersion": 1,
       "time": "23:59",
-      "deadlineKind": "exact"
-    },
-    {
-      "id": "math-preview-2026-11-11",
-      "course": "MATH",
-      "shortName": "预习 11/11",
-      "dueDate": "2026-11-11",
-      "planDate": "2026-11-11",
-      "deadlineKind": "same-day",
-      "recurrenceKey": "math-preview",
-      "materials": [
-        "math-lecture19",
-        "math-lecture18",
-        "math-midterm2-practice",
-        "math-ps6",
-        "math-conrad-sylowpf",
-        "math-conrad-sylowmore",
-        "math-conrad-sylowapp",
-        "math-conrad-group12"
-      ],
-      "note": "个人计划，期限为今天。新发Lecture19及其Conrad参考阅读已归档；参考阅读不是新增必交作业。",
-      "done": false,
-      "statusVersion": 1
-    },
-    {
-      "id": "math-notes-2026-11-11",
-      "course": "MATH",
-      "shortName": "整理 11/11 笔记",
-      "dueDate": "2026-11-11",
-      "classDate": "2026-11-11",
-      "deadlineKind": "same-day",
-      "taskKind": "lecture-notes",
-      "materials": [
-        "math-lecture19",
-        "math-lecture18",
-        "math-syllabus"
-      ],
-      "note": "个人整理期限为11/11。新发Lecture19供对照，课程页未明确讲义对应的实际课日；不代替完成笔记。",
-      "done": false,
-      "statusVersion": 1
-    },
-    {
-      "id": "cmsc-notes-2026-11-11",
-      "course": "CMSC",
-      "shortName": "整理 11/11 笔记",
-      "dueDate": "2026-11-11",
-      "classDate": "2026-11-11",
-      "deadlineKind": "same-day",
-      "taskKind": "lecture-notes",
-      "materials": [
-        "cmsc-week7-ed",
-        "cmsc-vershynin-hdp",
-        "cmsc-hw6-pdf",
-        "cmsc-hw5-pdf",
-        "cmsc-old-notes",
-        "cmsc-syllabus",
-        "cmsc-notes-ed-1112"
-      ],
-      "note": "按周三课表列入，个人整理期限为11/11。Ed未见今日新讲义，教师官网仍不可用；所附为已有作业与参考笔记。 11/12教授补发2018旧课程笔记，可作参考，不等同本次课的逐课讲义。 第七周提纲涵盖期望、方差、Markov、Chebyshev 和 Hoeffding 不等式，以及图的度数、路径、连通性和直径。教师引用 Vershynin 定理 2.2.2，作者 10/23 版 §2.2 的编号有差异，可按标题 Hoeffding inequality 查找。",
-      "done": false,
-      "statusVersion": 1
+      "deadlineKind": "exact",
+      "displayMaterials": [
+        "cmsc-hw6-pdf"
+      ]
     },
     {
       "id": "math-ps7",
@@ -2935,86 +1627,11 @@ window.WORKLIST = {
       ],
       "note": "6页12题，含部分提示；题面建议11/20完成，全套不计分。涉及Sylow与半直积。需要教师反馈时最多提交两题；11/12 Gradescope尚未开放HW7，可选反馈期限待公布。",
       "done": false,
-      "statusVersion": 1
-    },
-    {
-      "id": "math-preview-2026-11-12",
-      "course": "MATH",
-      "shortName": "预习 11/12",
-      "dueDate": "2026-11-12",
-      "planDate": "2026-11-12",
-      "deadlineKind": "same-day",
-      "recurrenceKey": "math-preview",
-      "materials": [
-        "math-lecture19",
-        "math-lecture18",
-        "math-midterm2-scope",
-        "math-midterm2-practice",
-        "math-lecture-correction-1109",
-        "math-ps7"
-      ],
-      "note": "每日个人预习待办，截止当天；未代做。Lecture19已更新为6页；明天期中范围以11/11教师公告为准。",
-      "done": false,
-      "statusVersion": 1
-    },
-    {
-      "id": "sosc-notes-2026-11-12",
-      "course": "SOSC",
-      "shortName": "整理 11/12（Day 14）笔记",
-      "dueDate": "2026-11-12",
-      "classDate": "2026-11-12",
-      "deadlineKind": "same-day",
-      "taskKind": "lecture-notes",
-      "materials": [
-        "sosc-dunning-inference-pdf",
-        "sosc-galiani-property-pdf",
-        "sosc-angrist-schooling-pdf",
-        "sosc-syllabus"
-      ],
-      "note": "Day14自然实验的论证与工具变量；当天个人整理期限，未代做笔记。今天课内Quiz2，11/17停课。中午Course Slides仍至Class12，Day14课件尚未见，后续补齐。",
-      "done": false,
-      "statusVersion": 1
-    },
-    {
-      "id": "math-preview-2026-11-13",
-      "course": "MATH",
-      "shortName": "预习 11/13",
-      "dueDate": "2026-11-13",
-      "planDate": "2026-11-13",
-      "deadlineKind": "same-day",
-      "recurrenceKey": "math-preview",
-      "materials": [
-        "math-lecture19",
-        "math-lecture18",
-        "math-midterm2-scope",
-        "math-midterm2-practice",
-        "math-lecture-correction-1109",
-        "math-ps7"
-      ],
-      "note": "每日个人预习待办，截止当天；未代做。今天为Midterm 2，已有考试任务另列；已附最新归档讲义和PS7。11/13公开原件核验与归档一致，Canvas新发布内容待登录补查。",
-      "done": false,
-      "statusVersion": 1
-    },
-    {
-      "id": "cmsc-notes-2026-11-13",
-      "course": "CMSC",
-      "shortName": "整理 11/13 笔记",
-      "dueDate": "2026-11-13",
-      "classDate": "2026-11-13",
-      "deadlineKind": "same-day",
-      "taskKind": "lecture-notes",
-      "materials": [
-        "cmsc-week7-ed",
-        "cmsc-vershynin-hdp",
-        "cmsc-afterclass-20261113",
-        "cmsc-hw6-pdf",
-        "cmsc-old-notes",
-        "cmsc-notes-ed-1112",
-        "cmsc-syllabus"
-      ],
-      "note": "按周五课表列入，个人整理期限为今天。教授11/12公告确认今天有课，但课后须立即离开，不能照常答疑。Ed未见新的逐课讲义，所附2018笔记仅供参考；教师官网仍不可访问。 第七周提纲涵盖期望、方差、Markov、Chebyshev 和 Hoeffding 不等式，以及图的度数、路径、连通性和直径。教师引用 Vershynin 定理 2.2.2，作者 10/23 版 §2.2 的编号有差异，可按标题 Hoeffding inequality 查找。",
-      "done": false,
-      "statusVersion": 1
+      "statusVersion": 1,
+      "displayMaterials": [
+        "math-ps7",
+        "math-ps7-canvas"
+      ]
     },
     {
       "id": "phys-lab-ta-feedback-2026-autumn",
@@ -3032,23 +1649,6 @@ window.WORKLIST = {
       "statusVersion": 1
     },
     {
-      "id": "math-preview-2026-11-14",
-      "course": "MATH",
-      "shortName": "预习 11/14",
-      "dueDate": "2026-11-14",
-      "planDate": "2026-11-14",
-      "deadlineKind": "same-day",
-      "recurrenceKey": "math-preview",
-      "materials": [
-        "math-lecture19",
-        "math-ps7",
-        "math-midterm2-annotated"
-      ],
-      "note": "周六个人预习，期限为当天。可直接打开 Lecture 19、PS7 和老师今天发布的期中二讲评。",
-      "done": false,
-      "statusVersion": 1
-    },
-    {
       "id": "sosc-mastering-iv",
       "course": "SOSC",
       "shortName": "读 Mastering ’Metrics 第 3 章 · Instrumental Variables",
@@ -3061,7 +1661,8 @@ window.WORKLIST = {
       ],
       "note": "11/19（Day 15）课前必读。第 98–146 页。课程阅读库为空，出版社提供书籍入口，章节 PDF 待补。",
       "done": false,
-      "statusVersion": 1
+      "statusVersion": 1,
+      "taskKind": "preclass-reading"
     },
     {
       "id": "sosc-eggers-thresholds",
@@ -3076,7 +1677,8 @@ window.WORKLIST = {
       ],
       "note": "11/19（Day 15）课前必读。牛津大学提供含附录的接受稿，期刊版页码 210–229。",
       "done": false,
-      "statusVersion": 1
+      "statusVersion": 1,
+      "taskKind": "preclass-reading"
     },
     {
       "id": "sosc-bleemer-major",
@@ -3091,7 +1693,8 @@ window.WORKLIST = {
       ],
       "note": "11/19（Day 15）课前必读。原刊正文第 1–22 页，PDF 末页另有引用记录。",
       "done": false,
-      "statusVersion": 1
+      "statusVersion": 1,
+      "taskKind": "preclass-reading"
     }
   ],
   "materials": {
@@ -4373,69 +2976,30 @@ window.WORKLIST = {
       "note": "按现行大纲常规时段；10/28预约窗口已结束。具体预约以Canvas为准，私人入场信息不公开。"
     }
   ],
-  "notesPolicy": {
-    "timezone": "America/Chicago",
-    "deadline": "class-day",
-    "startDate": "2026-10-01",
-    "courseDays": {
-      "MATH": [
-        1,
-        3,
-        5
-      ],
-      "CMSC": [
-        1,
-        3,
-        5
-      ],
-      "SOSC": [
-        2,
-        4
-      ]
+  "finals": [
+    {
+      "course": "MATH 25700",
+      "start": "2026-12-08T10:30:00-06:00",
+      "end": "2026-12-08T12:30:00-06:00",
+      "room": "E 202"
     },
-    "deduplicateBy": [
-      "course",
-      "classDate"
-    ],
-    "courseExceptions": [
-      {
-        "course": "SOSC",
-        "classDate": "2026-11-17",
-        "reason": "大纲列明教师参会停课"
-      },
-      {
-        "course": "MATH",
-        "classDate": "2026-10-23",
-        "reason": "教师公告：课内 Midterm 1，维护考试任务，不创建普通课堂笔记项"
-      },
-      {
-        "course": "CMSC",
-        "classDate": "2026-10-30",
-        "reason": "教师确认课内Midterm，维护考试任务，不创建普通课堂笔记项"
-      },
-      {
-        "course": "MATH",
-        "classDate": "2026-11-13",
-        "reason": "教师公告：课内Midterm 2，维护考试任务，不创建普通课堂笔记项"
-      }
-    ]
-  },
-  "dailyTasksPolicy": {
-    "timezone": "America/Chicago",
-    "startDate": "2026-10-11",
-    "tasks": [
-      {
-        "course": "MATH 25700",
-        "recurrenceKey": "math-preview",
-        "idPattern": "math-preview-YYYY-MM-DD",
-        "title": "MATH 预习 MM/DD",
-        "frequency": "daily",
-        "includeWeekends": true,
-        "deadlineKind": "same-day",
-        "deduplicateBy": "recurrenceKey + planDate",
-        "preserveOverdueDates": true,
-        "keepCompletionState": true
-      }
-    ]
-  }
+    {
+      "course": "SOSC 13100",
+      "start": "2026-12-08T13:00:00-06:00",
+      "end": "2026-12-08T15:00:00-06:00",
+      "room": "SS 106"
+    },
+    {
+      "course": "CMSC 27130",
+      "start": "2026-12-10T08:00:00-06:00",
+      "end": "2026-12-10T10:00:00-06:00",
+      "room": "RY 276"
+    },
+    {
+      "course": "PHYS 12100",
+      "start": "2026-12-10T15:30:00-06:00",
+      "end": "2026-12-10T17:30:00-06:00",
+      "room": "KPTC 106"
+    }
+  ]
 };
