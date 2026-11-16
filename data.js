@@ -1,6 +1,6 @@
 window.WORKLIST = {
-  "updatedAt": "2026-11-14T20:51:06Z",
-  "scope": "11/14 已查 Canvas、Gradescope 和 Ed。MATH 期中二讲评、PHYS Lecture 13 和 SOSC 两篇阅读已归档。CMSC HW5 与 PHYS Lab Report 5 已提交。CMSC HW6、PHYS HW7 待交。SOSC 11/17 停课，11/19 课前有三篇阅读。CMSC 教师官网暂时不可访问，SOSC 阅读库未显示条目，《Mastering ’Metrics》第 3 章 PDF 待补。",
+  "updatedAt": "2026-11-16T18:02:50Z",
+  "scope": "11/16 核对 Canvas、Gradescope 和 Ed。PHYS HW7 已交，HW8 已开放，题面待补。CMSC HW6 待交。MATH 本周讲 Sylow 定理的应用与 p 群。SOSC 11/17 停课，Essay 2 线上题目待发。CMSC 教师官网仍无法访问。",
   "tasks": [
     {
       "id": "sosc-freedman",
@@ -1248,14 +1248,16 @@ window.WORKLIST = {
         "phys-lecture13",
         "phys-hw7-pdf",
         "phys-hw7-canvas",
-        "phys-lecture12"
+        "phys-lecture12",
+        "phys-hw7-sol-canvas"
       ],
-      "note": "11/11 Canvas与Gradescope确认11/16 23:59 CST截止，尚未提交。采用Canvas标注11/9 17:35修订的原题，第5题改为滚罐头课堂实验（题面写11/12演示），另有Knight第1版P7.6、24、30、34、64、66、68。上传单个PDF。 11/14 Gradescope 显示尚未提交，Lecture 13 的滚动实验可参考第 5 题。",
-      "done": false,
-      "statusVersion": 1,
+      "note": "11/16 Gradescope 已确认提交。本次作业使用 11/9 修订版题面。Canvas 已列出 HW7 解答，11/17 00:00 CST 开放下载。",
+      "done": true,
+      "statusVersion": 2,
       "displayMaterials": [
         "phys-hw7-pdf",
-        "phys-hw7-canvas"
+        "phys-hw7-canvas",
+        "phys-hw7-sol-canvas"
       ]
     },
     {
@@ -1265,11 +1267,10 @@ window.WORKLIST = {
       "dueDate": "2026-11-30",
       "time": "23:59",
       "deadlineKind": "exact",
-      "state": "waiting",
       "materials": [
         "phys-hw8-canvas"
       ],
-      "note": "11/1 Canvas已公布截止11/30 23:59 CST；作业锁定至11/16 00:00 CST。仅补录已公布安排，当前题目尚不可下载；开放后补充具体文件。America/Chicago。",
+      "note": "11/16 Canvas 已开放，要求将 8 道题的书面答案合并为一个 PDF，11/30 23:59 CST 截止。作业说明尚未列出这 8 道题或题目附件，Gradescope 尚未列出 HW8。",
       "done": false,
       "statusVersion": 1,
       "displayMaterials": [
@@ -1590,7 +1591,7 @@ window.WORKLIST = {
       ],
       "done": false,
       "statusVersion": 1,
-      "note": "大纲列 11/12 发放、11/30 截止。11/14 Canvas 作业列表仍未列出独立题目或截止钟点。"
+      "note": "大纲列 11/12 发放、11/30 截止。11/16 核查 Canvas 作业列表、课程动态和文件，仍未见独立题目、提交入口或截止时刻。"
     },
     {
       "id": "cmsc-hw6",
@@ -1602,7 +1603,7 @@ window.WORKLIST = {
         "cmsc-hw6-ed",
         "cmsc-gradescope"
       ],
-      "note": "11/14 Gradescope确认未提交，正常截止11/18 23:59 CST，晚交截止11/20 23:59 CST。11/10教授在Ed发布原题，2页5题。",
+      "note": "11/16 Gradescope 显示尚未提交。正常截止 11/18 23:59 CST，晚交截止 11/20 23:59 CST。教授在 Ed 发布的原题共 2 页、5 题。",
       "done": false,
       "statusVersion": 1,
       "time": "23:59",
@@ -1623,14 +1624,17 @@ window.WORKLIST = {
         "math-lecture18",
         "math-lecture19",
         "math-policy",
-        "math-gradescope"
+        "math-gradescope",
+        "math-conrad-sylowpf",
+        "math-week8-sylow-announcement"
       ],
-      "note": "6页12题，含部分提示；题面建议11/20完成，全套不计分。涉及Sylow与半直积。需要教师反馈时最多提交两题；11/12 Gradescope尚未开放HW7，可选反馈期限待公布。",
+      "note": "6页12题，含部分提示；题面建议11/20完成，全套不计分。涉及Sylow与半直积。需要教师反馈时最多提交两题；11/16 Gradescope尚未开放HW7，可选反馈期限待公布。 教师 11/15 建议细读至少一种 Sylow 定理的证明；本周将用该定理讨论应用和 p 群。",
       "done": false,
       "statusVersion": 1,
       "displayMaterials": [
         "math-ps7",
-        "math-ps7-canvas"
+        "math-ps7-canvas",
+        "math-conrad-sylowpf"
       ]
     },
     {
@@ -2529,7 +2533,7 @@ window.WORKLIST = {
       "url": "https://canvas.uchicago.edu/courses/74238/assignments/908873"
     },
     "phys-hw8-canvas": {
-      "title": "HW8 · Canvas作业（11/16开放，题目待发布）",
+      "title": "HW8 · Canvas 作业说明（8 道题的题面待发布）",
       "url": "https://canvas.uchicago.edu/courses/74238/assignments/908874"
     },
     "phys-week7-reading": {
@@ -2850,6 +2854,14 @@ window.WORKLIST = {
     "sosc-mastering-iv-book": {
       "title": "Mastering ’Metrics · 出版社书目（第 3 章 PDF 待补）",
       "url": "https://press.princeton.edu/books/ebook/9781400852383/mastering-metrics-pdf"
+    },
+    "phys-hw7-sol-canvas": {
+      "title": "HW7 教师解答（11/17 00:00 开放）",
+      "url": "https://canvas.uchicago.edu/courses/74238/files/16198177"
+    },
+    "math-week8-sylow-announcement": {
+      "title": "本周主题与建议阅读 · 教师公告",
+      "url": "https://canvas.uchicago.edu/courses/75102/discussion_topics/1035918"
     }
   },
   "officeHours": [
