@@ -1721,7 +1721,7 @@ window.WORKLIST = {
       ],
       "note": "11/18 Gradescope 显示 No Submission。可选反馈正常截止11/18 23:59 CST，晚交至11/25 23:59 CST。最多提交两题并明确标出题号；此期限与题面建议11/20完成不同，不计入课程成绩。",
       "done": false,
-      "statusVersion": 1
+      "statusVersion": 2
     }
   ],
   "materials": {
