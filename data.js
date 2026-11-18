@@ -1,6 +1,6 @@
 window.WORKLIST = {
-  "updatedAt": "2026-11-16T18:02:50Z",
-  "scope": "11/16 核对 Canvas、Gradescope 和 Ed。PHYS HW7 已交，HW8 已开放，题面待补。CMSC HW6 待交。MATH 本周讲 Sylow 定理的应用与 p 群。SOSC 11/17 停课，Essay 2 线上题目待发。CMSC 教师官网仍无法访问。",
+  "updatedAt": "2026-11-18T18:09:39Z",
+  "scope": "11/18 已核对 CMSC、PHYS、MATH 的 Gradescope 及 CMSC Ed。CMSC HW6 已交；PHYS HW8 原题已归档，11/30 23:59 截止；MATH PS7 可选反馈今晚截止。Canvas 需要登录，三门课新公告、课件及 SOSC Essay 2 待补查；CMSC 教师官网仍不可访问。",
   "tasks": [
     {
       "id": "sosc-freedman",
@@ -1268,13 +1268,16 @@ window.WORKLIST = {
       "time": "23:59",
       "deadlineKind": "exact",
       "materials": [
+        "phys-hw8-pdf",
+        "phys-hw8-submit",
         "phys-hw8-canvas"
       ],
-      "note": "11/16 Canvas 已开放，要求将 8 道题的书面答案合并为一个 PDF，11/30 23:59 CST 截止。作业说明尚未列出这 8 道题或题目附件，Gradescope 尚未列出 HW8。",
+      "note": "11/18 Gradescope 已开放并显示 No Submission；已取得老师原题2页8题，题面和平台均确认11/30 23:59 CST截止。将书面答案合并为一个PDF。",
       "done": false,
       "statusVersion": 1,
       "displayMaterials": [
-        "phys-hw8-canvas"
+        "phys-hw8-pdf",
+        "phys-hw8-submit"
       ]
     },
     {
@@ -1603,9 +1606,9 @@ window.WORKLIST = {
         "cmsc-hw6-ed",
         "cmsc-gradescope"
       ],
-      "note": "11/16 Gradescope 显示尚未提交。正常截止 11/18 23:59 CST，晚交截止 11/20 23:59 CST。教授在 Ed 发布的原题共 2 页、5 题。",
-      "done": false,
-      "statusVersion": 1,
+      "note": "11/18 Gradescope 明确显示 Submitted，已按用户规则标记完成。正常截止11/18 23:59 CST，晚交11/20 23:59 CST。保留老师原始2页5题PDF。",
+      "done": true,
+      "statusVersion": 2,
       "time": "23:59",
       "deadlineKind": "exact",
       "displayMaterials": [
@@ -1628,7 +1631,7 @@ window.WORKLIST = {
         "math-conrad-sylowpf",
         "math-week8-sylow-announcement"
       ],
-      "note": "6页12题，含部分提示；题面建议11/20完成，全套不计分。涉及Sylow与半直积。需要教师反馈时最多提交两题；11/16 Gradescope尚未开放HW7，可选反馈期限待公布。 教师 11/15 建议细读至少一种 Sylow 定理的证明；本周将用该定理讨论应用和 p 群。",
+      "note": "6页12题，含部分提示；题面建议11/20完成，全套不计分。涉及Sylow与半直积。11/18 Gradescope确认可选反馈正常截止11/18 23:59 CST、晚交11/25 23:59 CST，最多两题并明确标出题号。教师11/15建议细读至少一种Sylow定理证明；本周讲该定理的应用与p群。",
       "done": false,
       "statusVersion": 1,
       "displayMaterials": [
@@ -1699,6 +1702,26 @@ window.WORKLIST = {
       "done": false,
       "statusVersion": 1,
       "taskKind": "preclass-reading"
+    },
+    {
+      "id": "math-ps7-feedback",
+      "course": "MATH",
+      "shortName": "PS7 提交反馈题（可选）",
+      "dueDate": "2026-11-18",
+      "time": "23:59",
+      "deadlineKind": "feedback",
+      "materials": [
+        "math-ps7",
+        "math-gradescope",
+        "math-policy"
+      ],
+      "displayMaterials": [
+        "math-ps7",
+        "math-gradescope"
+      ],
+      "note": "11/18 Gradescope 显示 No Submission。可选反馈正常截止11/18 23:59 CST，晚交至11/25 23:59 CST。最多提交两题并明确标出题号；此期限与题面建议11/20完成不同，不计入课程成绩。",
+      "done": false,
+      "statusVersion": 1
     }
   ],
   "materials": {
@@ -2533,7 +2556,7 @@ window.WORKLIST = {
       "url": "https://canvas.uchicago.edu/courses/74238/assignments/908873"
     },
     "phys-hw8-canvas": {
-      "title": "HW8 · Canvas 作业说明（8 道题的题面待发布）",
+      "title": "HW8 · Canvas 作业说明",
       "url": "https://canvas.uchicago.edu/courses/74238/assignments/908874"
     },
     "phys-week7-reading": {
@@ -2862,6 +2885,18 @@ window.WORKLIST = {
     "math-week8-sylow-announcement": {
       "title": "本周主题与建议阅读 · 教师公告",
       "url": "https://canvas.uchicago.edu/courses/75102/discussion_topics/1035918"
+    },
+    "phys-hw8-submit": {
+      "title": "HW8 · Gradescope 提交入口",
+      "url": "https://www.gradescope.com/courses/1420259/assignments/9072552"
+    },
+    "phys-hw8-pdf": {
+      "title": "HW8 · 原题（2页，8题）",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/PHYS%2012100/Homework%208/General%20Physics%20I%20-%20Homework%208.pdf"
+    },
+    "sosc-gerber-green-canvassing": {
+      "title": "Gerber & Green · Canvassing, Telephone Calls, and Direct Mail（推荐阅读）",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/SOSC%2013100/Reference/Recommended/The%20Effects%20of%20Canvassing%2C%20Telephone%20Calls%2C%20and%20Direct%20Mail%20on%20Voter%20Turnout%20-%20A%20Field%20Experiment.pdf"
     }
   },
   "officeHours": [
