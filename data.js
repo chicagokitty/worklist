@@ -1,6 +1,6 @@
 window.WORKLIST = {
-  "updatedAt": "2026-11-18T18:09:39Z",
-  "scope": "11/18 已核对 CMSC、PHYS、MATH 的 Gradescope 及 CMSC Ed。CMSC HW6 已交；PHYS HW8 原题已归档，11/30 23:59 截止；MATH PS7 可选反馈今晚截止。Canvas 需要登录，三门课新公告、课件及 SOSC Essay 2 待补查；CMSC 教师官网仍不可访问。",
+  "updatedAt": "2026-11-20T18:34:26Z",
+  "scope": "11/20 已核对 CMSC、PHYS、MATH Gradescope、CMSC Ed、PHYS实验指南及可取得的原文件。CMSC新增最后一次HW7，12/3截止，钟点及Gradescope入口待发布；PHYS HW8未交，11/30 23:59 CST截止。11/19 SOSC阅读按课日规则归档。Canvas仍需登录，新公告、模块、课件及SOSC Essay2未完成本次核查；CMSC教师官网仍不可访问。",
   "tasks": [
     {
       "id": "sosc-freedman",
@@ -1272,7 +1272,7 @@ window.WORKLIST = {
         "phys-hw8-submit",
         "phys-hw8-canvas"
       ],
-      "note": "11/18 Gradescope 已开放并显示 No Submission；已取得老师原题2页8题，题面和平台均确认11/30 23:59 CST截止。将书面答案合并为一个PDF。",
+      "note": "11/20 Gradescope 显示 No Submission；老师原题2页8题已归档，题面和平台均确认11/30 23:59 CST截止。将书面答案合并为一个PDF。",
       "done": false,
       "statusVersion": 1,
       "displayMaterials": [
@@ -1604,7 +1604,8 @@ window.WORKLIST = {
       "materials": [
         "cmsc-hw6-pdf",
         "cmsc-hw6-ed",
-        "cmsc-gradescope"
+        "cmsc-gradescope",
+        "cmsc-hw6-q1-clarification"
       ],
       "note": "11/18 Gradescope 明确显示 Submitted，已按用户规则标记完成。正常截止11/18 23:59 CST，晚交11/20 23:59 CST。保留老师原始2页5题PDF。",
       "done": true,
@@ -1629,7 +1630,8 @@ window.WORKLIST = {
         "math-policy",
         "math-gradescope",
         "math-conrad-sylowpf",
-        "math-week8-sylow-announcement"
+        "math-week8-sylow-announcement",
+        "math-lecture20"
       ],
       "note": "6页12题，含部分提示；题面建议11/20完成，全套不计分。涉及Sylow与半直积。11/18 Gradescope确认可选反馈正常截止11/18 23:59 CST、晚交11/25 23:59 CST，最多两题并明确标出题号。教师11/15建议细读至少一种Sylow定理证明；本周讲该定理的应用与p群。",
       "done": false,
@@ -1667,9 +1669,10 @@ window.WORKLIST = {
         "sosc-syllabus"
       ],
       "note": "11/19（Day 15）课前必读。第 98–146 页。课程阅读库为空，出版社提供书籍入口，章节 PDF 待补。",
-      "done": false,
-      "statusVersion": 1,
-      "taskKind": "preclass-reading"
+      "done": true,
+      "statusVersion": 2,
+      "taskKind": "preclass-reading",
+      "completionReason": "class-date-passed"
     },
     {
       "id": "sosc-eggers-thresholds",
@@ -1683,9 +1686,10 @@ window.WORKLIST = {
         "sosc-syllabus"
       ],
       "note": "11/19（Day 15）课前必读。牛津大学提供含附录的接受稿，期刊版页码 210–229。",
-      "done": false,
-      "statusVersion": 1,
-      "taskKind": "preclass-reading"
+      "done": true,
+      "statusVersion": 2,
+      "taskKind": "preclass-reading",
+      "completionReason": "class-date-passed"
     },
     {
       "id": "sosc-bleemer-major",
@@ -1699,9 +1703,10 @@ window.WORKLIST = {
         "sosc-syllabus"
       ],
       "note": "11/19（Day 15）课前必读。原刊正文第 1–22 页，PDF 末页另有引用记录。",
-      "done": false,
-      "statusVersion": 1,
-      "taskKind": "preclass-reading"
+      "done": true,
+      "statusVersion": 2,
+      "taskKind": "preclass-reading",
+      "completionReason": "class-date-passed"
     },
     {
       "id": "math-ps7-feedback",
@@ -1719,9 +1724,28 @@ window.WORKLIST = {
         "math-ps7",
         "math-gradescope"
       ],
-      "note": "11/18 Gradescope 显示 No Submission。可选反馈正常截止11/18 23:59 CST，晚交至11/25 23:59 CST。最多提交两题并明确标出题号；此期限与题面建议11/20完成不同，不计入课程成绩。",
+      "note": "11/20 Gradescope 显示 No Submission。可选反馈正常截止11/18 23:59 CST，晚交至11/25 23:59 CST。最多提交两题并明确标出题号；此期限与题面建议11/20完成不同，不计入课程成绩。",
       "done": false,
       "statusVersion": 2
+    },
+    {
+      "id": "cmsc-hw7",
+      "course": "CMSC",
+      "shortName": "HW7",
+      "dueDate": "2026-12-03",
+      "deadlineKind": "date-only",
+      "materials": [
+        "cmsc-hw7-pdf",
+        "cmsc-hw7-ed",
+        "cmsc-gradescope"
+      ],
+      "displayMaterials": [
+        "cmsc-hw7-pdf",
+        "cmsc-hw7-ed"
+      ],
+      "note": "最后一次作业，1页5题，图论。教师11/19 Ed公告及原题确认12/3截止，具体钟点待确认；11/20 Gradescope尚未开放，不套用以往23:59。日期按芝加哥校区日历记录，原文未另列时区。",
+      "done": false,
+      "statusVersion": 1
     }
   ],
   "materials": {
@@ -2879,7 +2903,7 @@ window.WORKLIST = {
       "url": "https://press.princeton.edu/books/ebook/9781400852383/mastering-metrics-pdf"
     },
     "phys-hw7-sol-canvas": {
-      "title": "HW7 教师解答（11/17 00:00 开放）",
+      "title": "HW7 教师解答 · 官方预览（PDF待补）",
       "url": "https://canvas.uchicago.edu/courses/74238/files/16198177"
     },
     "math-week8-sylow-announcement": {
@@ -2897,6 +2921,26 @@ window.WORKLIST = {
     "sosc-gerber-green-canvassing": {
       "title": "Gerber & Green · Canvassing, Telephone Calls, and Direct Mail（推荐阅读）",
       "url": "https://github.com/chicagokitty/worklist-materials/blob/main/SOSC%2013100/Reference/Recommended/The%20Effects%20of%20Canvassing%2C%20Telephone%20Calls%2C%20and%20Direct%20Mail%20on%20Voter%20Turnout%20-%20A%20Field%20Experiment.pdf"
+    },
+    "cmsc-hw7-pdf": {
+      "title": "HW7 · 原题（1页，5题）",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/CMSC%2027130/Homework%207/Honors%20Discrete%20Mathematics%20-%20Homework%207.pdf"
+    },
+    "cmsc-hw7-ed": {
+      "title": "Ed · 最后一次 HW7 公告",
+      "url": "https://edstem.org/us/courses/107374/discussion/8538565"
+    },
+    "cmsc-hw6-q1-clarification": {
+      "title": "HW6 第1题 · 教师澄清",
+      "url": "https://edstem.org/us/courses/107374/discussion/8533192"
+    },
+    "math-lecture20": {
+      "title": "MATH Lecture 20 · Applications of the Sylow Theorems（7页）",
+      "url": "https://github.com/chicagokitty/worklist-materials/blob/main/MATH%2025700/Reference/Lectures/Honors%20Basic%20Algebra%20I%20-%20Lecture%2020%20-%20Applications%20of%20the%20Sylow%20Theorems.pdf"
+    },
+    "phys-lecture14-canvas": {
+      "title": "PHYS Lecture 14 · 官方预览（PDF待补）",
+      "url": "https://canvas.uchicago.edu/courses/74238/files/16216005"
     }
   },
   "officeHours": [
